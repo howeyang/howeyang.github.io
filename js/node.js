@@ -204,7 +204,7 @@
     this.canvas = document.createElement('canvas');
     this.canvas.width = window.innerWidth;
     this.canvas.height = window.innerHeight;
-    console.log("Width" + this.canvas.width + "Height" + this.canvas.height);
+    //console.log("Width" + this.canvas.width + "Height" + this.canvas.height);
 
     this.ctx = this.canvas.getContext('2d');
     this.started = false;
@@ -213,16 +213,19 @@
 
     window.addEventListener('mouseover', function (e) {
       mouseNode.m = 3;
-      console.log(mouseNode.x + " : " + mouseNode.y);
+     // console.log(mouseNode.x + " : " + mouseNode.y);
     });
 
     window.addEventListener('mouseup', function (e) {
       // I should definitely make a Switch Case for more animations
+
+      /*Do not disable for now 
       if (!snowfall) {
         snowfall = true;
       }else{
         //snowfall = false;
       }
+      
       for (var i = 0; i < nodeGarden.nodes.length; i++) {
         nodeGarden.nodes[i].reset({
           x: e.pageX,
@@ -231,6 +234,7 @@
           vy: 0
         });
       }
+      */
     });
 
 
@@ -420,8 +424,10 @@
 
 
 
-
+/* dont reset for now
   $container.addEventListener('click', function (e) {
+
+  
     resetNode++;
     if (resetNode > nodeGarden.nodes.length - 1) {
       resetNode = 1;
@@ -434,7 +440,7 @@
     });
 
   });
-
+*/
 
   window.addEventListener('resize', function () {
     nodeGarden.resize();
