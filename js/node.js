@@ -19,7 +19,7 @@
   var rotatey = 0.5;
   var spin = true;
 
-  var snowfall = true;
+  var snowfall = false;
 
   function defined(a, b) {
     return a != null ? a : b;
@@ -441,6 +441,23 @@
 
   });
 */
+  function startsnowfall(){
+    snowfall = true;
+    
+      for (var i = 0; i < nodeGarden.nodes.length; i++) {
+
+        nodeGarden.nodes[i].reset({
+          x: 0,
+          y: 0,
+          vx: 0,
+          vy: 0
+        });
+      }
+  }
+
+  setTimeout(startsnowfall, 2000);
+
+
 
   window.addEventListener('resize', function () {
     nodeGarden.resize();
