@@ -399,6 +399,30 @@ http://www.colourlovers.com/palette/580974/Adrift_in_Dreams
   -o-background-size: cover;
 }
 
+#gallery-section1 {
+  width: 100%;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 250px !important;
+  background: linear-gradient(to bottom, #000, #0B486B);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#gallery-section2 {
+  width: 100%;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 250px !important;
+  background: linear-gradient(to bottom, #0B486B, #000);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
 #upsight-back {
   width: 100%;
   padding-top: 60px;
@@ -492,6 +516,7 @@ body {
 }
 
 .tile {
+  border-radius: 4px;
   position: relative;
   height: 100%;
   text-align: center;
@@ -538,6 +563,22 @@ body {
   -webkit-transition: opacity 0.3s ease-out, visibility 0.1s 0.1s linear;
   -o-transition: opacity 0.3s ease-out, visibility 0.1s 0.1s linear;
   transition: opacity 0.3s ease-out, visibility 0.1s 0.1s linear;
+}
+
+.tile3 {
+  border-radius: 4px;
+  position: relative;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  background: rgba(4, 78, 103, 0.5);
+  transition: all 0.5s;
+}
+
+.tile3:hover {
+  background: rgba(4, 78, 103, 0.7);
+  padding-top: 10px;
 }
 
 /*! Lower Padding */
@@ -593,22 +634,17 @@ body {
 
 .buttonport {
   border-radius: 4px;
-  background: rgba(43, 181, 196, 0.797);
+  
+  background: rgba(6, 179, 72, 0.4);
   border: none;
-  color: #FFFFFF;
+
   text-align: center;
-  font-size: 20px;
-  padding: 20px;
-  width: 200px;
-  height: 50px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
+
 }
 
 .buttonport:hover {
-  padding-right: 30px;
-  background: rgba(7, 86, 128, 0.851);
+  
+  background: rgba(4, 44, 56, 0.9);
 }
 
 .tooltip1 {
@@ -654,6 +690,7 @@ body {
 }
 
 .tile2 {
+  border-radius: 4px;
   position: relative;
   height: 100%;
   text-align: center;
