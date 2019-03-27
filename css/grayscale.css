@@ -216,6 +216,7 @@ canvas {
 }
 
 .intro .intro-body .intro-text {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
 }
 
@@ -437,7 +438,7 @@ http://www.colourlovers.com/palette/580974/Adrift_in_Dreams
 .btn {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -522,6 +523,7 @@ body {
   text-align: center;
   color: white;
   font-weight: lighter;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: rgba(4, 9, 56, 0.4);
   transition: all 0.5s;
 }
@@ -567,6 +569,7 @@ body {
 
 .tile3 {
   border-radius: 4px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: relative;
   height: 100%;
   text-align: center;
@@ -579,6 +582,25 @@ body {
 .tile3:hover {
   background: rgba(4, 78, 103, 0.7);
   padding-top: 10px;
+}
+
+.tile4 {
+  border-radius: 4px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  background: rgba(4, 78, 103, 0.3);
+  transition: all 0.5s;
+}
+
+.tile4:hover {
+  background: rgba(4, 78, 103, 0.7);
+  padding-top: 10px;
+  transform: scale(1.5);
+  z-index: 1;
 }
 
 /*! Lower Padding */
@@ -615,7 +637,7 @@ body {
 .buttonup {
   border-radius: 4px;
   background: rgba(236, 141, 16, 0.644);
-  border: none;
+ 
   color: #FFFFFF;
   text-align: center;
   font-size: 13px;
@@ -793,4 +815,35 @@ However, delay the fade out process for 2.5 seconds */
     bottom: 0;
     opacity: 0;
   }
+}
+
+.center-btn {
+  border : 10px;
+  border-radius : 5px;
+  border-style: outset;
+  border-width: 5px;
+  position: absolute;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  margin-bottom: 10px;
+}
+.center-btn:hover{
+  background: rgba(11, 72, 107, 0.829);
+  color: #fff;
+}
+
+.gallery-btn{
+  border : 10px;
+  border-radius : 5px;
+  border-style: outset;
+  border-width: 5px;
+}
+
+.gallery-btn:hover{
+  background: rgba(17, 18, 26, 0.9);
+  color: #fff;
+  text-decoration: none;
 }

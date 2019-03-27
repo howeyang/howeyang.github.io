@@ -55,6 +55,9 @@
                     <a class="page-scroll" href="#portfolio">Portfolio</a>
                 </li>
                 <li>
+                    <a class="page-scroll" href="gallery.html" >Gallery</a>
+                </li>
+                <li>
                     <a class="page-scroll" href="#experience">Work Experience</a>
                 </li>
                 <li>
@@ -89,7 +92,7 @@
                     <div class="col-sm-2 col-md-1">
                         <a href="#portfolio" class="btn btn-circle page-scroll tooltip1">
                             <i class="fa fa-pencil-ruler animated"></i>
-                         
+
                             <span class="tooltiptext">Portfolio</span>
                         </a>
                     </div>
@@ -133,15 +136,28 @@
         <div class="portfolio-section">
             <h2>Portfolio</h2>
             <p class="intro-text text-center tile"> Working on Unity Applications or trying out other technologies </p>
-            <a href="gallery.html" target="_blank">
-                <span>
-                    <img class="buttonport" src="img/gallery.png" />
-                       <!-- This gallery png was built with Font Awesome's fa-images icon. I made it white and added text to the side -->
-                </span>
+            <!-- <a href="gallery.html" target="_blank">
+                    <img class="buttonport" src="img/gallery.png"/> 
+                       This gallery png was built with Font Awesome's fa-images icon. I made it white and added text to the side
+                
             </a>
+             -->
+
+
             <div class="container">
                 <div class="row">
+                    <div class="col-xs-4 col-md-4  col">
+                        <h4 class="title btn btn-link  gallery-btn">
+                            <a href="gallery.html">
+                                <img src="img/gallery.png" />
+                                <br>
+                                <small>Click here to access the Gallery, a collection of my personal work.</small>
+                            </a>
+                        </h4>
+                    </div>
+                </div>
 
+                <div class="row">
                     <div class="col-xs-4 col-md-4 lowpadding col">
                         <div class="tile2">
                             <h4 class="title">Particle Tests
@@ -204,7 +220,7 @@
             <h2>Work Experience</h2>
             <a href="http://upsight.com" target="_blank">
                 <span>
-                    <img class="buttonup" src="img/upsight-logo.svg" />
+                    <img class="buttonup gallery-btn btn-link" src="img/upsight-logo.svg" />
 
                 </span>
             </a>
@@ -302,8 +318,8 @@
             <h2>Education</h2>
 
             <p class="intro-text text-center tile"> University of Waterloo
-                <a>Bachelor of Computer Science</a> Honours Computer Science
-                <a> Class of Spring 2016</a>
+                <a>Bachelor of Honours Computer Science</a>
+                 Class of Spring 2016
             </p>
 
             <div class="container-fluid">
@@ -541,7 +557,7 @@
                 </a>
             </li>
             <li>
-                <a href="howeyang_resume.pdf" class="btn btn-default btn-lg">
+                <a href="howeyang_resume.pdf" target="_blank" class="btn btn-default btn-lg">
                     <i class="fas fa-file fa-fw"></i>
                     <span class="network-name">Resume</span>
                 </a>
