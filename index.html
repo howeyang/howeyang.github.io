@@ -15,7 +15,7 @@
     <title>Howe Yang - Toronto, CA </title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <!--<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
@@ -39,11 +39,21 @@
                 Menu
                 <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">
+            <a class="navbar-brand page-scroll myname" href="#page-top">
                 <i class="fa fa-terminal"></i>
                 <span class="light">Howe</span> Yang
             </a>
+
+
         </div>
+        <!-- Middle Nav bar-->
+        <div class=" navbar-fixed-top">
+            <a href="gallery.html">
+                <h4 class="btn-link center-btn main_page">Visit Gallery
+                </h4>
+            </a>
+        </div>
+
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
             <ul class="nav navbar-nav">
@@ -53,9 +63,6 @@
                 </li>
                 <li>
                     <a class="page-scroll" href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="gallery.html" >Gallery</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#experience">Work Experience</a>
@@ -89,7 +96,7 @@
                 </p>
                 <!-- Icon links to relevant sections -->
                 <div class="row justify_center">
-                    <div class="col-sm-2 col-md-1">
+                    <div class="col-lg-1 col-md-4 col-xs-6">
                         <a href="#portfolio" class="btn btn-circle page-scroll tooltip1">
                             <i class="fa fa-pencil-ruler animated"></i>
 
@@ -97,35 +104,51 @@
                         </a>
                     </div>
 
-                    <div class="col-sm-2 col-md-1">
+                    <div class="col-lg-1 col-md-4 col-xs-6">
                         <a href="#experience" class="btn btn-circle page-scroll tooltip1" style="padding: 4px 12px;">
                             <i class="fa fa-briefcase animated"></i>
                             <span class="tooltiptext">Experience</span>
                         </a>
                     </div>
 
-                    <div class="col-sm-2 col-md-1">
+                    <div class="col-lg-1 col-md-4 col-xs-6">
                         <a href="#education" class="btn btn-circle page-scroll tooltip1" style="padding: 4px 9px;">
                             <i class="fa fa-graduation-cap animated "></i>
                             <span class="tooltiptext">Education</span>
                         </a>
                     </div>
 
-                    <div class="col-sm-2 col-md-1">
+                    <div class="col-lg-1 col-md-4 col-xs-6 hidden-xs">
                         <a href="#aboutme" class="btn btn-circle page-scroll tooltip1" style="padding: 4px 16px;">
                             <i class="fa fa-user animated"></i>
                             <span class="tooltiptext">About me</span>
                         </a>
                     </div>
 
-                    <div class="col-sm-2 col-md-1">
+                    <div class="col-lg-1 col-md-4 col-xs-6 hidden-xs">
                         <a href="#contact" class="btn btn-circle page-scroll tooltip1" style="padding: 4px 13px;">
                             <i class="fas fa-mail-bulk animated"></i>
                             <span class="tooltiptext">Contact</span>
                         </a>
                     </div>
-                    <!-- end of row-->
                 </div>
+                <!-- end of row-->
+                <div class="row justify_center visible-xs">
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <a href="#aboutme" class="btn btn-circle page-scroll tooltip1" style="padding: 4px 16px;">
+                            <i class="fa fa-user animated"></i>
+                            <span class="tooltiptext">About me</span>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6">
+                        <a href="#contact" class="btn btn-circle page-scroll tooltip1" style="padding: 4px 13px;">
+                            <i class="fas fa-mail-bulk animated"></i>
+                            <span class="tooltiptext">Contact</span>
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </header>
@@ -146,14 +169,16 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-4 col-md-4  col">
-                        <h4 class="title btn btn-link  gallery-btn">
-                            <a href="gallery.html">
+                    <div class="col-xs-auto col-md-3  col">
+                        <a href="gallery.html">
+                            <h4 class="title btn-link  gallery-btn">
+
                                 <img src="img/gallery.png" />
                                 <br>
                                 <small>Click here to access the Gallery, a collection of my personal work.</small>
-                            </a>
-                        </h4>
+
+                            </h4>
+                        </a>
                     </div>
                 </div>
 
@@ -319,7 +344,7 @@
 
             <p class="intro-text text-center tile"> University of Waterloo
                 <a>Bachelor of Honours Computer Science</a>
-                 Class of Spring 2016
+                Class of Winter 2016
             </p>
 
             <div class="container-fluid">
