@@ -107,7 +107,7 @@ a:focus {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: black;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .navbar-custom .navbar-toggle {
@@ -170,7 +170,7 @@ a:focus {
   color: white;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1510px) {
   .navbar-custom {
     padding: 0px 0;
     border-bottom: none;
