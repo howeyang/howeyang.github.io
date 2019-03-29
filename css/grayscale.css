@@ -627,8 +627,7 @@ body {
 
 .tileimg {
   width: 100%;
-  height: 90%;
-  padding-bottom : 2vw;
+  height: auto;
 }
 
 /* upsight link button */
@@ -861,8 +860,11 @@ margin-top: 25px;
 .myname{
 display:none;
 }
-.center-btn {
-left: 30%;
+.center-btn.main_page{
+left:30%;
 }
+.gallery-btn {
+  height:auto;
+  }
 
 }
