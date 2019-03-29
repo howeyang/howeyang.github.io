@@ -404,7 +404,7 @@ http://www.colourlovers.com/palette/580974/Adrift_in_Dreams
   width: 100%;
   color: white;
   padding-top: 60px;
-  padding-bottom: 250px !important;
+  padding-bottom: 10px !important;
   background: linear-gradient(to bottom, #000, #0B486B);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -417,7 +417,18 @@ http://www.colourlovers.com/palette/580974/Adrift_in_Dreams
   color: white;
   padding-top: 60px;
   padding-bottom: 250px !important;
-  background: linear-gradient(to bottom, #0B486B, #000);
+  background: linear-gradient(to bottom, #0B486B, #42DCA3);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+#gallery-section3 {
+  width: 100%;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 250px !important;
+  background: linear-gradient(to bottom, #42DCA3, #0B486B);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -575,12 +586,12 @@ body {
   text-align: center;
   color: white;
   font-weight: lighter;
-  background: rgba(4, 78, 103, 0.5);
+  background: rgba(4, 9, 56, 0.4);
   transition: all 0.5s;
 }
 
 .tile3:hover {
-  background: rgba(4, 78, 103, 0.7);
+  background: rgba(17, 18, 26, 0.9);
 }
 
 .tile4 {
@@ -621,7 +632,16 @@ body {
   display: flex;
 }
 
-.footend {}
+.footend2{
+  width: 100%;
+  color: white;
+  padding-top: 60px;
+  background: linear-gradient(to bottom, #0B486B, #000);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 
 /* image stuff*/
 
@@ -826,8 +846,10 @@ However, delay the fade out process for 2.5 seconds */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
   margin-bottom: 10px;
+}
+.center-btn.gallery{
+  background: rgba(4, 24, 36, 0.6);
 }
 .center-btn:hover{
   background: rgba(11, 72, 107, 0.829);
@@ -867,4 +889,8 @@ left:30%;
   height:auto;
   }
 
+}
+
+small.hidden-xs{
+color: #fff;
 }
