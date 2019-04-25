@@ -853,6 +853,7 @@ However, delay the fade out process for 2.5 seconds */
 }
 .center-btn:hover{
   background: rgba(11, 72, 107, 0.829);
+  border-color: #FFF;
   color: #fff;
 }
 
@@ -866,7 +867,8 @@ However, delay the fade out process for 2.5 seconds */
 }
 
 .gallery-btn:hover{
-  background: rgba(17, 18, 26, 0.9);
+  background: rgba(11, 72, 107, 1.0);
+  border-color: #FFF;
   color: #fff;
   text-decoration: none;
 }
