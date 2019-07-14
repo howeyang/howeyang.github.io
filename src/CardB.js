@@ -14,38 +14,44 @@ class CardB extends Component {
   }
 
   redirect() {
-    this.props.history.push("/Project/ProjectB");
+    this.props.history.push("/Project/ProjectAutobattler");
   }
 
   render() {
     return (
-        <Grid item xs={12} sm={3} md={3} >
+      <Grid item xs={12} sm={3} md={3}>
         <div className="hvr-sweep-to-right2">
-          <div className="hvr-sweep-to-right">
+          <div className="hvr-sweep-to-right autobattler">
             <div className="hvr-sweep-to-right3">
-              <Card >
+              <Card>
                 <CardActionArea
                   onClick={this.redirect}
                   className="card-highlight"
                 >
                   <CardMedia
                     className="card"
-                    image={require("./color13.png")}
+                    image={require("./card-autobattler.png")}
                     title="1 Star, 2 Star, 3 Star!"
                   />
                   <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2" className="black2">
-                      Project: Dungeon Crawler
+                    <Typography
+                      gutterBottom={false}
+                      variant="h6"
+                      component="h3"
+                      className="black2"
+                    >
+                      Project: Auto battler
                     </Typography>
                     <Typography
                       variant="body1"
                       color="textPrimary"
                       component="p"
                     >
-                    <label>Unity3D | Procedural | AI | Modular</label>
-                    <span>
-                      This project was inspired by Archero and building upon from my previous experience to create a publishable product.
-                      </span>
+                      <label>Unity3D | Procedural | AI | Pathfinding</label>
+                      <span>
+                        A single player take on the Auto battler genre: feature complete and playable.
+                        </span>
+                      
                     </Typography>
                   </CardContent>
                 </CardActionArea>

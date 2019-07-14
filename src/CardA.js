@@ -14,38 +14,47 @@ class CardA extends Component {
   }
 
   redirect() {
-    this.props.history.push("/Project/ProjectAutobattler");
+    this.props.history.push("/About");
   }
 
   render() {
     return (
-      <Grid item xs={12} sm={3} md={3} >
+      <Grid item xs={12} sm={3} md={3}>
         <div className="hvr-sweep-to-right2">
-          <div className="hvr-sweep-to-right autobattler">
+          <div className="hvr-sweep-to-right workexperience">
             <div className="hvr-sweep-to-right3">
-              <Card >
+              <Card>
                 <CardActionArea
                   onClick={this.redirect}
                   className="card-highlight"
                 >
                   <CardMedia
                     className="card"
-                    image={require("./autobattler.png")}
-                    title="1 Star, 2 Star, 3 Star!"
+                    image={require("./card-work.png")}
+                    title="Upsight and Game Hive!"
                   />
                   <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2" className="black2">
-                      Project: Auto battler
+                    <Typography
+                      gutterBottom={false}
+                      variant="h6"
+                      component="h3"
+                      className="black2"
+                    >
+                      Work Experience
                     </Typography>
                     <Typography
                       variant="body1"
                       color="textPrimary"
                       component="p"
                     >
-                    <label>Unity3D | Procedural | AI | Pathfinding</label>
-                    <span>
-                      This project was inspired by DOTA Autochess and a challenge to myself to build out a similar battle system.
-                      </span>
+                      <label>Unity3D |  Mobile Games | Analytics | Big Data</label>
+                      <span>
+                        <b>Upsight</b> : Senior Solutions Engineer
+                         <br></br>
+                      
+                         <b>Game Hive</b> : QA Engineer ( current )
+                        </span> 
+                      
                     </Typography>
                   </CardContent>
                 </CardActionArea>

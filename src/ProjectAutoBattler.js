@@ -25,11 +25,11 @@ class ProjectAutoBattler extends Component {
               spin on the game. Thus, I got to work to paper prototyping and
               began to bring my vision to life in Unity.
               <br /> <label>The Project Goal</label> <br />
-              Although it would be nice to make a ton of money and retire, this
-              project's goal was much more modest. The goal was to create a
-              Minimal Viable Product and polish it to the point where I could be
-              proud to include it on my resume.
-              <br /> <label>TLDR</label> <br />I learned a lot from this
+              My Project was to create a Minimal Viable Product that would
+              contain the core features : autonomous combat, unit placement and
+              combination. From there, add enough polish it to the point where I
+              could be proud of it.
+              <br /> <label>Summary</label> <br />I learned a lot from this
               project: coding AI scripts, using Unity's Mecanim Animation
               System, placing Environmental assets and all the small things that
               contribute to polish.
@@ -105,13 +105,12 @@ class ProjectAutoBattler extends Component {
           <Grid item xs={12} sm={6} md={6} className="overlay2">
             <div className="black2"> Future Considerations</div>
             <p className="section">
-              In all honesty, not sure who would read this far, but this project
-              was probably the most feature complete and playable game I built
-              since University. It was a good exercise for planning, coding and
-              execution. Quick code prototyping definitely helps to hack
-              something together but it is necessary to clean it up and identify
-              what should be generic, flexible and readable. Hopefully, I can
-              apply what I learned here to future projects.<br />
+              This project was probably the most feature complete and playable
+              game I built since university. It was a good exercise for
+              planning, coding and execution. Quick code prototyping definitely
+              helps to put something together but it is necessary to identify what code should be generic, flexible and readable and re-write the code.
+              Hopefully, I can apply what I learned here to future projects!
+              <br />
               <label>Thank you for reading!</label>
             </p>
           </Grid>

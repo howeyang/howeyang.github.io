@@ -3,6 +3,8 @@ import Grid from "@material-ui/core/Grid";
 import ReactPlayer from "react-player";
 import CardA from "./CardA";
 import CardB from "./CardB";
+import CardC from "./CardC";
+import CardD from "./CardD";
 
 class LandingPage extends Component {
 
@@ -40,8 +42,8 @@ class LandingPage extends Component {
 
             <CardA />
             <CardB />
-            <CardA />
-            <CardB />
+            <CardC />
+            <CardD />
           </Grid>
         </div>
       </div>

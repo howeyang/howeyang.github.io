@@ -406,7 +406,7 @@ li {
 .hvr-sweep-to-right:before {
   content: "";
   position: fixed;
-  z-index: -2;
+  z-index: -3;
   top: 0;
   left: 0;
   right: 0;
@@ -430,7 +430,23 @@ li {
 }
 
 .autobattler.hvr-sweep-to-right:before{
-  background: url("autobattler.png") no-repeat center center fixed;
+  background: url("card-autobattler.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.workexperience.hvr-sweep-to-right:before{
+  background: url("card-upsight.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.sandbox.hvr-sweep-to-right:before{
+  background: url("card-sandbox.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -449,12 +465,12 @@ li {
 .hvr-sweep-to-right2:before {
   content: "";
   position: absolute;
-  z-index: -3;
+  z-index: -2;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(73, 97, 125, 0.5);
+  background-color: rgba(169, 202, 242, 0.3);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -485,7 +501,7 @@ li {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(189, 189, 189, 0.5);
+  background-color: rgba(96, 113, 131, 0.3);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
