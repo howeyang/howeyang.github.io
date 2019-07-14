@@ -2,7 +2,7 @@
   "name": "react_spa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://howeyang.github.io/",
+  "homepage": "https://howeyang.github.io/howeyang.github.io",
   "dependencies": {
     "@material-ui/core": "^4.2.0",
     "gh-pages": "^2.0.1",
