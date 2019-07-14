@@ -21,16 +21,16 @@ class CardA extends Component {
     return (
       <Grid item xs={12} sm={3} md={3} >
         <div className="hvr-sweep-to-right2">
-          <div className="hvr-sweep-to-right">
+          <div className="hvr-sweep-to-right autobattler">
             <div className="hvr-sweep-to-right3">
               <Card >
                 <CardActionArea
                   onClick={this.redirect}
-                  className="card-sweep-to-right"
+                  className="card-highlight"
                 >
                   <CardMedia
                     className="card"
-                    image={require("./color4.png")}
+                    image={require("./autobattler.png")}
                     title="1 Star, 2 Star, 3 Star!"
                   />
                   <CardContent>

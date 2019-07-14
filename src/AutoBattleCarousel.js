@@ -7,18 +7,34 @@ import { Carousel } from 'react-responsive-carousel';
 class AutoBattleCarousel extends Component {
     render() {
         return (
-            <Carousel dynamicHeight={true} infiniteLoop={true}>
+            <Carousel dynamicHeight={true} infiniteLoop={true} showIndicators={false}>
                 <div>
-                    <img src="./color1.png" />
+                    <img src="./static-autobattle1.jpg" />
+                    <p className="legend">Card Creation</p>
+                </div>
+                <div>
+                    <img src="./static-autobattle2.jpg" />
+                    <p className="legend">Reward Menu</p>
+                </div>
+                <div>
+                    <img src="./static-autobattle3.png" />
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
-                    <img src="./color4.png" />
-                    <p className="legend">Legend 2</p>
+                    <img src="./gif-autobattle1.gif" />
+                    <p className="legend">Legend 1</p>
                 </div>
                 <div>
-                    <img src="./toast.jpg" />
-                    <p className="legend">Legend 3</p>
+                    <img src="./gif-autobattle2.gif" />
+                    <p className="legend">Legend 1</p>
+                </div>
+                <div>
+                    <img src="./gif-autobattle3.gif" />
+                    <p className="legend">Legend 1</p>
+                </div>
+                <div>
+                    <img src="./gif-autobattle4.gif" />
+                    <p className="legend">Legend 1</p>
                 </div>
             </Carousel>
         );

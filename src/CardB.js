@@ -26,7 +26,7 @@ class CardB extends Component {
               <Card >
                 <CardActionArea
                   onClick={this.redirect}
-                  className="card-sweep-to-right"
+                  className="card-highlight"
                 >
                   <CardMedia
                     className="card"

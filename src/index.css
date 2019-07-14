@@ -98,7 +98,6 @@ p label{
 
 .grid_root {
   flex-grow: 1;
-  padding: 5px;
 }
 
 ul.header li {
@@ -273,7 +272,6 @@ li {
   bottom: 0;
   width: 100%;
   color: #2e313a;
-  margin-top: 10px;
   text-align: center;
   text-shadow: #49617d 0px 0px 10px; 
 }
@@ -296,24 +294,6 @@ li {
   border-style: solid;
   border-color: rgb(126, 126, 126);
   border-radius: 10px !important;
-}
-
-.winner {
-  background-image: linear-gradient(
-    to right,
-    rgba(53, 53, 53, 0),
-    rgba(53, 53, 53, 0),
-    #78fe9e90
-  );
-}
-
-.loser {
-  background-image: linear-gradient(
-    to right,
-    rgba(53, 53, 53, 0),
-    rgba(53, 53, 53, 0),
-    #d390ff85
-  );
 }
 
 .noheight {
@@ -425,7 +405,7 @@ li {
 
 .hvr-sweep-to-right:before {
   content: "";
-  position: absolute;
+  position: fixed;
   z-index: -2;
   top: 0;
   left: 0;
@@ -445,6 +425,16 @@ li {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
   transition-delay: 0.1s;
+  overflow-x: hidden;
+  overflow-y: hidden; 
+}
+
+.autobattler.hvr-sweep-to-right:before{
+  background: url("autobattler.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .hvr-sweep-to-right:hover:before,
@@ -561,6 +551,14 @@ li {
 .card-sweep-to-right:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+.card-highlight{
+  -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
+  transition: ease 1s; /* For modern browsers */
+}
+.card-highlight:hover {
+  background-color: rgba(156, 187, 208, 0.8);
 }
 
 .height100 {

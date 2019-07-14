@@ -5,13 +5,6 @@ import CardA from "./CardA";
 import CardB from "./CardB";
 
 class LandingPage extends Component {
-  GoToCardA() {
-    this.props.history.push("/About");
-  }
-
-  handleClick(e) {
-    this.GoToCardA("element clicked");
-  }
 
   render() {
     return (
@@ -37,7 +30,7 @@ class LandingPage extends Component {
             >
               <h2 className="overlay">Most Recent Project: Auto battler</h2>
               <ReactPlayer
-                url="test.mp4"
+                url="autobattle.mp4"
                 width="100%"
                 height="100%"
                 controls={true}

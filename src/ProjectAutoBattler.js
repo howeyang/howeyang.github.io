@@ -16,6 +16,7 @@ class ProjectAutoBattler extends Component {
             <div className="black2"> Introduction</div>
 
             <p className="section">
+              <label>The Prompt</label> <br />
               Around January 2019, I started playing a custom game mode in Dota
               2 that was taking the gaming community by storm, Dota Autochess by
               Studio Drodo. The game mode itself was inspired by older custom
@@ -23,8 +24,15 @@ class ProjectAutoBattler extends Component {
               When playing the game, I was inspired to create a single-player
               spin on the game. Thus, I got to work to paper prototyping and
               began to bring my vision to life in Unity.
-              <br /> <label>Project Goal</label> <br />
-                Although it would be nice to make a ton of money and retire, this project's goal was much more modest. The goal was to create a Minimal Viable Product and polish it to the point where I could be proud to include it on my resume.
+              <br /> <label>The Project Goal</label> <br />
+              Although it would be nice to make a ton of money and retire, this
+              project's goal was much more modest. The goal was to create a
+              Minimal Viable Product and polish it to the point where I could be
+              proud to include it on my resume.
+              <br /> <label>TLDR</label> <br />I learned a lot from this
+              project: coding AI scripts, using Unity's Mecanim Animation
+              System, placing Environmental assets and all the small things that
+              contribute to polish.
             </p>
           </Grid>
 
@@ -35,7 +43,7 @@ class ProjectAutoBattler extends Component {
             </div>
             <div className="section">
               <ReactPlayer
-                url="test.mp4"
+                url="autobattle.mp4"
                 width="100%"
                 height="100%"
                 controls={true}
@@ -81,7 +89,11 @@ class ProjectAutoBattler extends Component {
 
             <p className="section">
               <label>Over Designing</label> <br />
-              I often kept going back to paper prototyping certain features / concepts. Although this invigorated myself to keep working at this project, very few of what I designed and thought of made it into the prototype build. My lack of focus on and over designing non-essential features wasted a lot of time and brain power.
+              I often kept going back to paper prototyping certain features /
+              concepts. Although this invigorated myself to keep working at this
+              project, very few of what I designed and thought of made it into
+              the prototype build. My lack of focus on and over designing
+              non-essential features wasted a lot of time and brain power.
               <br /> <label>Too Tight Coupling</label> <br />
               This sucked
               <br /> <label>Monolithic or Tiny</label> <br />
@@ -96,10 +108,10 @@ class ProjectAutoBattler extends Component {
               In all honesty, not sure who would read this far, but this project
               was probably the most feature complete and playable game I built
               since University. It was a good exercise for planning, coding and
-              execution.
-
-              Quick code prototyping definitely helps to hack something together but it is necessary to clean it up and identify what should be generic, flexible and readable.
-              Hopefully, I can apply what I learned here to future projects.<br></br>
+              execution. Quick code prototyping definitely helps to hack
+              something together but it is necessary to clean it up and identify
+              what should be generic, flexible and readable. Hopefully, I can
+              apply what I learned here to future projects.<br />
               <label>Thank you for reading!</label>
             </p>
           </Grid>
