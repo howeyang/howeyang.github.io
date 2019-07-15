@@ -15,15 +15,13 @@ class LandingPage extends Component {
           <Grid container direction="row" justify="center" alignItems="stretch">
             {/* First Item */}
 
-            <Grid item xs={12} sm={6} md={6} className="overlay2">
+            <Grid item xs={12} sm={12} md={12} className="overlay2">
               <div className="white1"> Howe Yang </div>
               <div className="black2"> Developer & Designer</div>
               <div className="white2"> Unity3D | Blender | ReactJS</div>
             </Grid>
 
-            {/* Second Item */}
-
-            <Grid
+            {/* Second Item             <Grid
               item
               xs={12}
               sm={6}
@@ -39,7 +37,7 @@ class LandingPage extends Component {
                 playing
               />
             </Grid>
-
+            */}
             <CardA />
             <CardB />
             <CardC />
