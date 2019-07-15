@@ -6,6 +6,7 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import { withRouter } from "react-router-dom";
+import Fade from 'react-reveal/Fade';
 
 class CardA extends Component {
   constructor(props) {
@@ -23,6 +24,7 @@ class CardA extends Component {
         <div className="hvr-sweep-to-right2">
           <div className="hvr-sweep-to-right workexperience">
             <div className="hvr-sweep-to-right3">
+            <Fade left>
               <Card>
                 <CardActionArea
                   onClick={this.redirect}
@@ -59,6 +61,7 @@ class CardA extends Component {
                   </CardContent>
                 </CardActionArea>
               </Card>
+              </Fade>
             </div>
           </div>
         </div>

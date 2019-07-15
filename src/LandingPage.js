@@ -5,6 +5,7 @@ import CardA from "./CardA";
 import CardB from "./CardB";
 import CardC from "./CardC";
 import CardD from "./CardD";
+import Fade from 'react-reveal/Fade';
 
 class LandingPage extends Component {
 
@@ -14,12 +15,17 @@ class LandingPage extends Component {
         <div className="grid_root">
           <Grid container direction="row" justify="center" alignItems="stretch">
             {/* First Item */}
-
+           
             <Grid item xs={12} sm={12} md={12} className="overlay2">
+            <Fade top cascade>
+            <div>
               <div className="white1"> Howe Yang </div>
+              </div>
               <div className="black2"> Developer & Designer</div>
               <div className="white2"> Unity3D | Blender | ReactJS</div>
+              </Fade>
             </Grid>
+            
 
             {/* Second Item             <Grid
               item
