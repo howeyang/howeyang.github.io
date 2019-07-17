@@ -6,6 +6,7 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import { withRouter } from "react-router-dom";
+import Fade from "react-reveal/Fade";
 
 class CardC extends Component {
   constructor(props) {
@@ -19,37 +20,45 @@ class CardC extends Component {
 
   render() {
     return (
-        <Grid item xs={12} sm={3} md={3} >
+      <Grid item xs={12} sm={6} md={3}>
         <div className="hvr-sweep-to-right2">
           <div className="hvr-sweep-to-right sandbox">
             <div className="hvr-sweep-to-right3">
-              <Card className="glow">
-                <CardActionArea
-                  onClick={this.redirect}
-                  className="card-highlight"
-                >
-                  <CardMedia
-                    className="card"
-                    image={require("./card-sandbox.png")}
-                    title="1 Star, 2 Star, 3 Star!"
-                  />
-                  <CardContent>
-                  <Typography gutterBottom={false} variant="h6" component="h3" className="black2">
-                      Prototyping & Sandboxing
-                    </Typography>
-                    <Typography
-                      variant="body1"
-                      color="textPrimary"
-                      component="p"
-                    >
-                    <label>Unity3D | Particles | Shaders</label>
-                    <span>
-                      Various special effects and prototypes : Original and reverse engineered ideas
-                      </span>
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
-              </Card>
+              <Fade up duration={1200}>
+                <Card className="glow">
+                  <CardActionArea
+                    onClick={this.redirect}
+                    className="card-highlight"
+                  >
+                    <CardMedia
+                      className="card"
+                      image={require("./card-sandbox.png")}
+                      title="1 Star, 2 Star, 3 Star!"
+                    />
+                    <CardContent>
+                      <Typography
+                        gutterBottom={false}
+                        variant="h6"
+                        component="h3"
+                        className="black2"
+                      >
+                        Prototyping & Sandboxing
+                      </Typography>
+                      <Typography
+                        variant="body1"
+                        color="textPrimary"
+                        component="p"
+                      >
+                        <label>Unity3D | Particles | Shaders</label>
+                        <span>
+                          Various special effects and prototypes : Original and
+                          reverse engineered ideas
+                        </span>
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                </Card>
+              </Fade>
             </div>
           </div>
         </div>

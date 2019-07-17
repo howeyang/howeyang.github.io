@@ -13,7 +13,7 @@ class ProjectAutoBattler extends Component {
         </div>
         <Grid container direction="row" justify="center" alignItems="stretch">
           <Grid item xs={12} sm={6} md={6}>
-            <div className="black2"> Introduction</div>
+            <div className="black3"> Introduction</div>
 
             <p className="section">
               <label>The Prompt</label> <br />
@@ -37,9 +37,9 @@ class ProjectAutoBattler extends Component {
           </Grid>
 
           <Grid item xs={12} sm={6} md={6} className="overlay2">
-            <div className="black2">
+            <div className="black3">
               {" "}
-              Latest version <label>On haitus</label>
+              Latest version <a>On haitus</a>
             </div>
             <div className="section">
               <ReactPlayer
@@ -53,7 +53,7 @@ class ProjectAutoBattler extends Component {
           </Grid>
 
           <Grid item xs={12} sm={6} md={6}>
-            <div className="black2">Challenges and Components</div>
+            <div className="black3">Challenges and Components</div>
 
             <p className="section">
               <label>Building the board</label> <br />
@@ -80,12 +80,12 @@ class ProjectAutoBattler extends Component {
           </Grid>
 
           <Grid item xs={12} sm={6} md={6} className="overlay2">
-            <div className="black2">Development Snapshots</div>
+            <div className="black3">Development Snapshots</div>
             <AutoBattleCarousel />
           </Grid>
 
           <Grid item xs={12} sm={6} md={6}>
-            <div className="black2">Lessons Learned</div>
+            <div className="black3">Lessons Learned</div>
 
             <p className="section">
               <label>Over Designing</label> <br />
@@ -103,7 +103,7 @@ class ProjectAutoBattler extends Component {
           </Grid>
 
           <Grid item xs={12} sm={6} md={6} className="overlay2">
-            <div className="black2"> Future Considerations</div>
+            <div className="black3"> Future Considerations</div>
             <p className="section">
               This project was probably the most feature complete and playable
               game I built since university. It was a good exercise for
