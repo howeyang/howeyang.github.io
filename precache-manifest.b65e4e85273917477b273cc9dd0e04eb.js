@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06fa12f112bff044e99454895421f11a",
+    "revision": "5513755073790276950bf01796328aa6",
     "url": "/howeyang.github.io/index.html"
   },
   {
-    "revision": "dfc3d416e6adf8cd2723",
+    "revision": "503ad96840196f9014b7",
     "url": "/howeyang.github.io/static/css/2.3c1ddb0a.chunk.css"
   },
   {
-    "revision": "82d048e4f1a44ea35f05",
-    "url": "/howeyang.github.io/static/css/main.bb5d4601.chunk.css"
+    "revision": "dce434364ff67cd00dba",
+    "url": "/howeyang.github.io/static/css/main.4c10d9bd.chunk.css"
   },
   {
-    "revision": "dfc3d416e6adf8cd2723",
-    "url": "/howeyang.github.io/static/js/2.ce212a10.chunk.js"
+    "revision": "503ad96840196f9014b7",
+    "url": "/howeyang.github.io/static/js/2.537bf2d8.chunk.js"
   },
   {
-    "revision": "82d048e4f1a44ea35f05",
-    "url": "/howeyang.github.io/static/js/main.0bef4b24.chunk.js"
+    "revision": "dce434364ff67cd00dba",
+    "url": "/howeyang.github.io/static/js/main.41869221.chunk.js"
   },
   {
     "revision": "88d7778b6a635c03ba06",
