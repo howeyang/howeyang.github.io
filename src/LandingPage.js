@@ -6,7 +6,7 @@ import CardB from "./CardB";
 import CardC from "./CardC";
 import CardD from "./CardD";
 import Fade from 'react-reveal/Fade';
-
+//https://www.react-reveal.com/tutorials/transition-group/
 class LandingPage extends Component {
 
   render() {
