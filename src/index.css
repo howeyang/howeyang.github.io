@@ -16,6 +16,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-size: 1em;
 }
 
 code {
@@ -51,6 +52,8 @@ label{
 
 p label{
   background-color: #49617D;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 .white1 {
@@ -204,6 +207,7 @@ li {
   padding-left: 10px;
   margin: 10px;
   font-family: "Rajdhani";
+  font-size: 1.25em;
 }
 
 .col2 {
@@ -427,7 +431,7 @@ li {
   transition-timing-function: ease-out;
   transition-delay: 0.1s;
   overflow-x: hidden;
-  overflow-y: hidden; 
+  overflow-y: hidden;
 }
 
 .autobattler.hvr-sweep-to-right:before{
@@ -502,7 +506,7 @@ li {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(152, 152, 152, 0.3);
+  background-color: rgba(169, 202, 242, 0.3);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -529,6 +533,15 @@ li {
 .underline{
   text-decoration: underline;
   text-decoration-color: white;
+}
+
+.glow{
+  box-shadow: 0px 0px 0px 0px #EAF5FA;
+  transition: box-shadow 0.6s linear;
+  margin: 0.5em; 
+}
+.glow:hover{
+  box-shadow: 0px 0px 0px 5px #49617D;
 }
 
 .card-sweep-to-right {

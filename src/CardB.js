@@ -24,7 +24,7 @@ class CardB extends Component {
           <div className="hvr-sweep-to-right autobattler">
             <div className="hvr-sweep-to-right3">
             <Fade up cascade>
-              <Card>
+              <Card className="glow">
                 <CardActionArea
                   onClick={this.redirect}
                   className="card-highlight"
