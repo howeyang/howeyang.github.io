@@ -1,18 +1,25 @@
 import React, { Component } from "react";
-import CardA from "./CardA";
+import CardB from "./CardB";
 import Grid from "@material-ui/core/Grid";
+import Fade from "react-reveal/Fade";
 
 class ProjectPage extends Component {
   render() {
     return (
       <div>
-                <div className="white1 underline">
-          {" "}
-          Projects <a>Under construction</a>{" "}
-        </div>
-        <Grid container direction="column" justify="center" alignItems="stretch">
-        
-          <CardA></CardA>
+        <Fade down>
+          <div className="white1 underline">
+            {" "}
+            Projects:<a>What I do in my Off Time</a>{" "}
+          </div>
+        </Fade>
+        <Grid
+          container
+          direction="column"
+          justify="center"
+          alignItems="stretch"
+        >
+          <CardB />
         </Grid>
       </div>
     );

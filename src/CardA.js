@@ -20,11 +20,11 @@ class CardA extends Component {
 
   render() {
     return (
-      <Grid item xs={12} sm={3} md={3}>
+      <Grid item xs={12} sm={6} md={3}>
         <div className="hvr-sweep-to-right2">
           <div className="hvr-sweep-to-right workexperience">
             <div className="hvr-sweep-to-right3">
-            <Fade left >
+            <Fade up >
               <Card className="glow">
                 <CardActionArea
                   onClick={this.redirect}
