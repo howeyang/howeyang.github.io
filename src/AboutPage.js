@@ -24,7 +24,7 @@ class AboutPage extends Component {
               <div className="black3">
                 {" "}
                 <a>Graduated from </a>{" "}
-                <a className="custom_button" href='https://uwaterloo.ca/'>University of Waterloo</a> Bachelor
+                <a className="custom_button" href='https://uwaterloo.ca/' target="_blank">University of Waterloo</a> Bachelor
                 of Computer Science Honours <a>2012 - 2016</a>
               </div>
             </Fade>
@@ -34,7 +34,7 @@ class AboutPage extends Component {
             <Fade duration={2000}>
               <div className="black3">
                 {" "}
-                Currently at <a className="custom_button" href='https://www.gamehive.com/'>Game Hive</a>
+                Currently at <a className="custom_button" href='https://www.gamehive.com/' target="_blank">Game Hive</a>
                 <br />
                 QA Engineer{" "}
                 <a>
@@ -56,7 +56,7 @@ class AboutPage extends Component {
             <Fade duration={2000}>
               <div className="black3">
                 {" "}
-                Worked at <a className="custom_button" href='https://www.upsight.com/'>Upsight</a>
+                Worked at <a className="custom_button" href='https://www.upsight.com/' target="_blank">Upsight</a>
                 <br />
                 Integration and Solution Engineer <br />
                 <a>Sept 2012 - Oct 2018</a>
