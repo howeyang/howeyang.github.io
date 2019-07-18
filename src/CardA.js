@@ -51,7 +51,7 @@ class CardA extends Component {
                     >
                       <label>Unity3D |  Mobile Games | Analytics | Big Data</label>
                       <span>
-                        <b>Upsight</b> : Senior Solutions Engineer
+                        <b>Upsight</b> : Integration and Solutions Engineer
                          <br></br>
                       
                          <b>Game Hive</b> : QA Engineer ( current )

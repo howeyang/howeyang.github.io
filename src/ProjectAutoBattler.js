@@ -4,6 +4,11 @@ import ReactPlayer from "react-player";
 import AutoBattleCarousel from "./AutoBattleCarousel";
 
 class ProjectAutoBattler extends Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   render() {
     return (
       <div>
