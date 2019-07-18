@@ -191,8 +191,8 @@ li {
   font-weight: bold;
   text-decoration: none;
   padding: 0px;
-  padding-right: 25px;
-  padding-left: 25px;
+  padding-right: 15px;
+  padding-left: 15px;
   display: inline-block;
   font-family: "Rajdhani";
   -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
