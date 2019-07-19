@@ -34,28 +34,26 @@ ul,
 li {
   font-style: bold;
   color: #2e313a;
-
 }
 
-span{
-display:block;
+span {
+  display: block;
 }
 
-label{
-  padding : 2px;
+label {
+  padding: 2px;
   background-color: rgba(126, 126, 126, 0.8);
   border-color: rgb(126, 126, 126);
   border-radius: 5px;
-  font:bold;
-  color: #EAF5FA;
+  font: bold;
+  color: #eaf5fa;
 }
 
-p label{
-  background-color: #49617D;
+p label {
+  background-color: #49617d;
   padding-left: 4px;
   padding-right: 4px;
 }
-
 
 .white1 {
   display: block;
@@ -71,7 +69,7 @@ p label{
   letter-spacing: 0.1em;
 }
 
-.white1 a{
+.white1 a {
   color: #2e313a;
   text-shadow: #9cbbd0 0px 5px 1px;
   text-decoration-color: white;
@@ -102,11 +100,10 @@ p label{
   background: rgba(172, 172, 172, 0.475);
 }
 
-.black3 a{
+.black3 a {
   color: #eaf5fa;
   text-shadow: #9cbbd0 0px 2px 1px;
 }
-
 
 .white2 {
   display: block;
@@ -148,6 +145,22 @@ ul.header {
   height: 60px;
 }
 
+.top2 {
+  top: 60px !important;
+}
+
+.top3 {
+  top: 120px !important;
+}
+
+.top4 {
+  top: 180px !important;
+}
+
+.top5 {
+  top: 240px !important;
+}
+
 ul.header li a {
   border-radius: 5px;
   color: #fff;
@@ -166,6 +179,7 @@ ul.header li a {
   transition: ease 1s; /* For modern browsers */
 }
 
+
 ul.header li a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
@@ -180,28 +194,34 @@ ul.header li a:after {
 }
 
 ul.header li a:hover::after {
-  width: 100%; 
-  left: 0; 
+  width: 100%;
+  left: 0;
 }
-ul.header li a:focus, a:active {
-  color: #49617D;
+ul.header li a:focus,
+a:active {
+  color: #49617d;
 }
-
 
 ul.header li a:active::before {
   background-color: #00bcd4;
 }
 
-
-ul.header li a:hover::before,ul.header li a:focus::before {
+ul.header li a:hover::before,
+ul.header li a:focus::before {
   -webkit-transform-origin: center top;
   transform-origin: center top;
--webkit-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
   transform: scale(1, 1);
 }
 
 ul.header li a:focus {
   border-color: rgb(205, 205, 205);
+}
+
+
+.menubutton:active::after {
+  color : #49617d !important;
+  background: #49617d !important;
 }
 
 .active {
@@ -230,7 +250,7 @@ li {
   transition: ease 1s; /* For modern browsers */
 }
 .custom_button:hover {
-  border-color: #49617D;
+  border-color: #49617d;
   background-color: #9cbbd0;
 }
 .content {
@@ -290,8 +310,6 @@ li {
   display: flex;
 }
 
-
-
 .west:hover {
   background-color: rgb(125, 47, 47);
 }
@@ -331,7 +349,7 @@ li {
   width: 100%;
   color: #2e313a;
   text-align: center;
-  text-shadow: #49617d 0px 0px 10px; 
+  text-shadow: #49617d 0px 0px 10px;
 }
 
 .cell {
@@ -452,13 +470,12 @@ li {
   transform: scaleY(1);
 }
 
-
 .hvr-sweep-to-right {
   padding: 1%;
 }
 
-.hvr-sweep-to-right:hover + .container-overlay{
-  opacity:0;
+.hvr-sweep-to-right:hover + .container-overlay {
+  opacity: 0;
 }
 
 .hvr-sweep-to-right:before {
@@ -487,7 +504,7 @@ li {
   overflow-y: hidden;
 }
 
-.autobattler.hvr-sweep-to-right:before{
+.autobattler.hvr-sweep-to-right:before {
   background: url("card-autobattler.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -495,7 +512,7 @@ li {
   background-size: cover;
 }
 
-.workexperience.hvr-sweep-to-right:before{
+.workexperience.hvr-sweep-to-right:before {
   background: url("card-upsight.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -503,7 +520,7 @@ li {
   background-size: cover;
 }
 
-.sandbox.hvr-sweep-to-right:before{
+.sandbox.hvr-sweep-to-right:before {
   background: url("card-sandbox.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -583,20 +600,20 @@ li {
   transform: scaleX(1);
 }
 
-.underline{
+.underline {
   text-decoration: underline;
   text-decoration-color: white;
   /*background: rgba(172, 172, 172, 0.475);*/
 }
 
-.glow{
-  box-shadow: 0px 0px 0px 0px #EAF5FA;
-  transition: box-shadow 3.0s;
-  transition-duration: 2.0s;
-  -webkit-transition-duration: 2.0s;
-  margin: 0.1em; 
+.glow {
+  box-shadow: 0px 0px 0px 0px #eaf5fa;
+  transition: box-shadow 3s;
+  transition-duration: 2s;
+  -webkit-transition-duration: 2s;
+  margin: 0.1em;
 }
-.glow:hover{
+.glow:hover {
   box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 0.6);
 }
 
@@ -639,7 +656,7 @@ li {
   transform: scaleX(1);
 }
 
-.card-highlight{
+.card-highlight {
   -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
   transition: ease 1s; /* For modern browsers */
 }
