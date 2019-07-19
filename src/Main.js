@@ -7,6 +7,7 @@ import ContactPage from "./ContactPage";
 import ProjectA from "./ProjectA";
 import Hidden from "@material-ui/core/Hidden";
 import ProjectAutoBattler from "./ProjectAutoBattler";
+import MobileBar from "./MobileBar";
 
 class Main extends Component {
   render() {
@@ -31,10 +32,7 @@ class Main extends Component {
           </ul>
         </Hidden>
         <Hidden smUp> 
-        <div className="topbar">
-        <div className="barbutton">Idea, start with Menu, on click, animate down 4 buttons</div>
-        <div className="barbutton">test</div>
-        </div>
+        <MobileBar></MobileBar>
         </Hidden>
 
         <div className="content">
