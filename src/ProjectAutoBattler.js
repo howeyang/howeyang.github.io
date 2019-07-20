@@ -68,7 +68,7 @@ class ProjectAutoBattler extends Component {
 
           <Grid item xs={12} sm={6} md={6}>
             <Fade>
-              <div className="black3">Challenges and Components</div>
+              <div className="black3">Challenges and what went Right</div>
             </Fade>
             <Fade left>
               <p className="section">
@@ -89,7 +89,8 @@ class ProjectAutoBattler extends Component {
                 synchronous combat was a big concern for me. This lead me to
                 coding the AI script with no Update logic. Instead, all units
                 relied on the board script to invoke a Stepping function which
-                make it run through it's logic. The downside of this was
+                make it run through it's logic and trigger a Mecanim State transitions.
+                 The downside of this was
                 creating a tight coupling between the board and all units. The
                 upside of this was significantly reduced performance concerns
                 and allowed a sequential resolution of action and behaviours.
@@ -102,7 +103,9 @@ class ProjectAutoBattler extends Component {
               <div className="black3">Development Snapshots</div>
             </Fade>
             <Fade right>
+            <p className="section">
               <AutoBattleCarousel />
+              </p>
             </Fade>
           </Grid>
 
@@ -112,17 +115,20 @@ class ProjectAutoBattler extends Component {
             </Fade>
             <Fade left>
               <p className="section">
-                <label>Over Designing</label> <br />
+                <label>Non-essential Designing</label> <br />
                 I often kept going back to paper prototyping certain features /
                 concepts. Although this invigorated myself to keep working at
                 this project, very few of what I designed and thought of made it
                 into the prototype build. My lack of focus on and over designing
                 non-essential features wasted a lot of time and brain power.
                 <br /> <label>Too Tight Coupling</label> <br />
-                This sucked
+                After coding and adding functionality to the game, I would often move onto another component or section of the game. If I ever had to return to the previous component, it became difficult to add or adjust the code due to how many components that need to be adjusted.
                 <br /> <label>Monolithic or Tiny</label> <br />
                 Moderation or finding the right balance is something that I will
                 try to work towards.
+                <br /> <label>Sequential or States</label> <br />
+                When I coded the AI for the units, I made had an naive approach to the unit logic.
+                It would determine if there were any nearby enemies, then attack if there were else move towards an enemy. In summary, it was a bit of a long IF ELSE statement and difficult to built additional functionality. For the future, some sort of State pattern would be best to be used here to allow for flexibility.
               </p>
             </Fade>
           </Grid>
