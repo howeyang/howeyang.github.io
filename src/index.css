@@ -8,7 +8,8 @@ White Gray : B7B9C6
 Super white Gray :  DFDCE7 */
 body {
   margin: 0;
-  background-color: rgba(73, 97, 125, 0.8);
+  height:100%;
+  background-color: rgb(73, 97, 125);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: url("color1.png") no-repeat center center fixed;
@@ -64,14 +65,14 @@ p label {
   margin-inline-end: 0px;
   font-weight: bold;
   color: #eaf5fa;
-  text-shadow: #9cbbd0 0px 5px 1px;
+  text-shadow: #9cbbd0 0px 3px 1px;
   font-weight: 700;
   letter-spacing: 0.1em;
 }
 
 .white1 a {
   color: #2e313a;
-  text-shadow: #9cbbd0 0px 5px 1px;
+  text-shadow: #9cbbd0 0px 3px 1px;
   text-decoration-color: white;
 }
 
