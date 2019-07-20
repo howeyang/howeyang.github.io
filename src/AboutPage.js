@@ -1,6 +1,13 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
 import Fade from "react-reveal/Fade";
+import Flip from "react-reveal/Flip";
+import pokemon from "./logo/upsight-pokemon.png";
+import activision from "./logo/upsight-activision.png";
+import twitch from "./logo/upsight-twitch.png";
+import taptitan from "./logo/gamehive-tap.png";
+import battlerun from "./logo/gamehive-run.png";
+import beatboss from "./logo/gamehive-beat.png";
 
 class AboutPage extends Component {
   componentDidMount() {
@@ -19,7 +26,7 @@ class AboutPage extends Component {
 
         <Grid container direction="row" justify="center" alignItems="stretch">
           <Grid item xs={12} sm={12} md={12}>
-            <Fade up duration={1000}>
+            <Fade down duration={1000}>
               <div className="black3">
                 {" "}
                 <a>Graduated from </a>{" "}
@@ -47,9 +54,16 @@ class AboutPage extends Component {
                 >
                   Game Hive
                 </a>
+                <Flip cascade left duration={700}>
                 <div className="subtitle">
-                  Creators of Tap Titans, Battle Run, Beat the Boss
+                  Creators of
+                  
+                  <img src={taptitan} alt="Tap Tap Tap" className="fixedimg" />
+                  <img src={beatboss} alt="1 2 3 and 4" className="fixedimg" />
+                  <img src={battlerun} alt="Runnn" className="fixedimg" />
+                  
                 </div>
+                </Flip>
                 QA Engineer{" "}
                 <a>
                   {" "}
@@ -60,21 +74,37 @@ class AboutPage extends Component {
 
               <p className="section">
                 <label>Responsibilities</label> <br />
-                Investigating and implementing new testing methods to improve QA
-                process efficiency <br /> Actively managing the development
-                process through bug reports, build-stability reports, balance
-                feedback • Testing new products and updates in development while
-                analyzing and logging any issues • Isolating and reproducing
-                bugs to assist in the investigation and solution process •
-                Reviewing game forums and our existing communities to document
-                live game issues • Performing benchmark and competitive analysis
-                • Transferring information to the appropriate departments - i.e.
-                bugs to quality assurance, new ideas to product development,
-                messaging effectiveness to marketing, frequently asked questions
-                as noted, and identifying user generated conten
-                <br /> <label>Key Contributions</label> <br />
-                Aiming to benchmark performance per release. Profile to find
-                places for improvement / optimization.
+                <span>Actively managing the development process </span> through
+                bug reports, build-stability reports, balance feedback
+                <br />
+                <b>● </b>
+                <span>
+                  Investigating and implementing new testing and prioritization methods{" "}
+                </span>{" "}
+                to improve QA process efficiency and development
+                <b>● </b>
+                <span>Testing new features
+                and updates in development </span> while analyzing and logging
+                issues via isolating and reproducing problematic behaviour
+                <br />
+                <b>● </b>
+                <span>Reviewing game forums and
+                existing communities</span> to document live game issues
+                <br />
+                <b>● </b>
+                <span>Transferring
+                information to the appropriate teams</span> i.e. bugs to
+                quality assurance, new ideas to product development, messaging
+                effectiveness to marketing
+                <br /> <label>Goals for Contribution</label> <br />
+                <span>Aiming to benchmark performance per release </span> to
+                give point of reference for release comparison and new feature
+                cost.
+                <br />
+                <b>● </b>
+                <span>
+                  Profile to find features and scripts that require improvement / optimization
+                </span>
               </p>
             </Fade>
           </Grid>
@@ -91,11 +121,18 @@ class AboutPage extends Component {
                 >
                   Upsight
                 </a>
+                <Flip cascade right duration={700}>
                 <div className="subtitle">
-                  Analytics for Pokemon GO, Activision, Twitch and more
+                  Analytics for
+                  <img src={pokemon} alt="Niantic" className="fixedimg" />
+                  <img src={activision} alt="Activision" className="fixedimg" />
+                  <img src={twitch} alt="Twitch" className="fixedimg" />
+                  <a> </a>
+                  and more!
                 </div>
+                </Flip>
                 Integration and Solution Engineer <br />
-                <a>Sept 2012 - Oct 2018</a>
+                <a>Sept 2016 - Oct 2018</a>
               </div>
 
               <p className="section">
@@ -128,12 +165,19 @@ class AboutPage extends Component {
                 to investigate, debug and monitor back-end software
                 infrastructure
                 <br /> <label>Key Contributions</label> <br />
-                Employee of the month within the first year of employment
-                <br />● Led to contract renewal of key client due to my
-                contributions in issue resolution <br></br>● Documented Big Data
-                ingestion pipeline from end-to-end, setting the foundation for
-                tracking and improving overall workflow and as entry information
-                for new staff
+                <span>Employee of the month </span> within the first year of
+                employment
+                <br /> <b>●</b>
+                <span>
+                  Led to contract renewal of key enterprise client
+                </span>{" "}
+                due to my contributions in issue resolution
+                <br /> <b>●</b>
+                <span>
+                  Documented Big Data ingestion pipeline from end-to-end{" "}
+                </span>{" "}
+                which set the foundation for tracking and improving overall
+                workflow and entry information for new staff
               </p>
             </Fade>
           </Grid>

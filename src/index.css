@@ -9,16 +9,18 @@ Super white Gray :  DFDCE7 */
 body {
   margin: 0;
   height:100%;
-  background-color: rgb(73, 97, 125);
+  background-color: rgb(73, 97, 125) !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: url("color1.png") no-repeat center center fixed;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   font-size: 1em;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -36,6 +38,8 @@ li {
   font-style: bold;
   color: #2e313a;
 }
+
+
 
 span {
   display: block;
@@ -543,7 +547,7 @@ li {
 }
 
 .autobattler.hvr-sweep-to-right:before {
-  background: url("card-autobattler.png") no-repeat center center fixed;
+  background: url("./card/card-autobattler.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -551,7 +555,7 @@ li {
 }
 
 .workexperience.hvr-sweep-to-right:before {
-  background: url("card-upsight.png") no-repeat center center fixed;
+  background: url("./card/card-titan.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -559,7 +563,7 @@ li {
 }
 
 .sandbox.hvr-sweep-to-right:before {
-  background: url("card-sandbox.png") no-repeat center center fixed;
+  background: url("./card/card-sandbox.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -704,4 +708,8 @@ li {
 
 .height100 {
   height: 100% !important;
+}
+
+.fixedimg {
+  height: 50px;
 }
