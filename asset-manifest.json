@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/howeyang.github.io/static/css/main.8648ec3d.chunk.css",
-    "main.js": "/howeyang.github.io/static/js/main.8abdc82f.chunk.js",
-    "main.js.map": "/howeyang.github.io/static/js/main.8abdc82f.chunk.js.map",
+    "main.css": "/howeyang.github.io/static/css/main.7fc74f84.chunk.css",
+    "main.js": "/howeyang.github.io/static/js/main.d7342c68.chunk.js",
+    "main.js.map": "/howeyang.github.io/static/js/main.d7342c68.chunk.js.map",
     "runtime~main.js": "/howeyang.github.io/static/js/runtime~main.3474ee5f.js",
     "runtime~main.js.map": "/howeyang.github.io/static/js/runtime~main.3474ee5f.js.map",
     "static/css/2.3c1ddb0a.chunk.css": "/howeyang.github.io/static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.04027f4b.chunk.js": "/howeyang.github.io/static/js/2.04027f4b.chunk.js",
-    "static/js/2.04027f4b.chunk.js.map": "/howeyang.github.io/static/js/2.04027f4b.chunk.js.map",
+    "static/js/2.7fc2013b.chunk.js": "/howeyang.github.io/static/js/2.7fc2013b.chunk.js",
+    "static/js/2.7fc2013b.chunk.js.map": "/howeyang.github.io/static/js/2.7fc2013b.chunk.js.map",
     "index.html": "/howeyang.github.io/index.html",
-    "precache-manifest.d3f27fc9ee05d1fb9daca7745eee3831.js": "/howeyang.github.io/precache-manifest.d3f27fc9ee05d1fb9daca7745eee3831.js",
+    "precache-manifest.0d54927f7774f83423069bc8d3c39d80.js": "/howeyang.github.io/precache-manifest.0d54927f7774f83423069bc8d3c39d80.js",
     "service-worker.js": "/howeyang.github.io/service-worker.js",
     "static/css/2.3c1ddb0a.chunk.css.map": "/howeyang.github.io/static/css/2.3c1ddb0a.chunk.css.map",
-    "static/css/main.8648ec3d.chunk.css.map": "/howeyang.github.io/static/css/main.8648ec3d.chunk.css.map",
+    "static/css/main.7fc74f84.chunk.css.map": "/howeyang.github.io/static/css/main.7fc74f84.chunk.css.map",
     "static/media/card-autobattler.png": "/howeyang.github.io/static/media/card-autobattler.76215a51.png",
     "static/media/card-sandbox.png": "/howeyang.github.io/static/media/card-sandbox.4d640c48.png",
     "static/media/index.css": "/howeyang.github.io/static/media/color12.23ac3289.png",
     "static/media/card-work.png": "/howeyang.github.io/static/media/card-work.d903b20e.png",
-    "static/media/color13.png": "/howeyang.github.io/static/media/color13.5807ec1c.png"
+    "static/media/color13.png": "/howeyang.github.io/static/media/color13.5807ec1c.png",
+    "static/media/gamehive-run.png": "/howeyang.github.io/static/media/gamehive-run.0f47bfd2.png",
+    "static/media/gamehive-tap.png": "/howeyang.github.io/static/media/gamehive-tap.1c0d4ba3.png",
+    "static/media/upsight-activision.png": "/howeyang.github.io/static/media/upsight-activision.a2fb6ab2.png",
+    "static/media/upsight-pokemon.png": "/howeyang.github.io/static/media/upsight-pokemon.ed057279.png"
   }
 }
