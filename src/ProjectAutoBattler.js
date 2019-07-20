@@ -116,19 +116,16 @@ class ProjectAutoBattler extends Component {
             <Fade left>
               <p className="section">
                 <label>Non-essential Designing</label> <br />
-                I often kept going back to paper prototyping certain features /
-                concepts. Although this invigorated myself to keep working at
-                this project, very few of what I designed and thought of made it
-                into the prototype build. My lack of focus on and over designing
-                non-essential features wasted a lot of time and brain power.
+                I often kept going back to paper prototyping unnecessary features /
+                concepts. Although this pushed myself to keep working, very few of those designs and made it into the prototype build. My lack of focus on and over designing
+                non-essential features wasted a lot of time and effort.
                 <br /> <label>Too Tight Coupling</label> <br />
                 After coding and adding functionality to the game, I would often move onto another component or section of the game. If I ever had to return to the previous component, it became difficult to add or adjust the code due to how many components that need to be adjusted.
                 <br /> <label>Monolithic or Tiny</label> <br />
-                Moderation or finding the right balance is something that I will
-                try to work towards.
-                <br /> <label>Sequential or States</label> <br />
+                In an effort to avoid coupling, I tried making more monolithic code scripts but that became difficult to read and iterate on. However, if I made the code small, it became too tightly coupled or too many references, which also made it difficult due to code.
+                <br /> <label>Transition from Prototype code to Better code</label> <br />
                 When I coded the AI for the units, I made had an naive approach to the unit logic.
-                It would determine if there were any nearby enemies, then attack if there were else move towards an enemy. In summary, it was a bit of a long IF ELSE statement and difficult to built additional functionality. For the future, some sort of State pattern would be best to be used here to allow for flexibility.
+                It would determine if there were any nearby enemies, then attack if there were else move towards an enemy. In summary, it was a bit of a long IF ELSE statement and difficult to built additional functionality. For the future, after coding functionality and liking the iteration, it is definitely important to take the time to clean up, organize and improve code for future use.
               </p>
             </Fade>
           </Grid>
@@ -146,9 +143,11 @@ class ProjectAutoBattler extends Component {
               what code should be generic, flexible and readable and re-write
               the code. Hopefully, I can apply what I learned here to future
               projects!
-              <br />
-              <label>Thank you for reading!</label>
             </p>
+            
+            </Fade>
+            <Fade up>
+            <div className="white1">Thank you for reading!</div>
             </Fade>
           </Grid>
         </Grid>

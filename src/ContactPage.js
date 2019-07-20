@@ -29,7 +29,7 @@ class ContactPage extends Component {
             <Fade up >
               <div className="black3">Github</div>
               <p className="section">
-                My Github is available here:
+                My Github is available here: <a></a>
                 <a className="custom_button" href='https://github.com/howeyang' target="_blank">https://github.com/howeyang</a>
               </p>
             </Fade>

@@ -32,7 +32,7 @@ class CardA extends Component {
                 >
                   <CardMedia
                     className="card"
-                    image={require("./card-work.png")}
+                    image={require("./card/card-work.png")}
                     title="Upsight and Game Hive!"
                   />
                   <CardContent>
