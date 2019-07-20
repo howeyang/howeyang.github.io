@@ -24,7 +24,7 @@ class CardD extends Component {
         <div className="hvr-sweep-to-right2">
           <div className="hvr-sweep-to-right">
             <div className="hvr-sweep-to-right3">
-              <Fade up duration={1300}>
+              <Fade up delay={500} duration={1300}>
                 <Card className="glow">
                   <CardActionArea
                     onClick={this.redirect}

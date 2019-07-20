@@ -54,7 +54,7 @@ class AboutPage extends Component {
                 >
                   Game Hive
                 </a>
-                <Flip cascade left duration={700}>
+                <Flip cascade left duration={700} delay={500}>
                 <div className="subtitle">
                   Creators of
                   
@@ -121,7 +121,7 @@ class AboutPage extends Component {
                 >
                   Upsight
                 </a>
-                <Flip cascade right duration={700}>
+                <Flip cascade right duration={700} delay={500}>
                 <div className="subtitle">
                   Analytics for
                   <img src={pokemon} alt="Niantic" className="fixedimg" />

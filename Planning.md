@@ -5,6 +5,11 @@ Previous website was OK and all but was built purely in HTML and CSS with some m
 This new website is going to be a Single Page Application built with React and React components.
 Will have a combination of my Gallery and Dev work / learnings
 
+## TO DO
+
+Add Placeholder image / feature for image loading
+Finish more Cards
+
 ## Landing page
 
 UI BAR : Home - Projects - About Me - Contact
