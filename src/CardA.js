@@ -49,12 +49,12 @@ class CardA extends Component {
                       color="textPrimary"
                       component="p"
                     >
-                      <label>Unity3D |  Mobile Games | Analytics | Big Data</label>
+                      <label>Unity3D |  Mobile Games | Analytics</label>
                       <span>
                         <b>Upsight</b> : Integration and Solutions Engineer
                          <br></br>
                       
-                         <b>Game Hive</b> : QA Engineer ( current )
+                         <b>Game Hive</b> : QA Engineer <b>[Current]</b>
                         </span> 
                       
                     </Typography>

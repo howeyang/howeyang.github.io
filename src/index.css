@@ -54,6 +54,8 @@ p label {
   background-color: #49617d;
   padding-left: 4px;
   padding-right: 4px;
+  margin-bottom: 4px;
+  display:inline-block;
 }
 
 .white1 {
@@ -74,6 +76,19 @@ p label {
   color: #2e313a;
   text-shadow: #9cbbd0 0px 3px 1px;
   text-decoration-color: white;
+}
+
+.subtitle {
+  padding: 2px;
+  margin-left:20px;
+  margin-right:20px;
+  text-align: center;
+  background-color: rgba(73, 97, 125, 0.8);
+  border-color: rgb(126, 126, 126);
+  text-shadow: none !important;
+  border-radius: 5px;
+  font-size: 60% !important;
+  color: #eaf5fa;
 }
 
 .black2 {
@@ -254,6 +269,17 @@ li {
   border-color: #49617d;
   background-color: #9cbbd0;
 }
+
+.job{
+  color: #fff !important;
+  text-shadow: rgb(222, 180, 45) 0px 2px 1px !important;
+  text-decoration-color: rgb(222, 180, 45);
+}
+
+.job:hover{
+  color: #49617d !important;
+}
+
 .content {
   display: block;
   text-align: center;
@@ -282,6 +308,17 @@ li {
   margin: 10px;
   font-family: "Rajdhani";
   font-size: 1.25em;
+  line-height: 1.1;
+}
+
+.section span{
+  color: rgb(197, 232, 255) !important;
+  font: bolder !important;
+  display: inline !important;
+}
+
+.section b{
+  display:block;
 }
 
 .col2 {
