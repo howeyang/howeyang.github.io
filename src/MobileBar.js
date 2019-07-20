@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
+import Flip from 'react-reveal/Flip';
 import { withRouter } from "react-router-dom";
 
 //Holy crap i built something Snazzy!!! woooo
@@ -68,7 +69,7 @@ class MobileBar extends Component {
                 Menu
               </a>
             </li>
-            <Fade right when={this.state.active} collapse>
+            <Fade collapse when={this.state.active} duration={500}>
               <ul className="header top2">
                 <li>
                   <a className="menubutton active" onClick={this.redirectHome}>
@@ -77,7 +78,7 @@ class MobileBar extends Component {
                 </li>
               </ul>
             </Fade>
-            <Fade left when={this.state.active} collapse>
+            <Fade collapse when={this.state.active} duration={800}>
               <ul className="header top3">
                 <li>
                   <a className="menubutton active" onClick={this.redirectProject}>
@@ -86,7 +87,7 @@ class MobileBar extends Component {
                 </li>
               </ul>
             </Fade>
-            <Fade right when={this.state.active} collapse>
+            <Fade collapse when={this.state.active} duration={1100}>
               <ul className="header top4">
                 <li>
                   <a className="menubutton active" onClick={this.redirectAbout}>
@@ -95,7 +96,7 @@ class MobileBar extends Component {
                 </li>
               </ul>
             </Fade>
-            <Fade up when={this.state.active} collapse>
+            <Fade collapse when={this.state.active} duration={1300} >
               <ul className="header top5">
                 <li>
                   <a className="menubutton active" onClick={this.redirectContact}>

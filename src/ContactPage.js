@@ -18,7 +18,7 @@ class ContactPage extends Component {
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">
           <Grid item xs={12} sm={6} md={6}>
-            <Fade left>
+            <Fade up>
               <div className="black3">Email</div>
               <p className="section">
                 You can email and reach me at <u>howechyang@gmail.com</u>
@@ -26,7 +26,7 @@ class ContactPage extends Component {
             </Fade>
           </Grid>
           <Grid item xs={12} sm={6} md={6}>
-            <Fade right>
+            <Fade up >
               <div className="black3">Github</div>
               <p className="section">
                 My Github is available here:
