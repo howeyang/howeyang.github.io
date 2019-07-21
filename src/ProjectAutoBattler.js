@@ -56,7 +56,7 @@ class ProjectAutoBattler extends Component {
             <Fade right>
               <div className="section">
                 <ReactPlayer
-                  url="autobattle.mp4"
+                  url="./Autobattle/autobattle.mp4"
                   width="100%"
                   height="100%"
                   controls={true}

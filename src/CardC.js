@@ -15,7 +15,7 @@ class CardC extends Component {
   }
 
   redirect() {
-    this.props.history.push("/Project/ProjectB");
+    this.props.history.push("/Project/ProjectSandbox");
   }
 
   render() {
@@ -33,7 +33,7 @@ class CardC extends Component {
                     <CardMedia
                       className="card"
                       image={require("./card/card-sandbox.png")}
-                      title="1 Star, 2 Star, 3 Star!"
+                      title="Smashing rocks together~"
                     />
                     <CardContent>
                       <Typography

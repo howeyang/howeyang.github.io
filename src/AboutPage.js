@@ -145,7 +145,7 @@ class AboutPage extends Component {
                 Scientific Games, Twitch
                 <br />
                 <b>● </b>
-                <span>Helped clients optimize the use of Mobile SDKs</span>{" "}
+                <span>Helped clients optimize the use of a Mobile Plugin</span>{" "}
                 which ranged from writing code, debugging issues and
                 investigating problems
                 <br />

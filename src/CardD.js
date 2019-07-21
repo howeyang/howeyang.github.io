@@ -33,7 +33,7 @@ class CardD extends Component {
                     <CardMedia
                       className="card"
                       image={require("./color13.png")}
-                      title="1 Star, 2 Star, 3 Star!"
+                      title="sooooooon"
                     />
                     <CardContent>
                       <Typography

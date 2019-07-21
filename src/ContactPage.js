@@ -27,10 +27,13 @@ class ContactPage extends Component {
           </Grid>
           <Grid item xs={12} sm={6} md={6}>
             <Fade up >
-              <div className="black3">Github</div>
+              <div className="black3">Other Sites</div>
               <p className="section">
                 My Github is available here: <a></a>
                 <a className="custom_button" href='https://github.com/howeyang' target="_blank">https://github.com/howeyang</a>
+                <br></br>
+                Linkedin : <a></a>
+                <a className="custom_button" href='https://ca.linkedin.com/in/howeyang' target="_blank">https://ca.linkedin.com/in/howeyang</a>
               </p>
             </Fade>
           </Grid>
