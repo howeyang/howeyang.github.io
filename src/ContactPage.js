@@ -28,7 +28,7 @@ class ContactPage extends Component {
           <Grid item xs={12} sm={6} md={6}>
             <Fade up >
               <div className="black3">Other Sites</div>
-              <p className="section">
+              <p className="section social">
                 My Github is available here: <a></a>
                 <a className="custom_button" href='https://github.com/howeyang' target="_blank">https://github.com/howeyang</a>
                 <br></br>

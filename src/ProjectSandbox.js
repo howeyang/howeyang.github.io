@@ -3,6 +3,8 @@ import Grid from "@material-ui/core/Grid";
 import ReactPlayer from "react-player";
 import Fade from "react-reveal/Fade";
 import SandboxCarousel from "./SandboxCarousel";
+import ShaderReel from "./ShaderReel";
+import ParticleReel from "./ParticleReel";
 
 class ProjectSandbox extends Component {
   componentDidMount() {
@@ -25,7 +27,6 @@ class ProjectSandbox extends Component {
             </Fade>
             <Fade up>
               <p className="section">
-                <label>Introduction</label> <br />
                 This is a dedicated section to concepts and things I've been
                 experimenting with in Unity. There are a ton of cool effects and
                 concepts in games and media. On occasion, I challenge myself to
@@ -68,15 +69,37 @@ class ProjectSandbox extends Component {
                 After watching the Youtube Tutorials by Dan Moran, "Making Stuff look good in Unity", I tried my hand at making building shaders via scripting and Unity's Node Shader.
                 <br />
                 <label>Considerations</label> <br />
-                ... in progress!
+                Shaders and graphic effects are something that I want to understand and utilize.
+                There is definitely a steep learning curve and even after taking one of the best ( and hardest ) 4th year Graphics course at Waterloo, it's still magic to me.
+                Hopefully down the line, I'll be able to put some time in to create better SFX.
+                <ShaderReel />
               </p>
             </Fade>
           </Grid>
 
-          
+          <Grid item xs={12} sm={6} md={6} className="overlay2">
+            <Fade>
+              <div className="black3">Unity Particle System</div>
+            </Fade>
+            <Fade left>
+              <p className="section">
+                <label>Summary</label> <br />
+                One of the most powerful and flexible systems in Unity is the Particle system.
+                I have leveraged it to add some flair and polish for impact and as a visual effect.
+                <br />
+                <label>Challenges</label> <br />
+                There is a slight learning curve to the Particle system, understanding how to use new texture, material and turn all the knobs in the System to get a new effect.
+                Once you have that down though, the limit is your imagination and effort in making a cool effect!
+                <ParticleReel />
+              </p>
+            </Fade>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} className="overlay2">
             <Fade up>
               <div className="white1">Thank you for reading!</div>
             </Fade>
+            </Grid>
          
         </Grid>
       </div>

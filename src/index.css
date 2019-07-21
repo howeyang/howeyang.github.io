@@ -715,3 +715,7 @@ li {
 .fixedimg {
   height: 50px;
 }
+
+.social{
+  text-align:right;
+}
