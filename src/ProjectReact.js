@@ -12,12 +12,9 @@ class ProjectReact extends Component {
       <div>
         <Fade down>
           <div className="white1 underline">
-            {" "}
             ReactJS
-            <a />{" "}
           </div>
           <div className="white2">
-            {" "}
             Single Page Application as a Resume Website
           </div>
         </Fade>

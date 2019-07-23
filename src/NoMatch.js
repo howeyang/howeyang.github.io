@@ -17,8 +17,7 @@ class NoMatch extends Component {
       <div>
         <Fade down>
           <div className="white1 underline">
-            {" "}
-            404 Page<a />{" "}
+            404 Page
           </div>
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">

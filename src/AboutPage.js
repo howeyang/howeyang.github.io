@@ -20,7 +20,7 @@ class AboutPage extends Component {
         <Fade down>
           <div className="white1 underline">
             {" "}
-            About me<a> </a>{" "}
+            About me{" "}
           </div>
         </Fade>
 

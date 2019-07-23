@@ -15,8 +15,7 @@ class ProjectPage extends Component {
       <div>
         <Fade down>
           <div className="white1 underline">
-            {" "}
-            Projects<a />{" "}
+            Projects
           </div>
         </Fade>
         <Grid
