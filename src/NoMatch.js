@@ -3,9 +3,14 @@ import Grid from "@material-ui/core/Grid";
 import Fade from "react-reveal/Fade";
 
 class NoMatch extends Component {
+  
   componentDidMount() {
     window.scrollTo(0, 0);
+    document.body.className = 'fourofour';
   }
+  componentWillUnmount() {
+    document.body.className = null;
+}
 
   render() {
     return (

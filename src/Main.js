@@ -9,6 +9,7 @@ import Hidden from "@material-ui/core/Hidden";
 import ProjectAutoBattler from "./ProjectAutoBattler";
 import ProjectSandbox from "./ProjectSandbox";
 import MobileBar from "./MobileBar";
+import ProjectReact from "./ProjectReact";
 import NoMatch from "./NoMatch";
 
 
@@ -49,6 +50,7 @@ class Main extends Component {
           <Route exact path="/Project/ProjectA" component={ProjectA} />
           <Route exact path="/Project/ProjectAutobattler" component={ProjectAutoBattler} />
           <Route exact path="/Project/ProjectSandbox" component={ProjectSandbox} />
+          <Route exact path="/Project/ProjectReact" component={ProjectReact} />
           <Route component={NoMatch} />
           </Switch>
         </div>

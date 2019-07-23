@@ -8,21 +8,21 @@ import Typography from "@material-ui/core/Typography";
 import { withRouter } from "react-router-dom";
 import Fade from 'react-reveal/Fade';
 
-class CardA extends Component {
+class CardReact extends Component {
   constructor(props) {
     super(props);
     this.redirect = this.redirect.bind(this);
   }
 
   redirect() {
-    this.props.history.push("/About");
+    this.props.history.push("/Project/ProjectReact");
   }
 
   render() {
     return (
       <Grid item xs={12} sm={6} md={3}>
         <div className="hvr-sweep-to-right2">
-          <div className="hvr-sweep-to-right workexperience">
+          <div className="hvr-sweep-to-right react">
             <div className="hvr-sweep-to-right3">
             <Fade up delay={200} >
               <Card className="glow">
@@ -32,8 +32,8 @@ class CardA extends Component {
                 >
                   <CardMedia
                     className="card"
-                    image={require("./card/card-work.png")}
-                    title="Upsight and Game Hive!"
+                    image={require("./card/card-react.png")}
+                    title="npm install react :)"
                   />
                   <CardContent>
                     <Typography
@@ -42,19 +42,17 @@ class CardA extends Component {
                       component="h3"
                       className="black2"
                     >
-                      Work Experience
+                      React JS
                     </Typography>
                     <Typography
                       variant="body1"
                       color="textPrimary"
                       component="p"
                     >
-                      <label>Unity3D |  Mobile Games | Analytics</label>
+                      <label>ReactJS |  React Components | CSS </label>
                       <span>
-                        <b>Upsight</b> : Integration and Solutions Engineer
-                         <br></br>
-                      
-                         <b>Game Hive</b> : QA Engineer
+                        A Single Page Application built with React and various components.
+                         
                         </span> 
                       
                     </Typography>
@@ -70,4 +68,4 @@ class CardA extends Component {
   }
 }
 
-export default withRouter(CardA);
+export default withRouter(CardReact);

@@ -3,6 +3,7 @@ import CardB from "./CardB";
 import CardC from "./CardC";
 import Grid from "@material-ui/core/Grid";
 import Fade from "react-reveal/Fade";
+import CardReact from "./CardReact";
 
 class ProjectPage extends Component {
   componentDidMount() {
@@ -27,6 +28,7 @@ class ProjectPage extends Component {
           <CardB />
 
           <CardC />
+          <CardReact />
         </Grid>
       </div>
     );

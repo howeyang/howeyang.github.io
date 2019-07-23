@@ -21,6 +21,13 @@ body {
   font-size: 1em;
   overflow-x: hidden;
   overflow-y: scroll;
+  -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
+  transition: ease 1s; /* For modern browsers */
+}
+
+.fourofour{
+  background-color: rgb(213, 196, 152)!important;
+  background: rgb(213, 196, 152)  no-repeat center center fixed;
 }
 
 
@@ -67,6 +74,7 @@ p label {
 .white1 {
   display: block;
   font-size: 4em;
+  font-family: 'Raleway', sans-serif;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
   margin-inline-start: 0px;
@@ -184,11 +192,12 @@ ul.header {
 }
 
 ul.header li a {
+  font-family: 'Raleway', sans-serif;
   border-radius: 5px;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.2em;
   display: inline-block;
   margin-top: 10px;
   font: bold;
@@ -274,6 +283,7 @@ li {
 .custom_button:hover {
   border-color: #49617d;
   background-color: #9cbbd0;
+  color: #49617d;
 }
 
 .job{
@@ -572,6 +582,14 @@ li {
   background-size: cover;
 }
 
+
+.react.hvr-sweep-to-right:before {
+  background: rgb(213, 196, 152) url("./card/react-logo.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .hvr-sweep-to-right:hover:before,
 .hvr-sweep-to-right:focus:before,
 .hvr-sweep-to-right:active:before {

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
-import ReactPlayer from "react-player";
 import CardA from "./CardA";
 import CardB from "./CardB";
 import CardC from "./CardC";
