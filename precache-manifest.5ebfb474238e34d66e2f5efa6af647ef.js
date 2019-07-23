@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ba0a41cd57e5f4efb0c780b56a94756",
+    "revision": "402e394e35f68f976d60d30d057171dd",
     "url": "/howeyang.github.io/index.html"
   },
   {
-    "revision": "290dc7f3cc051a6c2e9b",
+    "revision": "8599ad0620925886a7e7",
     "url": "/howeyang.github.io/static/css/2.3c1ddb0a.chunk.css"
   },
   {
-    "revision": "11b461dbf198aa329345",
-    "url": "/howeyang.github.io/static/css/main.818f7726.chunk.css"
+    "revision": "2e6056bbb0475f728ddc",
+    "url": "/howeyang.github.io/static/css/main.5e9b20ba.chunk.css"
   },
   {
-    "revision": "290dc7f3cc051a6c2e9b",
-    "url": "/howeyang.github.io/static/js/2.1590fecc.chunk.js"
+    "revision": "8599ad0620925886a7e7",
+    "url": "/howeyang.github.io/static/js/2.9777b3b3.chunk.js"
   },
   {
-    "revision": "11b461dbf198aa329345",
-    "url": "/howeyang.github.io/static/js/main.28b47cf8.chunk.js"
+    "revision": "2e6056bbb0475f728ddc",
+    "url": "/howeyang.github.io/static/js/main.c83b45d6.chunk.js"
   },
   {
     "revision": "88d7778b6a635c03ba06",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "76215a51f5bd5264f09fdbe8cb2b5be6",
     "url": "/howeyang.github.io/static/media/card-autobattler.76215a51.png"
+  },
+  {
+    "revision": "41bb0e25ae9835d9372917620d5b463d",
+    "url": "/howeyang.github.io/static/media/card-react.41bb0e25.png"
   },
   {
     "revision": "4d640c48427959b320839b2dcf15d103",
@@ -62,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1c0d4ba3007de71ac3345c1eac8797fa",
     "url": "/howeyang.github.io/static/media/gamehive-tap.1c0d4ba3.png"
+  },
+  {
+    "revision": "47ce6e77f039020ee2e76a10c1e988e9",
+    "url": "/howeyang.github.io/static/media/react-logo.47ce6e77.png"
   },
   {
     "revision": "a2fb6ab20e33560fa6710741d102dbc5",
