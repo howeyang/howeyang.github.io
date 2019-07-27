@@ -61,6 +61,7 @@ label {
 }
 
 p label {
+  font-family: 'Raleway', serif !important;
   background-color: #49617d;
   padding-left: 4px;
   padding-right: 4px;
@@ -70,13 +71,14 @@ p label {
 
 .white1 {
   display: block;
-  font-size: 4em;
-  font-family: "Raleway", sans-serif;
+  font-size: 5em;
+  font-family: 'Marck Script', cursive;
+  font-style: normal;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  font-weight: bold;
+  font-weight: normal;
   color: #eaf5fa;
   text-shadow: #9cbbd0 0px 3px 1px;
   font-weight: 700;
@@ -85,6 +87,7 @@ p label {
 
 .white1 a {
   color: #2e313a;
+  font-family: 'Marck Script', serif;
   text-shadow: #9cbbd0 0px 3px 1px;
   text-decoration-color: white;
 }
@@ -104,7 +107,8 @@ p label {
 
 .black2 {
   display: block;
-  font-size: 2em;
+  font-size: 1.7em;
+  font-family: 'Raleway', serif !important;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
   margin-inline-start: 0px;
@@ -116,7 +120,9 @@ p label {
 
 .black3 {
   display: block;
-  font-size: 2em;
+  font-family: 'Raleway', serif !important;
+  font-size: 1.7em;
+ 
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
   margin-inline-start: 0px;
@@ -128,13 +134,15 @@ p label {
 }
 
 .black3 a {
+  font-family: 'Raleway', serif !important;
   color: #eaf5fa;
   text-shadow: #9cbbd0 0px 2px 1px;
 }
 
 .white2 {
   display: block;
-  font-size: 2em;
+  font-size: 1.7em;
+  font-family: 'Raleway', serif !important;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
   margin-inline-start: 0px;
@@ -261,6 +269,7 @@ li {
 
 .custom_button {
   border-color: #eaf5fa;
+  font-family: 'Raleway', serif !important;
   border-radius: 10px;
   border-style: solid;
   border-width: 2px;
@@ -270,8 +279,10 @@ li {
   padding: 0px;
   padding-right: 15px;
   padding-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   display: inline-block;
-  font-family: "Rajdhani";
+  font-family: "Raleway";
   -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
   transition: ease 1s; /* For modern browsers */
 }
@@ -323,7 +334,7 @@ li {
 }
 
 .section span {
-  color: rgb(197, 232, 255) !important;
+  color: rgb(232, 246, 255) !important;
   font: bold !important;
   font-weight: bolder;
   display: inline !important;
@@ -661,10 +672,17 @@ li {
 }
 
 .underline {
-  text-decoration: underline;
-  text-decoration-color: white;
-  /*background: rgba(172, 172, 172, 0.475);*/
+   /* text-decoration: underline;
+  text-underline-position : under;
+  text-decoration-color: rgba(255, 255, 255, 1);
+background: rgba(172, 172, 172, 0.475);*/
+text-decoration: underline dotted;
+text-decoration-color: #eaf5fa;
+text-underline-position : under;
+transition: all .2s ease-in;
 }
+
+
 
 .glow {
   box-shadow: 0px 0px 0px 0px #eaf5fa;

@@ -12,8 +12,8 @@ class ContactPage extends Component {
       <div>
         <Fade down>
           <div className="white1 underline">
-            {" "}
-            Contact Me<a />{" "}
+    
+            Contact me
           </div>
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">

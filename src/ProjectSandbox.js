@@ -16,8 +16,7 @@ class ProjectSandbox extends Component {
       <div>
         <Fade down>
           <div className="white1 underline">
-            {" "}
-            Prototyping <a>Sandboxing</a>{" "}
+            Prototyping <a>Sandboxing</a>
           </div>
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">

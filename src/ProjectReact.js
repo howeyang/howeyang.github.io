@@ -62,7 +62,7 @@ class ProjectReact extends Component {
           </Grid>
           <Grid item xs={12} sm={6} md={6}>
             <Fade up>
-              <div className="black3">Componenets Used</div>
+              <div className="black3">Components Used</div>
               <p className="section">
                 <a
                   className="custom_button reactpad"
