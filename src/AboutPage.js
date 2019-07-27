@@ -92,10 +92,7 @@ class AboutPage extends Component {
                 existing communities</span> to document live game issues
                 <br />
                 <b>● </b>
-                <span>Transferring
-                information to the appropriate teams</span> i.e. bugs to
-                quality assurance, new ideas to product development, messaging
-                effectiveness to marketing
+                <span>Building and Deploying Applications </span> to the Google Play Store and to the Apple App Store.
                 <br /> <label>Goals for Contribution</label> <br />
                 <span>Aiming to benchmark performance per release </span> to
                 give point of reference for release comparison and new feature

@@ -23,7 +23,7 @@ class CardB extends Component {
         <div className="hvr-sweep-to-right2">
           <div className="hvr-sweep-to-right autobattler">
             <div className="hvr-sweep-to-right3">
-            <Fade up delay={300} duration={1100}>
+            <Fade  delay={200} collapse>
               <Card className="glow">
                 <CardActionArea
                   onClick={this.redirect}
