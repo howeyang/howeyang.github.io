@@ -11,7 +11,7 @@ class ProjectReact extends Component {
     return (
       <div>
         <Fade down>
-          <div className="white1 underline">ReactJS</div>
+          <div className="white1 underline">React <a>JS</a></div>
           <div className="white2">
             Single Page Application as a Resume Website
           </div>

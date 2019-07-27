@@ -89,7 +89,7 @@ p label {
   color: #2e313a;
   font-family: 'Marck Script', serif;
   text-shadow: #9cbbd0 0px 3px 1px;
-  text-decoration-color: white;
+  text-decoration-color: #eaf5fa;
 }
 
 .subtitle {
@@ -419,6 +419,7 @@ li {
 .table-head {
   color: white !important;
   text-decoration: underline solid rgb(126, 126, 126);
+  text-decoration-skip-ink: none;
   background-color: rgba(255, 255, 255, 0.1);
   height: auto;
   padding-top: 7px !important;
@@ -676,10 +677,11 @@ li {
   text-underline-position : under;
   text-decoration-color: rgba(255, 255, 255, 1);
 background: rgba(172, 172, 172, 0.475);*/
-text-decoration: underline dotted;
+text-decoration: underline solid;
 text-decoration-color: #eaf5fa;
 text-underline-position : under;
 transition: all .2s ease-in;
+text-decoration-skip-ink: none;
 }
 
 
