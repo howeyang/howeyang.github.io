@@ -58,7 +58,7 @@ class MobileBar extends Component {
     return (
       <div>
         <Fade>
-          <ul className="header">
+          <ul className="header visiblenav">
             <li>
               <a
                 className={
@@ -70,7 +70,7 @@ class MobileBar extends Component {
               </a>
             </li>
             <Fade collapse when={this.state.active} duration={500}>
-              <ul className="header top2">
+              <ul className="header top2 visiblenav">
                 <li>
                   <a className="menubutton active" onClick={this.redirectHome}>
                     Home
@@ -79,16 +79,16 @@ class MobileBar extends Component {
               </ul>
             </Fade>
             <Fade collapse when={this.state.active} duration={800}>
-              <ul className="header top3">
+              <ul className="header top3 visiblenav">
                 <li>
-                  <a className="menubutton active" onClick={this.redirectProject}>
+                  <a className="menubutton active visiblenav" onClick={this.redirectProject}>
                     Projects
                   </a>
                 </li>
               </ul>
             </Fade>
             <Fade collapse when={this.state.active} duration={1100}>
-              <ul className="header top4">
+              <ul className="header top4 visiblenav">
                 <li>
                   <a className="menubutton active" onClick={this.redirectAbout}>
                     About Me
@@ -97,7 +97,7 @@ class MobileBar extends Component {
               </ul>
             </Fade>
             <Fade collapse when={this.state.active} duration={1300} >
-              <ul className="header top5">
+              <ul className="header top5 visiblenav">
                 <li>
                   <a className="menubutton active" onClick={this.redirectContact}>
                     Contact

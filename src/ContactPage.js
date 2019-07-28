@@ -39,7 +39,7 @@ class ContactPage extends Component {
           </Grid>
 
           <Grid item xs={12} sm={6} md={6}>
-            <Fade up>
+            <Fade>
             <div className="black2"> Thank you for visiting!
             <br></br> I will be adding more content periodically.</div>
             </Fade>

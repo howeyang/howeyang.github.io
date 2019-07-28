@@ -101,9 +101,9 @@ class ProjectAutoBattler extends Component {
               <div className="black3">Development Snapshots</div>
             </Fade>
             <Fade right>
-            <p className="section">
+            <div className="section">
               <AutoBattleCarousel />
-              </p>
+              </div>
             </Fade>
           </Grid>
 
@@ -144,7 +144,7 @@ class ProjectAutoBattler extends Component {
             </p>
             
             </Fade>
-            <Fade up>
+            <Fade>
             <div className="white1">Thank you for reading!</div>
             </Fade>
           </Grid>

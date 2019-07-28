@@ -24,7 +24,7 @@ class LandingPage extends Component {
             <div>
               <div className="white1"> Howe Yang </div>
               </div>
-              <div className="black2"> Developer & Designer</div>
+              <div className="black2"> Developer & Game Designer</div>
               <div className="white2"> Unity3D | Blender | ReactJS</div>
               </Fade>
             </Grid>
@@ -50,7 +50,6 @@ class LandingPage extends Component {
             <CardA />
             <CardB />
             <CardC />
-            <CardD />
           </Grid>
         </div>
       </div>

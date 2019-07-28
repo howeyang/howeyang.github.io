@@ -15,12 +15,27 @@ import NoMatch from "./NoMatch";
 
 class Main extends Component {
 
-  
+  state = {
+    class: 'header invisiblenav'
+  }
+
+  listenScrollEvent = e => {
+    if (window.scrollY > 1) {
+      this.setState({class: 'header visiblenav'})
+    } else {
+      this.setState({class: 'header'})
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.listenScrollEvent)
+  }
+
   render() {
     return (
       <HashRouter>
         <Hidden xsDown>
-          <ul className="header">
+          <ul className={this.state.class}>
             <li>
               <NavLink exact to="/">
                 Home
