@@ -24,6 +24,8 @@ class LandingPage extends Component {
             <div>
               <div className="white1"> Howe Yang </div>
               </div>
+              </Fade>
+              <Fade bottom>
               <div className="black2"> Developer & Game Designer</div>
               <div className="white2"> Unity3D | Blender | ReactJS</div>
               </Fade>

@@ -101,6 +101,7 @@ p label {
   border-radius: 5px;
   font-size: 60% !important;
   color: #eaf5fa;
+  font-size: 0.8em !important;
 }
 
 .black2 {
@@ -756,9 +757,16 @@ text-decoration-skip-ink: none;
   height: 50px;
 }
 
-.social {
-  text-align: right;
-}
 .reactpad{
   margin:20px;
+}
+
+.floatleft{
+  text-align: left !important;
+  
+}
+
+.floatright{
+  text-align: right;
+  
 }

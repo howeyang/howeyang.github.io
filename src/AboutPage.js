@@ -26,7 +26,7 @@ class AboutPage extends Component {
 
         <Grid container direction="row" justify="center" alignItems="stretch">
           <Grid item xs={12} sm={12} md={12}>
-            <Fade down duration={1000}>
+            <Fade  duration={1000}>
               <div className="black3">
                 {" "}
                 <a>Graduated from </a>{" "}
@@ -120,7 +120,7 @@ class AboutPage extends Component {
                 </a>
                 <Flip cascade right duration={700} delay={500}>
                 <div className="subtitle">
-                  Analytics for
+                  Worked with
                   <img src={pokemon} alt="Niantic" className="fixedimg" />
                   <img src={activision} alt="Activision" className="fixedimg" />
                   <img src={twitch} alt="Twitch" className="fixedimg" />
