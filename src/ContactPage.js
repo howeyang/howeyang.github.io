@@ -7,10 +7,19 @@ class ContactPage extends Component {
     window.scrollTo(0, 0);
   }
 
+  copyToClipboard() {
+    var textField = document.createElement("textarea");
+    textField.innerText = "howechyang@gmail.com";
+    document.body.appendChild(textField);
+    textField.select();
+    document.execCommand("copy");
+    textField.remove();
+  }
+
   render() {
     return (
       <div>
-        <Fade down>
+        <Fade>
           <div className="white1 underline">Contact me</div>
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">
@@ -18,7 +27,10 @@ class ContactPage extends Component {
             <Fade>
               <div className="black3">Email</div>
               <p className="section">
-                You can email and reach me at <u>howechyang@gmail.com</u>
+                You can email and reach me at{" "}
+                <u className="custom_button" onClick={this.copyToClipboard}>
+                  howechyang@gmail.com
+                </u>
               </p>
             </Fade>
           </Grid>
@@ -37,7 +49,7 @@ class ContactPage extends Component {
                   </a>
                 </p>
                 <p>
-                <a className="floatleft"> Linkedin : </a>
+                  <a className="floatleft"> Linkedin : </a>
                   <a
                     className="custom_button floatright"
                     href="https://ca.linkedin.com/in/howeyang"

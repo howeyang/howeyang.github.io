@@ -14,7 +14,7 @@ class ProjectSandbox extends Component {
   render() {
     return (
       <div>
-        <Fade down>
+        <Fade >
           <div className="white1 underline">
             Prototyping <a>Sandboxing</a>
           </div>

@@ -13,7 +13,7 @@ class ProjectPage extends Component {
   render() {
     return (
       <div>
-        <Fade down>
+        <Fade >
           <div className="white1 underline">
             Projects
           </div>

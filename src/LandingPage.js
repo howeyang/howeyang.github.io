@@ -20,7 +20,7 @@ class LandingPage extends Component {
             {/* First Item */}
            
             <Grid item xs={12} sm={12} md={12} className="overlay2">
-            <Fade top>
+            <Fade >
             <div>
               <div className="white1"> Howe Yang </div>
               </div>

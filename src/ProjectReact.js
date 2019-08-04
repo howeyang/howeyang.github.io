@@ -10,7 +10,7 @@ class ProjectReact extends Component {
   render() {
     return (
       <div>
-        <Fade down>
+        <Fade >
           <div className="white1 underline">React <a>JS</a></div>
           <div className="white2">
             Single Page Application as a Resume Website
