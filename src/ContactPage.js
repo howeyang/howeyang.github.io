@@ -1,8 +1,19 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
 import Fade from "react-reveal/Fade";
+import Snackbar from "@material-ui/core/Snackbar";
 
 class ContactPage extends Component {
+  constructor(props) {
+    super();
+    this.state = {
+      snack_show: false
+    };
+
+    this.copyToClipboard = this.copyToClipboard.bind(this);
+    this.handleClose = this.handleClose.bind(this);
+  }
+
   componentDidMount() {
     window.scrollTo(0, 0);
   }
@@ -14,6 +25,16 @@ class ContactPage extends Component {
     textField.select();
     document.execCommand("copy");
     textField.remove();
+
+    this.setState(state => ({
+      snack_show: true
+    }));
+  }
+
+  handleClose(){
+    this.setState(state => ({
+      snack_show: false
+    }));
   }
 
   render() {
@@ -82,6 +103,19 @@ class ContactPage extends Component {
               </div>
             </Fade>
           </Grid>
+          <Snackbar
+            anchorOrigin={{
+              vertical: "bottom",
+              horizontal: "center"
+            }}
+            open={this.state.snack_show}
+            onClose={this.handleClose}
+            autoHideDuration={2000}
+            ContentProps={{
+              "aria-describedby": "message-id"
+            }}
+            message={<span id="message-id">Copied to Clipboard!</span>}
+          />
         </Grid>
       </div>
     );
