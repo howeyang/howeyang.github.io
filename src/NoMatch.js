@@ -15,7 +15,7 @@ class NoMatch extends Component {
   render() {
     return (
       <div>
-        <Fade down>
+        <Fade duration={2000} >
           <div className="white1 underline">
             404 Page
           </div>

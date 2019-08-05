@@ -677,48 +677,19 @@ li {
   }
 }
 
-/* .underline {
+.underline {
+  /*
   text-decoration: underline;
   text-underline-position : under;
   text-decoration-color: rgba(255, 255, 255, 1);
-background: rgba(172, 172, 172, 0.475); //
+background: rgba(172, 172, 172, 0.475); */
 text-decoration: underline solid;
 text-decoration-color: #eaf5fa;
 text-underline-position : under;
 transition: all .2s ease-in;
 text-decoration-skip-ink: none;
 }
-*/
 
-.underline {
-  display: inline-block;
-  position: relative;
-  padding-bottom: 4px;
-  margin-bottom: 5px;
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
-  text-decoration-color: #eaf5fa;
-  
-}
-.underline:after {
-  z-index: -5;
-  position: absolute;
-  content: "";
-  bottom: 18px;
-  left: 0px;
-  height: 5px;
-  width: 0%;
-  background-color: #9cbbd0;
-  animation: underline 2s ease-in-out 0s; /* remove infinite if you want only once */
-  animation-fill-mode: forwards;
-  text-shadow: #9cbbd0 0px 3px 1px !important;
-}
-@keyframes underline {
-  to {
-    width: 100%;
-    text-shadow: #9cbbd0 0px 3px 1px !important;
-  }
-}
 
 .glow {
   box-shadow: 0px 0px 0px 0px #eaf5fa;
@@ -728,7 +699,7 @@ text-decoration-skip-ink: none;
   margin: 0.1em;
 }
 .glow:hover {
-  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 0px 0px 6px #ceebff;
 }
 
 .card-sweep-to-right {
@@ -796,4 +767,11 @@ text-decoration-skip-ink: none;
 
 .floatright {
   text-align: right;
+}
+
+.middle {
+  text-align: center;
+  display: flex !important;;
+  flex-wrap: wrap !important;;
+  align-content: center !important;;
 }

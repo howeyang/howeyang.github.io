@@ -10,7 +10,7 @@ class ProjectReact extends Component {
   render() {
     return (
       <div>
-        <Fade >
+         <Fade duration={2000} >
           <div className="white1 underline">React <a>JS</a></div>
           <div className="white2">
             Single Page Application as a Resume Website
@@ -103,7 +103,6 @@ class ProjectReact extends Component {
                 </a>
               
               </p>
-              <div className="white1">Thanks for visiting!</div>
             </Fade>
           </Grid>
         </Grid>

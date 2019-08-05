@@ -40,7 +40,7 @@ class ContactPage extends Component {
   render() {
     return (
       <div>
-        <Fade>
+         <Fade duration={2000} >
           <div className="white1 underline">Contact me</div>
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">
@@ -114,7 +114,7 @@ class ContactPage extends Component {
             ContentProps={{
               "aria-describedby": "message-id"
             }}
-            message={<span id="message-id">Copied to Clipboard!</span>}
+            message={<span id="message-id" className="middle">Copied to Clipboard!</span>}
           />
         </Grid>
       </div>

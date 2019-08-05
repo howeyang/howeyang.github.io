@@ -14,7 +14,7 @@ class ProjectSandbox extends Component {
   render() {
     return (
       <div>
-        <Fade >
+        <Fade duration={2000} >
           <div className="white1 underline">
             Prototyping <a>Sandboxing</a>
           </div>
@@ -103,13 +103,6 @@ class ProjectSandbox extends Component {
              
             </Fade>
           </Grid>
-
-          <Grid item xs={12} sm={6} md={6} className="overlay2">
-            <Fade >
-              <div className="white1">Thank you for reading!</div>
-            </Fade>
-            </Grid>
-         
         </Grid>
       </div>
     );
