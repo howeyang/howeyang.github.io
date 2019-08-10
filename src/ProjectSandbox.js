@@ -81,7 +81,7 @@ class ProjectSandbox extends Component {
             </Fade>
           </Grid>
 
-          <Grid item xs={12} sm={6} md={6} className="overlay2">
+          <Grid item xs={12} sm={12} md={12} className="overlay2">
             <Fade>
               <div className="black3">Unity Particle System</div>
             </Fade>

@@ -7,8 +7,8 @@ Will have a combination of my Gallery and Dev work / learnings
 
 ## TO DO
 
-Add Placeholder image / feature for image loading
-Finish more Cards
+Update GIFs to MP4 ( better compression ) 
+Create new visuals and stuff in Unity to bring to React
 
 ## Landing page
 
@@ -29,14 +29,3 @@ https://react-bootstrap.github.io/components/overlays/#popovers
 Unity Projects
 
 Experimental Concepts / Prototypes
-
-## About me
-+ Education
-+ Passion and drive
-+ Work Experinece
-
-
-## Contact
-
-Email, linkedin ?
-( be honest i dont use linked in and not fond of social media )
