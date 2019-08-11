@@ -8,11 +8,11 @@ class SandboxCarousel extends Component {
     return (
       <Carousel dynamicHeight={true} infiniteLoop={true} showIndicators={false} useKeyboardArrows={true}>
         <div>
-          <img src="./Sandbox/ps4_wave_experiment2.gif" alt=''/>
+          <img src="./Sandbox/ps4_wave_experiment2.gif.mp4" alt=''/>
           <p className="legend">Scrolling Texture</p>
         </div>
         <div>
-          <img src="./Sandbox/ps4_wave_experiment.gif" alt='' />
+          <img src="./Sandbox/ps4_wave_experiment.gif.mp4" alt='' />
           <p className="legend">Mesh distortion</p>
         </div>
       </Carousel>
