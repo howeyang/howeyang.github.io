@@ -775,3 +775,18 @@ text-decoration-skip-ink: none;
   flex-wrap: wrap !important;;
   align-content: center !important;;
 }
+
+.highz{
+  z-index:10 !important;
+  
+  background: #204f855e;
+  color: #eaf5fa;
+  position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -45%;
+    width: 90%;
+    border-radius: 10px;
+
+}
+
