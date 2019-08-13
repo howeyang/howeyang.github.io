@@ -1,21 +1,21 @@
 import React, { Component } from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
 
 //https://www.npmjs.com/package/react-responsive-carousel
 class SandboxCarousel extends Component {
   render() {
     return (
-      <Carousel dynamicHeight={true} infiniteLoop={true} showIndicators={false} useKeyboardArrows={true}>
-        <div>
-          <img src="./Sandbox/ps4_wave_experiment2.gif.mp4" alt=''/>
-          <p className="legend">Scrolling Texture</p>
+      <AwesomeSlider >
+        <div data-src="./Sandbox/ps4_wave_experiment2.gif.mp4"  allowfullscreen loop="true" autoplay="autoplay" controls="controls" id="vid" muted type="video/mp4">
+        <p className="highz">Scrolling Texture</p>
         </div>
-        <div>
-          <img src="./Sandbox/ps4_wave_experiment.gif.mp4" alt='' />
-          <p className="legend">Mesh distortion</p>
+        
+        <div data-src="./Sandbox/ps4_wave_experiment.gif.mp4"  allowfullscreen loop="true" autoplay="autoplay" controls="controls" id="vid" muted type="video/mp4">
+        
+        <p className="highz">Mesh Distortion </p>
         </div>
-      </Carousel>
+      </AwesomeSlider>
     );
   }
 }
