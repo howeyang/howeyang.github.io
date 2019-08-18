@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
 import ReactPlayer from "react-player";
 import Fade from "react-reveal/Fade";
-import SandboxCarousel from "./SandboxCarousel";
-import ShaderReel from "./ShaderReel";
-import ParticleReel from "./ParticleReel";
+import ReelSandboxWave from "./ReelSandboxWave";
+import ReelSandboxShader from "./ReelSandboxShader";
+import ReelSandboxParticle from "./ReelSandboxParticle";
+
 
 class ProjectSandbox extends Component {
   componentDidMount() {
@@ -55,7 +56,7 @@ class ProjectSandbox extends Component {
                 by itself. With a texture with transparent edges, it is possible
                 to almost eliminate aliasing significantly.
               </p>
-              <SandboxCarousel />
+              <ReelSandboxWave />
               </div>
             </Fade>
           </Grid>
@@ -76,7 +77,7 @@ class ProjectSandbox extends Component {
                 Hopefully down the line, I'll be able to put some time in to create better SFX.
                 
               </p>
-              <ShaderReel />
+              <ReelSandboxShader />
               </div>
             </Fade>
           </Grid>
@@ -98,7 +99,7 @@ class ProjectSandbox extends Component {
                 
               </p>
               
-              <ParticleReel />
+              <ReelSandboxParticle />
               </div>
              
             </Fade>
