@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
 import ReactPlayer from "react-player";
 import Fade from "react-reveal/Fade";
-import AutoBattleCarousel from "./AutoBattleCarousel";
+import ReelAutoBattle from "./ReelAutoBattle";
 
 class ProjectAutoBattler extends Component {
   componentDidMount() {
@@ -102,7 +102,7 @@ class ProjectAutoBattler extends Component {
             </Fade>
             <Fade right>
             <div className="section">
-              <AutoBattleCarousel />
+              <ReelAutoBattle />
               </div>
             </Fade>
           </Grid>

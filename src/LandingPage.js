@@ -19,7 +19,7 @@ class LandingPage extends Component {
           <Grid container direction="row" justify="center" alignItems="stretch">
             {/* First Item */}
            
-            <Grid item xs={12} sm={12} md={12} className="overlay2">
+            <Grid item xs={12} sm={12} md={12} className="overlay2 nameland">
             <Fade duration={2000} >
             <div>
               <div className="white1"> Howe Yang </div>
