@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
-import Flip from 'react-reveal/Flip';
 import { withRouter } from "react-router-dom";
 
 //Holy crap i built something Snazzy!!! woooo
@@ -57,7 +56,6 @@ class MobileBar extends Component {
   render() {
     return (
       <div>
-        <Fade>
           <ul className="header visiblenav">
             <li>
               <a
@@ -106,7 +104,6 @@ class MobileBar extends Component {
               </ul>
             </Fade>
           </ul>
-        </Fade>
       </div>
     );
   }

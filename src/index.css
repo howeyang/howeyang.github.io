@@ -132,6 +132,11 @@ p label {
   background: rgba(172, 172, 172, 0.475);
 }
 
+.removemargin{
+  margin-block-end: 0.0em !important;
+  margin-block-start: -0.67em !important;
+}
+
 .black3 a {
   font-family: "Raleway", serif !important;
   color: #eaf5fa;
@@ -793,4 +798,28 @@ background: rgba(172, 172, 172, 0.475); */
   margin-left: -45%;
   width: 90%;
   border-radius: 10px;
+}
+
+
+.bounce {
+  height: 30px;
+  display:inline-flex;
+  animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 1s infinite alternate;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(-2px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(-2px);
+  }
 }

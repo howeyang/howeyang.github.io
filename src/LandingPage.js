@@ -17,8 +17,6 @@ class LandingPage extends Component {
       <div>
         <div className="grid_root">
           <Grid container direction="row" justify="center" alignItems="stretch">
-            {/* First Item */}
-           
             <Grid item xs={12} sm={12} md={12} className="overlay2 nameland">
             <Fade duration={2000} >
             <div>
@@ -30,25 +28,7 @@ class LandingPage extends Component {
               <div className="white2"> Unity3D | Blender | ReactJS</div>
               </Fade>
             </Grid>
-            
-
-            {/* Second Item             <Grid
-              item
-              xs={12}
-              sm={6}
-              md={6}
-              className="section container-overlay"
-            >
-              <h2 className="overlay">Most Recent Project: Auto battler</h2>
-              <ReactPlayer
-                url="autobattle.mp4"
-                width="100%"
-                height="100%"
-                controls={true}
-                playing
-              />
-            </Grid>
-            */}
+          
             <CardA />
             <CardB />
             <CardC />

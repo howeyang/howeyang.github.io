@@ -39,6 +39,9 @@ class AboutPage extends Component {
                 </a>{" "}
                 Bachelor of Computer Science Honours <a>2012 - 2016</a>
               </div>
+              <div className="black3 removemargin">
+                <img src="placeholder.svg" className="bounce"></img>Toronto, Canada
+              </div>
             </Fade>
           </Grid>
 

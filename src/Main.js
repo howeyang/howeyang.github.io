@@ -69,7 +69,7 @@ class Main extends Component {
           <Route component={NoMatch} />
           </Switch>
         </div>
-        <footer className="footer">From the North: Toronto, Canada</footer>
+        <footer className="footer"></footer>
       </HashRouter>
     );
   }
