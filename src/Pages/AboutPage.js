@@ -2,12 +2,12 @@ import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
-import pokemon from "./logo/upsight-pokemon.png";
-import activision from "./logo/upsight-activision.png";
-import twitch from "./logo/upsight-twitch.png";
-import taptitan from "./logo/gamehive-tap.png";
-import battlerun from "./logo/gamehive-run.png";
-import beatboss from "./logo/gamehive-beat.png";
+import pokemon from "../Images/logo/upsight-pokemon.png";
+import activision from "../Images/logo/upsight-activision.png";
+import twitch from "../Images/logo/upsight-twitch.png";
+import taptitan from "../Images/logo/gamehive-tap.png";
+import battlerun from "../Images/logo/gamehive-run.png";
+import beatboss from "../Images/logo/gamehive-beat.png";
 
 class AboutPage extends Component {
   componentDidMount() {

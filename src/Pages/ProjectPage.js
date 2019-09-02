@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import CardB from "./CardB";
-import CardC from "./CardC";
+import CardB from "../Cards/CardB";
+import CardC from "../Cards/CardC";
 import Grid from "@material-ui/core/Grid";
 import Fade from "react-reveal/Fade";
-import CardReact from "./CardReact";
+import CardReact from "../Cards/CardReact";
 
 class ProjectPage extends Component {
   componentDidMount() {

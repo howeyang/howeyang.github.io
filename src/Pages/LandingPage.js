@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
-import CardA from "./CardA";
-import CardB from "./CardB";
-import CardC from "./CardC";
-import CardD from "./CardD";
+import CardA from "../Cards/CardA";
+import CardB from "../Cards/CardB";
+import CardC from "../Cards/CardC";
 import Fade from 'react-reveal/Fade';
 
 class LandingPage extends Component {

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
 import ReactPlayer from "react-player";
 import Fade from "react-reveal/Fade";
-import ReelAutoBattle from "./ReelAutoBattle";
+import ReelAutoBattle from "../Reels/ReelAutoBattle";
 
 class ProjectAutoBattler extends Component {
   componentDidMount() {

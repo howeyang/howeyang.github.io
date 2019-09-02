@@ -4,12 +4,12 @@ import LandingPage from "./LandingPage";
 import ProjectPage from "./ProjectPage";
 import AboutPage from "./AboutPage";
 import ContactPage from "./ContactPage";
-import ProjectA from "./ProjectA";
+import ProjectA from "../Projects/ProjectA";
 import Hidden from "@material-ui/core/Hidden";
-import ProjectAutoBattler from "./ProjectAutoBattler";
-import ProjectSandbox from "./ProjectSandbox";
-import MobileBar from "./MobileBar";
-import ProjectReact from "./ProjectReact";
+import ProjectAutoBattler from "../Projects/ProjectAutoBattler";
+import ProjectSandbox from "../Projects/ProjectSandbox";
+import MobileBar from "../Components/MobileBar";
+import ProjectReact from "../Projects/ProjectReact";
 import NoMatch from "./NoMatch";
 
 

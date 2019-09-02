@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
-import ReactPlayer from "react-player";
 import Fade from "react-reveal/Fade";
-import ReelSandboxWave from "./ReelSandboxWave";
-import ReelSandboxShader from "./ReelSandboxShader";
-import ReelSandboxParticle from "./ReelSandboxParticle";
+import ReelSandboxWave from "../Reels/ReelSandboxWave";
+import ReelSandboxShader from "../Reels/ReelSandboxShader";
+import ReelSandboxParticle from "../Reels/ReelSandboxParticle";
 
 
 class ProjectSandbox extends Component {

@@ -12,7 +12,7 @@ body {
   background-color: rgb(73, 97, 125) !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url("color1.png") no-repeat center center fixed;
+  background: url("Images/color1.png") no-repeat center center fixed;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -527,7 +527,7 @@ li {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url("color12.png") no-repeat center center fixed;
+    background: url("Images/color12.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -566,7 +566,7 @@ li {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url("color11.png") no-repeat center center fixed;
+    background: url("Images/color11.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -585,7 +585,7 @@ li {
   }
 
   .autobattler.hvr-sweep-to-right:before {
-    background: url("./card/card-autobattler.png") no-repeat center center fixed;
+    background: url("./Images/card/card-autobattler.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -593,7 +593,7 @@ li {
   }
 
   .workexperience.hvr-sweep-to-right:before {
-    background: url("./card/card-titan.png") no-repeat center center fixed;
+    background: url("./Images/card/card-titan.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -601,7 +601,7 @@ li {
   }
 
   .sandbox.hvr-sweep-to-right:before {
-    background: url("./card/card-sandbox.png") no-repeat center center fixed;
+    background: url("./Images/card/card-sandbox.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -609,7 +609,7 @@ li {
   }
 
   .react.hvr-sweep-to-right:before {
-    background: rgb(12, 24, 53) url("./card/react-logo.png") no-repeat center
+    background: rgb(12, 24, 53) url("./Images/card/react-logo.png") no-repeat center
       center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
