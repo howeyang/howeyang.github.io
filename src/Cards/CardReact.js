@@ -32,7 +32,7 @@ class CardReact extends Component {
                 >
                   <CardMedia
                     className="card"
-                    image={require("./card/card-react.png")}
+                    image={require("../Images/card/card-react.png")}
                     title="npm install react :)"
                   />
                   <CardContent>

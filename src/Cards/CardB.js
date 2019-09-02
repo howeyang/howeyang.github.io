@@ -31,7 +31,7 @@ class CardB extends Component {
                 >
                   <CardMedia
                     className="card"
-                    image={require("./card/card-autobattler.png")}
+                    image={require("../Images/card/card-autobattler.png")}
                     title="1 Star, 2 Star, 3 Star!"
                   />
                   <CardContent>
