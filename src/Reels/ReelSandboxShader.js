@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import AwesomeSlider from "react-awesome-slider";
+import Slider from 'react-animated-slider';
+import 'react-animated-slider/build/horizontal.css';
 import ReactPlayer from "react-player";
-import "react-awesome-slider/dist/styles.css";
 
 //https://www.npmjs.com/package/react-responsive-carousel
 class ReelSandboxShader extends Component {
     render() {
         return (
-          <AwesomeSlider>
+          <Slider infinite={true} duration={1000}>
             <div>
               <ReactPlayer
                 url="./Sandbox/shader_pbr.gif.mp4"
@@ -35,7 +35,7 @@ class ReelSandboxShader extends Component {
             </div>
             <div>
               <ReactPlayer
-                url="./Sandbox/shader_node.gif.mp4"
+                url="./Sandbox/shader_smear.gif.mp4"
                 width="100%"
                 height="100%"
                 controls={true}
@@ -45,7 +45,7 @@ class ReelSandboxShader extends Component {
               />
               <p className="highz">Smear Effect Script Via Frame Caching</p>
             </div>
-          </AwesomeSlider>
+          </Slider>
         );
       }
     }

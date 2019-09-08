@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import AwesomeSlider from "react-awesome-slider";
+import Slider from 'react-animated-slider';
+import 'react-animated-slider/build/horizontal.css';
 import ReactPlayer from "react-player";
-import "react-awesome-slider/dist/styles.css";
 
 //https://www.npmjs.com/package/react-responsive-carousel
 class ReelSandboxWave extends Component {
   render() {
     return (
-      <AwesomeSlider>
+      <Slider infinite={true} duration={1000}>
         <div>
           <ReactPlayer
             url="./Sandbox/ps4_wave_experiment2.gif.mp4"
@@ -33,7 +33,7 @@ class ReelSandboxWave extends Component {
           />
           <p className="highz">Mesh Distortion</p>
         </div>
-      </AwesomeSlider>
+      </Slider>
     );
   }
 }

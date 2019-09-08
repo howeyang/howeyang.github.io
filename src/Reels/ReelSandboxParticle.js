@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import AwesomeSlider from "react-awesome-slider";
 import ReactPlayer from "react-player";
-import "react-awesome-slider/dist/styles.css";
+import Slider from 'react-animated-slider';
+import 'react-animated-slider/build/horizontal.css';
 
 class ReelSandboxParticle extends Component {
   render() {
     return (
-        <AwesomeSlider>
+        <Slider>
         <div>
           <ReactPlayer
             url="./Sandbox/particles.gif.mp4"
@@ -34,7 +34,7 @@ class ReelSandboxParticle extends Component {
         </div>
 
         
-      </AwesomeSlider>
+      </Slider>
     );
   }
 }
