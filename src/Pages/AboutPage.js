@@ -36,7 +36,8 @@ class AboutPage extends Component {
                   target="_blank"
                 >
                   University of Waterloo
-                </a>{" "}
+                </a>
+                <br></br>
                 Bachelor of Computer Science Honours <a>2012 - 2016</a>
               </div>
               <div className="black3 removemargin">

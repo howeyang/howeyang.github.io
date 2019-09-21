@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import AwesomeSlider from "react-awesome-slider";
 import ReactPlayer from "react-player";
-import "react-awesome-slider/dist/styles.css";
+import Slider from 'react-animated-slider';
+import 'react-animated-slider/build/horizontal.css';
 
 class ReelAutoBattle extends Component {
   render() {
     return (
-      <AwesomeSlider>
+      <Slider>
         <div>
-          <img src="./Autobattle/static-autobattle3.png" alt="" />
+          <img src="./Autobattle/static-autobattle3.png" width="100%" height="auto" alt="" />
           <p className="highz">Battle Grid</p>
         </div>
 
@@ -68,7 +68,7 @@ class ReelAutoBattle extends Component {
           />
           <p className="highz">Early MVP</p>
         </div>
-      </AwesomeSlider>
+      </Slider>
     );
   }
 }

@@ -14,7 +14,7 @@ class ReelSandboxShader extends Component {
                 width="100%"
                 height="100%"
                 controls={true}
-                playing={true}
+                playing={false}
                 loop={true}
                 muted={true}
               />
