@@ -809,17 +809,17 @@ background: rgba(172, 172, 172, 0.475); */
 }
 @keyframes bounce {
   from {
-    transform: translateY(-10px);
+    transform: translateY(-3px);
   }
   to {
-    transform: translateY(-2px);
+    transform: translateY(3px);
   }
 }
 @-webkit-keyframes bounce {
   from {
-    transform: translateY(-10px);
+    transform: translateY(-3px);
   }
   to {
-    transform: translateY(-2px);
+    transform: translateY(3px);
   }
 }

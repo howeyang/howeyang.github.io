@@ -24,6 +24,8 @@ class LandingPage extends Component {
               </Fade>
               <Fade bottom>
               <div className="black2"> Developer & Game Designer</div>
+              </Fade>
+              <Fade bottom duration={1150}>
               <div className="white2"> Unity3D | Blender | ReactJS</div>
               </Fade>
             </Grid>
