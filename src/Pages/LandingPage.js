@@ -19,14 +19,14 @@ class LandingPage extends Component {
             <Grid item xs={12} sm={12} md={12} className="overlay2 nameland">
             <Fade duration={2000} >
             <div>
-              <div className="white1"> Howe Yang </div>
+              <div className="white1 mobilepad"> Howe Yang </div>
               </div>
               </Fade>
               <Fade bottom>
-              <div className="black2"> Developer & Game Designer</div>
+              <div className="black2 mobilepad"> Developer & Game Designer</div>
               </Fade>
               <Fade bottom duration={1250}>
-              <div className="white2"> Unity3D | Blender | ReactJS</div>
+              <div className="white2 mobilepad"> Unity3D | Blender | ReactJS</div>
               </Fade>
             </Grid>
           

@@ -68,36 +68,44 @@ class MobileBar extends Component {
               </a>
             </li>
             <Fade collapse when={this.state.active} duration={500}>
-              <ul className="header top2 visiblenav">
+              <ul className={
+                  this.state.active ? "header top2 visiblenav" : "hidden" }>
                 <li>
-                  <a className="menubutton active" onClick={this.redirectHome}>
+                  <a className={
+                  this.state.active ? "menubutton active" : "hidden"} onClick={this.redirectHome}>
                     Home
                   </a>
                 </li>
               </ul>
             </Fade>
             <Fade collapse when={this.state.active} duration={800}>
-              <ul className="header top3 visiblenav">
+              <ul className={
+                  this.state.active ? "header top3 visiblenav" : "hidden"} >
                 <li>
-                  <a className="menubutton active visiblenav" onClick={this.redirectProject}>
+                  <a className={
+                  this.state.active ? "menubutton active" : "hidden"} onClick={this.redirectProject}>
                     Projects
                   </a>
                 </li>
               </ul>
             </Fade>
             <Fade collapse when={this.state.active} duration={1100}>
-              <ul className="header top4 visiblenav">
+              <ul className={
+                  this.state.active ? "header top4 visiblenav" : "hidden"} >
                 <li>
-                  <a className="menubutton active" onClick={this.redirectAbout}>
+                  <a className={
+                  this.state.active ? "menubutton active" : "hidden"} onClick={this.redirectAbout}>
                     About Me
                   </a>
                 </li>
               </ul>
             </Fade>
             <Fade collapse when={this.state.active} duration={1300} >
-              <ul className="header top5 visiblenav">
+              <ul className={
+                  this.state.active ? "header top5 visiblenav" : "hidden"}>
                 <li>
-                  <a className="menubutton active" onClick={this.redirectContact}>
+                  <a className={
+                  this.state.active ? "menubutton active" : "hidden"} onClick={this.redirectContact}>
                     Contact
                   </a>
                 </li>

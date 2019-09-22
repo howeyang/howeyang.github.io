@@ -149,8 +149,8 @@ class AboutPage extends Component {
                   Served as the technical point of contact and escalation lead
                   for AAA clients
                 </span>{" "}
-                such as <b1>Niantic, Ubisoft, Activision, EA, Nickelodeon,
-                Scientific Games, Twitch</b1>
+                such as <b className="b1">Niantic, Ubisoft, Activision, EA, Nickelodeon,
+                Scientific Games, Twitch</b>
                 <br />
                 <b>● </b>
                 <span>Helped clients optimize the use of a Mobile Plugin</span>{" "}

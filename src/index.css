@@ -189,6 +189,10 @@ ul.header {
   background-blend-mode: screen;
 }
 
+.hidden{
+  display:none !important;
+}
+
 .top2 {
   top: 60px !important;
 }
@@ -271,6 +275,7 @@ ul.header li a:focus {
   background-color: rgba(156, 187, 208, 0.8);
   border-color: rgb(205, 205, 205);
 }
+
 
 li {
   display: block;
@@ -549,8 +554,8 @@ li {
 
 @media (max-width: 600px) {
   .nameland {
-    height: 100vh !important;
-    min-height: 100vh !important;
+    height: 60vh !important;
+    min-height: 60vh !important;
   }
 }
 
@@ -872,9 +877,14 @@ background: rgba(172, 172, 172, 0.475); */
   }
 }
 
-b1{
+.b1{
   font: 1.2em;
   text-decoration: underline solid;
   text-decoration-color: #9cbbd0;
   font-weight: bold;
+}
+
+.mobilepad{
+  padding-left: 1vh;
+  padding-right: 1vh;
 }
