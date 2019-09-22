@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/howeyang.github.io/static/css/main.bb28c8ce.chunk.css",
+    "main.css": "/howeyang.github.io/static/css/main.74fa5546.chunk.css",
     "main.js": "/howeyang.github.io/static/js/main.0de32a6a.chunk.js",
     "main.js.map": "/howeyang.github.io/static/js/main.0de32a6a.chunk.js.map",
     "runtime~main.js": "/howeyang.github.io/static/js/runtime~main.3474ee5f.js",
@@ -9,10 +9,10 @@
     "static/js/2.fd673a8e.chunk.js": "/howeyang.github.io/static/js/2.fd673a8e.chunk.js",
     "static/js/2.fd673a8e.chunk.js.map": "/howeyang.github.io/static/js/2.fd673a8e.chunk.js.map",
     "index.html": "/howeyang.github.io/index.html",
-    "precache-manifest.b12297372fb5c4db617600b004d66fdd.js": "/howeyang.github.io/precache-manifest.b12297372fb5c4db617600b004d66fdd.js",
+    "precache-manifest.bfbe9920a522e7824f18930f2583a5f6.js": "/howeyang.github.io/precache-manifest.bfbe9920a522e7824f18930f2583a5f6.js",
     "service-worker.js": "/howeyang.github.io/service-worker.js",
     "static/css/2.9cfa8c34.chunk.css.map": "/howeyang.github.io/static/css/2.9cfa8c34.chunk.css.map",
-    "static/css/main.bb28c8ce.chunk.css.map": "/howeyang.github.io/static/css/main.bb28c8ce.chunk.css.map",
+    "static/css/main.74fa5546.chunk.css.map": "/howeyang.github.io/static/css/main.74fa5546.chunk.css.map",
     "static/media/card-autobattler.png": "/howeyang.github.io/static/media/card-autobattler.76215a51.png",
     "static/media/card-react.png": "/howeyang.github.io/static/media/card-react.41bb0e25.png",
     "static/media/card-sandbox.png": "/howeyang.github.io/static/media/card-sandbox.4d640c48.png",

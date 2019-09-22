@@ -266,6 +266,11 @@ ul.header li a:focus {
   border-color: rgb(205, 205, 205);
 }
 
+.menubutton{
+  transition-timing-function: ease;
+  transition: 0.2s;
+}
+
 .menubutton:active::after {
   color: #49617d !important;
   background: #49617d !important;
@@ -554,8 +559,8 @@ li {
 
 @media (max-width: 600px) {
   .nameland {
-    height: 60vh !important;
-    min-height: 60vh !important;
+    height: 80vh !important;
+    min-height: 80vh !important;
   }
 }
 
@@ -885,6 +890,6 @@ background: rgba(172, 172, 172, 0.475); */
 }
 
 .mobilepad{
-  padding-left: 1vh;
-  padding-right: 1vh;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
 }
