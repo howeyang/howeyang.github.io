@@ -13,7 +13,7 @@ class AboutPage extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }
-
+//<img src={battlerun} alt="Runnn" className="fixedimg" />
   render() {
     return (
       <div>
@@ -48,7 +48,8 @@ class AboutPage extends Component {
 
           <Grid item xs={12} sm={12} md={6}>
             <Fade duration={2000}>
-              <div className="black3">
+              <div className="section2">
+              <div className="black2"> 
                 {" "}
                 Currently at{" "}
                 <a
@@ -64,57 +65,63 @@ class AboutPage extends Component {
                   
                   <img src={taptitan} alt="Tap Tap Tap" className="fixedimg" />
                   <img src={beatboss} alt="1 2 3 and 4" className="fixedimg" />
-                  <img src={battlerun} alt="Runnn" className="fixedimg" />
+                  
                   
                 </div>
                 </Flip>
-                QA Engineer{" "}
+                QA Developer{" "}
                 <a>
                   {" "}
                   <br />
                   July 2019 - Present
                 </a>
-              </div>
+                </div>
 
               <p className="section">
                 <label>Responsibilities</label> <br />
-                <span>Actively managing the development process </span> through
-                bug reports, build-stability reports, balance feedback
+                <span>Actively assisting the development process </span> through
+                JIRA management, acceptance criteria, priority reports and communication
                 <br />
                 <b>● </b>
                 <span>
-                  Investigating and implementing new testing and prioritization methods{" "}
+                  Investigating and documenting issues
                 </span>{" "}
-                to improve QA process efficiency and development
+                via JIRA with helpful summaries, reproduction steps and references (video/screenshots)
+                <br />
+                <b>● </b>
+                <span>
+                  Fixing and addressing features and bugs in Unity
+                </span>{" "}
+                via Pull Requests and code review.
                 <b>● </b>
                 <span>Testing new features
-                and updates in development </span> while analyzing and logging
-                issues via isolating and reproducing problematic behaviour
+                and updates in development </span> via analyzing edge cases and by isolating problematic behaviour
                 <br />
                 <b>● </b>
-                <span>Reviewing game forums and
-                existing communities</span> to document live game issues
+                <span>Monitor game forums and
+                existing communities</span> to identify live game issues
                 <br />
                 <b>● </b>
-                <span>Building and Deploying Applications </span> to the Google Play Store and to the Apple App Store.
-                <br /> <label>Goals for Contribution</label> <br />
-                <span>Aiming to benchmark performance per release </span> to
-                give point of reference for release comparison and new feature
-                cost.
+                <span>Building and deploying Applications </span> to the Google Play Store and to the Apple App Store (Production and Development builds)
+                <br /> 
+                <label>Key Contributions</label> <br />
+                <span>Identified optimizations and quality of life fixes </span> that resulted in a decrease in crashes and better user experience
                 <br />
                 <b>● </b>
                 <span>
-                  Profile to find features and scripts that require improvement / optimization
-                </span>
+                  Tracked build reports and asset size growth over time
+                </span> to help identify unnecessary files and new feature cost
               </p>
+              </div>
             </Fade>
           </Grid>
 
           <Grid item xs={12} sm={12} md={6}>
             <Fade duration={2000}>
-              <div className="black3">
-                {" "}
-                Worked at{" "}
+            <div className="section2">
+              <div className="black2">
+                
+                Worked at {" "}
                 <a
                   className="custom_button job"
                   href="https://www.upsight.com/"
@@ -142,8 +149,8 @@ class AboutPage extends Component {
                   Served as the technical point of contact and escalation lead
                   for AAA clients
                 </span>{" "}
-                such as Niantic, Ubisoft, Activision, EA, Nickelodeon,
-                Scientific Games, Twitch
+                such as <b1>Niantic, Ubisoft, Activision, EA, Nickelodeon,
+                Scientific Games, Twitch</b1>
                 <br />
                 <b>● </b>
                 <span>Helped clients optimize the use of a Mobile Plugin</span>{" "}
@@ -165,7 +172,8 @@ class AboutPage extends Component {
                 </span>
                 to investigate, debug and monitor back-end software
                 infrastructure
-                <br /> <label>Key Contributions</label> <br />
+                <br />
+                <label>Key Contributions</label> <br />
                 <span>Employee of the month </span> within the first year of
                 employment
                 <br /> <b>●</b>
@@ -180,6 +188,7 @@ class AboutPage extends Component {
                 which set the foundation for tracking and improving overall
                 workflow and entry information for new staff
               </p>
+              </div>
             </Fade>
           </Grid>
 

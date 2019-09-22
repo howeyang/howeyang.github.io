@@ -31,7 +31,7 @@ class ContactPage extends Component {
     }));
   }
 
-  handleClose(){
+  handleClose() {
     this.setState(state => ({
       snack_show: false
     }));
@@ -40,26 +40,27 @@ class ContactPage extends Component {
   render() {
     return (
       <div>
-         <Fade duration={2000} >
+        <Fade duration={2000}>
           <div className="white1 underline">Contact me</div>
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">
           <Grid item xs={12} sm={6} md={6}>
             <Fade>
-              <div className="black3">Email</div>
-              <p className="section">
-                You can email and reach me at{" "}
-                <u className="custom_button" onClick={this.copyToClipboard}>
-                  howechyang@gmail.com
-                </u>
-              </p>
-            </Fade>
-          </Grid>
-          <Grid item xs={12} sm={6} md={6}>
-            <Fade>
-              <div className="black3">Other Sites</div>
-              <div className="section">
-                <p>
+              <div className="section2">
+                <div className="black2">Contact Info </div>
+                <p className="floatcontain">
+                  <a className="floatleft">You can email and reach me at</a>
+                  <u
+                    className="custom_button floatright"
+                    onClick={this.copyToClipboard}
+                  >
+                    howechyang@gmail.com
+                  </u>
+                </p>
+
+                <div className="white2">Or find me at other sites!</div>
+
+                <div className="floatcontain">
                   <a className="floatleft"> Github : </a>
                   <a
                     className="custom_button floatright"
@@ -68,8 +69,8 @@ class ContactPage extends Component {
                   >
                     https://github.com/howeyang
                   </a>
-                </p>
-                <p>
+                </div>
+                <p className="floatcontain">
                   <a className="floatleft"> Linkedin : </a>
                   <a
                     className="custom_button floatright"
@@ -80,7 +81,7 @@ class ContactPage extends Component {
                   </a>
                   <br />
                 </p>
-                <p>
+                <p className="floatcontain">
                   <a className="floatleft">Itch.io : </a>
                   <a
                     className="custom_button floatright"
@@ -93,10 +94,34 @@ class ContactPage extends Component {
               </div>
             </Fade>
           </Grid>
+          <Grid item xs={12} sm={6} md={6}>
+            <Fade>
+              <div className="section2">
+                <p className="paragraph">
+                  Hi, my name is Howe Yang. I am a Canadian developer with a
+                  passion for games.
+                  <br/><br/> My passion for games and coding started from early
+                  exposure to books, animations and games. Powered by an overactive
+                  imagination, I found myself pursuing video games and development with my
+                  end goal of making things that can inspire the next
+                  generation just like how I was!
+                  <br></br><br/>I love sketching out my thoughts, researching cool
+                  visuals effects and learning different types of scripting. At work, I always try to maintain a professional
+                  but fun attitude. If I ever find myself
+                  with gaps in knowledge, I like to reach out to others around
+                  me or research the topic to figure it out. I enjoy most working
+                  with the system wide features so that I can work with
+                  multiple components and people! 
+                  <br></br><br/>
+                  If you want to collaborate or just need someone to bounce ideas on, please feel to reach out to me!
+                </p>
+              </div>
+            </Fade>
+          </Grid>
 
           <Grid item xs={12} sm={6} md={6}>
             <Fade>
-              <div className="black2">
+              <div className="white2">
                 {" "}
                 Thank you for visiting!
                 <br /> I will be adding more content periodically.
@@ -114,7 +139,11 @@ class ContactPage extends Component {
             ContentProps={{
               "aria-describedby": "message-id"
             }}
-            message={<span id="message-id" className="middle">Copied to Clipboard!</span>}
+            message={
+              <span id="message-id" className="middle">
+                Copied to Clipboard!
+              </span>
+            }
           />
         </Grid>
       </div>

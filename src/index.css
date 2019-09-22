@@ -354,6 +354,42 @@ li {
   display: block;
 }
 
+.section2 {
+  display: block;
+  border: 3px;
+  border-style: solid;
+  background-color: rgba(128, 154, 172, 0.7);
+  border-color: rgb(232, 246, 255);
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 10px;
+}
+
+.section2 span {
+  text-decoration: none !important;
+  color: rgb(232, 246, 255) !important;
+  font: bold !important;
+  font-weight: bolder;
+  display: inline !important;
+}
+
+.section2 b {
+  display: block;
+}
+
+.paragraph{
+  font-family: "Rajdhani";
+  font-size: 1.25em;
+  line-height: 1.1;
+  color : #EAF5FA;
+  text-align: center;
+  font-weight:bold;
+
+}
+
 .col2 {
   columns: 2;
   -webkit-columns: 2;
@@ -772,12 +808,24 @@ background: rgba(172, 172, 172, 0.475); */
   margin: 20px;
 }
 
+.floatcontain{
+  overflow:hidden;
+  background: #204f855e;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
 .floatleft {
-  text-align: left !important;
+  float: left !important;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .floatright {
-  text-align: right;
+  float:right !important;
 }
 
 .middle {
@@ -822,4 +870,11 @@ background: rgba(172, 172, 172, 0.475); */
   to {
     transform: translateY(3px);
   }
+}
+
+b1{
+  font: 1.2em;
+  text-decoration: underline solid;
+  text-decoration-color: #9cbbd0;
+  font-weight: bold;
 }

@@ -54,7 +54,7 @@ class CardA extends Component {
                         <b>Upsight</b> : Integration and Solutions Engineer
                          <br></br>
                       
-                         <b>Game Hive</b> : QA Engineer
+                         <b>Game Hive</b> : QA Developer
                         </span> 
                       
                     </Typography>
