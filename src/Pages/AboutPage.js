@@ -121,7 +121,7 @@ class AboutPage extends Component {
             <div className="section2">
               <div className="black2">
                 
-                Worked at {" "}
+                Previously at {" "}
                 <a
                   className="custom_button job"
                   href="https://www.upsight.com/"
@@ -171,7 +171,7 @@ class AboutPage extends Component {
                   Customer Success teams{" "}
                 </span>
                 to investigate, debug and monitor back-end software
-                infrastructure
+                infrastructure via JIRA issue tracking
                 <br />
                 <label>Key Contributions</label> <br />
                 <span>Employee of the month </span> within the first year of
