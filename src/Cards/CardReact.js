@@ -40,7 +40,7 @@ class CardReact extends Component {
                       gutterBottom={false}
                       variant="h6"
                       component="h3"
-                      className="black2"
+                      className="whiteheader"
                     >
                       React JS
                     </Typography>
@@ -50,7 +50,7 @@ class CardReact extends Component {
                       component="p"
                     >
                       <label>ReactJS |  React Components | CSS </label>
-                      <span>
+                      <span className="whitefont">
                         A Single Page Application built with React and various components.
                          
                         </span> 

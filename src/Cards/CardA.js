@@ -38,9 +38,9 @@ class CardA extends Component {
                   <CardContent>
                     <Typography
                       gutterBottom={false}
-                      variant="h6"
+                      variant="h5"
                       component="h3"
-                      className="black2"
+                      className="whiteheader"
                     >
                       Work Experience
                     </Typography>
@@ -50,7 +50,7 @@ class CardA extends Component {
                       component="p"
                     >
                       <label>Unity3D |  Mobile Games | Analytics</label>
-                      <span>
+                      <span className="whitefont">
                         <b>Upsight</b> : Integration and Solutions Engineer
                          <br></br>
                       
