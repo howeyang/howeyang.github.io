@@ -39,7 +39,7 @@ class CardB extends Component {
                       gutterBottom={false}
                       variant="h6"
                       component="h3"
-                      className="black2"
+                      className="whiteheader"
                     >
                       Project: Auto battler
                     </Typography>
@@ -49,7 +49,7 @@ class CardB extends Component {
                       component="p"
                     >
                       <label>Unity3D | Procedural | AI | Pathfinding</label>
-                      <span>
+                      <span className="whitefont">
                         A single player take on the Auto battler genre: feature complete and playable.
                         </span>
                       

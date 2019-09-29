@@ -40,7 +40,7 @@ class CardC extends Component {
                         gutterBottom={false}
                         variant="h6"
                         component="h3"
-                        className="black2"
+                        className="whiteheader"
                       >
                         Prototyping & Sandboxing
                       </Typography>
@@ -50,7 +50,7 @@ class CardC extends Component {
                         component="p"
                       >
                         <label>Unity3D | Particles | Shaders</label>
-                        <span>
+                        <span className="whitefont">
                           Various special effects and prototypes : Original and
                           reverse engineered ideas
                         </span>
