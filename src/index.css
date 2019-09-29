@@ -61,7 +61,8 @@ label {
 
 p label {
   font-family: "Raleway", serif !important;
-  background-color: #49617d;
+  background-color: #eaf5fa;
+  color : rgba(73, 97, 125, 0.8);
   padding-left: 4px;
   padding-right: 4px;
   margin-bottom: 4px;
@@ -92,11 +93,12 @@ p label {
 
 .subtitle {
   padding: 2px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin : 5px;
+  margin-left: 10px;
+  margin-right: 10px;
   text-align: center;
   background-color: rgba(73, 97, 125, 0.8);
-  border-color: rgb(126, 126, 126);
+  border: rgba(156, 187, 208, 0.8) 1px solid;
   text-shadow: none !important;
   border-radius: 5px;
   font-size: 60% !important;
@@ -132,8 +134,8 @@ p label {
   background: rgba(172, 172, 172, 0.475);
 }
 
-.removemargin{
-  margin-block-end: 0.0em !important;
+.removemargin {
+  margin-block-end: 0em !important;
   margin-block-start: -0.67em !important;
 }
 
@@ -189,8 +191,8 @@ ul.header {
   background-blend-mode: screen;
 }
 
-.hidden{
-  display:none !important;
+.hidden {
+  display: none !important;
 }
 
 .top2 {
@@ -266,7 +268,7 @@ ul.header li a:focus {
   border-color: rgb(205, 205, 205);
 }
 
-.menubutton{
+.menubutton {
   transition-timing-function: ease;
   transition: 0.2s;
 }
@@ -280,7 +282,6 @@ ul.header li a:focus {
   background-color: rgba(156, 187, 208, 0.8);
   border-color: rgb(205, 205, 205);
 }
-
 
 li {
   display: block;
@@ -337,10 +338,8 @@ li {
 
 .section {
   display: block;
-  border: 1px;
-  border-style: solid;
-  background-color: rgba(126, 126, 126, 0.8);
-  border-color: rgb(126, 126, 126);
+  background-color: rgba(73, 97, 125, 0.8);
+  border: rgba(156, 187, 208, 0.8) 1px solid;
   border-radius: 10px;
   color: #fff;
   padding: 10px;
@@ -366,10 +365,8 @@ li {
 
 .section2 {
   display: block;
-  border: 3px;
-  border-style: solid;
-  background-color: rgba(128, 154, 172, 0.7);
-  border-color: rgb(232, 246, 255);
+  background-color: rgba(80, 104, 121, 0.3);
+  border: rgba(156, 187, 208, 0.8) 1px solid;
   border-radius: 10px;
   color: #fff;
   padding: 10px;
@@ -390,14 +387,13 @@ li {
   display: block;
 }
 
-.paragraph{
+.paragraph {
   font-family: "Rajdhani";
   font-size: 1.25em;
   line-height: 1.1;
-  color : #EAF5FA;
+  color: #eaf5fa;
   text-align: center;
-  font-weight:bold;
-
+  font-weight: bold;
 }
 
 .col2 {
@@ -631,7 +627,8 @@ li {
   }
 
   .autobattler.hvr-sweep-to-right:before {
-    background: url("./Images/card/card-autobattler.png") no-repeat center center fixed;
+    background: url("./Images/card/card-autobattler.png") no-repeat center
+      center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -639,7 +636,8 @@ li {
   }
 
   .workexperience.hvr-sweep-to-right:before {
-    background: url("./Images/card/card-titan.png") no-repeat center center fixed;
+    background: url("./Images/card/card-titan.png") no-repeat center center
+      fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -647,7 +645,8 @@ li {
   }
 
   .sandbox.hvr-sweep-to-right:before {
-    background: url("./Images/card/card-sandbox.png") no-repeat center center fixed;
+    background: url("./Images/card/card-sandbox.png") no-repeat center center
+      fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -655,8 +654,8 @@ li {
   }
 
   .react.hvr-sweep-to-right:before {
-    background: rgb(12, 24, 53) url("./Images/card/react-logo.png") no-repeat center
-      center fixed;
+    background: rgb(12, 24, 53) url("./Images/card/react-logo.png") no-repeat
+      center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -818,8 +817,8 @@ background: rgba(172, 172, 172, 0.475); */
   margin: 20px;
 }
 
-.floatcontain{
-  overflow:hidden;
+.floatcontain {
+  overflow: hidden;
   background: #204f855e;
   border-radius: 10px;
   padding: 20px;
@@ -835,7 +834,7 @@ background: rgba(172, 172, 172, 0.475); */
 }
 
 .floatright {
-  float:right !important;
+  float: right !important;
 }
 
 .middle {
@@ -858,10 +857,9 @@ background: rgba(172, 172, 172, 0.475); */
   border-radius: 10px;
 }
 
-
 .bounce {
   height: 30px;
-  display:inline-flex;
+  display: inline-flex;
   animation: bounce 1s infinite alternate;
   -webkit-animation: bounce 1s infinite alternate;
 }
@@ -882,14 +880,19 @@ background: rgba(172, 172, 172, 0.475); */
   }
 }
 
-.b1{
+.b1 {
   font: 1.2em;
   text-decoration: underline solid;
   text-decoration-color: #9cbbd0;
   font-weight: bold;
 }
 
-.mobilepad{
+.mobilepad {
   padding-left: 0.5vw;
   padding-right: 0.5vw;
+}
+
+.MuiPaper-root {
+  background: rgba(80, 104, 121, 0.3) !important;
+  border: rgba(156, 187, 208, 0.8) 1px solid;
 }
