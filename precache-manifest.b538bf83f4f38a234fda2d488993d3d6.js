@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c7e5c96a99c6a2f239a0760307be1303",
+    "revision": "f5ea5161236d3b09e251313120eba9a0",
     "url": "/howeyang.github.io/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/howeyang.github.io/static/css/2.9cfa8c34.chunk.css"
   },
   {
-    "revision": "e1f2936821a4268ea689",
-    "url": "/howeyang.github.io/static/css/main.8a0b3b5d.chunk.css"
+    "revision": "5ba663a0b0f2428999f0",
+    "url": "/howeyang.github.io/static/css/main.e6f8c018.chunk.css"
   },
   {
     "revision": "c936b72d206284387c91",
     "url": "/howeyang.github.io/static/js/2.fd673a8e.chunk.js"
   },
   {
-    "revision": "e1f2936821a4268ea689",
-    "url": "/howeyang.github.io/static/js/main.8251ceef.chunk.js"
+    "revision": "5ba663a0b0f2428999f0",
+    "url": "/howeyang.github.io/static/js/main.81a4b4ab.chunk.js"
   },
   {
     "revision": "88d7778b6a635c03ba06",
