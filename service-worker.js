@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/howeyang.github.io/precache-manifest.284e7e19972d9a1bbc9b4dd595444a4b.js"
+  "/howeyang.github.io/precache-manifest.a167c1663ffa7e2751e3f1d75c9f055e.js"
 );
 
 self.addEventListener('message', (event) => {
