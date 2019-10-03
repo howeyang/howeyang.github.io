@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5ea5161236d3b09e251313120eba9a0",
+    "revision": "9029eedac49e1e96914e834fca82158d",
     "url": "/howeyang.github.io/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/howeyang.github.io/static/css/2.9cfa8c34.chunk.css"
   },
   {
-    "revision": "5ba663a0b0f2428999f0",
-    "url": "/howeyang.github.io/static/css/main.e6f8c018.chunk.css"
+    "revision": "0249fa759a4540b8a6fa",
+    "url": "/howeyang.github.io/static/css/main.e587fc4f.chunk.css"
   },
   {
     "revision": "c936b72d206284387c91",
     "url": "/howeyang.github.io/static/js/2.fd673a8e.chunk.js"
   },
   {
-    "revision": "5ba663a0b0f2428999f0",
+    "revision": "0249fa759a4540b8a6fa",
     "url": "/howeyang.github.io/static/js/main.81a4b4ab.chunk.js"
   },
   {
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d903b20e18ccfee987eaaade469a2107",
     "url": "/howeyang.github.io/static/media/card-work.d903b20e.png"
-  },
-  {
-    "revision": "4aac14a393e8401bda5aea0592d3c5df",
-    "url": "/howeyang.github.io/static/media/color1.4aac14a3.png"
   },
   {
     "revision": "8de1fb8aaf840a837958e195b62ba54a",
