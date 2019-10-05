@@ -19,7 +19,7 @@ class LandingPage extends Component {
             <Grid item xs={12} sm={12} md={12} className="overlay2 nameland">
             <Fade duration={2000} >
             <div>
-              <div className="white1 mobilepad"> Howe Yang </div>
+              <div className="white0 mobilepad"> Howe Yang </div>
               </div>
               </Fade>
               <Fade bottom>

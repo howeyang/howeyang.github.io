@@ -38,7 +38,7 @@ class CardD extends Component {
                     <CardContent>
                       <Typography
                         gutterBottom={false}
-                        variant="h6"
+                        variant="h5"
                         component="h3"
                         className="black2"
                       >
