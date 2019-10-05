@@ -12,7 +12,7 @@ body {
   background-color: rgb(73, 97, 125) !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url("Images/color1.png") no-repeat center center fixed;
+  background: #000 no-repeat center center fixed;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -23,6 +23,22 @@ body {
   overflow-y: scroll;
   -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
   transition: ease 1s; /* For modern browsers */
+}
+
+.fullscreen-bg {
+  background: #000 no-repeat center center fixed;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -5;
 }
 
 .fourofour {
@@ -69,6 +85,20 @@ p label {
   display: inline-block;
 }
 
+.white0{
+  font-family: 'Bad Script', cursive;
+  display: block;
+  font-size: 5em;
+  font-style: normal;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: normal;
+  color: #eaf5fa;
+  text-shadow: #9cbbd0 0px 3px 1px;
+  font-weight: 700;
+
+}
+
 .white1 {
   display: block;
   font-size: 5em;
@@ -97,7 +127,7 @@ p label {
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
-  background-color: rgba(73, 97, 125, 0.8);
+  background-color: rgba(80, 104, 121, 0.5);
   border: rgba(156, 187, 208, 0.8) 1px solid;
   text-shadow: none !important;
   border-radius: 5px;
@@ -131,7 +161,7 @@ p label {
   font-weight: bold;
   color: #2e313a;
   text-shadow: #9cbbd0 0px 2px 1px;
-  background: rgba(172, 172, 172, 0.475);
+  background: rgba(172, 172, 172, 0.4);
 }
 
 .removemargin {
@@ -338,7 +368,7 @@ li {
 
 .section {
   display: block;
-  background-color: rgba(73, 97, 125, 0.8);
+  background-color: rgba(80, 104, 121, 0.5);
   border: rgba(156, 187, 208, 0.8) 1px solid;
   border-radius: 10px;
   color: #fff;
@@ -619,8 +649,10 @@ li {
     transition-property: transform;
     -webkit-transition-duration: 0.8s;
     transition-duration: 0.8s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
+    opacity:0;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    transition: .5s ease;
     transition-delay: 0.1s;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -633,11 +665,12 @@ li {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+ 
   }
 
   .workexperience.hvr-sweep-to-right:before {
     background: url("./Images/card/card-titan.png") no-repeat center center
-      fixed;
+    fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -666,6 +699,8 @@ li {
   .hvr-sweep-to-right:active:before {
     transform: translateX(0%);
     -webkit-transform: translateX(0%);
+    opacity: 0.5;
+    transition: 1.5s ease;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
@@ -917,5 +952,9 @@ background: rgba(172, 172, 172, 0.475); */
 }
 
 .darkblue{
-  color : rgba(73, 97, 125, 0.8);
+  color : rgba(73, 97, 125, 0.8) !important;
+}
+
+.darkbluebg{
+  background : rgba(73, 97, 125, 0.8) !important;
 }

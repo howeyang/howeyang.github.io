@@ -128,7 +128,9 @@ class ContactPage extends Component {
               </div>
             </Fade>
           </Grid>
+         
           <Snackbar
+          className="darkbluebg"
             anchorOrigin={{
               vertical: "bottom",
               horizontal: "center"
