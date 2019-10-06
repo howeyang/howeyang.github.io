@@ -6,7 +6,7 @@ class NoMatch extends Component {
   
   componentDidMount() {
     window.scrollTo(0, 0);
-    document.body.className = 'fourofour';
+    document.body.className = 'fourofourX';
   }
   componentWillUnmount() {
     document.body.className = null;
@@ -34,6 +34,7 @@ class NoMatch extends Component {
             </Fade>
           </Grid>
         </Grid>
+        <div className="fourofour"> </div>
       </div>
     );
   }

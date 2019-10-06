@@ -14,7 +14,7 @@ class ProjectSandbox extends Component {
     return (
       <div>
         <Fade duration={2000}>
-          <div className="white1 underline">
+          <div className="white1">
             Prototyping <a>Sandboxing</a>
           </div>
         </Fade>

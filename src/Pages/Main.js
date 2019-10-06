@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Route, NavLink, HashRouter, Switch } from "react-router-dom";
 import LandingPage from "./LandingPage";
 import ProjectPage from "./ProjectPage";
-import AboutPage from "./AboutPage";
+import ExperiencePage from "./ExperiencePage";
 import ContactPage from "./ContactPage";
 import ProjectA from "../Projects/ProjectA";
 import Hidden from "@material-ui/core/Hidden";
@@ -45,7 +45,7 @@ class Main extends Component {
               <NavLink to="/Project">Projects</NavLink>
             </li>
             <li>
-              <NavLink to="/About">About Me</NavLink>
+              <NavLink to="/Experience">Experience</NavLink>
             </li>
             <li>
               <NavLink to="/Contact">Contact</NavLink>
@@ -60,7 +60,7 @@ class Main extends Component {
         <Switch>
           <Route exact path="/" component={LandingPage} />
           <Route exact path="/Project" component={ProjectPage} />
-          <Route exact path="/About" component={AboutPage} />
+          <Route exact path="/Experience" component={ExperiencePage} />
           <Route exact path="/Contact" component={ContactPage} />
           <Route exact path="/Project/ProjectA" component={ProjectA} />
           <Route exact path="/Project/ProjectAutobattler" component={ProjectAutoBattler} />

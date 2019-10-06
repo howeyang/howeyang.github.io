@@ -13,17 +13,13 @@ class ProjectPage extends Component {
   render() {
     return (
       <div>
-         <Fade duration={2000} >
-          <div className="white1 underline">
-            Projects
-          </div>
+        <Fade duration={2000}>
+          <div className="white1">Projects</div>
         </Fade>
-        <Grid
-          container
-          direction="row"
-          justify="center"
-          alignItems="stretch"
-        >
+        <Fade bottom>
+          <div className="black2 mobilepad">Work that I'm proud to share</div>
+        </Fade>
+        <Grid container direction="row" justify="center" alignItems="stretch">
           <CardB />
 
           <CardC />

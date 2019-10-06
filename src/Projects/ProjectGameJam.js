@@ -11,7 +11,7 @@ class ProjectGameJam extends Component {
     return (
       <div>
          <Fade duration={2000} >
-          <div className="white1 underline">Game <a>Jamming</a></div>
+          <div className="white1">Game <a>Jamming</a></div>
           <div className="white2">
             Requires preperation, focus and discpline.
           </div>
