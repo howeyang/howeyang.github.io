@@ -10,6 +10,7 @@ import ProjectAutoBattler from "../Projects/ProjectAutoBattler";
 import ProjectSandbox from "../Projects/ProjectSandbox";
 import MobileBar from "../Components/MobileBar";
 import ProjectReact from "../Projects/ProjectReact";
+import ProjectBeachWave from "../Projects/ProjectBeachWave";
 import NoMatch from "./NoMatch";
 
 
@@ -66,6 +67,7 @@ class Main extends Component {
           <Route exact path="/Project/ProjectAutobattler" component={ProjectAutoBattler} />
           <Route exact path="/Project/ProjectSandbox" component={ProjectSandbox} />
           <Route exact path="/Project/ProjectReact" component={ProjectReact} />
+          <Route exact path="/Project/ProjectBeachWave" component={ProjectBeachWave} />
           <Route component={NoMatch} />
           </Switch>
         </div>
