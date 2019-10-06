@@ -319,6 +319,10 @@ ul.header li a:focus {
   transition: 0.2s;
 }
 
+.closemenu{
+  background: rgb(222, 180, 45) !important;
+}
+
 .menubutton:active::after {
   color: #49617d !important;
   background: #49617d !important;
