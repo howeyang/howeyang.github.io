@@ -41,13 +41,17 @@ class ContactPage extends Component {
     return (
       <div>
         <Fade duration={2000}>
-          <div className="white1 underline">Contact me</div>
+          <div className="white1">Contact me</div>
+        </Fade>
+        <Fade bottom>
+          <div className="black2 mobilepad"> How to Reach out or Connect!</div>
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">
           <Grid item xs={12} sm={6} md={6}>
             <Fade>
               <div className="section2">
                 <div className="black2">Contact Info </div>
+
                 <p className="floatcontain">
                   <a className="floatleft">You can email and reach me at</a>
                   <u
@@ -100,20 +104,25 @@ class ContactPage extends Component {
                 <p className="paragraph">
                   Hi, my name is Howe Yang. I am a Canadian developer with a
                   passion for games.
-                  <br/><br/> My passion for games and coding started from early
-                  exposure to books, animations and games. Powered by an overactive
-                  imagination, I found myself pursuing video games and development with my
-                  end goal of making things that can inspire the next
-                  generation just like how I was!
-                  <br></br><br/>I love sketching out my thoughts, researching cool
-                  visuals effects and learning different types of scripting. At work, I always try to maintain a professional
-                  but fun attitude. If I ever find myself
-                  with gaps in knowledge, I like to reach out to others around
-                  me or research the topic to figure it out. I enjoy most working
-                  with the system wide features so that I can work with
-                  multiple components and people! 
-                  <br></br><br/>
-                  If you want to collaborate or just need someone to bounce ideas on, please feel to reach out to me!
+                  <br />
+                  <br /> My passion for games and coding started from early
+                  exposure to books, animations and games. Powered by an
+                  overactive imagination, I found myself pursuing video games
+                  and development with my end goal of making things that can
+                  inspire the next generation just like how I was!
+                  <br></br>
+                  <br />I love sketching out my thoughts, researching cool
+                  visuals effects and learning different types of scripting. At
+                  work, I always try to maintain a professional but fun
+                  attitude. If I ever find myself with gaps in knowledge, I like
+                  to reach out to others around me or research the topic to
+                  figure it out. I enjoy most working with the system wide
+                  features so that I can work with multiple components and
+                  people!
+                  <br></br>
+                  <br />
+                  If you want to collaborate or just need someone to bounce
+                  ideas on, please feel to reach out to me!
                 </p>
               </div>
             </Fade>
@@ -128,9 +137,9 @@ class ContactPage extends Component {
               </div>
             </Fade>
           </Grid>
-         
+
           <Snackbar
-          className="darkbluebg"
+            className="darkbluebg"
             anchorOrigin={{
               vertical: "bottom",
               horizontal: "center"

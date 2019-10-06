@@ -15,7 +15,7 @@ class CardA extends Component {
   }
 
   redirect() {
-    this.props.history.push("/About");
+    this.props.history.push("/Experience");
   }
 
   render() {

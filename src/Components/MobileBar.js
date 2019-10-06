@@ -33,7 +33,7 @@ class MobileBar extends Component {
   }
 
   redirectAbout() {
-    this.props.history.push("/About");
+    this.props.history.push("/Experience");
     this.setState(state => ({
       active: !state.active
     }));
@@ -95,7 +95,7 @@ class MobileBar extends Component {
                 <li>
                   <a className={
                   this.state.active ? "menubutton active" : "hidden"} onClick={this.redirectAbout}>
-                    About Me
+                    Experience
                   </a>
                 </li>
               </ul>

@@ -13,7 +13,7 @@ class ProjectAutoBattler extends Component {
     return (
       <div>
          <Fade duration={2000} >
-          <div className="white1 underline">
+          <div className="white1">
             Project: <a>Auto Battler</a>
           </div>
         </Fade>
