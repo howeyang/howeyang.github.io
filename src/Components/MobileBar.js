@@ -9,7 +9,8 @@ class MobileBar extends Component {
     super();
 
     this.state = {
-      active: false
+      active: false,
+      menutext : 'Menu'
     };
     this.handleClick = this.handleClick.bind(this);
     this.redirectProject = this.redirectProject.bind(this);
@@ -60,14 +61,14 @@ class MobileBar extends Component {
             <li>
               <a
                 className={
-                  this.state.active ? "menubutton active" : "menubutton"
+                  this.state.active ? "menubutton active closemenu" : "menubutton"
                 }
                 onClick={this.handleClick}
               >
-                Menu
+                {this.state.active ? "Close" : "Menu"}
               </a>
             </li>
-            <Fade collapse when={this.state.active} duration={500}>
+            <Fade collapse when={this.state.active} duration={100}>
               <ul className={
                   this.state.active ? "header top2 visiblenav" : "hidden" }>
                 <li>
@@ -78,7 +79,7 @@ class MobileBar extends Component {
                 </li>
               </ul>
             </Fade>
-            <Fade collapse when={this.state.active} duration={800}>
+            <Fade collapse when={this.state.active} duration={300}>
               <ul className={
                   this.state.active ? "header top3 visiblenav" : "hidden"} >
                 <li>
@@ -89,7 +90,7 @@ class MobileBar extends Component {
                 </li>
               </ul>
             </Fade>
-            <Fade collapse when={this.state.active} duration={1100}>
+            <Fade collapse when={this.state.active} duration={600}>
               <ul className={
                   this.state.active ? "header top4 visiblenav" : "hidden"} >
                 <li>
@@ -100,7 +101,7 @@ class MobileBar extends Component {
                 </li>
               </ul>
             </Fade>
-            <Fade collapse when={this.state.active} duration={1300} >
+            <Fade collapse when={this.state.active} duration={900} >
               <ul className={
                   this.state.active ? "header top5 visiblenav" : "hidden"}>
                 <li>
