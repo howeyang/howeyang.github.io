@@ -23,7 +23,7 @@ class ProjectSandbox extends Component {
             <Fade>
               <div className="black3"> Introduction</div>
             </Fade>
-            <Fade up>
+            <Fade delay={100}>
               <p className="section">
                 This is a dedicated section to concepts and things I've been
                 experimenting with in Unity. There are a ton of cool effects and
@@ -38,7 +38,7 @@ class ProjectSandbox extends Component {
             <Fade>
               <div className="black3">PS4 Wave</div>
             </Fade>
-            <Fade left>
+            <Fade delay={300}>
               <div className="section">
                 <p>
                   <label>Summary</label> <br />
@@ -64,7 +64,7 @@ class ProjectSandbox extends Component {
             <Fade>
               <div className="black3">Shaders</div>
             </Fade>
-            <Fade right>
+            <Fade delay={500}>
               <div className="section">
                 <p>
                   <label>Summary</label> <br />
@@ -89,7 +89,7 @@ class ProjectSandbox extends Component {
             <Fade>
               <div className="black3">Unity Particle System</div>
             </Fade>
-            <Fade left>
+            <Fade >
               <div className="section">
                 <p>
                   <label>Summary</label> <br />
