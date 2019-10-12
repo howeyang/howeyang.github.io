@@ -22,7 +22,7 @@ class ProjectAutoBattler extends Component {
             <Fade>
               <div className="black3"> Introduction</div>
             </Fade>
-            <Fade left>
+            <Fade>
               <p className="section">
                 <label>The Prompt</label> <br />
                 Around January 2019, I started playing a custom game mode in
@@ -51,7 +51,7 @@ class ProjectAutoBattler extends Component {
                 Latest version <a>On haitus</a>
               </div>
             </Fade>
-            <Fade right>
+            <Fade delay={300}>
               <div className="section">
                 <ReactPlayer
                   url="./Autobattle/autobattle.mp4"
@@ -68,7 +68,7 @@ class ProjectAutoBattler extends Component {
             <Fade>
               <div className="black3">Challenges and what went Right</div>
             </Fade>
-            <Fade left>
+            <Fade >
               <p className="section">
                 <label>Building the board</label> <br />
                 The board / grid in which the player's units and enemy control
@@ -100,7 +100,7 @@ class ProjectAutoBattler extends Component {
             <Fade>
               <div className="black3">Development Snapshots</div>
             </Fade>
-            <Fade right>
+            <Fade delay={300}>
             <div className="section">
               <ReelAutoBattle />
               </div>
@@ -111,7 +111,7 @@ class ProjectAutoBattler extends Component {
             <Fade>
               <div className="black3">Lessons Learned</div>
             </Fade>
-            <Fade left>
+            <Fade >
               <p className="section">
                 <label>Non-essential Designing</label> <br />
                 I often kept going back to paper prototyping unnecessary features /
@@ -132,7 +132,7 @@ class ProjectAutoBattler extends Component {
           <Fade>
             <div className="black3"> Future Considerations</div>
             </Fade>
-            <Fade right>
+            <Fade delay={300}>
             <p className="section">
               This project was probably the most feature complete and playable
               game I built since university. It was a good exercise for

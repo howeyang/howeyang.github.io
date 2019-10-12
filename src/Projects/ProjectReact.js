@@ -18,7 +18,7 @@ class ProjectReact extends Component {
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">
           <Grid item xs={12} sm={6} md={6}>
-            <Fade up>
+            <Fade >
               <div className="black3">Web Dev Journey</div>
               <p className="section">
                 <label>HTML and CSS beginnings</label> <br />
@@ -61,7 +61,7 @@ class ProjectReact extends Component {
             </Fade>
           </Grid>
           <Grid item xs={12} sm={6} md={6}>
-            <Fade up>
+            <Fade delay={300}>
               <div className="black3">Components Used</div>
               <p className="section">
                 <a
