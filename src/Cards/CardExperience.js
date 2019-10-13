@@ -8,7 +8,7 @@ import Typography from "@material-ui/core/Typography";
 import { withRouter } from "react-router-dom";
 import Fade from 'react-reveal/Fade';
 
-class CardA extends Component {
+class CardExperience extends Component {
   constructor(props) {
     super(props);
     this.redirect = this.redirect.bind(this);
@@ -24,7 +24,7 @@ class CardA extends Component {
         <div className="hvr-sweep-to-right2">
           <div className="hvr-sweep-to-right workexperience">
             <div className="hvr-sweep-to-right3">
-            <Fade  delay={100} collapse >
+            <Fade  ddelay={this.props.delay} >
               <Card className="glow">
                 <CardActionArea
                   onClick={this.redirect}
@@ -70,4 +70,4 @@ class CardA extends Component {
   }
 }
 
-export default withRouter(CardA);
+export default withRouter(CardExperience);
