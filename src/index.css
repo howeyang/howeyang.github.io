@@ -162,7 +162,6 @@ p label {
 }
 
 .black3 {
-  display: block;
   font-family: "Raleway", serif !important;
   font-size: 1.7em;
 
@@ -173,7 +172,17 @@ p label {
   font-weight: bold;
   color: #2e313ad2;
   text-shadow: #9cbbd0 0px 2px 1px;
-  background: rgba(172, 172, 172, 0.4);
+}
+
+.blackbutton {
+  background : #eaf5fab5 !important;
+  color: #2e313ab5 !important;
+  text-shadow: #9cbbd0ad 0px 2px 1px;
+  border-radius: 5px;
+  padding-top : 10px;
+  padding-bottom : 10px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 .black3 a {
@@ -356,12 +365,13 @@ li {
   font-family: "Raleway";
   -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
   transition: ease 1s; /* For modern browsers */
-  text-shadow: rgb(222, 180, 45) 0px 1px 1px !important;
-  text-decoration-color: rgb(222, 180, 45);
+  text-shadow: rgb(68, 189, 255) 0px 1px 1px !important;
+  text-decoration-color: rgb(82, 194, 255);
 }
 .custom_button:hover {
   border-color: #49617d;
   background-color: #9cbbd0;
+  text-shadow: rgb(255, 202, 68) 0px 1px 1px !important;
   color: #49617d;
   padding-right: 20px;
   padding-left : 10px;
@@ -615,7 +625,6 @@ li {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url("Images/color12.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -654,12 +663,10 @@ li {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url("Images/color11.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  
     -webkit-transition-property: transform;
     transition-property: transform;
     -webkit-transition-duration: 0.8s;
@@ -722,7 +729,7 @@ li {
 
   .hvr-sweep-to-right2:before {
     content: "";
-    position: absolute;
+    position: fixed;
     z-index: -2;
     top: 0;
     left: 0;
@@ -753,7 +760,7 @@ li {
 
   .hvr-sweep-to-right3:before {
     content: "";
-    position: absolute;
+    position: fixed;
     z-index: -1;
     top: 0;
     left: 0;

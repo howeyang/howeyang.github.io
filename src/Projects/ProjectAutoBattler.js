@@ -20,7 +20,9 @@ class ProjectAutoBattler extends Component {
         <Grid container direction="row" justify="center" alignItems="stretch">
           <Grid item xs={12} sm={6} md={6}>
             <Fade>
-              <div className="black3"> Introduction</div>
+            <p className="black3">
+                <label className="blackbutton">Introduction</label>
+              </p>
             </Fade>
             <Fade>
               <p className="section">
@@ -47,9 +49,9 @@ class ProjectAutoBattler extends Component {
 
           <Grid item xs={12} sm={6} md={6} className="overlay2">
             <Fade>
-              <div className="black3">
-                Latest version <a>On haitus</a>
-              </div>
+            <p className="black3">
+                <label className="blackbutton">Gameplay</label>
+              </p>
             </Fade>
             <Fade delay={300}>
               <div className="section">
@@ -65,9 +67,9 @@ class ProjectAutoBattler extends Component {
           </Grid>
 
           <Grid item xs={12} sm={6} md={6}>
-            <Fade>
-              <div className="black3">Challenges and what went Right</div>
-            </Fade>
+          <p className="black3">
+                <label className="blackbutton">Challenges and what went Right</label>
+              </p>
             <Fade >
               <p className="section">
                 <label>Building the board</label> <br />
@@ -98,7 +100,9 @@ class ProjectAutoBattler extends Component {
 
           <Grid item xs={12} sm={6} md={6} className="overlay2">
             <Fade>
-              <div className="black3">Development Snapshots</div>
+            <p className="black3">
+                <label className="blackbutton">Development Snapshots</label>
+              </p>
             </Fade>
             <Fade delay={300}>
             <div className="section">
@@ -109,7 +113,9 @@ class ProjectAutoBattler extends Component {
 
           <Grid item xs={12} sm={6} md={6}>
             <Fade>
-              <div className="black3">Lessons Learned</div>
+            <p className="black3">
+                <label className="blackbutton">Lessons Learned</label>
+              </p>
             </Fade>
             <Fade >
               <p className="section">
@@ -130,7 +136,9 @@ class ProjectAutoBattler extends Component {
 
           <Grid item xs={12} sm={6} md={6} className="overlay2">
           <Fade>
-            <div className="black3"> Future Considerations</div>
+          <p className="black3">
+                <label className="blackbutton">Future Considerations</label>
+              </p>
             </Fade>
             <Fade delay={300}>
             <p className="section">

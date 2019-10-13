@@ -24,7 +24,7 @@ class CardC extends Component {
         <div className="hvr-sweep-to-right2">
           <div className="hvr-sweep-to-right sandbox">
             <div className="hvr-sweep-to-right3">
-              <Fade  delay={300} collapse>
+              <Fade  delay={this.props.delay} collapse>
                 <Card className="glow">
                   <CardActionArea
                     onClick={this.redirect}

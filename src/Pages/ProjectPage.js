@@ -4,6 +4,7 @@ import CardC from "../Cards/CardC";
 import Grid from "@material-ui/core/Grid";
 import Fade from "react-reveal/Fade";
 import CardReact from "../Cards/CardReact";
+import CardBeach from "../Cards/CardBeach";
 
 class ProjectPage extends Component {
   componentDidMount() {
@@ -16,14 +17,19 @@ class ProjectPage extends Component {
         <Fade duration={2000}>
           <div className="white1">Projects</div>
         </Fade>
-        <Fade bottom>
-          <div className="black2 mobilepad">Work that I'm proud to share</div>
+        <Fade delay={200} bottom>
+          <p className="black3">
+            <label className="blackbutton">Work that I'm proud to share</label>
+          </p>
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">
           <CardB />
-
-          <CardC />
           <CardReact />
+          <CardBeach />
+          
+        </Grid>
+        <Grid container direction="row" justify="center" alignItems="stretch">
+          <CardC delay={100} />
         </Grid>
       </div>
     );

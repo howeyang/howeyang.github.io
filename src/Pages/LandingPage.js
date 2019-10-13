@@ -22,10 +22,9 @@ class LandingPage extends Component {
                 </div>
               </Fade>
               <Fade bottom>
-                <div className="black2 mobilepad">
-                  {" "}
-                  Developer & Game Designer
-                </div>
+                <p className="black2 mobilepad">
+                  <label className="blackbutton">Developer & Game Designer</label>
+                </p>
               </Fade>
               <Fade bottom duration={1250}>
                 <div className="white2 mobilepad">
