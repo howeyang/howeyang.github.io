@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c0f9e49176f46219dcae01ab8e93ef8",
+    "revision": "bc5781b21b221d0671e14b1e67905275",
     "url": "/howeyang.github.io/index.html"
   },
   {
-    "revision": "57e311b788b0f68ed86f",
+    "revision": "3f74ef448253c7b022ef",
     "url": "/howeyang.github.io/static/css/2.9cfa8c34.chunk.css"
   },
   {
-    "revision": "3167e12226cd80b53504",
-    "url": "/howeyang.github.io/static/css/main.d51bdf18.chunk.css"
+    "revision": "76226263bf55215ee71c",
+    "url": "/howeyang.github.io/static/css/main.e2951b99.chunk.css"
   },
   {
-    "revision": "57e311b788b0f68ed86f",
-    "url": "/howeyang.github.io/static/js/2.53532959.chunk.js"
+    "revision": "3f74ef448253c7b022ef",
+    "url": "/howeyang.github.io/static/js/2.9194a800.chunk.js"
   },
   {
-    "revision": "3167e12226cd80b53504",
-    "url": "/howeyang.github.io/static/js/main.f4222d03.chunk.js"
+    "revision": "76226263bf55215ee71c",
+    "url": "/howeyang.github.io/static/js/main.15841831.chunk.js"
   },
   {
     "revision": "88d7778b6a635c03ba06",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "76215a51f5bd5264f09fdbe8cb2b5be6",
     "url": "/howeyang.github.io/static/media/card-autobattler.76215a51.png"
+  },
+  {
+    "revision": "396b914baea227081c60d15136e8851e",
+    "url": "/howeyang.github.io/static/media/card-beach.396b914b.png"
   },
   {
     "revision": "41bb0e25ae9835d9372917620d5b463d",
@@ -42,14 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d903b20e18ccfee987eaaade469a2107",
     "url": "/howeyang.github.io/static/media/card-work.d903b20e.png"
-  },
-  {
-    "revision": "8de1fb8aaf840a837958e195b62ba54a",
-    "url": "/howeyang.github.io/static/media/color11.8de1fb8a.png"
-  },
-  {
-    "revision": "23ac3289ca1fac6a0585667222bd6f40",
-    "url": "/howeyang.github.io/static/media/color12.23ac3289.png"
   },
   {
     "revision": "0f47bfd2e8779be1236fabfbf24ddee5",
