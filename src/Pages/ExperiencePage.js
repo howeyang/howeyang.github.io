@@ -20,7 +20,7 @@ class ExperiencePage extends Component {
         <Fade duration={2000}>
           <div className="white1"> Experience </div>
         </Fade>
-        <Fade delay={200}  bottom>
+        <Fade delay={200} bottom>
           <p className="black3">
             <label className="blackbutton">
               Canadian | Developer | Artist | Gamer
@@ -54,7 +54,7 @@ class ExperiencePage extends Component {
           <Grid item xs={12} sm={12} md={6}>
             <Fade duration={2000}>
               <div className="section2">
-                <div className="black2">
+                <div className="white2">
                   {" "}
                   Currently at{" "}
                   <a
@@ -79,12 +79,10 @@ class ExperiencePage extends Component {
                       />
                     </div>
                   </Flip>
-                  QA Developer{" "}
-                  <a>
-                    {" "}
-                    <br />
-                    July 2019 - Present
-                  </a>
+                  <p>
+                    <label className="blackbutton">QA Developer</label>
+                    <br></br> July 2019 - Present
+                  </p>
                 </div>
 
                 <p className="section">
@@ -139,7 +137,7 @@ class ExperiencePage extends Component {
           <Grid item xs={12} sm={12} md={6}>
             <Fade duration={2000}>
               <div className="section2">
-                <div className="black2">
+                <div className="white2">
                   Previously at{" "}
                   <a
                     className="custom_button job"
@@ -162,8 +160,10 @@ class ExperiencePage extends Component {
                       and more!
                     </div>
                   </Flip>
-                  Integration and Solution Engineer <br />
-                  <a>Sept 2016 - Oct 2018</a>
+                  <p>
+                    <label className="blackbutton">Integration and Solution Engineer</label>
+                    <br></br> Sept 2016 - Oct 2018
+                  </p>
                 </div>
 
                 <p className="section">
