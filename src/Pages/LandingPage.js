@@ -29,7 +29,7 @@ class LandingPage extends Component {
               <Fade bottom duration={1250}>
                 <div className="white2 mobilepad">
                   {" "}
-                  Unity3D | Blender | ReactJS
+                  Unity3D | Blender | Digital Art
                 </div>
               </Fade>
             </Grid>

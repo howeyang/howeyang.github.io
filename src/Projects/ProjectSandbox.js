@@ -15,7 +15,7 @@ class ProjectSandbox extends Component {
       <div>
         <Fade duration={2000}>
           <div className="white1">
-            Prototyping <a>Sandboxing</a>
+            Prototyping <span>Sandboxing</span>
           </div>
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">

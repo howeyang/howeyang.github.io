@@ -12,7 +12,7 @@ class ProjectReact extends Component {
       <div>
         <Fade duration={2000}>
           <div className="white1">
-            React <a>JS</a>
+            Project: <span> React JS</span>
           </div>
           <p className="black3">
             <label className="blackbutton">

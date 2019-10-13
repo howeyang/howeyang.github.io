@@ -29,7 +29,7 @@ class ProjectPage extends Component {
           
         </Grid>
         <Grid container direction="row" justify="center" alignItems="stretch">
-          <CardSandbox delay={250} />
+          <CardSandbox delay={550} />
         </Grid>
       </div>
     );

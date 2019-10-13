@@ -14,7 +14,7 @@ class ProjectAutoBattler extends Component {
       <div>
          <Fade duration={2000} >
           <div className="white1">
-            Project: <a>Auto Battler</a>
+            Project: <span>Auto Battler</span>
           </div>
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">
