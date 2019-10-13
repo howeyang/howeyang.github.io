@@ -21,7 +21,9 @@ class ProjectSandbox extends Component {
         <Grid container direction="row" justify="center" alignItems="stretch">
           <Grid item xs={12} sm={12} md={12}>
             <Fade>
-              <div className="black3"> Introduction</div>
+              <p className="black3">
+                <label className="blackbutton">Introduction</label>
+              </p>
             </Fade>
             <Fade delay={100}>
               <p className="section">
@@ -36,7 +38,9 @@ class ProjectSandbox extends Component {
 
           <Grid item xs={12} sm={6} md={6} className="overlay2">
             <Fade>
-              <div className="black3">PS4 Wave</div>
+            <p className="black3">
+                <label className="blackbutton">PS4 Wave</label>
+              </p>
             </Fade>
             <Fade delay={300}>
               <div className="section">
@@ -62,7 +66,9 @@ class ProjectSandbox extends Component {
 
           <Grid item xs={12} sm={6} md={6}>
             <Fade>
-              <div className="black3">Shaders</div>
+            <p className="black3">
+                <label className="blackbutton">Shaders</label>
+              </p>
             </Fade>
             <Fade delay={500}>
               <div className="section">
@@ -87,9 +93,11 @@ class ProjectSandbox extends Component {
 
           <Grid item xs={12} sm={12} md={12} className="overlay2">
             <Fade>
-              <div className="black3">Unity Particle System</div>
+            <p className="black3">
+                <label className="blackbutton">Unity Particle System</label>
+              </p>
             </Fade>
-            <Fade >
+            <Fade>
               <div className="section">
                 <p>
                   <label>Summary</label> <br />
@@ -116,7 +124,6 @@ class ProjectSandbox extends Component {
                     muted={true}
                   />
                 </div>
-
               </div>
             </Fade>
           </Grid>

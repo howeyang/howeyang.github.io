@@ -20,8 +20,12 @@ class ExperiencePage extends Component {
         <Fade duration={2000}>
           <div className="white1"> Experience </div>
         </Fade>
-        <Fade bottom>
-          <div className="black2 mobilepad"> Canadian | Developer | Artist | Gamer</div>
+        <Fade delay={200}  bottom>
+          <p className="black3">
+            <label className="blackbutton">
+              Canadian | Developer | Artist | Gamer
+            </label>
+          </p>
         </Fade>
 
         <Grid container direction="row" justify="center" alignItems="stretch">

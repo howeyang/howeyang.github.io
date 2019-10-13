@@ -10,39 +10,30 @@ class ProjectBeachWave extends Component {
   render() {
     return (
       <div>
-         <Fade duration={2000} >
+        <Fade duration={2000}>
           <div className="white1">Beach and Waves</div>
-          <div className="black2">
-            You may have noticed the background ;)
-          </div>
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">
           <Grid item xs={12} sm={6} md={6}>
             <Fade up>
-              <div className="black3">Web Dev Journey</div>
+              <p className="black3">
+                <label className="blackbutton">Introduction</label>
+              </p>
               <p className="section">
-                <label>HTML and CSS beginnings</label> <br />
-                My introduction to website development was during my 3rd year at
-                Waterloo in a UI design course. I learned about the basic DOM
-                structure, Gesalt principles, how to use HTML, Canvas and CSS to
-                create a website. After graduating, I built a very sad website
-                from scratch in HTML and Bootstrap CSS. After a year and while
-                working at Upsight, I upgraded my website from a Bootstrap
-                template website and began to customize it, adding in a
-                Javascript animation and my own CSS to polish it up. <br />
-                Over time, I learnt how to better utilize CSS into a website,
-                how to build with responsive / mobile layout in mind and improve
-                my understanding of website aesthetics.
+                <label>The Prompt</label> <br />
+                While browsing /r/Unity3D, there was an interesting video of a
+                wave lightly crashing with a beach by /u/neural-bot via Shader
+                Graph There was a simple beauty there, a stylized form of water
+                and foam, with a gentle motion giving it a natural feeling.
+                Looking into the comments, this video itself was inspired by a
+                picture by Owen Pomery's 'quick water study'. From this image
+                and a general idea of how shaders work, I tried to reproduce the
+                effect without any hand holding and to challenge myself to pick
+                up the skills to mimic the effect.
                 <br />
-                <label>React</label> <br />
-                In 2019, I was thinking about what my next step was going to be
-                and I took a look at possible Web Development and UI design
-                careers. I decided to pick up React as it seemed like the most
-                HTML like, had an interesting component behaviour and a lot of
-                active support. I created my first application based off some
-                Basketball Stats API. It wasn't too bad and I experimented
-                deploying to cloud hosting like Heroku and Firebase. You can
-                check it out here : <br />{" "}
+                <label>The Start</label> <br />
+                My scene was a cube angled to look like a ramp and a horizontal
+                plane intersecting ontop of it.
                 <a
                   className="custom_button"
                   href="https://howeyang-nba.firebaseapp.com/#/"
@@ -55,14 +46,16 @@ class ProjectBeachWave extends Component {
                 and have become more familiar with web development. Now when I
                 design a website, I plan ahead for responsive design and layout,
                 performance and consistent colouring theme. I try to leverage
-                white space, simplify navigation and include transitions to
-                make the user experience as enjoyable as possible.
+                white space, simplify navigation and include transitions to make
+                the user experience as enjoyable as possible.
               </p>
             </Fade>
           </Grid>
           <Grid item xs={12} sm={6} md={6}>
             <Fade up>
-              <div className="black3">Components Used</div>
+            <p className="black3">
+                <label className="blackbutton">Next Section</label>
+              </p>
               <p className="section">
                 <a
                   className="custom_button reactpad"
@@ -101,7 +94,6 @@ class ProjectBeachWave extends Component {
                 >
                   react-player
                 </a>
-              
               </p>
             </Fade>
           </Grid>

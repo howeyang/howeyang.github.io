@@ -10,16 +10,22 @@ class ProjectReact extends Component {
   render() {
     return (
       <div>
-         <Fade duration={2000} >
-          <div className="white1">React <a>JS</a></div>
-          <div className="white2">
-            Single Page Application as a Resume Website
+        <Fade duration={2000}>
+          <div className="white1">
+            React <a>JS</a>
           </div>
+          <p className="black3">
+            <label className="blackbutton">
+              Single Page Application Resume Page
+            </label>
+          </p>
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">
           <Grid item xs={12} sm={6} md={6}>
-            <Fade >
-              <div className="black3">Web Dev Journey</div>
+            <Fade>
+              <p className="black3">
+                <label className="blackbutton">Web Dev Journey</label>
+              </p>
               <p className="section">
                 <label>HTML and CSS beginnings</label> <br />
                 My introduction to website development was during my 3rd year at
@@ -46,6 +52,7 @@ class ProjectReact extends Component {
                 <a
                   className="custom_button"
                   href="https://howeyang-nba.firebaseapp.com/#/"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   https://howeyang-nba.firebaseapp.com/
@@ -55,18 +62,21 @@ class ProjectReact extends Component {
                 and have become more familiar with web development. Now when I
                 design a website, I plan ahead for responsive design and layout,
                 performance and consistent colouring theme. I try to leverage
-                white space, simplify navigation and include transitions to
-                make the user experience as enjoyable as possible.
+                white space, simplify navigation and include transitions to make
+                the user experience as enjoyable as possible.
               </p>
             </Fade>
           </Grid>
           <Grid item xs={12} sm={6} md={6}>
             <Fade delay={300}>
-              <div className="black3">Components Used</div>
+              <p className="black3">
+                <label className="blackbutton">React Components</label>
+              </p>
               <p className="section">
                 <a
                   className="custom_button reactpad"
                   href="https://material-ui.com/"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   Material UI
@@ -74,6 +84,7 @@ class ProjectReact extends Component {
                 <a
                   className="custom_button reactpad"
                   href="https://www.react-reveal.com/"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   React-Reveal
@@ -82,6 +93,7 @@ class ProjectReact extends Component {
                 <a
                   className="custom_button reactpad"
                   href="https://www.npmjs.com/package/react-router-dom"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   react-router-dom
@@ -90,6 +102,7 @@ class ProjectReact extends Component {
                 <a
                   className="custom_button reactpad"
                   href="https://www.npmjs.com/package/react-responsive-carousel"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   react-responsive-carousel
@@ -97,11 +110,11 @@ class ProjectReact extends Component {
                 <a
                   className="custom_button reactpad"
                   href="https://www.npmjs.com/package/react-player"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   react-player
                 </a>
-              
               </p>
             </Fade>
           </Grid>

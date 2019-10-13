@@ -8,23 +8,23 @@ import Typography from "@material-ui/core/Typography";
 import { withRouter } from "react-router-dom";
 import Fade from 'react-reveal/Fade';
 
-class CardReact extends Component {
+class CardA extends Component {
   constructor(props) {
     super(props);
     this.redirect = this.redirect.bind(this);
   }
 
   redirect() {
-    this.props.history.push("/Project/ProjectReact");
+    this.props.history.push("/Project/ProjectBeachwave");
   }
 
   render() {
     return (
       <Grid item xs={12} sm={6} md={3}>
         <div className="hvr-sweep-to-right2">
-          <div className="hvr-sweep-to-right react">
+          <div className="hvr-sweep-to-right ">
             <div className="hvr-sweep-to-right3">
-            <Fade delay={600} >
+            <Fade  delay={100} collapse >
               <Card className="glow">
                 <CardActionArea
                   onClick={this.redirect}
@@ -32,8 +32,8 @@ class CardReact extends Component {
                 >
                   <CardMedia
                     className="card"
-                    image={require("../Images/card/card-react.png")}
-                    title="npm install react :)"
+                    image={require("../Images/card/card-beach.png")}
+                    title="Ebb and Flow"
                   />
                   <CardContent>
                     <Typography
@@ -42,17 +42,19 @@ class CardReact extends Component {
                       component="h3"
                       className="whiteheader"
                     >
-                      Project: React JS
+                      Case Study: Beach Wave
                     </Typography>
                     <Typography
                       variant="body1"
                       color="textPrimary"
                       component="p"
                     >
-                      <label>ReactJS |  React Components | CSS </label>
+                      <label>Unity3D |  Mobile Games | Analytics</label>
                       <span className="whitefont">
-                        A Single Page Application built with React and various components.
-                         
+                        <b>Upsight</b> : Integration and Solutions Engineer
+                         <br></br>
+                      
+                         <b>Game Hive</b> : QA Developer
                         </span> 
                       
                     </Typography>
@@ -68,4 +70,4 @@ class CardReact extends Component {
   }
 }
 
-export default withRouter(CardReact);
+export default withRouter(CardA);

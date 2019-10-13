@@ -43,14 +43,18 @@ class ContactPage extends Component {
         <Fade duration={2000}>
           <div className="white1">Contact me</div>
         </Fade>
-        <Fade bottom>
-          <div className="black2 mobilepad"> How to Reach out or Connect!</div>
+        <Fade delay={200} bottom>
+        <p className="black3 mobilepad">
+                <label className="blackbutton">How to Reach out or Connect</label>
+              </p>
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">
           <Grid item xs={12} sm={6} md={6}>
             <Fade>
               <div className="section2">
-                <div className="black2">Contact Info </div>
+              <p className="black3">
+                <label className="blackbutton">Contact Info</label>
+              </p>
 
                 <Fade duration={1200}>
                   <div className="floatcontain">
