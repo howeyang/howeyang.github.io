@@ -8,23 +8,23 @@ import Typography from "@material-ui/core/Typography";
 import { withRouter } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 
-class CardA extends Component {
+class CardSandbox extends Component {
   constructor(props) {
     super(props);
     this.redirect = this.redirect.bind(this);
   }
 
   redirect() {
-    this.props.history.push("/Project/ProjectBeachwave");
+    this.props.history.push("/Project/ProjectSandbox");
   }
 
   render() {
     return (
       <Grid item xs={12} sm={6} md={3}>
         <div className="hvr-sweep-to-right2">
-          <div className="hvr-sweep-to-right ">
+          <div className="hvr-sweep-to-right sandbox">
             <div className="hvr-sweep-to-right3">
-              <Fade delay={this.props.delay}>
+              <Fade  delay={this.props.delay}>
                 <Card className="glow">
                   <CardActionArea
                     onClick={this.redirect}
@@ -32,8 +32,8 @@ class CardA extends Component {
                   >
                     <CardMedia
                       className="card"
-                      image={require("../Images/card/card-beach.png")}
-                      title="Ebb and Flow"
+                      image={require("../Images/card/card-sandbox.png")}
+                      title="Smashing rocks together~"
                     />
                     <CardContent>
                       <Typography
@@ -42,18 +42,17 @@ class CardA extends Component {
                         component="h3"
                         className="whiteheader"
                       >
-                        Case Study: Beach Wave
+                        Prototyping & Sandboxing
                       </Typography>
                       <Typography
                         variant="body1"
                         color="textPrimary"
                         component="p"
                       >
-                        <label>Unity3D | Mobile Games | Analytics</label>
+                        <label>Unity3D | Particles | Shaders</label>
                         <span className="whitefont">
-                          <b>Upsight</b> : Integration and Solutions Engineer
-                          <br></br>
-                          <b>Game Hive</b> : QA Developer
+                          Various special effects and prototypes : Original and
+                          reverse engineered ideas
                         </span>
                       </Typography>
                     </CardContent>
@@ -68,4 +67,4 @@ class CardA extends Component {
   }
 }
 
-export default withRouter(CardA);
+export default withRouter(CardSandbox);

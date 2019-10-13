@@ -7,24 +7,23 @@ import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import { withRouter } from "react-router-dom";
 import Fade from "react-reveal/Fade";
-
-class CardC extends Component {
+class CardAutobattler extends Component {
   constructor(props) {
     super(props);
     this.redirect = this.redirect.bind(this);
   }
 
   redirect() {
-    this.props.history.push("/Project/ProjectSandbox");
+    this.props.history.push("/Project/ProjectAutobattler");
   }
 
   render() {
     return (
       <Grid item xs={12} sm={6} md={3}>
         <div className="hvr-sweep-to-right2">
-          <div className="hvr-sweep-to-right sandbox">
+          <div className="hvr-sweep-to-right autobattler">
             <div className="hvr-sweep-to-right3">
-              <Fade  delay={this.props.delay} collapse>
+              <Fade delay={this.props.delay}>
                 <Card className="glow">
                   <CardActionArea
                     onClick={this.redirect}
@@ -32,8 +31,8 @@ class CardC extends Component {
                   >
                     <CardMedia
                       className="card"
-                      image={require("../Images/card/card-sandbox.png")}
-                      title="Smashing rocks together~"
+                      image={require("../Images/card/card-autobattler.png")}
+                      title="1 Star, 2 Star, 3 Star!"
                     />
                     <CardContent>
                       <Typography
@@ -42,17 +41,17 @@ class CardC extends Component {
                         component="h3"
                         className="whiteheader"
                       >
-                        Prototyping & Sandboxing
+                        Project: Auto battler
                       </Typography>
                       <Typography
                         variant="body1"
                         color="textPrimary"
                         component="p"
                       >
-                        <label>Unity3D | Particles | Shaders</label>
+                        <label>Unity3D | Procedural | AI | Pathfinding</label>
                         <span className="whitefont">
-                          Various special effects and prototypes : Original and
-                          reverse engineered ideas
+                          A single player take on the Auto battler genre:
+                          feature complete and playable.
                         </span>
                       </Typography>
                     </CardContent>
@@ -67,4 +66,4 @@ class CardC extends Component {
   }
 }
 
-export default withRouter(CardC);
+export default withRouter(CardAutobattler);

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
-import CardA from "../Cards/CardA";
-import CardB from "../Cards/CardB";
-import CardC from "../Cards/CardC";
+import CardExperience from "../Cards/CardExperience";
+import CardAutobattler from "../Cards/CardAutobattler";
+import CardSandbox from "../Cards/CardSandbox";
 import Fade from "react-reveal/Fade";
 
 class LandingPage extends Component {
@@ -34,9 +34,9 @@ class LandingPage extends Component {
               </Fade>
             </Grid>
 
-            <CardA />
-            <CardB />
-            <CardC />
+            <CardExperience delay={100}/>
+            <CardAutobattler delay={250}/>
+            <CardSandbox delay={400}/>
           </Grid>
         </div>
       </div>
