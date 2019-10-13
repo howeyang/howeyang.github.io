@@ -76,9 +76,6 @@ li {
   color: #2e313a;
 }
 
-span {
-  display: block;
-}
 
 label {
   padding: 2px;
@@ -128,7 +125,7 @@ p label {
   font-weight: 700;
 }
 
-.white1 a {
+.white1 span {
   color: #2e313a;
   font-family: "Bad Script", cursive;
   text-shadow: #9cbbd0 0px 3px 1px;
@@ -164,7 +161,6 @@ p label {
 .black3 {
   font-family: "Raleway", serif !important;
   font-size: 1.7em;
-
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
   margin-inline-start: 0px;
@@ -957,6 +953,7 @@ background: rgba(172, 172, 172, 0.475); */
 }
 
 .whitefont{
+  display: block;
   font-family: "Rajdhani";
   color : #eaf5fad0;
 }
