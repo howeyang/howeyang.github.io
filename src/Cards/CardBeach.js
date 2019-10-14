@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
 import CardMedia from "@material-ui/core/CardMedia";
 import CardActionArea from "@material-ui/core/CardActionArea";
@@ -20,7 +19,6 @@ class CardA extends Component {
 
   render() {
     return (
-      <Grid item xs={12} sm={6} md={3}>
         <div className="hvr-sweep-to-right2">
           <div className="hvr-sweep-to-right ">
             <div className="hvr-sweep-to-right3">
@@ -49,11 +47,9 @@ class CardA extends Component {
                         color="textPrimary"
                         component="p"
                       >
-                        <label>Unity3D | Mobile Games | Analytics</label>
+                        <label>Unity3D | Shader | HLSL </label>
                         <span className="whitefont">
-                          <b>Upsight</b> : Integration and Solutions Engineer
-                          <br></br>
-                          <b>Game Hive</b> : QA Developer
+                          Research and iteration on creating a stylized water shader.
                         </span>
                       </Typography>
                     </CardContent>
@@ -63,7 +59,6 @@ class CardA extends Component {
             </div>
           </div>
         </div>
-      </Grid>
     );
   }
 }

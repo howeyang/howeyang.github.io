@@ -7,14 +7,14 @@ import Typography from "@material-ui/core/Typography";
 import { withRouter } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 
-class CardSandbox extends Component {
+class CardProjects extends Component {
   constructor(props) {
     super(props);
     this.redirect = this.redirect.bind(this);
   }
 
   redirect() {
-    this.props.history.push("/Project/ProjectSandbox");
+    this.props.history.push("/Project");
   }
 
   render() {
@@ -40,17 +40,16 @@ class CardSandbox extends Component {
                         component="h3"
                         className="whiteheader"
                       >
-                        Case Study: Particles & Shaders
+                        Projects & Case Studies
                       </Typography>
                       <Typography
                         variant="body1"
                         color="textPrimary"
                         component="p"
                       >
-                        <label>Unity3D | Particle System | Shaders</label>
+                        <label>Unity3D | Scripts | Shaders</label>
                         <span className="whitefont">
-                          Tinkering with various special effects and prototypes : Original and
-                          reverse engineered ideas
+                          Showcasing a couple of complete Games and Case Studies of visual effects and concepts.
                         </span>
                       </Typography>
                     </CardContent>
@@ -64,4 +63,4 @@ class CardSandbox extends Component {
   }
 }
 
-export default withRouter(CardSandbox);
+export default withRouter(CardProjects);

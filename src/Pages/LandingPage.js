@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
 import CardExperience from "../Cards/CardExperience";
 import CardAutobattler from "../Cards/CardAutobattler";
-import CardSandbox from "../Cards/CardSandbox";
+import CardProjects from "../Cards/CardProjects";
 import Fade from "react-reveal/Fade";
 
 class LandingPage extends Component {
@@ -23,7 +23,9 @@ class LandingPage extends Component {
               </Fade>
               <Fade bottom>
                 <p className="black2 mobilepad">
-                  <label className="blackbutton">Developer & Game Designer</label>
+                  <label className="blackbutton">
+                    Developer & Game Designer
+                  </label>
                 </p>
               </Fade>
               <Fade bottom duration={1250}>
@@ -34,9 +36,15 @@ class LandingPage extends Component {
               </Fade>
             </Grid>
 
-            <CardExperience delay={100}/>
-            <CardAutobattler delay={250}/>
-            <CardSandbox delay={400}/>
+            <Grid item xs={12} sm={6} md={3}>
+              <CardExperience delay={100} />
+            </Grid>
+            <Grid item xs={12} sm={6} md={3}>
+              <CardProjects delay={250} />
+            </Grid>
+            <Grid item xs={12} sm={6} md={3}>
+              <CardAutobattler delay={400} />
+            </Grid>
           </Grid>
         </div>
       </div>
