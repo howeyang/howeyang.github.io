@@ -23,7 +23,7 @@ class ExperiencePage extends Component {
         <Fade delay={200} bottom>
           <p className="black3">
             <label className="blackbutton">
-              Canadian | Developer | Artist | Gamer
+              Canadian > Gamer > Developer
             </label>
           </p>
         </Fade>
