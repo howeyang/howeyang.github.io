@@ -12,15 +12,22 @@ class ProjectAutoBattler extends Component {
   render() {
     return (
       <div>
-         <Fade duration={2000} >
+        <Fade duration={2000}>
           <div className="white1">
             Project: <span>Auto Battler</span>
           </div>
         </Fade>
+        <Fade delay={200} bottom>
+          <p className="black3">
+            <label className="blackbutton">
+              Single Player Auto Battler
+            </label>
+          </p>
+        </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">
           <Grid item xs={12} sm={6} md={6}>
             <Fade>
-            <p className="black3">
+              <p className="black3">
                 <label className="blackbutton">Introduction</label>
               </p>
             </Fade>
@@ -49,7 +56,7 @@ class ProjectAutoBattler extends Component {
 
           <Grid item xs={12} sm={6} md={6} className="overlay2">
             <Fade>
-            <p className="black3">
+              <p className="black3">
                 <label className="blackbutton">Gameplay</label>
               </p>
             </Fade>
@@ -67,10 +74,12 @@ class ProjectAutoBattler extends Component {
           </Grid>
 
           <Grid item xs={12} sm={6} md={6}>
-          <p className="black3">
-                <label className="blackbutton">Challenges and what went Right</label>
-              </p>
-            <Fade >
+            <p className="black3">
+              <label className="blackbutton">
+                Challenges and what went Right
+              </label>
+            </p>
+            <Fade>
               <p className="section">
                 <label>Building the board</label> <br />
                 The board / grid in which the player's units and enemy control
@@ -89,68 +98,87 @@ class ProjectAutoBattler extends Component {
                 synchronous combat was a big concern for me. This lead me to
                 coding the AI script with no Update logic. Instead, all units
                 relied on the board script to invoke a Stepping function which
-                make it run through it's logic and trigger a Mecanim State transitions.
-                 The downside of this was
-                creating a tight coupling between the board and all units. The
-                upside of this was significantly reduced performance concerns
-                and allowed a sequential resolution of action and behaviours.
+                make it run through it's logic and trigger a Mecanim State
+                transitions. The downside of this was creating a tight coupling
+                between the board and all units. The upside of this was
+                significantly reduced performance concerns and allowed a
+                sequential resolution of action and behaviours.
               </p>
             </Fade>
           </Grid>
 
           <Grid item xs={12} sm={6} md={6} className="overlay2">
             <Fade>
-            <p className="black3">
+              <p className="black3">
                 <label className="blackbutton">Development Snapshots</label>
               </p>
             </Fade>
             <Fade delay={300}>
-            <div className="section">
-              <ReelAutoBattle />
+              <div className="section">
+                <ReelAutoBattle />
               </div>
             </Fade>
           </Grid>
 
           <Grid item xs={12} sm={6} md={6}>
             <Fade>
-            <p className="black3">
+              <p className="black3">
                 <label className="blackbutton">Lessons Learned</label>
               </p>
             </Fade>
-            <Fade >
+            <Fade>
               <p className="section">
                 <label>Non-essential Designing</label> <br />
-                I often kept going back to paper prototyping unnecessary features /
-                concepts. Although this pushed myself to keep working, very few of those designs and made it into the prototype build. My lack of focus on and over designing
+                I often kept going back to paper prototyping unnecessary
+                features / concepts. Although this pushed myself to keep
+                working, very few of those designs and made it into the
+                prototype build. My lack of focus on and over designing
                 non-essential features wasted a lot of time and effort.
                 <br /> <label>Too Tight Coupling</label> <br />
-                After coding and adding functionality to the game, I would often move onto another component or section of the game. If I ever had to return to the previous component, it became difficult to add or adjust the code due to how many components that need to be adjusted.
+                After coding and adding functionality to the game, I would often
+                move onto another component or section of the game. If I ever
+                had to return to the previous component, it became difficult to
+                add or adjust the code due to how many components that need to
+                be adjusted.
                 <br /> <label>Monolithic or Tiny</label> <br />
-                In an effort to avoid coupling, I tried making more monolithic code scripts but that became difficult to read and iterate on. However, if I made the code small, it became too tightly coupled or too many references, which also made it difficult due to code.
-                <br /> <label>Transition from Prototype code to Better code</label> <br />
-                When I coded the AI for the units, I made had an naive approach to the unit logic.
-                It would determine if there were any nearby enemies, then attack if there were else move towards an enemy. In summary, it was a bit of a long IF ELSE statement and difficult to built additional functionality. For the future, after coding functionality and liking the iteration, it is definitely important to take the time to clean up, organize and improve code for future use.
+                In an effort to avoid coupling, I tried making more monolithic
+                code scripts but that became difficult to read and iterate on.
+                However, if I made the code small, it became too tightly coupled
+                or too many references, which also made it difficult due to
+                code.
+                <br />{" "}
+                <label>
+                  Transition from Prototype code to Better code
+                </label>{" "}
+                <br />
+                When I coded the AI for the units, I made had an naive approach
+                to the unit logic. It would determine if there were any nearby
+                enemies, then attack if there were else move towards an enemy.
+                In summary, it was a bit of a long IF ELSE statement and
+                difficult to built additional functionality. For the future,
+                after coding functionality and liking the iteration, it is
+                definitely important to take the time to clean up, organize and
+                improve code for future use.
               </p>
             </Fade>
           </Grid>
 
           <Grid item xs={12} sm={6} md={6} className="overlay2">
-          <Fade>
-          <p className="black3">
+            <Fade>
+              <p className="black3">
                 <label className="blackbutton">Future Considerations</label>
               </p>
             </Fade>
             <Fade delay={300}>
-            <p className="section">
-              This project was probably the most feature complete and playable
-              game I built since university. It was a good exercise for
-              planning, coding and execution. Quick code prototyping definitely
-              helps to put something together but it is necessary to identify
-              what code should be generic, flexible and readable and re-write
-              the code. Hopefully, I can apply what I learned here to future
-              projects!
-            </p>
-            
+              <p className="section">
+                This project was probably the most feature complete and playable
+                game I built since university. It was a good exercise for
+                planning, coding and execution. Quick code prototyping
+                definitely helps to put something together but it is necessary
+                to identify what code should be generic, flexible and readable
+                and re-write the code. Hopefully, I can apply what I learned
+                here to future projects!
+              </p>
             </Fade>
           </Grid>
         </Grid>
