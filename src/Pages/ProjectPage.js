@@ -32,7 +32,7 @@ class ProjectPage extends Component {
             <CardAutobattler delay={250} />
             <CardReact delay={400} />
           </Grid>
-          <Grid item xs={0} sm={0} md={1}>
+          <Grid item xs={false} sm={false} md={1}>
           </Grid>
           <Grid item xs={12} sm={12} md={5}>
             <Fade delay={300} top>
