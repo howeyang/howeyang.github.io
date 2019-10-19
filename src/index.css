@@ -325,7 +325,7 @@ ul.header li a:focus {
 }
 
 .closemenu{
-  background: rgb(222, 180, 45) !important;
+  background: rgba(	255, 105, 97,0.7) !important;
 }
 
 .menubutton:active::after {

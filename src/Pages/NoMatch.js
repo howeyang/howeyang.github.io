@@ -24,12 +24,12 @@ class NoMatch extends Component {
           
           <Grid item xs={12} sm={10} md={10}>
             <Fade up>
-            <div className="black3" title="how did u get here??"> This is a little awkward ... you tried to reach an undeclared page.
+            <div className="black3" title="how did u get here??"> This is a little awkward ... you reached an undeclared page.
             <br></br> Please use the Navigation bar to return to working pages!
-            
-            <br></br>
-            <a>Feel free to contact me at howechyang@gmail.com so I can fix this!</a>
             </div>
+            <br></br>
+            <div className="white2">Feel free to contact me at howechyang@gmail.com so I can fix this!</div>
+            
            
             </Fade>
           </Grid>

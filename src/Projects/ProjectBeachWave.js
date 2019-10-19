@@ -44,7 +44,7 @@ class ProjectBeachWave extends Component {
                 My scene was a cube angled to look like a ramp and a horizontal
                 plane intersecting ontop of it...
                 
-                <br /><label>Work in Progress!</label> <br />
+                
               </p>
             </Fade>
           </Grid>
@@ -64,6 +64,7 @@ class ProjectBeachWave extends Component {
               </p>
             </Fade>
           </Grid>
+          <div className="white1">Work in Progress!</div> 
         </Grid>
       </div>
     );

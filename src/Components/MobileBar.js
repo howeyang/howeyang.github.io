@@ -84,7 +84,8 @@ class MobileBar extends Component {
                   this.state.active ? "header top3 visiblenav" : "hidden"} >
                 <li>
                   <a className={
-                  this.state.active ? "menubutton active" : "hidden"} onClick={this.redirectProject}>
+                  this.state.active ? "menubutton active" : "hidden"} onClick={this.redirectProject}
+                  >
                     Projects
                   </a>
                 </li>

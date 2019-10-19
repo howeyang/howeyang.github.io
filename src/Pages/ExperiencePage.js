@@ -6,7 +6,7 @@ import pokemon from "../Images/logo/upsight-pokemon.png";
 import activision from "../Images/logo/upsight-activision.png";
 import twitch from "../Images/logo/upsight-twitch.png";
 import taptitan from "../Images/logo/gamehive-tap.png";
-import battlerun from "../Images/logo/gamehive-run.png";
+//import battlerun from "../Images/logo/gamehive-run.png";
 import beatboss from "../Images/logo/gamehive-beat.png";
 
 class ExperiencePage extends Component {
@@ -32,12 +32,12 @@ class ExperiencePage extends Component {
           <Grid item xs={12} sm={12} md={12}>
             <Fade duration={1000}>
               <div className="black3">
-                {" "}
-                <a>Graduated from </a>{" "}
+                Graduated from {" "}
                 <a
                   className="custom_button job"
                   href="https://uwaterloo.ca/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   University of Waterloo
                 </a>
@@ -61,6 +61,7 @@ class ExperiencePage extends Component {
                     className="custom_button job"
                     href="https://www.gamehive.com/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Game Hive
                   </a>
@@ -143,6 +144,7 @@ class ExperiencePage extends Component {
                     className="custom_button job"
                     href="https://www.upsight.com/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Upsight
                   </a>

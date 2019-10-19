@@ -58,7 +58,7 @@ class ContactPage extends Component {
 
                 <Fade duration={1200}>
                   <div className="floatcontain">
-                    <a className="floatleft">You can email and reach me at</a>
+                    <div className="floatleft">You can email and reach me at</div>
                     <u
                       className="custom_button floatright"
                       onClick={this.copyToClipboard}
@@ -73,11 +73,12 @@ class ContactPage extends Component {
                 </Fade>
                 <Fade delay={200}>
                   <div className="floatcontain">
-                    <a className="floatleft"> Github : </a>
+                    <div className="floatleft"> Github : </div>
                     <a
                       className="custom_button floatright"
                       href="https://github.com/howeyang"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       https://github.com/howeyang
                     </a>
@@ -85,11 +86,12 @@ class ContactPage extends Component {
                 </Fade>
                 <Fade delay={300}>
                   <p className="floatcontain">
-                    <a className="floatleft"> Linkedin : </a>
+                    <div className="floatleft"> Linkedin : </div>
                     <a
                       className="custom_button floatright"
                       href="https://ca.linkedin.com/in/howeyang"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       https://ca.linkedin.com/in/howeyang
                     </a>
@@ -98,11 +100,12 @@ class ContactPage extends Component {
                 </Fade>
                 <Fade delay={400}>
                 <p className="floatcontain">
-                  <a className="floatleft">Itch.io : </a>
+                  <div className="floatleft">Itch.io : </div>
                   <a
                     className="custom_button floatright"
                     href="https://howeyang.itch.io"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     https://howeyang.itch.io
                   </a>
