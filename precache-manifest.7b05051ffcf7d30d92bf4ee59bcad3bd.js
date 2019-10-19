@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7acc0b0913c5f2508976f4be4316fe6e",
+    "revision": "51a9b7051f28de440531d172691e5f7f",
     "url": "/howeyang.github.io/index.html"
   },
   {
-    "revision": "3a648ab41def3e09b7af",
+    "revision": "78414416bede4339f96f",
     "url": "/howeyang.github.io/static/css/2.9cfa8c34.chunk.css"
   },
   {
-    "revision": "e605549c6aae0fc024c1",
-    "url": "/howeyang.github.io/static/css/main.e7e7821e.chunk.css"
+    "revision": "f2629998534db6c4851c",
+    "url": "/howeyang.github.io/static/css/main.498bad90.chunk.css"
   },
   {
-    "revision": "3a648ab41def3e09b7af",
-    "url": "/howeyang.github.io/static/js/2.0e00e20d.chunk.js"
+    "revision": "78414416bede4339f96f",
+    "url": "/howeyang.github.io/static/js/2.06962bd1.chunk.js"
   },
   {
-    "revision": "e605549c6aae0fc024c1",
-    "url": "/howeyang.github.io/static/js/main.4ca1aed7.chunk.js"
+    "revision": "f2629998534db6c4851c",
+    "url": "/howeyang.github.io/static/js/main.278e3350.chunk.js"
   },
   {
     "revision": "88d7778b6a635c03ba06",
@@ -46,10 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d903b20e18ccfee987eaaade469a2107",
     "url": "/howeyang.github.io/static/media/card-work.d903b20e.png"
-  },
-  {
-    "revision": "0f47bfd2e8779be1236fabfbf24ddee5",
-    "url": "/howeyang.github.io/static/media/gamehive-run.0f47bfd2.png"
   },
   {
     "revision": "1c0d4ba3007de71ac3345c1eac8797fa",
