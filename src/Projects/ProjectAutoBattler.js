@@ -28,6 +28,47 @@ class ProjectAutoBattler extends Component {
           <Grid item xs={12} sm={6} md={6}>
             <Fade>
               <p className="black3">
+                <label className="blackbutton">Summary</label>
+              </p>
+            </Fade>
+            <Fade>
+              <p className="section">
+                <label>Minimal Viable Product</label> <br />
+                The goal of this project was to try to beyond a simple proof of concept and add enough polish to make a convincing Minimal Viable Product. The first thing was to create the underlying game logic of an auto battler game. The second thing to do was add polish and attention to detail, to use models in convincing ways, create an environment and functional UI to the game. In retrospect, the polish stage was where I learned the most!
+                <br /> <label>The Core Game Play</label> <br />
+                The Core Game was straightforward in implementation and needed to meet the following functionality :
+                <ul className="list">
+                <li></li>
+                </ul>
+                <br /> <label>The Polish</label> <br />
+                Although "polish" is never critical to the functionality to a game, it was often something I never go to work on. Adding the bells and whistles here was a big learning curve for me and I'm glad I went the extra mile :
+
+              </p>
+            </Fade>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} className="overlay2">
+            <Fade>
+              <p className="black3">
+                <label className="blackbutton">Gameplay</label>
+              </p>
+            </Fade>
+            <Fade delay={300}>
+              <div className="section">
+                <ReactPlayer
+                  url="./Autobattle/autobattle.mp4"
+                  width="100%"
+                  height="100%"
+                  controls={true}
+                  playing={true}
+                />
+              </div>
+            </Fade>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6}>
+            <Fade>
+              <p className="black3">
                 <label className="blackbutton">Introduction</label>
               </p>
             </Fade>
@@ -51,25 +92,6 @@ class ProjectAutoBattler extends Component {
                 Animation System, placing Environmental assets and all the small
                 things that contribute to polish.
               </p>
-            </Fade>
-          </Grid>
-
-          <Grid item xs={12} sm={6} md={6} className="overlay2">
-            <Fade>
-              <p className="black3">
-                <label className="blackbutton">Gameplay</label>
-              </p>
-            </Fade>
-            <Fade delay={300}>
-              <div className="section">
-                <ReactPlayer
-                  url="./Autobattle/autobattle.mp4"
-                  width="100%"
-                  height="100%"
-                  controls={true}
-                  playing={true}
-                />
-              </div>
             </Fade>
           </Grid>
 
