@@ -3,6 +3,7 @@ import CardAutobattler from "../Cards/CardAutobattler";
 import CardSandbox from "../Cards/CardSandbox";
 import Grid from "@material-ui/core/Grid";
 import Fade from "react-reveal/Fade";
+import Hidden from "@material-ui/core/Hidden";
 import CardReact from "../Cards/CardReact";
 import CardBeach from "../Cards/CardBeach";
 
@@ -14,9 +15,16 @@ class ProjectPage extends Component {
   render() {
     return (
       <div>
-        <Fade duration={2000}>
-          <div className="white1">Projects and Case Studies</div>
-        </Fade>
+        <Hidden xsDown>
+          <Fade duration={2000}>
+            <div className="white1">Projects and Case Studies</div>
+          </Fade>
+        </Hidden>
+        <Hidden smUp>
+          <Fade duration={2000}>
+            <div className="white1">Projects</div>
+          </Fade>
+        </Hidden>
         <Grid container direction="row" justify="center" alignItems="stretch">
           <Grid item xs={12} sm={12} md={5}>
             <Fade delay={300} bottom>
@@ -32,8 +40,7 @@ class ProjectPage extends Component {
             <CardAutobattler delay={250} />
             <CardReact delay={400} />
           </Grid>
-          <Grid item xs={false} sm={false} md={1}>
-          </Grid>
+          <Grid item xs={false} sm={false} md={1}></Grid>
           <Grid item xs={12} sm={12} md={5}>
             <Fade delay={300} top>
               <p className="black3">
