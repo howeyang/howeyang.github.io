@@ -976,5 +976,6 @@ background: rgba(172, 172, 172, 0.475); */
 
 .list {
   text-align: left;
-  margin-block-start:0px !important;
+  margin-block-start: 10px !important;
+
 }

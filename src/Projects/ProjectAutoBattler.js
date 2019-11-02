@@ -19,9 +19,7 @@ class ProjectAutoBattler extends Component {
         </Fade>
         <Fade delay={200} bottom>
           <p className="black3">
-            <label className="blackbutton">
-              Single Player Auto Battler
-            </label>
+            <label className="blackbutton">Single Player Auto Battler</label>
           </p>
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">
@@ -33,16 +31,73 @@ class ProjectAutoBattler extends Component {
             </Fade>
             <Fade>
               <p className="section">
-                <label>Minimal Viable Product</label> <br />
-                The goal of this project was to try to beyond a simple proof of concept and add enough polish to make a convincing Minimal Viable Product. The first thing was to create the underlying game logic of an auto battler game. The second thing to do was add polish and attention to detail, to use models in convincing ways, create an environment and functional UI to the game. In retrospect, the polish stage was where I learned the most!
-                <br /> <label>The Core Game Play</label> <br />
-                The Core Game was straightforward in implementation and needed to meet the following functionality :
+                <label>A Refined Prototype</label> <br />
+                The goal of this project was to go beyond a simple game
+                prototype and use this opporunity to add a lot of polish and
+                features to a prototype.
+                <br /> <label>Part 1 : The Core Game Play</label> <br />
+                The Core Game was straightforward in implementation and needed
+                to meet the following functionality :
                 <ul className="list">
-                <li></li>
+                  <li>
+                    ● Units will automatically find enemies, path to them and
+                    attack if possible
+                  </li>
+                  <li>
+                    <span>[ Node Grid System, A* Algorithim, AI Agents ]</span>
+                  </li>
+                  <li>
+                    ● Ability to move, upgrade, add or remove units on the Board
+                    or bench
+                  </li>
+                  <li>
+                    <span>
+                      [ Ray cast input detection and resolution, Switch case
+                      controller ]
+                    </span>
+                  </li>
+                  <li>
+                    ● Having a Buying / Reward Mechanism as well as Unit Info
+                    Panel
+                  </li>
+                  <li>
+                    <span>
+                      [ Prefab Instantiation, Generic UI Element Mapping and
+                      Updates ]
+                    </span>
+                  </li>
                 </ul>
-                <br /> <label>The Polish</label> <br />
-                Although "polish" is never critical to the functionality to a game, it was often something I never go to work on. Adding the bells and whistles here was a big learning curve for me and I'm glad I went the extra mile :
-
+                <label>Part 2 : The Polish</label> <br />
+                Although "polish" is never critical to the functionality to a
+                game, it was often something I never worked on. This was a big
+                learning curve for me and I'm glad I learned a lot while working
+                on the following features :<br></br>
+                <ul className="list">
+                  <li>
+                    ● Unity's Mecanim Animation State System, how to hook into
+                    it and use it
+                  </li>
+                  <li>
+                    <span>[ Mecanim System, Animation Controller ]</span>
+                  </li>
+                  <li>
+                    ● Building a clean UI for legiability and functionality
+                  </li>
+                  <li>
+                    <span>[ Unity Canvas, Text Mesh Pro, Anchoring ]</span>
+                  </li>
+                  <li>
+                    ● Having an Introduction transition scene into Core Game
+                    loop
+                  </li>
+                  <li>
+                    <span>[ Camera Interpolation, Environment Design ]</span>
+                  </li>
+                  <li>
+                    ● Creating Materials, Particle Effects and using 3rd Party
+                    assets for Models and Environments
+                  </li>
+                </ul>
               </p>
             </Fade>
           </Grid>
@@ -166,8 +221,7 @@ class ProjectAutoBattler extends Component {
                 In an effort to avoid coupling, I tried making more monolithic
                 code scripts but that became difficult to read and iterate on.
                 However, if I made the code small, it became too tightly coupled
-                or too many references, which also made it difficult due to
-                code.
+                or too many references, which also made it difficult to understand and iterate on.
                 <br />{" "}
                 <label>
                   Transition from Prototype code to Better code
@@ -178,7 +232,7 @@ class ProjectAutoBattler extends Component {
                 enemies, then attack if there were else move towards an enemy.
                 In summary, it was a bit of a long IF ELSE statement and
                 difficult to built additional functionality. For the future,
-                after coding functionality and liking the iteration, it is
+                after coding functionality and liking the functionality, it is
                 definitely important to take the time to clean up, organize and
                 improve code for future use.
               </p>
@@ -188,7 +242,7 @@ class ProjectAutoBattler extends Component {
           <Grid item xs={12} sm={6} md={6} className="overlay2">
             <Fade>
               <p className="black3">
-                <label className="blackbutton">Future Considerations</label>
+                <label className="blackbutton">Going Forward!</label>
               </p>
             </Fade>
             <Fade delay={300}>
