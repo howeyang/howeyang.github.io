@@ -36,64 +36,9 @@ class ProjectSandbox extends Component {
             </Fade>
           </Grid>
 
-          <Grid item xs={12} sm={6} md={6} className="overlay2">
-            <Fade>
-            <p className="black3">
-                <label className="blackbutton">PS4 Wave</label>
-              </p>
-            </Fade>
-            <Fade delay={300}>
-              <div className="section">
-                <p>
-                  <label>Summary</label> <br />
-                  The PS4 home screen is a beautiful yet simple wave with softly
-                  emitting particles. I wanted to challenge myself to re-create
-                  it in Unity.
-                  <br />
-                  <label>Challenge and Solution</label> <br />
-                  The major challenge is an issue with aliasing artifacts. Even
-                  when bumping the number vertices of the plane I was using to
-                  40,000 tries and decreasing the amount of deviation between
-                  points, aliasing was still apparent. As a solution, I decided
-                  that it might not be possible to have beautiful with a 2D
-                  plane by itself. With a texture with transparent edges, it is
-                  possible to almost eliminate aliasing significantly.
-                </p>
-                <ReelSandboxWave />
-              </div>
-            </Fade>
-          </Grid>
-
-          <Grid item xs={12} sm={6} md={6}>
-            <Fade>
-            <p className="black3">
-                <label className="blackbutton">Shaders</label>
-              </p>
-            </Fade>
-            <Fade delay={500}>
-              <div className="section">
-                <p>
-                  <label>Summary</label> <br />
-                  After watching the Youtube Tutorials by Dan Moran, "Making
-                  Stuff look good in Unity", I tried my hand at making building
-                  shaders via scripting and Unity's Node Shader.
-                  <br />
-                  <label>Considerations</label> <br />
-                  Shaders and graphic effects are something that I want to
-                  understand and utilize. There is definitely a steep learning
-                  curve and even after taking one of the best ( and hardest )
-                  4th year Graphics course at Waterloo, it's still magic to me.
-                  Hopefully down the line, I'll be able to put some time in to
-                  create better SFX.
-                </p>
-                <ReelSandboxShader />
-              </div>
-            </Fade>
-          </Grid>
-
           <Grid item xs={12} sm={12} md={12} className="overlay2">
             <Fade>
-            <p className="black3">
+              <p className="black3">
                 <label className="blackbutton">Unity Particle System</label>
               </p>
             </Fade>
@@ -124,6 +69,73 @@ class ProjectSandbox extends Component {
                     muted={true}
                   />
                 </div>
+              </div>
+            </Fade>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} className="overlay2">
+            <Fade>
+              <p className="black3">
+                <label className="blackbutton">PS4 Wave</label>
+              </p>
+            </Fade>
+            <Fade delay={100}>
+              <div className="section">
+                <p>
+                  <label>Summary</label> <br />
+                  The PS4 home screen is a beautiful yet simple wave with softly
+                  emitting particles. I wanted to challenge myself to re-create
+                  it in Unity.
+                  <br />
+                  <label>Challenge and Solution</label> <br />
+                  The major challenge is an issue with aliasing artifacts. Even
+                  when bumping the number vertices of the plane I was using to
+                  40,000 tries and decreasing the amount of deviation between
+                  points, aliasing was still apparent. As a solution, I decided
+                  that it might not be possible to have beautiful with a 2D
+                  plane by itself. With a texture with transparent edges, it is
+                  possible to almost eliminate aliasing significantly.
+                  <br></br>
+                  Later on, when I started working with Shaders, I realized that
+                  the best way to deform vertices in with the vertex shader as
+                  it's high performance and minimal aliasing.
+                </p>
+                <ReelSandboxWave />
+              </div>
+            </Fade>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6}>
+            <Fade>
+              <p className="black3">
+                <label className="blackbutton">Shaders</label>
+              </p>
+            </Fade>
+            <Fade delay={300}>
+              <div className="section">
+                <p>
+                  <label>Summary</label> <br />
+                  After watching the Youtube Tutorials by Dan Moran, "Making
+                  Stuff look good in Unity", I tried my hand at making building
+                  shaders via scripting and Unity's Node Shader.
+                  <br />
+                  <label>Considerations</label> <br />
+                  Shaders and graphic effects are something that I want to
+                  understand and utilize. There is definitely a steep learning
+                  curve and even after taking one of the best ( and hardest )
+                  4th year Graphics course at Waterloo, it's still magic to me.
+                  <br></br>
+                  This was my inital approach to Shaders and I have since moved
+                  onto projects based on making a specific shader that meets my
+                  own expectations. Feel free to check it out :{" "}
+                  <a
+                    className="custom_button"
+                    href="#/Project/ProjectBeachwave"
+                  >
+                    Beach Wave
+                  </a>
+                </p>
+                <ReelSandboxShader />
               </div>
             </Fade>
           </Grid>

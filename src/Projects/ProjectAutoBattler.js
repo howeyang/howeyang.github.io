@@ -222,14 +222,15 @@ class ProjectAutoBattler extends Component {
                 code scripts but that became difficult to read and iterate on.
                 However, if I made the code small, it became too tightly coupled
                 or too many references, which also made it difficult to understand and iterate on.
+                Finding a good balance is something I need to work on going forwards!
                 <br />{" "}
                 <label>
                   Transition from Prototype code to Better code
                 </label>{" "}
                 <br />
-                When I coded the AI for the units, I made had an naive approach
-                to the unit logic. It would determine if there were any nearby
-                enemies, then attack if there were else move towards an enemy.
+                When I coded the AI for the units, I created a prototype naive approach
+                for it's Agent logic. It would determine if there were any nearby
+                enemies and if true, attack. Otherwise, it would try to path to the nearest enemy.
                 In summary, it was a bit of a long IF ELSE statement and
                 difficult to built additional functionality. For the future,
                 after coding functionality and liking the functionality, it is

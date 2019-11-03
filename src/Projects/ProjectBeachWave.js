@@ -16,7 +16,7 @@ class ProjectBeachWave extends Component {
         </Fade>
         <Fade delay={200} bottom>
           <p className="black3">
-            <label className="blackbutton">Relaxing and mesmerizing</label>
+            <label className="blackbutton">! Work in Progress !</label>
           </p>
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">
@@ -28,30 +28,42 @@ class ProjectBeachWave extends Component {
               <p className="section">
                 <label>Water Shader</label> <br />
                 This Unity Project was a study on how to use Shaders to create
-                stylized water. The water shader uses a mix of trigonometry  to create the curvature, noise texture and thresholds to create foam and caustics and passing along the right variables from vertex to fragment shader to get the right effect.
-                <br /><br></br>
-                <label>The Challenges</label>
+                stylized water. My water shader uses a mix of trigonometry to
+                create the curvature, noise texture and thresholds to create
+                this stylized effect.
+                <br></br>
+                <label>Part 1 : My own approach </label> <br />
+                Initially, I decided to see if I could do my own reverse
+                engineering to figure out what is necessary to make a Water
+                Shader :
                 <ul className="list">
                   <li>
-                    <span>Writing HLSL (vertex and fragment shader code)</span> is always an
-                    interesting problem to tackle due to how you work directly with vertexes and colours.
+                    ● Deform a plane to give the impression of water ebb and
+                    flow
                   </li>
                   <li>
-                    <span>Figuring out how to correctly leverage noise textures </span> to create various water
-                    effects while avoid creating obvious artifacts and tiling.
+                    ● Using a Noise Texture and Thresholds to create White Foam
+                    effects
+                  </li>
+                  <li>
+                    ● Using Camera Depth and layering Color Gradients to create
+                    the blue colour
                   </li>
                 </ul>
-                <label>The Lessons</label>
+                <label>Part 2 : Research and Layering Effects</label> <br />
+                At this point, my shader was decent but still had room for
+                improvement! Via Simon Schreibt's talk on how his team created
+                stylized water in Rime, I am working on adding the following
+                effects :
                 <ul className="list">
                   <li>
-                    <span>Shaders are magical and not that scary</span> as they have such great performance and can lead to beautiful effects.
+                    ● Adding motion to Foam texture and switch to a line texture
                   </li>
-                  <li>
-                    <span>Piecemealing the Shader code is helpful in visualizing </span> how each parameter or code change can impact the final look.
-                  </li>
+                  <li>● Adding Caustic and illumation lines to the water</li>
+                  <li>● Adding fake reflections to the water</li>
+                  <li>● Creating a Stochastic Sand Shader</li>
                 </ul>
-                <br></br> 
-                <b>Read below for how my journey in creating this!</b>
+                <b>Read below for my journey in creating this!</b>
               </p>
             </Fade>
           </Grid>
@@ -91,16 +103,16 @@ class ProjectBeachWave extends Component {
                 previous experience in Unity, I challenged myself to reproduce
                 the effect!
                 <br />
-                <label>The Start</label> <br />
+                <label>Beginnings</label> <br />
                 My previous tinkering with making waves has helped me understand
                 the best way to create water effects in Unity is via{" "}
                 <span>Shaders</span>. Scripting a plane's mesh and modifying
                 material properties leaves too many artifacts and doesn't result
-                in a convincing wave. <br></br>I began my scene with a Probuild Cube
-                modified to look like a ramp and a horizontal plane intersecting
-                into it. From there, I set a sand like material for the ramp and
-                began writing a custom Shader for the plane which would
-                represent my water.
+                in a convincing wave. <br></br>I began my scene with a Probuild
+                Cube modified to look like a ramp and a horizontal plane
+                intersecting into it. From there, I set a sand like material for
+                the ramp and began writing a custom Shader for the plane which
+                would represent my water.
               </p>
             </Fade>
           </Grid>
@@ -113,7 +125,8 @@ class ProjectBeachWave extends Component {
               <p className="section">
                 <label>The Plan</label> <br />
                 To reverse engineer and implement this ideal stylized water
-                effect to life, I broke it down to a series of components that I needed to create.
+                effect to life, I broke it down to a series of components that I
+                needed to create.
                 <ul className="list">
                   <li>1. Distorting the Plane mesh to Curve like a wave.</li>
                   <li>2. Making the Plane mesh ebb and flow like a wave.</li>
@@ -124,6 +137,58 @@ class ProjectBeachWave extends Component {
                   <li>4. Adding a hard white line at rim of plane.</li>
                   <li>5. Adding foam effects that ebb and flow with Noise.</li>
                   <li>6. Polish and Iterate on everything!</li>
+                </ul>
+              </p>
+            </Fade>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6}>
+            <Fade delay={200}>
+              <p className="black3">
+                <label className="blackbutton">The Challenges</label>
+              </p>
+              <p className="section">
+                <label>Vertex and Frag Shader</label>
+                <br></br>
+                <span>Writing HLSL (vertex and fragment shader code)</span> is
+                always an interesting problem to tackle due to how you work
+                directly with vertexes and colours.
+                <br></br>
+                <label>Manipulating Noise Textures</label>
+                <br></br>
+                <span>
+                  Figuring out how to correctly leverage noise textures{" "}
+                </span>{" "}
+                to create various water effects while avoid creating obvious
+                artifacts and tiling.
+              </p>
+            </Fade>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6}>
+            <Fade delay={200}>
+              <p className="black3">
+                <label className="blackbutton">Lessons learned!</label>
+              </p>
+              <p className="section">
+                <label>The Lessons</label>
+                <ul className="list">
+                  <li>
+                    <span>● Shaders are magical and not that scary</span> as
+                    they have such great performance and can lead to beautiful
+                    effects.
+                  </li>
+                  <li>
+                    <span>
+                      ● Piecemealing the Shader code is helpful in visualizing{" "}
+                    </span>{" "}
+                    how each parameter or code change can impact the final look.
+                  </li>
+                  <li>
+                    <span>
+                      ● Working with Textures in Shaders is non-trivial
+                    </span>
+                  </li>
                 </ul>
               </p>
             </Fade>
