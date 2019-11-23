@@ -57,7 +57,7 @@ class MobileBar extends Component {
   render() {
     return (
       <div>
-          <ul className="header visiblenav">
+          <ul className="header visiblenav" key={100 + this.state.active}>
             <li>
               <a
                 className={
@@ -68,7 +68,7 @@ class MobileBar extends Component {
                 {this.state.active ? "Close" : "Menu"}
               </a>
             </li>
-            <Fade collapse when={this.state.active} duration={100}>
+            <Fade collapse when={this.state.active} duration={100} key={1 + this.state.active}>
               <ul className={
                   this.state.active ? "header top2 visiblenav" : "hidden" }>
                 <li>
@@ -79,7 +79,7 @@ class MobileBar extends Component {
                 </li>
               </ul>
             </Fade>
-            <Fade collapse when={this.state.active} duration={300}>
+            <Fade collapse when={this.state.active} duration={300} key={2 + this.state.active}>
               <ul className={
                   this.state.active ? "header top3 visiblenav" : "hidden"} >
                 <li>
@@ -91,7 +91,7 @@ class MobileBar extends Component {
                 </li>
               </ul>
             </Fade>
-            <Fade collapse when={this.state.active} duration={600}>
+            <Fade collapse when={this.state.active} duration={600} key={3 + this.state.active}>
               <ul className={
                   this.state.active ? "header top4 visiblenav" : "hidden"} >
                 <li>
@@ -102,7 +102,7 @@ class MobileBar extends Component {
                 </li>
               </ul>
             </Fade>
-            <Fade collapse when={this.state.active} duration={900} >
+            <Fade collapse when={this.state.active} duration={900} key={4 + this.state.active} >
               <ul className={
                   this.state.active ? "header top5 visiblenav" : "hidden"}>
                 <li>
