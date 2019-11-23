@@ -19,8 +19,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
   font-size: 1em;
-  overflow-x: hidden;
-  overflow-y: scroll;
   -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
   transition: ease 1s; /* For modern browsers */
 }
@@ -219,7 +217,6 @@ ul.header {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
