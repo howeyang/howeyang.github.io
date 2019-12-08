@@ -23,34 +23,25 @@ class ExperiencePage extends Component {
         <Fade delay={200} bottom>
           <p className="black3">
             <label className="blackbutton">
-              Canadian > Gamer > Developer
+              Graduated from{" "}
+              <a
+                className="custom_button job"
+                href="https://uwaterloo.ca/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                University of Waterloo
+              </a>
+              <br></br>
+              Bachelor of Computer Science Honours <a>2012 - 2016</a>
+              <br></br>
+              <img src="placeholder.svg" className="bounce"></img>Toronto, Canada
             </label>
+            
           </p>
         </Fade>
 
         <Grid container direction="row" justify="center" alignItems="stretch">
-          <Grid item xs={12} sm={12} md={12}>
-            <Fade duration={1000}>
-              <div className="black3">
-                Graduated from {" "}
-                <a
-                  className="custom_button job"
-                  href="https://uwaterloo.ca/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  University of Waterloo
-                </a>
-                <br></br>
-                Bachelor of Computer Science Honours <a>2012 - 2016</a>
-              </div>
-              <div className="black3 removemargin">
-                <img src="placeholder.svg" className="bounce"></img>Toronto,
-                Canada
-              </div>
-            </Fade>
-          </Grid>
-
           <Grid item xs={12} sm={12} md={6}>
             <Fade duration={2000}>
               <div className="section2">
@@ -88,6 +79,11 @@ class ExperiencePage extends Component {
 
                 <p className="section">
                   <label>Responsibilities</label> <br />
+                  <span>
+                    Fixing and addressing features and bugs in Unity
+                  </span>{" "}
+                  via Pull Requests and code review.
+                  <b>● </b>
                   <span>Actively assisting the development process </span>{" "}
                   through JIRA management, acceptance criteria, priority reports
                   and communication
@@ -97,11 +93,6 @@ class ExperiencePage extends Component {
                   with helpful summaries, reproduction steps and references
                   (video/screenshots)
                   <br />
-                  <b>● </b>
-                  <span>
-                    Fixing and addressing features and bugs in Unity
-                  </span>{" "}
-                  via Pull Requests and code review.
                   <b>● </b>
                   <span>
                     Testing new features and updates in development{" "}
@@ -127,9 +118,9 @@ class ExperiencePage extends Component {
                   <br />
                   <b>● </b>
                   <span>
-                    Tracked build reports and asset size growth over time
+                    Developed and maintained Internal Debugging scripts
                   </span>{" "}
-                  to help identify unnecessary files and new feature cost
+                  to improve our team's ability to isolate game states and features
                 </p>
               </div>
             </Fade>
@@ -163,7 +154,9 @@ class ExperiencePage extends Component {
                     </div>
                   </Flip>
                   <p>
-                    <label className="blackbutton">Integration and Solution Engineer</label>
+                    <label className="blackbutton">
+                      Integration and Solution Engineer
+                    </label>
                     <br></br> Sept 2016 - Oct 2018
                   </p>
                 </div>

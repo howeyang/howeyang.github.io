@@ -44,61 +44,54 @@ class ContactPage extends Component {
           <div className="white1">Contact me</div>
         </Fade>
         <Fade delay={200} bottom>
-        <p className="black3 mobilepad">
-                <label className="blackbutton">How to Reach out or Connect</label>
-              </p>
+          <p className="black3 mobilepad">
+            <label className="blackbutton">How to Reach out or Connect</label>
+          </p>
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">
           <Grid item xs={12} sm={6} md={6}>
             <Fade>
               <div className="section2">
-              <p className="black3">
-                <label className="blackbutton">Contact Info</label>
-              </p>
+                <p className="black3">
+                  <label className="blackbutton">Contact Info</label>
+                </p>
 
-                <Fade duration={1200}>
-                  <div className="floatcontain">
-                    <div className="floatleft">You can email and reach me at</div>
-                    <u
-                      className="custom_button floatright"
-                      onClick={this.copyToClipboard}
-                    >
-                      howechyang@gmail.com
-                    </u>
-                  </div>
-                </Fade>
+                <div className="floatcontain">
+                  <div className="floatleft">You can email and reach me at</div>
+                  <u
+                    className="custom_button floatright"
+                    onClick={this.copyToClipboard}
+                  >
+                    howechyang@gmail.com
+                  </u>
+                </div>
 
-                <Fade >
-                  <div className="white2">Or find me at other sites!</div>
-                </Fade>
-                <Fade delay={200}>
-                  <div className="floatcontain">
-                    <div className="floatleft"> Github : </div>
-                    <a
-                      className="custom_button floatright"
-                      href="https://github.com/howeyang"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      https://github.com/howeyang
-                    </a>
-                  </div>
-                </Fade>
-                <Fade delay={300}>
-                  <p className="floatcontain">
-                    <div className="floatleft"> Linkedin : </div>
-                    <a
-                      className="custom_button floatright"
-                      href="https://ca.linkedin.com/in/howeyang"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      https://ca.linkedin.com/in/howeyang
-                    </a>
-                    <br />
-                  </p>
-                </Fade>
-                <Fade delay={400}>
+                <div className="white2">Or find me at other sites!</div>
+
+                <div className="floatcontain">
+                  <div className="floatleft"> Github : </div>
+                  <a
+                    className="custom_button floatright"
+                    href="https://github.com/howeyang"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://github.com/howeyang
+                  </a>
+                </div>
+                <p className="floatcontain">
+                  <div className="floatleft"> Linkedin : </div>
+                  <a
+                    className="custom_button floatright"
+                    href="https://ca.linkedin.com/in/howeyang"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://ca.linkedin.com/in/howeyang
+                  </a>
+                  <br />
+                </p>
+
                 <p className="floatcontain">
                   <div className="floatleft">Itch.io : </div>
                   <a
@@ -110,9 +103,7 @@ class ContactPage extends Component {
                     https://howeyang.itch.io
                   </a>
                 </p>
-                </Fade>
               </div>
-              
             </Fade>
           </Grid>
           <Grid item xs={12} sm={6} md={6}>
