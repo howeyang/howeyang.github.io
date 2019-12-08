@@ -16,7 +16,7 @@ class ProjectBeachWave extends Component {
         </Fade>
         <Fade delay={200} bottom>
           <p className="black3">
-            <label className="blackbutton">! Work in Progress !</label>
+            <label className="blackbutton">Shader Case Study</label>
           </p>
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">
@@ -53,15 +53,13 @@ class ProjectBeachWave extends Component {
                 <label>Part 2 : Research and Layering Effects</label> <br />
                 At this point, my shader was decent but still had room for
                 improvement! Via Simon Schreibt's talk on how his team created
-                stylized water in Rime, I am working on adding the following
-                effects :
+                stylized water in Rime, I added on the following features :
                 <ul className="list">
                   <li>
                     ● Adding motion to Foam texture and switch to a line texture
                   </li>
                   <li>● Adding Caustic and illumation lines to the water</li>
                   <li>● Adding fake reflections to the water</li>
-                  <li>● Creating a Stochastic Sand Shader</li>
                 </ul>
                 <b>Read below for my journey in creating this!</b>
               </p>
@@ -74,7 +72,7 @@ class ProjectBeachWave extends Component {
               </p>
               <div className="section">
                 <ReactPlayer
-                  url="./beachwave.mp4"
+                  url="./target2.mp4"
                   width="100%"
                   height="100%"
                   controls={true}
@@ -193,8 +191,6 @@ class ProjectBeachWave extends Component {
               </p>
             </Fade>
           </Grid>
-
-          <div className="white1">Work in Progress!</div>
         </Grid>
       </div>
     );
