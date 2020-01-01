@@ -24,7 +24,7 @@ class LandingPage extends Component {
               <Fade bottom>
                 <p className="black2 mobilepad">
                   <label className="blackbutton">
-                    Developer & Game Designer
+                    Software Developer from Toronto 
                   </label>
                 </p>
               </Fade>
