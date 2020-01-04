@@ -90,36 +90,36 @@ p label {
 }
 
 .white0 {
-  font-family: "Bad Script", serif;
+  font-family: 'Redressed', cursive;
   display: block;
   font-size: 5em;
-  font-style: normal;
+  font-style: italic;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   margin-block-end: 0.37em;
   font-weight: normal;
   color: #eaf5fa;
   text-shadow: #9cbbd0 0px 3px 1px;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .white1 {
   display: block;
   font-size: 5em;
-  font-family: "Bad Script", cursive;
-  font-style: normal;
+  font-family: "Redressed", cursive;
+  font-style: italic;
   margin-block-end: 0.37em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: normal;
   color: #eaf5fa;
   text-shadow: #9cbbd0 0px 3px 1px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .white1 span {
   color: #2e313a;
-  font-family: "Bad Script", cursive;
+  font-family: "Redressed", cursive;
   text-shadow: #9cbbd0 0px 3px 1px;
   text-decoration-color: #eaf5fa;
 }
