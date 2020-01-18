@@ -20,7 +20,7 @@ class ExperiencePage extends Component {
         <Fade duration={2000}>
           <div className="white1"> Experience </div>
         </Fade>
-        <Fade delay={200} bottom>
+        <Fade delay={300}>
           <p className="black3">
             <label className="blackbutton">
               Graduated from{" "}
@@ -56,7 +56,7 @@ class ExperiencePage extends Component {
                   >
                     Game Hive
                   </a>
-                  <Flip cascade left duration={700} delay={500}>
+                  <Flip cascade left duration={700} delay={700}>
                     <div className="subtitle">
                       Creators of
                       <img
@@ -139,7 +139,7 @@ class ExperiencePage extends Component {
                   >
                     Upsight
                   </a>
-                  <Flip cascade right duration={700} delay={500}>
+                  <Flip cascade right duration={700} delay={800}>
                     <div className="subtitle">
                       Worked with
                       <img src={pokemon} alt="Niantic" className="fixedimg" />

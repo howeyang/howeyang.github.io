@@ -43,7 +43,7 @@ class ContactPage extends Component {
         <Fade duration={2000}>
           <div className="white1">Contact me</div>
         </Fade>
-        <Fade delay={200} bottom>
+        <Fade delay={300}>
           <p className="black3 mobilepad">
             <label className="blackbutton">How to Reach out or Connect</label>
           </p>

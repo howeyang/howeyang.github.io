@@ -21,7 +21,7 @@ class LandingPage extends Component {
                   <div className="white0 mobilepad"> Howe Yang </div>
                 </div>
               </Fade>
-              <Fade bottom>
+              <Fade delay={300}>
                 <p className="black2 mobilepad">
                   <label className="blackbutton">
                     Software Developer from Toronto 
