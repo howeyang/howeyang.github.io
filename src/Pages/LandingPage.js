@@ -24,7 +24,7 @@ class LandingPage extends Component {
               <Fade delay={300}>
                 <p className="black2 mobilepad">
                   <label className="blackbutton">
-                    Software Developer from Toronto 
+                    Trying to make stuff in Toronto 
                   </label>
                 </p>
               </Fade>
