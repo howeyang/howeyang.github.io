@@ -4,6 +4,7 @@ import CardExperience from "../Cards/CardExperience";
 import CardAutobattler from "../Cards/CardAutobattler";
 import CardProjects from "../Cards/CardProjects";
 import Fade from "react-reveal/Fade";
+import { withRouter } from "react-router-dom";
 
 class LandingPage extends Component {
   componentDidMount() {
@@ -24,7 +25,7 @@ class LandingPage extends Component {
               <Fade delay={300}>
                 <p className="black2 mobilepad">
                   <label className="blackbutton">
-                    Trying to make stuff in Toronto 
+                    Making things work, making things faster and making things fun!
                   </label>
                 </p>
               </Fade>

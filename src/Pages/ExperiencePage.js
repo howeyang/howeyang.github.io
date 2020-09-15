@@ -72,7 +72,7 @@ class ExperiencePage extends Component {
                     </div>
                   </Flip>
                   <p>
-                    <label className="blackbutton">QA Developer</label>
+                    <label className="blackbutton">Developer & Associate Producer</label>
                     <br></br> July 2019 - Present
                   </p>
                 </div>
@@ -80,29 +80,22 @@ class ExperiencePage extends Component {
                 <p className="section">
                   <label>Responsibilities</label> <br />
                   <span>
-                    Fixing and addressing features and bugs in Unity
+                    Developing and fixing features in Unity
                   </span>{" "}
-                  via Pull Requests and code review.
+                  via Pull Requests, reviewing teammates code and testing edge cases
                   <b>● </b>
-                  <span>Actively assisting the development process </span>{" "}
-                  through JIRA management, acceptance criteria, priority reports
-                  and communication
+                  <span>Actively assisting development scheduling </span>{" "}
+                  through JIRA management, identifying acceptance criteria, triaging
+                  and communicating concerns
                   <br />
                   <b>● </b>
                   <span>Investigating and documenting issues</span> via JIRA
-                  with helpful summaries, reproduction steps and references
+                  with contextual summaries, reproduction steps and references
                   (video/screenshots)
                   <br />
                   <b>● </b>
-                  <span>
-                    Testing new features and updates in development{" "}
-                  </span>{" "}
-                  via analyzing edge cases and by isolating problematic
-                  behaviour
-                  <br />
-                  <b>● </b>
                   <span>Monitor game forums and existing communities</span> to
-                  identify live game issues
+                  identify live game issues and engage the player base
                   <br />
                   <b>● </b>
                   <span>Building and deploying Applications </span> to the
@@ -121,6 +114,12 @@ class ExperiencePage extends Component {
                     Developed and maintained Internal Debugging scripts
                   </span>{" "}
                   to improve our team's ability to isolate game states and features
+                  <br />
+                  <b>● </b>
+                  <span>
+                  Maintaining Road maps and fleshing out future versions
+                  </span>{" "}
+                  to get design / art ahead so that developers are on track.
                 </p>
               </div>
             </Fade>
@@ -201,12 +200,12 @@ class ExperiencePage extends Component {
                   employment
                   <br /> <b>●</b>
                   <span>
-                    Led to contract renewal of key enterprise client
+                    Led to contract renewal of a key enterprise client
                   </span>{" "}
-                  due to my contributions in issue resolution
+                  due to my contributions in issue resolution and support
                   <br /> <b>●</b>
                   <span>
-                    Documented Big Data ingestion pipeline from end-to-end{" "}
+                    Documented our Big Data ingestion pipeline from end-to-end{" "}
                   </span>{" "}
                   which set the foundation for tracking and improving overall
                   workflow and entry information for new staff

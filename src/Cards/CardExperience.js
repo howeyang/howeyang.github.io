@@ -22,7 +22,7 @@ class CardExperience extends Component {
         <div className="hvr-sweep-to-right2">
           <div className="hvr-sweep-to-right workexperience">
             <div className="hvr-sweep-to-right3">
-            <Fade  ddelay={this.props.delay} >
+            <Fade  delay={this.props.delay} >
               <Card className="glow">
                 <CardActionArea
                   onClick={this.redirect}
@@ -52,7 +52,7 @@ class CardExperience extends Component {
                         <b>Upsight</b> : Integration and Solutions Engineer
                          <br></br>
                       
-                         <b>Game Hive</b> : QA Developer
+                         <b>Game Hive</b> : Developer + Associate Producer
                         </span> 
                       
                     </Typography>
