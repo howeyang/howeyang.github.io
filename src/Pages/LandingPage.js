@@ -15,7 +15,7 @@ class LandingPage extends Component {
     return (
       <div>
         <div className="grid_root">
-          <Grid container direction="row" justify="center" alignItems="stretch">
+          <Grid container direction="row" justify="center" alignItems="stretch" spacing={2}>
             <Grid item xs={12} sm={12} md={12} className="overlay2 nameland">
               <Fade duration={2000}>
                 <div>
@@ -38,7 +38,7 @@ class LandingPage extends Component {
             </Grid>
 
             <Grid item xs={12} sm={6} md={3}>
-              <CardExperience delay={100} />
+              <CardExperience delay={100}/>
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
               <CardProjects delay={250} />

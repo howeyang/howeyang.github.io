@@ -596,8 +596,8 @@ li {
 
 @media (max-width: 600px) {
   .nameland {
-    height: 80vh !important;
-    min-height: 80vh !important;
+    height: 50vh !important;
+    min-height: 50vh !important;
   }
 }
 
