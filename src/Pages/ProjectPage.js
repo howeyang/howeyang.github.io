@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade";
 import Hidden from "@material-ui/core/Hidden";
 import CardReact from "../Cards/CardReact";
 import CardBeach from "../Cards/CardBeach";
-
+import CardFire from "../Cards/CardFire";
 class ProjectPage extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
@@ -53,7 +53,8 @@ class ProjectPage extends Component {
               </div>
             </Fade>
             <CardBeach delay={400} />
-            <CardSandbox delay={550} />
+            <CardFire delay={500} />
+            <CardSandbox delay={600} />
           </Grid>
         </Grid>
       </div>

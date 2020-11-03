@@ -11,6 +11,7 @@ import ProjectSandbox from "../Projects/ProjectSandbox";
 import MobileBar from "../Components/MobileBar";
 import ProjectReact from "../Projects/ProjectReact";
 import ProjectBeachWave from "../Projects/ProjectBeachWave";
+import ProjectFire from "../Projects/ProjectFire";
 import NoMatch from "./NoMatch";
 
 
@@ -68,6 +69,7 @@ class Main extends Component {
           <Route exact path="/Project/ProjectSandbox" component={ProjectSandbox} />
           <Route exact path="/Project/ProjectReact" component={ProjectReact} />
           <Route exact path="/Project/ProjectBeachWave" component={ProjectBeachWave} />
+          <Route exact path="/Project/ProjectFire" component={ProjectFire} />
           <Route component={NoMatch} />
           </Switch>
         </div>

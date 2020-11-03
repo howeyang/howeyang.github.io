@@ -49,7 +49,7 @@ class CardA extends Component {
                       >
                         <label>Unity3D | Shader | HLSL </label>
                         <span className="whitefont">
-                          Research and iteration on creating a stylized water shader.
+                          Research and iteration on creating a stylized Water Shader.
                         </span>
                       </Typography>
                     </CardContent>

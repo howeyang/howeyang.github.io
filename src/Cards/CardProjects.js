@@ -30,7 +30,7 @@ class CardProjects extends Component {
                   >
                     <CardMedia
                       className="card"
-                      image={require("../Images/card/card-sandbox.png")}
+                      image={require("../Images/fire_end.gif")}
                       title="Smashing rocks together~"
                     />
                     <CardContent>
