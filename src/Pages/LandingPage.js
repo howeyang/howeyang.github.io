@@ -25,14 +25,14 @@ class LandingPage extends Component {
               <Fade delay={300}>
                 <p className="black2 mobilepad">
                   <label className="blackbutton">
-                    Making things work, making things faster and making things fun!
+                    Obssessed with making things look good!
                   </label>
                 </p>
               </Fade>
               <Fade bottom duration={1250}>
                 <div className="white2 mobilepad">
                   {" "}
-                  Unity3D | Blender | Digital Art
+                  Unity3D Developer | Learning VFX
                 </div>
               </Fade>
             </Grid>
