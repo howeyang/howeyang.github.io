@@ -47,12 +47,14 @@ class CardExperience extends Component {
                       color="textPrimary"
                       component="p"
                     >
-                      <label>Unity3D |  Mobile Games | Analytics</label>
+                      <label>Unity3D |  Mobile Games</label>
                       <span className="whitefont">
-                        <b>Upsight</b> : Integration and Solutions Engineer
-                         <br></br>
+                      <b>Game Hive</b> : Unity Developer Producer
+                      <br></br>
+                        <b>Upsight</b> : Integration and Support
+                         
                       
-                         <b>Game Hive</b> : Developer + Associate Producer
+                         
                         </span> 
                       
                     </Typography>

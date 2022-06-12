@@ -942,7 +942,7 @@ background: rgba(172, 172, 172, 0.475); */
 }
 
 .MuiPaper-root {
-  background: rgba(80, 104, 121, 0.3) !important;
+  background: rgba(80, 104, 121, 0.7) !important;
   border: rgba(156, 187, 208, 0.8) 1px solid;
 }
 

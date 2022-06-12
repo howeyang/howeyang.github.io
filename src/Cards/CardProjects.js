@@ -49,7 +49,8 @@ class CardProjects extends Component {
                       >
                         <label>Unity3D | Scripts | Shaders</label>
                         <span className="whitefont">
-                          Showcasing a couple of complete Games and Case Studies of visual effects and concepts.
+                          Showcasing personal projects built mainly in Unity!
+                          
                         </span>
                       </Typography>
                     </CardContent>

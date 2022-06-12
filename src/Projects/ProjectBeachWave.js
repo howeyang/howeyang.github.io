@@ -68,11 +68,11 @@ class ProjectBeachWave extends Component {
           <Grid item xs={12} sm={6} md={6}>
             <Fade delay={400}>
               <p className="black3">
-                <label className="blackbutton">Latest Capture</label>
+                <label className="blackbutton">Shader Breakdown</label>
               </p>
               <div className="section">
                 <ReactPlayer
-                  url="./target2.mp4"
+                  url="./breakdown.mp4"
                   width="100%"
                   height="100%"
                   controls={true}
