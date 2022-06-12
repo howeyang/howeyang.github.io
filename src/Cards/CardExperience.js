@@ -49,7 +49,7 @@ class CardExperience extends Component {
                     >
                       <label>Unity3D |  Mobile Games</label>
                       <span className="whitefont">
-                      <b>Game Hive</b> : Unity Developer Producer
+                      <b>Game Hive</b> : Unity Developer + Producer
                       <br></br>
                         <b>Upsight</b> : Integration and Support
                          

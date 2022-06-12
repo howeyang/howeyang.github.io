@@ -77,6 +77,7 @@ class ProjectBeachWave extends Component {
                   height="100%"
                   controls={true}
                   playing={true}
+                  loop={true}
                 />
               </div>
             </Fade>

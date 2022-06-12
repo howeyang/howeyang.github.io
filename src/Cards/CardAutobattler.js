@@ -46,7 +46,7 @@ class CardAutobattler extends Component {
                         color="textPrimary"
                         component="p"
                       >
-                        <label>Unity3D | Procedural | AI | Pathfinding</label>
+                        <label>Unity3D | Unity Animator | AI</label>
                         <span className="whitefont">
                           A single player take on the Auto battler genre:
                           feature complete and playable.
