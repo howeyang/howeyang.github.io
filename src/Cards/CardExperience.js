@@ -5,7 +5,7 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import { withRouter } from "react-router-dom";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 
 class CardExperience extends Component {
   constructor(props) {
@@ -19,10 +19,10 @@ class CardExperience extends Component {
 
   render() {
     return (
-        <div className="hvr-sweep-to-right2">
-          <div className="hvr-sweep-to-right workexperience">
-            <div className="hvr-sweep-to-right3">
-            <Fade  delay={this.props.delay} >
+      <div className="hvr-sweep-to-right2">
+        <div className="hvr-sweep-to-right workexperience">
+          <div className="hvr-sweep-to-right3">
+            <Fade delay={this.props.delay}>
               <Card className="glow">
                 <CardActionArea
                   onClick={this.redirect}
@@ -47,24 +47,20 @@ class CardExperience extends Component {
                       color="textPrimary"
                       component="p"
                     >
-                      <label>Unity3D |  Mobile Games</label>
+                      <label>Unity3D | Mobile Games</label>
                       <span className="whitefont">
-                      <b>Game Hive</b> : Unity Developer + Producer
-                      <br></br>
+                        <b>Game Hive</b> : Unity Developer + Producer
+                        <br></br>
                         <b>Upsight</b> : Integration and Support
-                         
-                      
-                         
-                        </span> 
-                      
+                      </span>
                     </Typography>
                   </CardContent>
                 </CardActionArea>
               </Card>
-              </Fade>
-            </div>
+            </Fade>
           </div>
         </div>
+      </div>
     );
   }
 }

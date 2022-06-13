@@ -15,7 +15,7 @@ class ProjectSandbox extends Component {
       <div>
         <Fade duration={2000}>
           <div className="white1">
-            Particles System <span> Shaders</span>
+            Particles System <span> Shaders</span> August 2018
           </div>
         </Fade>
         <Grid container direction="row" justify="center" alignItems="stretch">
@@ -28,7 +28,7 @@ class ProjectSandbox extends Component {
             <Fade delay={100}>
               <p className="section">
                 This is a dedicated section to concepts and things I've been
-                experimenting with in Unity. There are a ton of cool effects and
+                experimenting with in Unity in 2018. There are a ton of cool effects and
                 concepts in games and media. On occasion, I challenge myself to
                 research and re-create the math and logic that can duplicate
                 some of these effects.

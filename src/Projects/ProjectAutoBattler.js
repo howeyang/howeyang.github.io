@@ -14,7 +14,7 @@ class ProjectAutoBattler extends Component {
       <div>
         <Fade duration={2000}>
           <div className="white1">
-            Project: <span>Auto Battler</span>
+            Project: <span>Auto Battler</span> April 2019
           </div>
         </Fade>
         <Fade delay={200} bottom>

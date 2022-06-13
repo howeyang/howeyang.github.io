@@ -12,7 +12,7 @@ class ProjectBeachWave extends Component {
     return (
       <div>
         <Fade duration={2000}>
-          <div className="white1">Beach Wave</div>
+          <div className="white1"><span>Beach Wave</span> Nov 2019</div>
         </Fade>
         <Fade delay={200} bottom>
           <p className="black3">

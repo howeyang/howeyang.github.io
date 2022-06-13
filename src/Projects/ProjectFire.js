@@ -13,7 +13,7 @@ class ProjectFire extends Component {
       <div>
         <Fade duration={2000}>
           <div className="white1">
-            Project: <span> Fire Shader</span>
+            Project: <span> Fire Shader</span> Nov 2020
           </div>
           <p className="black3">
             <label className="blackbutton">

@@ -57,8 +57,8 @@ class ExperiencePage extends Component {
                     >
                       Game Hive
                     </a>{" "}
-                    <label className="blackbutton">Developer & Producer</label>
-                    {" "} July 2019 - Present
+                    <label className="blackbutton">Developer & Producer</label>{" "}
+                    July 2019 - Present
                   </p>
                   <Flip cascade left duration={700} delay={700}>
                     <div className="subtitle">
@@ -87,13 +87,34 @@ class ExperiencePage extends Component {
           <Grid item xs={12} sm={6} md={6}>
             <Fade>
               <p className="section">
-              <label>Battle Run Contributions</label> <br />
-                <span>Planned and executed a roadmap for launching Battle Run</span> from a small team of 4 developers to a 30 person project with server developers, artists, designers and QA
+                <label>Battle Run Contributions</label> <br />
+                <span>
+                  Planned and executed a roadmap for launching Battle Run
+                </span>{" "}
+                from a small team of 4 developers to a 30 person project with
+                server developers, artists, designers and QA
                 <b>● </b>
-              Planned and executed a roadmap for launching a game from a small team of 4 developers to a 30 person project with server developers, artists, designers and QA
-Worked on custom shaders and scripts in Unity that enabled artists to customize and stylize elements
-Pioneered the use of different Unity tech such as device simulator for testing, anchors in UI for dynamic layouts
-Worked on improving Internal tools in Unity to improve ease of testing and quality of life of QA and developers
+                <span>Developed features in Unity </span>
+                that parsed data from Server Responses and transformed into working client logic with interactions in Unity. {" "}
+                <span>
+                  In the examples section, you can see an example of the Landing Page which I made in Unity.
+                </span>
+                <b>● </b>
+                <span>
+                  Worked on custom shaders in Unity {" "}
+                </span>
+                that enabled artists to customize and stylize elements. Majority
+                of shaders in Battle Run were written by myself.
+                <span> In the examples section, you can see an example of the Speed Pad Shaders which I wrote in HLSL.</span>
+                <b>● </b>
+                <span>Pioneered the use of different Unity tech </span>
+                such as device simulator for testing, anchors in UI for dynamic
+                layouts
+                <b>● </b>
+                <span>Worked on improving Internal tools in Unity </span>
+                to improve ease of testing and quality of life of QA and
+                developers
+                <br />
                 <label>Responsibilities</label> <br />
                 <span>Developing and fixing features in Unity</span> via Pull
                 Requests, reviewing teammates code and testing edge cases
@@ -132,7 +153,7 @@ Worked on improving Internal tools in Unity to improve ease of testing and quali
                 <br />
                 <b>● </b>
                 <span>
-                  Maintaining Road maps and fleshing out future versions
+                  Maintaining Roadmaps and fleshing out future versions
                 </span>{" "}
                 to get design / art ahead so that developers are on track.
               </p>
@@ -180,12 +201,11 @@ Worked on improving Internal tools in Unity to improve ease of testing and quali
                       rel="noopener noreferrer"
                     >
                       Upsight
-                    </a>
-                    {" "}
+                    </a>{" "}
                     <label className="blackbutton">
                       Integration and Support
-                    </label>
-                    {" "} Sept 2016 - Oct 2018
+                    </label>{" "}
+                    Sept 2016 - Oct 2018
                   </p>
                   <Flip cascade right duration={700} delay={800}>
                     <div className="subtitle">

@@ -395,7 +395,7 @@ li {
 .section span {
   text-decoration: none !important;
   color: rgb(232, 246, 255) !important;
-  font: bold !important;
+  font: bolder !important;
   font-weight: bolder;
   display: inline !important;
 }
