@@ -28,6 +28,7 @@ class LandingPage extends Component {
                     Obssessed with making things look good!
                   </label>
                 </p>
+                <br></br>
               </Fade>
               <Fade bottom duration={1250}>
                 <div className="white2 mobilepad">

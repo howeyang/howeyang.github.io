@@ -62,7 +62,7 @@ class ExperiencePage extends Component {
                   </p>
                   <Flip cascade left duration={700} delay={700}>
                     <div className="subtitle">
-                      Worked on
+                      Worked on {" "}
                       <img
                         src={battlerun}
                         alt="Casual PVP Racing"
