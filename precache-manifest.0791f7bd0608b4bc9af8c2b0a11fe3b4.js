@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1889f71c0ef8f172ac23291779a4daaa",
+    "revision": "6974e6b26280c11dcfed79eb89b226da",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.9cfa8c34.chunk.css"
   },
   {
-    "revision": "117d5b3e25cc48961b92",
+    "revision": "6ee1ef62cf952f0bd991",
     "url": "/static/css/main.c0eb84fa.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.1fe34f4a.chunk.js"
   },
   {
-    "revision": "117d5b3e25cc48961b92",
-    "url": "/static/js/main.12aeff55.chunk.js"
+    "revision": "6ee1ef62cf952f0bd991",
+    "url": "/static/js/main.e9a1c780.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/card-work.afd2c9ff.png"
   },
   {
-    "revision": "f2e222142bacd2b1997f0642c08833a7",
-    "url": "/static/media/fire_end.f2e22214.gif"
+    "revision": "89369e321a913ac268e5a5a999b98924",
+    "url": "/static/media/fire_end.89369e32.gif"
   },
   {
     "revision": "a1ef3644fa11976e6715707994643b8d",
