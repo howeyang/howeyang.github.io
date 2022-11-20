@@ -31,8 +31,31 @@
     <title>Howe Yang - Toronto</title>
   </head>
 
-  <body>
-    <div id="background-root">Loading</div>
+  <body style="background:black;">
+    <div
+      id="background-root"
+      style="color:#9cbbd0; position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5em;"
+    >
+      Loading...
+    </div>
     <div id="root"></div>
   </body>
+  
+  <script>
+    !(function(t) {
+      function e() {
+        var e = this || self;
+        (e.globalThis = e), delete t.prototype._T_;
+      }
+      "object" != typeof globalThis &&
+        (this
+          ? e()
+          : (t.defineProperty(t.prototype, "_T_", { configurable: !0, get: e }),
+            _T_));
+    })(Object);
+  </script>
 </html>
