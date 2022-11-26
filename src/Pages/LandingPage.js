@@ -5,43 +5,23 @@ import CardAutobattler from "../Cards/CardAutobattler";
 import CardProjects from "../Cards/CardProjects";
 import Fade from "react-reveal/Fade";
 import { withRouter } from "react-router-dom";
+import CardMedia from "@material-ui/core/CardMedia";
 
 class LandingPage extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }
 
-  
-
   render() {
     return (
       <div>
-        <div>
-        <div className="sidewaywrapper">
-              <div className="sidewayscrolling">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  volutpat, ante eu bibendum tincidunt, sem lacus vehicula
-                  augue, ut suscipit.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  volutpat, ante eu bibendum tincidunt, sem lacus vehicula
-                  augue, ut suscipit.
-                </p>
-              </div>
-            </div>
-          <div className="sidenav">
-            <div className="sidewaytext">Howe Yang</div>
-          </div>
-        </div>
         <div className="grid_root">
           <Grid
             container
             direction="row"
             justify="center"
             alignItems="stretch"
-            spacing={2}
+            spacing={0}
           >
             <Grid item xs={12} sm={12} md={12}>
               <Fade duration={2000}></Fade>
@@ -49,9 +29,7 @@ class LandingPage extends Component {
             <Grid item xs={12} sm={12} md={12}>
               <Fade delay={300}>
                 <p className="black2 mobilepad">
-                  <label className="blackbutton">
-                    Obssessed with making things look good!
-                  </label>
+                  <label className="blackbutton">game sucks</label>
                 </p>
               </Fade>
             </Grid>
@@ -64,11 +42,12 @@ class LandingPage extends Component {
               </Fade>
             </Grid>
 
-            <Grid item xs={12} sm={6} md={3}>
+
+            <Grid item xs={12} sm={6} md={6}>
               <CardExperience delay={100} />
             </Grid>
-            <Grid item xs={12} sm={6} md={3}>
-              <CardProjects delay={250} />
+            <Grid item xs={12} sm={6} md={6}>
+            <CardExperience delay={100} />
             </Grid>
           </Grid>
         </div>
@@ -76,5 +55,5 @@ class LandingPage extends Component {
     );
   }
 }
-
+// <CardProjects delay={250} />
 export default LandingPage;
