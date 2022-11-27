@@ -16,40 +16,58 @@ class LandingPage extends Component {
     return (
       <div>
         <div className="grid_root">
-          <Grid
-            container
-            direction="row"
-            justify="center"
-            alignItems="stretch"
-            spacing={0}
-          >
-            <Grid item xs={12} sm={12} md={12}>
-              <Fade duration={2000}></Fade>
-            </Grid>
-            <Grid item xs={12} sm={12} md={12}>
-              <Fade delay={300}>
-                <p className="black2 mobilepad">
-                  <label className="blackbutton">game sucks</label>
-                </p>
-              </Fade>
-            </Grid>
-            <Grid item xs={12} sm={12} md={12}>
-              <Fade bottom duration={1250}>
-                <div className="white2 mobilepad">
-                  {" "}
-                  Unity3D Developer | Learning VFX
-                </div>
-              </Fade>
-            </Grid>
+          <div className="half">
+            <Grid
+              container
+              direction="row"
+              justify="center"
+              alignItems="stretch"
+              spacing={0}
+            >
+              <Grid item xs={12} sm={12} md={12}>
+              </Grid>
+              <Grid item xs={4} sm={4} md={4}>
+                <Fade delay={300}>
+                  <div className="nametext">
+                    Riot <br></br>Games
+                  </div>
+                </Fade>
+              </Grid>
 
+              <Grid item xs={4} sm={4} md={4}>
+                <Fade delay={300}>
+                  <div className="nametext">
+                    Howe <br></br>Yang
+                  </div>
+                </Fade>
+              </Grid>
 
-            <Grid item xs={12} sm={6} md={6}>
-              <CardExperience delay={100} />
+              <Grid item xs={4} sm={4} md={4}>
+                <Fade delay={300}>
+                  <div className="nametext">
+                    Howe <br></br>Yang
+                  </div>
+                </Fade>
+              </Grid>
             </Grid>
-            <Grid item xs={12} sm={6} md={6}>
-            <CardExperience delay={100} />
+          </div>
+
+          <div className="half">
+            <Grid
+              container
+              direction="row"
+              justify="center"
+              alignItems="stretch"
+              spacing={0}
+            >
+              <Grid item xs={12} sm={6} md={6}>
+                <CardExperience delay={100} />
+              </Grid>
+              <Grid item xs={12} sm={6} md={6}>
+                <CardProjects delay={100} />
+              </Grid>
             </Grid>
-          </Grid>
+          </div>
         </div>
       </div>
     );

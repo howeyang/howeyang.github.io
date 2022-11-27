@@ -26,17 +26,18 @@ class CardExperience extends Component {
             <Fade delay={this.props.delay}>
               <Card>
                 <CardActionArea onClick={this.redirect}>
-                  <Box color="white" p={0} className="toprightanchor">
-                    Work
+                  <Box p={0} className="toprightanchor gradientRed">
+                    {""}
+                    Work{" "}
                   </Box>
-                  <div className="testpadding">
+                  <div className="cardpadding">
                     <CardMedia
                       className="card card-highlight glow"
                       image={require("../Images/card/card-work.png")}
                       title="Upsight and Game Hive!"
                     >
-                      <Box color="white" p={0} className="imagetext">
-                        Bottom Text
+                      <Box p={0} className="imagetext mixDifference">
+                        Unity Developer at Game Hive
                       </Box>
                     </CardMedia>
                   </div>
