@@ -33,66 +33,124 @@ Super white Gray :  DFDCE7 */
   height: 33vh;
 }
 
-.toprightanchor {
+.bottom-middle-anchor {
   text-align: center;
-  top: 5vw;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  bottom: 4vh;
   position: absolute;
-  font-family: "MarkHeavy", sans-serif !important;
-  font-weight: bold;
-  font-size: 5vw;
-  color: #cccccc;
   mix-blend-mode: normal;
   /*text-shadow: 3px 3px 20px #937341,
     -2px 1px 30px #937341;*/
 }
 
+.bottom-right-anchor {
+  text-align: right;
+  bottom: 4vh;
+  position: absolute;
+  mix-blend-mode: normal;
+  /*text-shadow: 3px 3px 20px #937341,
+    -2px 1px 30px #937341;*/
+}
+
+.top-left-anchor {
+  text-align: center;
+  top: 4vh;
+  position: absolute;
+  text-align: left;
+  height: 10vh;
+}
+
+.top-middle-anchor {
+  text-align: center;
+  top: 4vh;
+  position: absolute;
+  text-align: center;
+  height: 10vh;
+}
+
+.gradientRedBottom {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(117, 19, 93, 0.5),
+    rgba(117, 19, 93, 1)
+  ) !important;
+  width: 100%;
+}
+
+.gradientRedTop {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0),
+    rgba(117, 19, 93, 0.5),
+    rgba(117, 19, 93, 1)
+  ) !important;
+  width: 100%;
+}
+
+.gradientBlueBottom {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(19, 47, 117, 0.5),
+    rgba(19, 47, 117, 1)
+  ) !important;
+  width: 100%;
+}
+
+.gradientBlueTop {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0),
+    rgba(19, 47, 117, 0.5),
+    rgba(19, 47, 117, 1)
+  ) !important;
+  width: 100%;
+}
+
 .card {
   padding-top: 50%;
   border-style: hidden !important;
+  z-index: 1;
 }
 
 .cardpadding {
-  margin-top: 5vw;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
 }
 
-.gradientRed {
-  background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0),
-    rgba(117, 19, 93, 0.5),
-    rgba(117, 19, 93, 0.5),
-    rgba(0, 0, 0, 0)
-  ) !important;
-  width: 100%;
+.cardHeaderText {
+  font-family: "MarkHeavy", sans-serif !important;
+  font-weight: bold;
+  font-size: 5vw;
+  color: #cccccc;
 }
 
-.gradientBlue {
-  background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0),
-    rgba(19, 47, 117, 0.5),
-    rgba(19, 47, 117, 0.5),
-    rgba(0, 0, 0, 0)
-  ) !important;
-  width: 100%;
-}
-
-.imagetext {
+.cardInfoText {
   font-family: "MarkHeavy", sans-serif !important;
   font-size: 2em;
   color: rgb(255, 255, 255);
-  text-align: left;
 }
 
+.ignoreHover {
+  pointer-events: none !important;
+}
 .mixDifference {
-  mix-blend-mode: difference !important;
+  mix-blend-mode: difference;
 }
 
 .MuiPaper-root {
   background: transparent !important;
   box-shadow: 0px 0px !important;
+}
+
+.glow {
+  box-shadow: 0px 0px 0px 0px #eaf5fa;
+  transition: box-shadow 3s;
+  transition-duration: 2s;
+  -webkit-transition-duration: 2s;
+}
+.glow:hover {
+  box-shadow: 0px 20px 15px #ceebff, 0px -10px 15px #ceebff;
 }
 
 /*End Landing Page Region*/
@@ -854,16 +912,6 @@ background: rgba(172, 172, 172, 0.475); */
   text-underline-position: under;
   transition: all 0.2s ease-in;
   text-decoration-skip-ink: none;
-}
-
-.glow {
-  box-shadow: 0px 0px 0px 0px #eaf5fa;
-  transition: box-shadow 3s;
-  transition-duration: 2s;
-  -webkit-transition-duration: 2s;
-}
-.glow:hover {
-  box-shadow: 0px 20px 15px #ceebff, 0px -10px 15px #ceebff;
 }
 
 .card-sweep-to-right {

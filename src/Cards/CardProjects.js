@@ -26,19 +26,28 @@ class CardProjects extends Component {
             <Fade delay={this.props.delay}>
               <Card>
                 <CardActionArea onClick={this.redirect}>
-                  <Box p={0} className="toprightanchor gradientBlue">
-                    &nbsp; Personal &nbsp;
+                  <Box
+                    p={0}
+                    className="top-middle-anchor cardHeaderText gradientBlueTop ignoreHover"
+                  >
+                    Personal
                   </Box>
+
+                  <Box
+                    p={0}
+                    className="bottom-right-anchor gradientBlueBottom ignoreHover"
+                  >
+                    <div className="cardInfoText mixDifference">
+                      Unity 3D and VFX
+                    </div>
+                  </Box>
+
                   <div className="cardpadding">
                     <CardMedia
                       className="card card-highlight glow"
                       image={require("../Images/fire_end.gif")}
                       title="Smashing rocks together~"
-                    >
-                      <Box p={0} className="imagetext mixDifference">
-                        Projects and Case Studies
-                      </Box>
-                    </CardMedia>
+                    ></CardMedia>
                   </div>
                 </CardActionArea>
               </Card>
