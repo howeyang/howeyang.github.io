@@ -45,8 +45,11 @@ class CardProjects extends Component {
                   <div className="cardpadding">
                     <CardMedia
                       className="card card-highlight glow"
-                      image={require("../Images/fire_end.gif")}
-                      title="Smashing rocks together~"
+                      component="video"
+                      image={require("../Videos/beachwave.mp4")}
+                      muted='true'
+                      autoPlay='true'
+                      loop='true'
                     ></CardMedia>
                   </div>
                 </CardActionArea>

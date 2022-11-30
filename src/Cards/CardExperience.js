@@ -44,8 +44,11 @@ class CardExperience extends Component {
                   <div className="cardpadding">
                     <CardMedia
                       className="card card-highlight glow"
-                      image={require("../Images/card/card-work.png")}
-                      title="Upsight and Game Hive!"
+                      component="video"
+                      image={require("../Videos/battlerun.mp4")}
+                      muted='true'
+                      autoPlay='true'
+                      loop='true'
                     >
                       <Box p={0} className="cardInfoText mixDifference"></Box>
                     </CardMedia>

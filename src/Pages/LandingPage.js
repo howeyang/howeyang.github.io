@@ -29,7 +29,7 @@ class LandingPage extends Component {
               <Grid item xs={4} sm={4} md={4}>
                 <Fade delay={300}>
                   <div className="nametext">
-                    Riot <br></br>Games
+                    Howe <br></br> Yang
                   </div>
                 </Fade>
               </Grid>
@@ -37,15 +37,16 @@ class LandingPage extends Component {
               <Grid item xs={4} sm={4} md={4}>
                 <Fade delay={300}>
                   <div className="nametext">
-                    Howe <br></br>Yang
+                    IMAGE <br></br>
                   </div>
                 </Fade>
               </Grid>
 
               <Grid item xs={4} sm={4} md={4}>
                 <Fade delay={300}>
-                  <div className="nametext">
-                    Howe <br></br>Yang
+                  <div className="">
+                    Very long explanation
+                    Developer and VFX enthusastic
                   </div>
                 </Fade>
               </Grid>
