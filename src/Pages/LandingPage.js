@@ -59,12 +59,12 @@ class LandingPage extends Component {
               direction="row"
               justify="center"
               alignItems="stretch"
-              spacing={0}
+              spacing={4}
             >
-              <Grid item xs={12} sm={6} md={6}>
+              <Grid item xs={12} sm={5} md={5}>
                 <CardExperience delay={100} />
               </Grid>
-              <Grid item xs={12} sm={6} md={6}>
+              <Grid item xs={12} sm={5} md={5}>
                 <CardProjects delay={100} />
               </Grid>
             </Grid>

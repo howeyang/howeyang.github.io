@@ -151,7 +151,7 @@ Super white Gray :  DFDCE7 */
 
 .MuiPaper-root {
   background: transparent !important;
-  box-shadow: 0px 0px !important;
+  box-shadow: 0px 0px 0px 0px #fff!important;
 }
 
 .glow {
@@ -161,7 +161,7 @@ Super white Gray :  DFDCE7 */
   -webkit-transition-duration: 2s;
 }
 .glow:hover {
-  box-shadow: 0px 20px 15px #ceebff, 0px -10px 15px #ceebff;
+  box-shadow: 0px 10px 15px #ceebff, 0px -10px 15px #ceebff;
 }
 
 /*End Landing Page Region*/
