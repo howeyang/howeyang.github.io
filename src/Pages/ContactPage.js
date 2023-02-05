@@ -20,7 +20,7 @@ class ContactPage extends Component {
 
   copyToClipboard() {
     var textField = document.createElement("textarea");
-    textField.innerText = "howechyang@gmail.com";
+    textField.innerText = "info@howeyang.com";
     document.body.appendChild(textField);
     textField.select();
     document.execCommand("copy");
@@ -62,7 +62,7 @@ class ContactPage extends Component {
                     className="custom_button floatright"
                     onClick={this.copyToClipboard}
                   >
-                    howechyang@gmail.com
+                    info@howeyang.com
                   </u>
                 </div>
 
