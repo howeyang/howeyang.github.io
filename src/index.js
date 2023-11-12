@@ -5,8 +5,6 @@ import BackgroundVideo from './Components/BackgroundVideo';
 import App from './Pages/Main';
 import * as serviceWorker from './Components/serviceWorker';
 
-
-ReactDOM.render(<BackgroundVideo />, document.getElementById('background-root'));
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
