@@ -77,16 +77,17 @@ ul.header li {
   text-decoration: none;
 }
 ul.header {
-  z-index: 2;
+  z-index: 100;
   display: block;
   text-align: center;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin-left: 33.333333%;
+  margin-top :0;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 76.666%;
   height: 60px;
+  background-color: rgba(255, 67, 211, 0.8);
   -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
   transition: ease 1s; /* For modern browsers */
 }

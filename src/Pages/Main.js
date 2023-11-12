@@ -36,7 +36,7 @@ class Main extends Component {
   render() {
     return (
       <HashRouter>
-        <Hidden xsDown>
+        <Hidden xsDown className="navigationBar">
           <ul className={this.state.class}>
             <li>
               <NavLink exact to="/">

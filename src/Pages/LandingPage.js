@@ -49,20 +49,6 @@ class LandingPage extends Component {
                 </div>
               </Fade>
             </Grid>
-
-            <Grid
-              item
-              xs={4}
-              sm={4}
-              md={4}
-              className="rightContainer forceHeight"
-            >
-              <Fade duration={2000}>
-                <div>
-                  <div className=""> Right Container </div>
-                </div>
-              </Fade>
-            </Grid>
           </Grid>
         </div>
       </div>
