@@ -30,6 +30,9 @@ Super white Gray :  DFDCE7 */
   background-color: rgb(226, 81, 255) !important;
 }
 
+.navigationBar{
+  /*padding-left: 33.333333%;*/
+}
 
 /* OLD CSS BELOW */
 
@@ -75,17 +78,22 @@ ul.header li {
   color: white;
   text-align: center;
   text-decoration: none;
+  font-size: 1.5vw;
+/*  width: 15%;
+  */
 }
 ul.header {
   z-index: 100;
   display: block;
   text-align: center;
   list-style-type: none;
-  margin-left: 33.333333%;
-  margin-top :0;
+  margin : 0;
+  margin-left : 33.3333%;
+  width : 66.6666%;
+  padding :0;
   position: fixed;
   top: 0;
-  width: 76.666%;
+/*  width: 76.666%;*/
   height: 60px;
   background-color: rgba(255, 67, 211, 0.8);
   -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */

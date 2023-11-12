@@ -38,20 +38,39 @@ class Main extends Component {
       <HashRouter>
         <Hidden xsDown className="navigationBar">
           <ul className={this.state.class}>
-            <li>
-              <NavLink exact to="/">
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/Project">Projects</NavLink>
-            </li>
-            <li>
-              <NavLink to="/Experience">Experience</NavLink>
-            </li>
-            <li>
-              <NavLink to="/Contact">Contact</NavLink>
-            </li>
+            <Grid
+              container
+              direction="row"
+              justifyContent="space-between"
+              alignItems=""
+              className="navigationBar"
+            >
+              <Grid item xs={3} sm={3} md={3} className="">
+                <li>
+                  <NavLink exact to="/">
+                    Home
+                  </NavLink>
+                </li>
+              </Grid>
+
+              <Grid item xs={3} sm={3} md={3}  className="">
+                <li>
+                  <NavLink to="/Project">Projects</NavLink>
+                </li>
+              </Grid>
+
+              <Grid item xs={3} sm={3} md={3}  className="">
+                <li>
+                  <NavLink to="/Experience">Experience</NavLink>
+                </li>
+              </Grid>
+
+              <Grid item xs={3} sm={3} md={3} className="">
+                <li>
+                  <NavLink to="/Contact">Contact</NavLink>
+                </li>
+              </Grid>
+            </Grid>
           </ul>
         </Hidden>
         <Hidden smUp>
