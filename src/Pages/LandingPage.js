@@ -18,44 +18,50 @@ class LandingPage extends Component {
           <Grid
             container
             direction="row"
-            justify="center"
+            justifyContent="space-between"
             alignItems="stretch"
-            spacing={2}
+            className="landingContainer"
           >
-            <Grid item xs={12} sm={12} md={12} className="overlay2 nameland">
+            <Grid
+              item
+              xs={4}
+              sm={4}
+              md={4}
+              className="leftContainer forceHeight"
+            >
               <Fade duration={2000}>
                 <div>
-                  <div className="white0 mobilepad"> Howe Yang </div>
+                  <div className=""> Left Container </div>
                 </div>
               </Fade>
-              </Grid>
-              <Grid item xs={12} sm={12} md={12}>
-                <Fade delay={300}>
-                  <p className="black2 mobilepad">
-                    <label className="blackbutton">
-                      Obssessed with making things look good!
-                    </label>
-                  </p>
-                </Fade>
-              </Grid>
-              <Grid item xs={12} sm={12} md={12}>
-                <Fade bottom duration={1250}>
-                  <div className="white2 mobilepad">
-                    {" "}
-                    Unity3D Developer | Learning VFX
-                  </div>
-                </Fade>
-              </Grid>
-            
+            </Grid>
 
-            <Grid item xs={12} sm={6} md={3}>
-              <CardExperience delay={100} />
+            <Grid
+              item
+              xs={4}
+              sm={4}
+              md={4}
+              className="middleContainer forceHeight"
+            >
+              <Fade duration={2000}>
+                <div>
+                  <div className=""> Middle Container </div>
+                </div>
+              </Fade>
             </Grid>
-            <Grid item xs={12} sm={6} md={3}>
-              <CardProjects delay={250} />
-            </Grid>
-            <Grid item xs={12} sm={6} md={3}>
-              <CardAutobattler delay={400} />
+
+            <Grid
+              item
+              xs={4}
+              sm={4}
+              md={4}
+              className="rightContainer forceHeight"
+            >
+              <Fade duration={2000}>
+                <div>
+                  <div className=""> Right Container </div>
+                </div>
+              </Fade>
             </Grid>
           </Grid>
         </div>
