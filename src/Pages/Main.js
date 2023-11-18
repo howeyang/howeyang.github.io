@@ -39,15 +39,15 @@ class Main extends Component {
         <Hidden xsDown>
           <ul className={this.state.class}>
             <li>
-              <NavLink exact to="/">
+              <NavLink exact to="/" className ="firstCard">
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Project">Projects</NavLink>
+              <NavLink to="/Project" className ="secondCard">Projects</NavLink>
             </li>
             <li>
-              <NavLink to="/Experience">Experience</NavLink>
+              <NavLink to="/Experience" className ="thirdCard">Experience</NavLink>
             </li>
             <li>
               <NavLink to="/Contact">Contact</NavLink>

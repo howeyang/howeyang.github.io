@@ -31,7 +31,9 @@ class LandingPage extends Component {
             >
               <Fade duration={2000}>
                 <div>
-                  <div className=""> Left Container </div>
+                  <div className="mixDifference"> Left Container </div>
+                  <div className="mixDifference active"> Left Container </div>
+                  <div className="mixDifference"> Left Container </div>
                 </div>
               </Fade>
             </Grid>
