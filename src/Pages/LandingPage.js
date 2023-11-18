@@ -24,10 +24,10 @@ class LandingPage extends Component {
           >
             <Grid
               item
-              xs={6}
-              sm={6}
-              md={6}
-              className="middleContainer forceHeight"
+              xs={4}
+              sm={4}
+              md={4}
+              className="leftContainer forceHeight"
             >
               <Fade duration={2000}>
                 <div>
@@ -38,10 +38,10 @@ class LandingPage extends Component {
 
             <Grid
               item
-              xs={6}
-              sm={6}
-              md={6}
-              className="rightContainer forceHeight"
+              xs={4}
+              sm={4}
+              md={4}
+              className="middleContainer forceHeight"
             >
               <Fade duration={2000}>
                 <div>
@@ -59,7 +59,7 @@ class LandingPage extends Component {
             >
               <Fade duration={2000}>
                 <div>
-                  <div className=""> Right Container </div>
+                  <div className=""> right Container </div>
                 </div>
               </Fade>
             </Grid>

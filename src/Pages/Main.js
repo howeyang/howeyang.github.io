@@ -65,15 +65,12 @@ class Main extends Component {
           alignItems="stretch"
           className="landingContainer"
         >
-          <Grid item xs={4} sm={4} md={4} className="leftContainer forceHeight">
-            <LeftLandingPage></LeftLandingPage>
-          </Grid>
-
+      
           <Grid
             item
-            xs={8}
-            sm={8}
-            md={8}
+            xs={12}
+            sm={12}
+            md={12}
             className="middleContainer forceHeight"
           >
             <div className="content">
