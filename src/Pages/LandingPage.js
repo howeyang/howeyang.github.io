@@ -10,6 +10,7 @@ class LandingPage extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
     document.querySelector('body').style.background = '#29B6F6';
+    //document.querySelector('gradientBackground').className; 
   }
 
   render() {

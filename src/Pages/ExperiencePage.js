@@ -14,6 +14,7 @@ class ExperiencePage extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
     document.querySelector("body").style.background = "#9CCC65";
+    
   }
   //<img src={battlerun} alt="Runnn" className="fixedimg" />
   render() {
