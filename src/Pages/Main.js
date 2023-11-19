@@ -72,7 +72,7 @@ class Main extends Component {
           className="landingContainer"
         >
         
-      <div className="repeatingDotPattern"></div>
+      <div className="repeatingDotPattern mixDifference"></div>
         <div className="gradientBackground">
         </div>
 
