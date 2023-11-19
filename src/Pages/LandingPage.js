@@ -9,6 +9,7 @@ import { withRouter } from "react-router-dom";
 class LandingPage extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
+    document.querySelector('body').style.background = '#29B6F6';
   }
 
   render() {
@@ -34,7 +35,7 @@ class LandingPage extends Component {
                   <div className="mixDifference"> Left Container </div>
                   <div className="mixDifference active"> Left Container </div>
                   <div className=" cardInfo mixDifference"> Left Container
-                  <div className="mixDifference"> Left Container </div> </div>
+                  </div>
                 </div>
               </Fade>
             </Grid>

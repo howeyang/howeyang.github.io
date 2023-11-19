@@ -7,9 +7,11 @@ import Hidden from "@material-ui/core/Hidden";
 import CardReact from "../Cards/CardReact";
 import CardBeach from "../Cards/CardBeach";
 import CardFire from "../Cards/CardFire";
+
 class ProjectPage extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
+    document.querySelector("body").style.background = "#FFCA28";
   }
 
   render() {

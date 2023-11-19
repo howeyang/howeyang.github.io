@@ -54,7 +54,7 @@ class Main extends Component {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Contact">
+              <NavLink to="/Contact" className ="fourthCard">
               <div className="mixDifference"> Resume </div> 
               </NavLink>
             </li>
