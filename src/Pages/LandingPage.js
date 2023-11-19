@@ -7,10 +7,16 @@ import Fade from "react-reveal/Fade";
 import { withRouter } from "react-router-dom";
 
 class LandingPage extends Component {
+
   componentDidMount() {
     window.scrollTo(0, 0);
     document.querySelector('body').style.background = '#29B6F6';
-    //document.querySelector('gradientBackground').className; 
+    document.querySelector('.gradientBackground').classList.add('gradientBlue');  
+    console.log('remount');  
+  }
+
+  componentWillUnmount(){
+    document.querySelector('.gradientBackground').classList.remove('gradientBlue');
   }
 
   render() {

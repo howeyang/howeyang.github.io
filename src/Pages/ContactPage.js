@@ -16,7 +16,12 @@ class ContactPage extends Component {
 
   componentDidMount() {
     window.scrollTo(0, 0);
-    document.querySelector("body").style.background = "#FF7043";
+    document.querySelector("body").style.background = "#B2DFDB";
+    document.querySelector('.gradientBackground').classList.add('gradientTeal'); 
+  }
+
+  componentWillUnmount(){
+    document.querySelector('.gradientBackground').classList.remove('gradientTeal');
   }
 
   copyToClipboard() {

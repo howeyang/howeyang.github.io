@@ -12,7 +12,11 @@ class ProjectPage extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
     document.querySelector("body").style.background = "#FFCA28";
-   
+    document.querySelector('.gradientBackground').classList.add('gradientOrange'); 
+  }
+
+  componentWillUnmount(){
+    document.querySelector('.gradientBackground').classList.remove('gradientOrange');
   }
 
   render() {

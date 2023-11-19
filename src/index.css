@@ -60,7 +60,7 @@ Super white Gray :  DFDCE7 */
   mix-blend-mode: difference !important;
 }
 
-#repeatingDotPattern {
+.repeatingDotPattern {
   background: url("./Images/background/dotPattern.png") repeat center;
   position: fixed;
   width: 100%;
@@ -68,21 +68,28 @@ Super white Gray :  DFDCE7 */
   background-attachment: fixed;
 }
 
-#gradientBackground {
-  background: linear-gradient(to bottom, rgba(0, 115, 255, 0), rgb(0, 166, 255));
+.gradientBackground {
   position: fixed;
+  background-attachment: fixed;
   height: 100%;
   width: 100%;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .gradientBlue{
-  background: linear-gradient(to bottom, rgba(0, 115, 255, 0), rgb(0, 166, 255));
+  background: linear-gradient(to bottom, rgba(0, 166, 255, 0), rgb(0, 122, 187));
+}
+
+.gradientOrange{
+  background: linear-gradient(to bottom, rgba(255, 202, 40, 0), rgb(225, 119, 27));
 }
 
 .gradientGreen{
-  background: linear-gradient(to bottom, rgba(0, 115, 255, 0), rgb(51, 255, 33));
+  background: linear-gradient(to bottom, rgba(220, 237, 200, 0), rgb(82, 247, 143));
+}
+
+.gradientTeal{
+  background: linear-gradient(to bottom, rgba(77, 182, 172, 0), rgb(77, 182, 172));
 }
 
 /* OLD CSS BELOW */
@@ -102,23 +109,6 @@ body {
   font-size: 1em;
   -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
   transition: ease 1s; /* For modern browsers */
-}
-
-.fullscreen-bg {
-  background: #000 no-repeat center center fixed;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -5;
-  transition: ease-in-out 1s;
 }
 
 ul.header li {
@@ -246,7 +236,8 @@ ul.header li a:focus {
 }
 
 .active {
-  outline: 4px solid #fff;
+  border-left: 12px solid #fff;
+  border-right: 12px solid #fff;
   color: #00bcd4 !important;
   border-color: rgb(255, 255, 255) !important;
   width: 20vw !important;

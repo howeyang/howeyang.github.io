@@ -13,9 +13,14 @@ import ReactPlayer from "react-player";
 class ExperiencePage extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
-    document.querySelector("body").style.background = "#9CCC65";
-    
+    document.querySelector("body").style.background = "#DCEDC8";
+    document.querySelector('.gradientBackground').classList.add('gradientGreen'); 
   }
+
+  componentWillUnmount(){
+    document.querySelector('.gradientBackground').classList.remove('gradientGreen');
+  }
+
   //<img src={battlerun} alt="Runnn" className="fixedimg" />
   render() {
     return (
