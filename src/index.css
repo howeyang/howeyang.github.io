@@ -31,7 +31,7 @@ Super white Gray :  DFDCE7 */
 }
 
 .firstCard {
-  background: url("./Images/card/old-cardwork.png") no-repeat center;
+  background: url("./Images/card/card-beach.png") no-repeat center;
   background-size: cover;
 }
 
@@ -42,6 +42,11 @@ Super white Gray :  DFDCE7 */
 
 .thirdCard {
   background: url("./Images/card/card-autobattler.png") no-repeat center;
+  background-size: cover;
+}
+
+.fourthCard {
+  background: url("./Images/card/old-cardwork.png") no-repeat center;
   background-size: cover;
 }
 
@@ -147,7 +152,8 @@ ul.header li a {
   font: bolder;
   font-weight: bolder;
   font-size: 2vw;
-  width: 12vw;
+  width: 13vw;
+  transform: skew(-14deg);
   padding: 10px;
   padding-right: 25px;
   padding-left: 25px;
@@ -209,10 +215,10 @@ ul.header li a:focus {
 }
 
 .active {
-  border: 4px solid;
-  color: #00bcd4;
+  outline: 4px solid #fff;
+  color: #00bcd4 !important;
   border-color: rgb(255, 255, 255) !important;
-  width: 15vw !important;
+  width: 20vw !important;
 }
 
 li {
