@@ -16,7 +16,7 @@ class ContactPage extends Component {
 
   componentDidMount() {
     window.scrollTo(0, 0);
-    document.querySelector("body").style.background = "#B2DFDB";
+    document.querySelector("body").style.background = "#fce5cd";
     document.querySelector('.gradientBackground').classList.add('gradientTeal'); 
   }
 

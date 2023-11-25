@@ -63,9 +63,19 @@ Super white Gray :  DFDCE7 */
 .repeatingDotPattern {
   background: url("./Images/background/DotPattern5.png") repeat center;
   position: fixed;
-  width: 100%;
-  height: 100%;
+  width: 200vw;
+  height: 200vh;
   background-attachment: fixed;
+  animation: moveIt 10s linear infinite;
+}
+
+@keyframes moveIt {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 0% 512px;
+  }
 }
 
 .gradientBackground {
@@ -240,7 +250,7 @@ ul.header li a:focus {
   border-right: 12px solid #fff;
   color: #00bcd4 !important;
   border-color: rgb(255, 255, 255) !important;
-  width: 20vw !important;
+  width: 17vw !important;
 }
 
 li {

@@ -13,7 +13,7 @@ import ReactPlayer from "react-player";
 class ExperiencePage extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
-    document.querySelector("body").style.background = "#DCEDC8";
+    document.querySelector("body").style.background = "#ffede6";
     document.querySelector('.gradientBackground').classList.add('gradientGreen'); 
   }
 
