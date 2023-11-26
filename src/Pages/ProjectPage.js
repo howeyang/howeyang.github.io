@@ -32,6 +32,14 @@ class ProjectPage extends Component {
             <div className="white1">Projects</div>
           </Fade>
         </Hidden>
+
+        <Fade top cascade duration={1000} className = "titleContainer blueText titleText">
+            <div>
+              <div className=" titleContainer blueText titleText"> HOWE YANG </div>
+            </div>
+          </Fade>
+
+          
         <Grid container direction="row" justify="center" alignItems="stretch">
           <Grid item xs={12} sm={12} md={5}>
             <Fade delay={300} bottom>

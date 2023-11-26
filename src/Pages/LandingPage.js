@@ -7,22 +7,26 @@ import Fade from "react-reveal/Fade";
 import { withRouter } from "react-router-dom";
 
 class LandingPage extends Component {
-
   componentDidMount() {
     window.scrollTo(0, 0);
-    document.querySelector('body').style.background = '#fff2cc';
-    document.querySelector('.gradientBackground').classList.add('gradientBlue');  
-    console.log('remount');  
+    document.querySelector("body").style.background = "#007ABB";
+    document.querySelector(".gradientBackground").classList.add("gradientSoftYellow");
   }
 
-  componentWillUnmount(){
-    document.querySelector('.gradientBackground').classList.remove('gradientBlue');
+  componentWillUnmount() {
+    document
+      .querySelector(".gradientBackground")
+      .classList.remove("gradientBlue");
   }
 
   render() {
     return (
       <div>
         <div className="grid_root">
+          <div>
+            <div className="titleContainer blueText titleText"> HOWE YANG </div>
+          </div>
+
           <Grid
             container
             direction="row"
@@ -38,11 +42,11 @@ class LandingPage extends Component {
               className="leftContainer forceHeight"
             >
               <Fade duration={2000}>
-                <div>
-                  <div className="mixDifference"> Left Container </div>
-                  <div className="mixDifference active"> Left Container </div>
-                  <div className=" cardInfo mixDifference"> Left Container
+                <div className="padding">
+                  <div className="whiteText bigText"> Software Developer </div>
+                  <div className="whiteText leftText section"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
                   </div>
+
                 </div>
               </Fade>
             </Grid>

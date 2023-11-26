@@ -18,19 +18,30 @@ Super white Gray :  DFDCE7 */
   height: 100vh !important;
 }
 
-/*
+.titleContainer {
+  font-family: "Archivo Black", sans-serif;
+  position: absolute !important;
+  font-weight: bolder;
+  width: 100% !important;
+  height: 15% !important;
+  text-align: justify center !important;
+  font-size: 10vw !important;
+}
+
 .leftContainer {
-  background-color: rgb(5, 238, 255) !important;
+  padding-top: 10vw;
+  text-align: center;
 }
 
 .middleContainer {
-  background-color: rgb(213, 255, 5) !important;
+  padding-top: 10vw;
+  text-align: center;
 }
 
 .rightContainer {
-  background-color: rgb(226, 81, 255) !important;
+  padding-top: 10vw;
+  text-align: center;
 }
-*/
 
 .bodyPink {
   background-color: rgb(226, 81, 255) !important;
@@ -66,10 +77,10 @@ Super white Gray :  DFDCE7 */
   width: 200vw;
   height: 200vh;
   background-attachment: fixed;
-  animation: moveIt 10s linear infinite;
+  animation: movingDots 10s linear infinite;
 }
 
-@keyframes moveIt {
+@keyframes movingDots {
   0% {
     background-position: 0% 0%;
   }
@@ -84,27 +95,120 @@ Super white Gray :  DFDCE7 */
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
+  -webkit-transition: ease 2s; /* For Safari 3.0 to 6.0 */
+  transition: ease 2s; /* For modern browsers */
 }
 
-.gradientBlue{
-  background: linear-gradient(to bottom, rgba(0, 166, 255, 0), rgb(0, 122, 187));
+.gradientBlue {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 166, 255, 0),
+    rgb(0, 122, 187)
+  );
+  -webkit-transition: ease 2s; /* For Safari 3.0 to 6.0 */
+  transition: ease 2s; /* For modern browsers */
 }
 
-.gradientOrange{
-  background: linear-gradient(to bottom, rgba(255, 202, 40, 0), rgb(225, 119, 27));
+.gradientSoftYellow{
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 166, 255, 0),
+    #fff2cc
+  );
+  -webkit-transition: ease 2s; /* For Safari 3.0 to 6.0 */
+  transition: ease 2s; /* For modern browsers */
 }
 
-.gradientGreen{
-  background: linear-gradient(to bottom, rgba(220, 237, 200, 0), rgb(82, 247, 143));
+.blueText {
+  color: rgb(0, 122, 187);
+  animation: color-change 1s forwards !important;
+  animation-delay: 2s;
 }
 
-.gradientTeal{
-  background: linear-gradient(to bottom, rgba(77, 182, 172, 0), rgb(77, 182, 172));
+@keyframes color-change {
+  0% {
+    color: rgba(0, 122, 187, 0);
+    -webkit-text-stroke: 0.15vw #fff;
+    transform: translateY(100px);
+  }
+  100% {
+    color: rgba(255, 255, 255, 1);
+    -webkit-text-stroke: 0 vw #fff;
+    transform: translateY(0px);
+  }
+}
+
+.gradientOrange {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 202, 40, 0),
+    rgb(225, 119, 27)
+  );
+}
+
+.gradientGreen {
+  background: linear-gradient(
+    to bottom,
+    rgba(220, 237, 200, 0),
+    rgb(82, 247, 143)
+  );
+}
+
+
+.gradientTeal {
+  background: linear-gradient(
+    to bottom,
+    rgba(77, 182, 172, 0),
+    rgb(77, 182, 172)
+  );
+}
+
+
+/* Text Section */
+
+.section {
+  display: block;
+  background-color: rgba(80, 104, 121, 0.5);
+  border: rgba(156, 187, 208, 0.8) 1px solid;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 10px;
+  font-size: 1.25em;
+  line-height: 1.1;
+}
+
+.padding {
+ padding : 10px;
+}
+
+.bigText {
+  font-size: 2.25em !important;
+  font-weight: normal;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.leftText{
+  text-align: left !important;
+}
+
+.whiteText {
+  color: #fff;
+  font-size: 1.25em;
+}
+
+.greyText {
+  color: #424242;
+  font-size: 1.25em;
 }
 
 /* OLD CSS BELOW */
 
 body {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
   margin: 0;
   height: 100%;
   background-color: rgb(73, 97, 125);
@@ -172,7 +276,7 @@ ul.header {
 }
 
 ul.header li a {
-  font-family: "Raleway", sans-serif;
+  font-family: "Archivo Black", sans-serif;
   border-radius: 5px;
   color: #fff;
   text-transform: uppercase;
@@ -191,6 +295,8 @@ ul.header li a {
   position: relative;
   -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
   transition: ease 1s; /* For modern browsers */
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
 }
 
 ul.header li a:after {
@@ -250,7 +356,7 @@ ul.header li a:focus {
   border-right: 12px solid #fff;
   color: #00bcd4 !important;
   border-color: rgb(255, 255, 255) !important;
-  width: 17vw !important;
+  /* width: 17vw !important; */
 }
 
 li {

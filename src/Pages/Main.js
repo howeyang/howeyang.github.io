@@ -81,7 +81,7 @@ class Main extends Component {
             xs={12}
             sm={12}
             md={12}
-            className="middleContainer forceHeight"
+            className="forceHeight"
           >
             <div className="content">
               <Switch>
