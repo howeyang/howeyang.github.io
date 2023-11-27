@@ -5,12 +5,15 @@ import CardAutobattler from "../Cards/CardAutobattler";
 import CardProjects from "../Cards/CardProjects";
 import Fade from "react-reveal/Fade";
 import { withRouter } from "react-router-dom";
+import unitylogo from "../Images/landing/unity_logo.png";
 
 class LandingPage extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
     document.querySelector("body").style.background = "#007ABB";
-    document.querySelector(".gradientBackground").classList.add("gradientSoftYellow");
+    document
+      .querySelector(".gradientBackground")
+      .classList.add("gradientSoftYellow");
   }
 
   componentWillUnmount() {
@@ -24,7 +27,12 @@ class LandingPage extends Component {
       <div>
         <div className="grid_root">
           <div>
-            <div className="titleContainer blueText titleText"> HOWE YANG </div>
+            <div className="titleContainer titleText">
+              <div className="bannerMoveBottom">
+                <div className="bannerWhite">HOWE </div>
+              </div>{" "}
+              <div className="bannerOutline bannerMoveTop">YANG</div>
+            </div>
           </div>
 
           <Grid
@@ -36,26 +44,46 @@ class LandingPage extends Component {
           >
             <Grid
               item
-              xs={4}
-              sm={4}
-              md={4}
+              xs={3}
+              sm={3}
+              md={3}
               className="leftContainer forceHeight"
             >
               <Fade duration={2000}>
-                <div className="padding">
-                  <div className="whiteText bigText"> Software Developer </div>
-                  <div className="whiteText leftText section"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-                  </div>
+                <div>
+                  <div className="whiteText bigText"> Game Developer </div>
+                  <div className="whiteText leftText">
+                    <div className="centerElement subtitleText">
+                      <img
+                        src={unitylogo}
+                        alt="Unity"
+                        className="fixedimg circle centerElement"
+                      />
+                      <span className="subBanner"> Unity 3D Engine </span>
+                    </div>
 
+                    <div className="list">
+                      <li>● Using Unity's 3D engine to build games in C#</li>
+
+                      <li>● Using Unity Canvas System to Create UX / UI</li>
+
+                      <li>● Wrote Shaders for Unity in HLSL</li>
+
+                      <li>
+                        ● Built and Released games on Google Play and Apple App
+                        Store
+                      </li>
+                    </div>
+                  </div>
                 </div>
               </Fade>
             </Grid>
 
             <Grid
               item
-              xs={4}
-              sm={4}
-              md={4}
+              xs={6}
+              sm={6}
+              md={6}
               className="middleContainer forceHeight"
             >
               <Fade duration={2000}>
@@ -67,9 +95,9 @@ class LandingPage extends Component {
 
             <Grid
               item
-              xs={4}
-              sm={4}
-              md={4}
+              xs={3}
+              sm={3}
+              md={3}
               className="rightContainer forceHeight"
             >
               <Fade duration={2000}>

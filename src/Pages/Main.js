@@ -23,7 +23,7 @@ class Main extends Component {
 
   listenScrollEvent = e => {
     if (window.scrollY > 1) {
-      this.setState({ class: "header visiblenav" });
+      this.setState({ class: "header" });
     } else {
       this.setState({ class: "header" });
     }
