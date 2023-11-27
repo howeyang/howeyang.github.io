@@ -39,20 +39,14 @@ class LandingPage extends Component {
             container
             direction="row"
             justifyContent="space-between"
-            alignItems="stretch"
+            alignItems="center"
             className="landingContainer"
           >
-            <Grid
-              item
-              xs={3}
-              sm={3}
-              md={3}
-              className="leftContainer forceHeight"
-            >
-              <Fade duration={2000}>
+            <Grid item xs={3} sm={3} md={3} className="leftContainer forceHeight">
+              <Fade duration={1000} delay={800}>
                 <div>
-                  <div className="whiteText bigText"> Game Developer </div>
-                  <div className="whiteText leftText">
+                  <div className="whiteText leftText section">
+                    <div className="whiteText bigText"> Game Developer </div>
                     <div className="centerElement subtitleText">
                       <img
                         src={unitylogo}
@@ -73,6 +67,29 @@ class LandingPage extends Component {
                         ● Built and Released games on Google Play and Apple App
                         Store
                       </li>
+                    </div>
+                  </div>
+                </div>
+              </Fade>
+
+              <Fade duration={1000} delay={1000}>
+                <div>
+                  <div className="whiteText leftText section">
+                    <div className="whiteText bigText"> Education </div>
+                    <div className="centerElement subtitleText">
+                      <img
+                        src={unitylogo}
+                        alt="Unity"
+                        className="fixedimg circle centerElement"
+                      />
+                      <span className="subBanner">
+                        {" "}
+                        University of Waterloo{" "}
+                      </span>
+                    </div>
+
+                    <div className="list">
+                      <li>● 2012-2016</li>
                     </div>
                   </div>
                 </div>

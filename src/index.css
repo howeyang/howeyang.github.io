@@ -25,7 +25,7 @@ Super white Gray :  DFDCE7 */
   width: 100% !important;
   height: 15% !important;
   text-align: justify center !important;
-  font-size: 9vw !important;
+  font-size: 6vw !important;
 }
 
 .leftContainer {
@@ -198,7 +198,7 @@ Super white Gray :  DFDCE7 */
 
 .section {
   display: block;
-  background-color: rgba(80, 104, 121, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   border: rgba(156, 187, 208, 0.8) 1px solid;
   border-radius: 10px;
   color: #fff;
@@ -206,12 +206,12 @@ Super white Gray :  DFDCE7 */
   padding-right: 10px;
   padding-left: 10px;
   margin: 10px;
-  font-size: 1.25em;
+  font-size: 1vw ;
   line-height: 1.1;
 }
 
 .bigText {
-  font-size: 2.25em !important;
+  font-size: 2vw !important;
   font-weight: bolder;
   font-family: "Poppins", sans-serif;
 }
@@ -231,7 +231,7 @@ Super white Gray :  DFDCE7 */
 }
 
 .subtitleText {
-  font-size: 1.25em !important;
+  font-size: 1.5vw !important;
   font-weight: bolder;
   font-family: "Poppins", sans-serif;
   display: inline-block;
