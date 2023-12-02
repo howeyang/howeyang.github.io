@@ -1,25 +1,27 @@
 import React, { Component } from "react";
-import Grid from "@material-ui/core/Grid";
-import CardExperience from "../Cards/CardExperience";
 import CardAutobattler from "../Cards/CardAutobattler";
-import CardProjects from "../Cards/CardProjects";
+import CardSandbox from "../Cards/CardSandbox";
+import Grid from "@material-ui/core/Grid";
 import Fade from "react-reveal/Fade";
-import { withRouter } from "react-router-dom";
+import Hidden from "@material-ui/core/Hidden";
+import CardReact from "../Cards/CardReact";
+import CardBeach from "../Cards/CardBeach";
+import CardFire from "../Cards/CardFire";
 import unitylogo from "../Images/landing/unity_logo.png";
 
-class LandingPage extends Component {
+class PageResume extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
-    document.querySelector("body").style.background = "#007ABB";
+    document.querySelector("body").style.background = "#4db6ac";
     document
       .querySelector(".gradientBackground")
-      .classList.add("gradientSoftYellow");
+      .classList.add("gradientTeal");
   }
 
   componentWillUnmount() {
     document
       .querySelector(".gradientBackground")
-      .classList.remove("gradientBlue");
+      .classList.remove("gradientTeal");
   }
 
   render() {
@@ -29,9 +31,9 @@ class LandingPage extends Component {
           <div>
             <div className="titleContainer titleText">
               <div className="bannerMoveBottom">
-                <div className="bannerWhite">Hey I'm </div>
+                <div className="bannerWhite">Resume </div>
               </div>{" "}
-              <div className="bannerOutline bannerMoveTop">x</div>
+              <div className="bannerOutline bannerMoveTop">Info</div>
             </div>
           </div>
 
@@ -42,7 +44,13 @@ class LandingPage extends Component {
             alignItems="center"
             className="landingContainer"
           >
-            <Grid item xs={3} sm={3} md={3} className="leftContainer forceHeight">
+            <Grid
+              item
+              xs={3}
+              sm={3}
+              md={3}
+              className="leftContainer forceHeight"
+            >
               <Fade duration={1000} delay={800}>
                 <div>
                   <div className="whiteText leftText section">
@@ -130,4 +138,4 @@ class LandingPage extends Component {
   }
 }
 
-export default LandingPage;
+export default PageResume;

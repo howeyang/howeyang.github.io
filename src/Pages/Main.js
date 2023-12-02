@@ -1,21 +1,13 @@
 import React, { Component } from "react";
 import { Route, NavLink, HashRouter, Switch } from "react-router-dom";
 import LandingPage from "./LandingPage";
-import LeftLandingPage from "./LeftLandingPage";
-import ProjectPage from "./ProjectPage";
-import ExperiencePage from "./ExperiencePage";
-import ContactPage from "./ContactPage";
-import ProjectA from "../Projects/ProjectA";
 import Hidden from "@material-ui/core/Hidden";
-import ProjectAutoBattler from "../Projects/ProjectAutoBattler";
-import ProjectSandbox from "../Projects/ProjectSandbox";
 import MobileBar from "../Components/MobileBar";
-import ProjectReact from "../Projects/ProjectReact";
-import ProjectBeachWave from "../Projects/ProjectBeachWave";
-import ProjectFire from "../Projects/ProjectFire";
 import NoMatch from "./NoMatch";
 import Grid from "@material-ui/core/Grid";
 import PageBattleRun from "./PageBattleRun";
+import PageCozyCafe from "./PageCozyCafe";
+import PageResume from "./PageResume";
 
 class Main extends Component {
   state = {
@@ -50,12 +42,12 @@ class Main extends Component {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Experience" className ="thirdCard">
+              <NavLink to="/CozyCafe" className ="thirdCard">
               <div className="mixDifference"> Cozy <br></br> Cafe </div> 
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Contact" className ="fourthCard">
+              <NavLink to="/Resume" className ="fourthCard">
               <div className="mixDifference"> Resume <br></br> Info </div> 
               </NavLink>
             </li>
@@ -88,34 +80,8 @@ class Main extends Component {
               <Switch>
                 <Route exact path="/" component={LandingPage} />
                 <Route exact path="/BattleRun" component={PageBattleRun} />
-                <Route exact path="/Experience" component={ExperiencePage} />
-                <Route exact path="/Contact" component={ContactPage} />
-                <Route exact path="/Project/ProjectA" component={ProjectA} />
-                <Route
-                  exact
-                  path="/Project/ProjectAutobattler"
-                  component={ProjectAutoBattler}
-                />
-                <Route
-                  exact
-                  path="/Project/ProjectSandbox"
-                  component={ProjectSandbox}
-                />
-                <Route
-                  exact
-                  path="/Project/ProjectReact"
-                  component={ProjectReact}
-                />
-                <Route
-                  exact
-                  path="/Project/ProjectBeachWave"
-                  component={ProjectBeachWave}
-                />
-                <Route
-                  exact
-                  path="/Project/ProjectFire"
-                  component={ProjectFire}
-                />
+                <Route exact path="/CozyCafe" component={PageCozyCafe} />
+                <Route exact path="/Resume" component={PageResume} />
                 <Route component={NoMatch} />
               </Switch>
             </div>
