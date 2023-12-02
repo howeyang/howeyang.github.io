@@ -15,6 +15,7 @@ import ProjectBeachWave from "../Projects/ProjectBeachWave";
 import ProjectFire from "../Projects/ProjectFire";
 import NoMatch from "./NoMatch";
 import Grid from "@material-ui/core/Grid";
+import PageBattleRun from "./PageBattleRun";
 
 class Main extends Component {
   state = {
@@ -40,22 +41,22 @@ class Main extends Component {
           <ul className={this.state.class}>
             <li>
               <NavLink exact to="/" className ="firstCard">
-              <div className="mixDifference"> first </div> 
+              <div className="mixDifference"> About <br></br> Me </div> 
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Project" className ="secondCard">
-              <div className="mixDifference"> second </div> 
+              <NavLink to="/BattleRun" className ="secondCard">
+              <div className="mixDifference"> Battle <br></br> Run </div> 
               </NavLink>
             </li>
             <li>
               <NavLink to="/Experience" className ="thirdCard">
-              <div className="mixDifference"> third </div> 
+              <div className="mixDifference"> Cozy <br></br> Cafe </div> 
               </NavLink>
             </li>
             <li>
               <NavLink to="/Contact" className ="fourthCard">
-              <div className="mixDifference"> Resume </div> 
+              <div className="mixDifference"> Resume <br></br> Info </div> 
               </NavLink>
             </li>
           </ul>
@@ -86,7 +87,7 @@ class Main extends Component {
             <div className="content">
               <Switch>
                 <Route exact path="/" component={LandingPage} />
-                <Route exact path="/Project" component={ProjectPage} />
+                <Route exact path="/BattleRun" component={PageBattleRun} />
                 <Route exact path="/Experience" component={ExperiencePage} />
                 <Route exact path="/Contact" component={ContactPage} />
                 <Route exact path="/Project/ProjectA" component={ProjectA} />

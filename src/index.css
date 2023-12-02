@@ -97,6 +97,16 @@ Super white Gray :  DFDCE7 */
   background-repeat: no-repeat;
   -webkit-transition: ease 2s; /* For Safari 3.0 to 6.0 */
   transition: ease 2s; /* For modern browsers */
+  animation: gradientFade 3s forwards !important;
+}
+
+@keyframes gradientFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .gradientBlue {
@@ -105,14 +115,10 @@ Super white Gray :  DFDCE7 */
     rgba(0, 166, 255, 0),
     rgb(0, 122, 187)
   );
-  -webkit-transition: ease 2s; /* For Safari 3.0 to 6.0 */
-  transition: ease 2s; /* For modern browsers */
 }
 
 .gradientSoftYellow {
   background: linear-gradient(to bottom, rgba(0, 166, 255, 0), #fff2cc);
-  -webkit-transition: ease 2s; /* For Safari 3.0 to 6.0 */
-  transition: ease 2s; /* For modern browsers */
 }
 
 .bannerMoveBottom {
@@ -171,11 +177,7 @@ Super white Gray :  DFDCE7 */
 }
 
 .gradientOrange {
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 202, 40, 0),
-    rgb(225, 119, 27)
-  );
+  background: linear-gradient(to bottom, rgba(0, 166, 255, 0), #aee0ff);
 }
 
 .gradientGreen {
@@ -206,7 +208,7 @@ Super white Gray :  DFDCE7 */
   padding-right: 10px;
   padding-left: 10px;
   margin: 10px;
-  font-size: 1vw ;
+  font-size: 1vw;
   line-height: 1.1;
 }
 
@@ -254,8 +256,8 @@ Super white Gray :  DFDCE7 */
   border-radius: 50%;
   width: 48px;
   height: 48px;
-  z-index:100;
-    position:relative;
+  z-index: 100;
+  position: relative;
 }
 
 .centerElement {
@@ -267,11 +269,11 @@ Super white Gray :  DFDCE7 */
 .subBanner {
   background: rgba(255, 255, 255, 0.35);
   z-index: 1;
-  position:relative;
+  position: relative;
   border-radius: 15px;
   padding: 5px;
-  padding-left: 30px; 
-  margin-left : -30px;
+  padding-left: 30px;
+  margin-left: -30px;
 }
 
 /* OLD CSS BELOW */
@@ -356,7 +358,7 @@ ul.header li a {
   margin-top: 10px;
   font: bolder;
   font-weight: bolder;
-  font-size: 2vw;
+  font-size: 1.5vw;
   width: 13vw;
   transform: skew(-14deg);
   padding: 10px;
