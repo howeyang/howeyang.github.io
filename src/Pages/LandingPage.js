@@ -29,9 +29,9 @@ class LandingPage extends Component {
           <div>
             <div className="titleContainer">
               <div className="bannerMoveBottom">
-                <div className="bannerWhite glitchAnimation">Hey I'm </div>
+                <div className="bannerWhite glitchAnimation">Hi I'm </div>
               </div>{" "}
-              <div className="bannerOutline bannerMoveTop">x</div>
+              <div className="bannerOutline bannerMoveTop">XY</div>
             </div>
           </div>
 
@@ -52,7 +52,6 @@ class LandingPage extends Component {
               <Fade duration={1000} delay={800}>
                 <div>
                   <div className="centerElement bigText">Game Developer</div> x
-
                   <div className="centerElement bigText">VFX Artist</div>
                 </div>
               </Fade>
@@ -67,12 +66,11 @@ class LandingPage extends Component {
             >
               <Fade duration={1200} delay={1200}>
                 <div>
-                  <div className=""> Middle Container </div>
                   <img
-                        src={avatar}
-                        alt="Unity"
-                        className="bigAvatar bigCircle centerElement"
-                      />
+                    src={avatar}
+                    alt="Chibi Meeee"
+                    className="bigAvatar bigCircle centerElement"
+                  />
                 </div>
               </Fade>
             </Grid>
@@ -82,12 +80,25 @@ class LandingPage extends Component {
               xs={3}
               sm={3}
               md={3}
-              className="rightContainer forceHeight"
+              className="rightContainer forceHeight heightBypass"
             >
               <Fade duration={2000}>
-                <div>
-                  <div className=""> right Container </div>
-                </div>
+                <Grid
+                    container
+                    direction="column"
+                    justifyContent="center"
+                    alignItems="stretch"
+                  spacing={2}
+                >
+                  <Grid item xs={12} sm={12} md={12}>
+                    <CardExperience delay={1400} />
+                  </Grid>
+
+                  <Grid item xs={12} sm={12} md={12}>
+                    <CardProjects delay={1500} />
+                  </Grid>
+
+                </Grid>
               </Fade>
             </Grid>
           </Grid>
