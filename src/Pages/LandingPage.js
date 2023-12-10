@@ -5,7 +5,7 @@ import CardAutobattler from "../Cards/CardAutobattler";
 import CardProjects from "../Cards/CardProjects";
 import Fade from "react-reveal/Fade";
 import { withRouter } from "react-router-dom";
-import unitylogo from "../Images/landing/unity_logo.png";
+import avatar from "../Images/gifs/ina.gif";
 
 class LandingPage extends Component {
   componentDidMount() {
@@ -27,9 +27,9 @@ class LandingPage extends Component {
       <div>
         <div className="grid_root">
           <div>
-            <div className="titleContainer titleText">
+            <div className="titleContainer">
               <div className="bannerMoveBottom">
-                <div className="bannerWhite">Hey I'm </div>
+                <div className="bannerWhite glitchAnimation">Hey I'm </div>
               </div>{" "}
               <div className="bannerOutline bannerMoveTop">x</div>
             </div>
@@ -42,56 +42,18 @@ class LandingPage extends Component {
             alignItems="center"
             className="landingContainer"
           >
-            <Grid item xs={3} sm={3} md={3} className="leftContainer forceHeight">
+            <Grid
+              item
+              xs={3}
+              sm={3}
+              md={3}
+              className="leftContainer forceHeight"
+            >
               <Fade duration={1000} delay={800}>
                 <div>
-                  <div className="whiteText leftText section">
-                    <div className="whiteText bigText"> Game Developer </div>
-                    <div className="centerElement subtitleText">
-                      <img
-                        src={unitylogo}
-                        alt="Unity"
-                        className="fixedimg circle centerElement"
-                      />
-                      <span className="subBanner"> Unity 3D Engine </span>
-                    </div>
+                  <div className="centerElement bigText">Game Developer</div> x
 
-                    <div className="list">
-                      <li>● Using Unity's 3D engine to build games in C#</li>
-
-                      <li>● Using Unity Canvas System to Create UX / UI</li>
-
-                      <li>● Wrote Shaders for Unity in HLSL</li>
-
-                      <li>
-                        ● Built and Released games on Google Play and Apple App
-                        Store
-                      </li>
-                    </div>
-                  </div>
-                </div>
-              </Fade>
-
-              <Fade duration={1000} delay={1000}>
-                <div>
-                  <div className="whiteText leftText section">
-                    <div className="whiteText bigText"> Education </div>
-                    <div className="centerElement subtitleText">
-                      <img
-                        src={unitylogo}
-                        alt="Unity"
-                        className="fixedimg circle centerElement"
-                      />
-                      <span className="subBanner">
-                        {" "}
-                        University of Waterloo{" "}
-                      </span>
-                    </div>
-
-                    <div className="list">
-                      <li>● 2012-2016</li>
-                    </div>
-                  </div>
+                  <div className="centerElement bigText">VFX Artist</div>
                 </div>
               </Fade>
             </Grid>
@@ -103,9 +65,14 @@ class LandingPage extends Component {
               md={6}
               className="middleContainer forceHeight"
             >
-              <Fade duration={2000}>
+              <Fade duration={1200} delay={1200}>
                 <div>
                   <div className=""> Middle Container </div>
+                  <img
+                        src={avatar}
+                        alt="Unity"
+                        className="bigAvatar bigCircle centerElement"
+                      />
                 </div>
               </Fade>
             </Grid>
