@@ -29,9 +29,9 @@ class LandingPage extends Component {
           <div>
             <div className="titleContainer">
               <div className="bannerMoveBottom">
-                <div className="bannerWhite glitchAnimation">Hi I'm </div>
+                <div className="bannerWhite glitchAnimation">Hello I'm </div>
               </div>{" "}
-              <div className="bannerOutline bannerMoveTop">XY</div>
+              <div className="bannerOutline bannerMoveTop">XYYY</div>
             </div>
           </div>
 
@@ -84,10 +84,10 @@ class LandingPage extends Component {
             >
               <Fade duration={2000}>
                 <Grid
-                    container
-                    direction="column"
-                    justifyContent="center"
-                    alignItems="stretch"
+                  container
+                  direction="column"
+                  justifyContent="center"
+                  alignItems="stretch"
                   spacing={2}
                 >
                   <Grid item xs={12} sm={12} md={12}>
@@ -95,9 +95,14 @@ class LandingPage extends Component {
                   </Grid>
 
                   <Grid item xs={12} sm={12} md={12}>
-                    <CardProjects delay={1500} />
+                    <CardProjects delay={1400} />
                   </Grid>
 
+                  <div className="hvr-sweep-to-right2">
+                    <div className="hvr-sweep-to-right">
+                      <div className="hvr-sweep-to-right3"></div>
+                    </div>
+                  </div>
                 </Grid>
               </Fade>
             </Grid>
