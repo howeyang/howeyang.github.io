@@ -98,6 +98,7 @@ Super white Gray :  DFDCE7 */
   -webkit-transition: ease 2s; /* For Safari 3.0 to 6.0 */
   transition: ease 2s; /* For modern browsers */
   animation: gradientFade 3s forwards !important;
+  z-index: -1;
 }
 
 @keyframes gradientFade {
