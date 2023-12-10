@@ -151,9 +151,11 @@ Super white Gray :  DFDCE7 */
 @keyframes banner-move2 {
   0% {
     transform: translateY(100px);
+    -webkit-text-stroke: 0.15vw #00000000;
   }
   100% {
     transform: translateY(0px);
+    -webkit-text-stroke: 0.15vw #fff;
   }
 }
 
