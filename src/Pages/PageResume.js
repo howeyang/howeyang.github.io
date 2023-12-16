@@ -12,16 +12,16 @@ import unitylogo from "../Images/landing/unity_logo.png";
 class PageResume extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
-    document.querySelector("body").style.background = "#4db6ac";
+    document.querySelector("body").style.background = "#B2A98E";
     document
       .querySelector(".gradientBackground")
-      .classList.add("gradientTeal");
+      .classList.add("gradientBlue");
   }
 
   componentWillUnmount() {
     document
       .querySelector(".gradientBackground")
-      .classList.remove("gradientTeal");
+      .classList.remove("gradientBlue");
   }
 
   render() {

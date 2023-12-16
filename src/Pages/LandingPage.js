@@ -19,7 +19,7 @@ class LandingPage extends Component {
   componentWillUnmount() {
     document
       .querySelector(".gradientBackground")
-      .classList.remove("gradientBlue");
+      .classList.remove("gradientSoftYellow");
   }
 
   render() {
@@ -31,7 +31,7 @@ class LandingPage extends Component {
               <div className="bannerMoveBottom">
                 <div className="bannerWhite glitchAnimation">Hello I'm </div>
               </div>{" "}
-              <div className="bannerOutline bannerMoveTop">XYYY</div>
+              <div className="bannerOutline bannerMoveTop">XXXX YYYY</div>
             </div>
           </div>
 
@@ -49,12 +49,45 @@ class LandingPage extends Component {
               md={3}
               className="leftContainer forceHeight"
             >
-              <Fade duration={1000} delay={800}>
-                <div>
-                  <div className="centerElement bigText">Game Developer</div> x
-                  <div className="centerElement bigText">VFX Artist</div>
-                </div>
-              </Fade>
+              <Grid
+                container
+                direction="column"
+                justifyContent="center"
+                alignItems="center"
+                spacing={3}
+              >
+                <Grid item xs={12} sm={12} md={12}>
+                <Fade duration={1000} delay={800}>
+                  <div className="blueSection">
+                    <div className="centerElement whiteText">
+                      Generalist Game Developer
+                    </div>
+                    <div className="centerElement whiteText">
+                      I am a Canadian developer with a
+                      passion for games!
+                    </div>
+                  </div>
+                </Fade>
+                </Grid>
+               
+
+                <Grid item xs={12} sm={12} md={12}>
+                <Fade duration={1000} delay={800}>
+                  <div className="blueSection">
+                    <div className="centerElement whiteText">
+                      I enjoy all the aspects of making a game - from
+                      pre-production and bouncing of game ideas, establishing
+                      design pillars of the game, building vertical slices and
+                      iterating on the features.
+                      <br></br> <br></br>
+                      I've had a wide range of experiences making games - but I
+                      enjoy UI/UX, VFX and just making things sound, look and
+                      feel great.
+                    </div>
+                  </div>
+                </Fade>
+                </Grid>
+              </Grid>
             </Grid>
 
             <Grid
@@ -80,7 +113,7 @@ class LandingPage extends Component {
               xs={3}
               sm={3}
               md={3}
-              className="rightContainer forceHeight heightBypass"
+              className="rightContainer forceHeight" //heightBypass
             >
               <Fade duration={2000}>
                 <Grid
