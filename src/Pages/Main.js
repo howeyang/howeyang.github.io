@@ -15,14 +15,15 @@ class Main extends Component {
   };
 
   listenScrollEvent = e => {
-    if (window.scrollY > 1) {
-      this.setState({ class: "header" });
+    if (window.scrollY > 10) {
+      this.setState({ class: "header visiblenav" });
     } else {
       this.setState({ class: "header" });
     }
   };
 
   componentDidMount() {
+    window.scrollTo(0, 0);
     window.addEventListener("scroll", this.listenScrollEvent);
   }
 
@@ -32,22 +33,22 @@ class Main extends Component {
         <Hidden xsDown>
           <ul className={this.state.class}>
             <li>
-              <NavLink exact to="/" className ="firstCard">
-              <div className="mixDifference"> About <br></br> Me </div> 
+              <NavLink exact to="/" className ="">
+              <div className="mixDifference"> About<br></br> Me </div> 
               </NavLink>
             </li>
             <li>
-              <NavLink to="/BattleRun" className ="secondCard">
-              <div className="mixDifference"> Battle <br></br> Run </div> 
+              <NavLink to="/BattleRun" className ="">
+              <div className="mixDifference"> Work <br></br>Experience </div> 
               </NavLink>
             </li>
             <li>
-              <NavLink to="/CozyCafe" className ="thirdCard">
-              <div className="mixDifference"> Cozy <br></br> Cafe </div> 
+              <NavLink to="/CozyCafe" className ="">
+              <div className="mixDifference"> Personal <br></br> Projects </div> 
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Resume" className ="fourthCard">
+              <NavLink to="/Resume" className ="">
               <div className="mixDifference"> Resume <br></br> Info </div> 
               </NavLink>
             </li>

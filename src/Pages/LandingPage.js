@@ -131,6 +131,14 @@ class LandingPage extends Component {
                     <CardProjects delay={1400} />
                   </Grid>
 
+                  <Grid item xs={12} sm={12} md={12}>
+                    <CardExperience delay={1400} />
+                  </Grid>
+
+                  <Grid item xs={12} sm={12} md={12}>
+                    <CardProjects delay={1400} />
+                  </Grid>
+
                   <div className="hvr-sweep-to-right2">
                     <div className="hvr-sweep-to-right">
                       <div className="hvr-sweep-to-right3"></div>

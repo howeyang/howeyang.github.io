@@ -10,7 +10,6 @@ Super white Gray :  DFDCE7 */
 /* NEW CSS BELOW */
 
 .content {
-  
 }
 
 .landingContainer {
@@ -31,10 +30,11 @@ Super white Gray :  DFDCE7 */
   position: absolute !important;
   font-weight: normal;
   width: 100% !important;
-  height: 15% !important;
   text-align: justify center !important;
   font-size: 6vw !important;
   text-align: center;
+  height: 60px !important;
+  padding-top: 80px;
 }
 
 .lefttitleContainer {
@@ -48,18 +48,18 @@ Super white Gray :  DFDCE7 */
 }
 
 .leftContainer {
-  padding-top: 10vw;
+  padding-top: 160px;
   padding-left: 30px;
   text-align: center;
 }
 
 .middleContainer {
-  padding-top: 10vw;
+  padding-top: 160px;
   text-align: center;
 }
 
 .rightContainer {
-  padding-top: 10vw;
+  padding-top: 160px;
   padding-right: 30px;
   text-align: center;
 }
@@ -199,7 +199,7 @@ Super white Gray :  DFDCE7 */
 }
 
 .gradientBlue {
-  background: linear-gradient(to bottom, rgba(77, 182, 172, 0), #007ABB);
+  background: linear-gradient(to bottom, rgba(77, 182, 172, 0), #007abb);
 }
 
 /* Text Section */
@@ -407,8 +407,6 @@ ul.header li {
   color: white;
   text-align: center;
   text-decoration: none;
-  padding-left: 1vw;
-  padding-right: 1vw;
 }
 ul.header {
   z-index: 2;
@@ -418,7 +416,7 @@ ul.header {
   margin: 0;
   padding: 0;
   position: fixed;
-  bottom: 5%;
+  top: 0;
   width: 100%;
   height: 60px;
   -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
@@ -426,8 +424,8 @@ ul.header {
 }
 
 .visiblenav {
-  background-color: rgba(73, 97, 125, 0.8);
-  background-blend-mode: screen;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-bottom: 20px !important;
 }
 
 .hidden {
@@ -451,7 +449,6 @@ ul.header {
 }
 
 ul.header li a {
-  font-family: "Archivo Black", sans-serif;
   border-radius: 5px;
   color: #fff;
   text-transform: uppercase;
@@ -459,19 +456,17 @@ ul.header li a {
   letter-spacing: 0.2em;
   display: inline-block;
   margin-top: 10px;
-  font: bolder;
-  font-weight: bolder;
-  font-size: 1.5vw;
-  width: 13vw;
-  transform: skew(-14deg);
+  font: bold;
+  font-weight: bold;
   padding: 10px;
   padding-right: 25px;
   padding-left: 25px;
   position: relative;
   -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
   transition: ease 1s; /* For modern browsers */
-  border-left: 12px solid transparent;
-  border-right: 12px solid transparent;
+  margin-left: 15px;
+  padding-right: 15px;
+  width : 15vw;
 }
 
 ul.header li a:after {
@@ -479,7 +474,7 @@ ul.header li a:after {
   bottom: 0;
   content: "";
   display: block;
-  height: 6px;
+  height: 2px;
   left: 50%;
   position: absolute;
   background: #fff;
@@ -493,7 +488,7 @@ ul.header li a:hover::after {
 }
 ul.header li a:focus,
 a:active {
-  color: #00bcd4;
+  color: #49617d;
 }
 
 ul.header li a:active::before {
@@ -509,7 +504,7 @@ ul.header li a:focus::before {
 }
 
 ul.header li a:focus {
-  border-color: rgb(255, 255, 255);
+  border-color: rgb(205, 205, 205);
 }
 
 .menubutton {
@@ -527,11 +522,8 @@ ul.header li a:focus {
 }
 
 .active {
-  border-left: 12px solid #fff;
-  border-right: 12px solid #fff;
-  color: #00bcd4 !important;
-  border-color: rgb(255, 255, 255) !important;
-  /* width: 17vw !important; */
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: rgb(205, 205, 205);
 }
 
 li {
@@ -646,116 +638,116 @@ li {
     transform: scaleY(1);
   }
 
-.hvr-sweep-to-top:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  -webkit-transform: scaleY(0);
-  transform: scaleY(0);
-  -webkit-transform-origin: 50% 100%;
-  transform-origin: 50% 100%;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-.hvr-sweep-to-top:hover:before,
-.hvr-sweep-to-top:focus:before,
-.hvr-sweep-to-top:active:before {
-  -webkit-transform: scaleY(1);
-  transform: scaleY(1);
-}
+  .hvr-sweep-to-top:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-sweep-to-top:hover:before,
+  .hvr-sweep-to-top:focus:before,
+  .hvr-sweep-to-top:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
 
-.hvr-sweep-to-right {
-  padding: 1%;
-}
+  .hvr-sweep-to-right {
+    padding: 1%;
+  }
 
-.hvr-sweep-to-right:hover + .container-overlay {
-  opacity: 0;
-}
+  .hvr-sweep-to-right:hover + .container-overlay {
+    opacity: 0;
+  }
 
-.hvr-sweep-to-right:before {
-  content: "";
-  position: fixed;
-  z-index: -3;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.8s;
-  transition-duration: 0.8s;
-  opacity: 0;
-  -webkit-transition-timing-function: ease;
-  transition-timing-function: ease;
-  transition: 0.5s ease;
-  transition-delay: 0.1s;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
+  .hvr-sweep-to-right:before {
+    content: "";
+    position: fixed;
+    z-index: -3;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    opacity: 0;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    transition: 0.5s ease;
+    transition-delay: 0.1s;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
 
-.autobattler.hvr-sweep-to-right:before {
-  background: linear-gradient(to top, #cbe3ba00, #49617d),
-    url("./Images/card/card-autobattler.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  transition: 1.5s ease-in-out;
-}
+  .autobattler.hvr-sweep-to-right:before {
+    background: linear-gradient(to top, #cbe3ba00, #49617d),
+      url("./Images/card/card-autobattler.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: 1.5s ease-in-out;
+  }
 
-.workexperience.hvr-sweep-to-right:before {
-  background: linear-gradient(to top, #cbe3ba00, #49617d),
-    url("./Images/card/card-titan.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  transition: 1.5s ease-in-out;
-}
+  .workexperience.hvr-sweep-to-right:before {
+    background: linear-gradient(to top, #cbe3ba00, #49617d),
+      url("./Images/card/card-titan.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: 1.5s ease-in-out;
+  }
 
-.sandbox.hvr-sweep-to-right:before {
-  background: linear-gradient(to top, #cbe3ba00, #49617d),
-    url("./Images/card/card-sandbox.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  transition: 1.5s ease-in-out;
-}
+  .sandbox.hvr-sweep-to-right:before {
+    background: linear-gradient(to top, #cbe3ba00, #49617d),
+      url("./Images/card/card-sandbox.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: 1.5s ease-in-out;
+  }
 
-.react.hvr-sweep-to-right:before {
-  background: linear-gradient(to top, #cbe3ba00, rgb(35, 48, 62)),
-    url("./Images/card/react-logo.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  transition: 1.5s ease-in-out;
-}
-.hvr-sweep-to-right:hover:before,
-.hvr-sweep-to-right:focus:before,
-.hvr-sweep-to-right:active:before {
-  transform: translateX(0%);
-  -webkit-transform: translateX(0%);
-  opacity: 0.7;
-  transition: 1.5s ease-in-out;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
+  .react.hvr-sweep-to-right:before {
+    background: linear-gradient(to top, #cbe3ba00, rgb(35, 48, 62)),
+      url("./Images/card/react-logo.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: 1.5s ease-in-out;
+  }
+  .hvr-sweep-to-right:hover:before,
+  .hvr-sweep-to-right:focus:before,
+  .hvr-sweep-to-right:active:before {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    opacity: 0.7;
+    transition: 1.5s ease-in-out;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
 }
