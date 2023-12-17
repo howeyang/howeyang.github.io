@@ -23,7 +23,7 @@ class CardExperience extends Component {
         <div className="hvr-sweep-to-right workexperience">
           <div className="hvr-sweep-to-right3">
             <Fade delay={this.props.delay}>
-              <Card className="glow">
+              <Card className="glow cardBackground">
                 <CardActionArea
                   onClick={this.redirect}
                   className="card-highlight"
@@ -38,7 +38,7 @@ class CardExperience extends Component {
                       gutterBottom={false}
                       variant="h5"
                       component="h3"
-                      className="whiteheader"
+                      className="cardHeader"
                     >
                       Work Experience
                     </Typography>
@@ -48,11 +48,11 @@ class CardExperience extends Component {
                       component="p"
                     >
                       <label>Unity3D | Mobile Games</label>
-                      <span className="whitefont">
+                      <div className="whiteText">
                         <b>Game Hive</b> : Unity Developer + Producer
                         <br></br>
                         <b>Upsight</b> : Integration and Support
-                      </span>
+                      </div>
                     </Typography>
                   </CardContent>
                 </CardActionArea>

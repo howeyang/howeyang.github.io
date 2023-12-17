@@ -350,6 +350,35 @@ Super white Gray :  DFDCE7 */
   }
 }
 
+/* Card */
+
+.MuiPaper-root {
+  background: rgba(80, 104, 121, 0.7) !important;
+  border: rgba(156, 187, 208, 0.8) 1px solid;
+}
+
+.cardHeader {
+  color: #eaf5fad0;
+  font-size: 1.7em;
+  font-family: "Poppins", serif !important;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-style: bold;
+  font-weight: 900;
+  text-shadow: #9cbbd0 0px 1px 1px;
+}
+
+label {
+  padding: 2px;
+  background-color: rgba(73, 97, 125, 0.8);
+  border-color: #eaf5fa;
+  border-radius: 5px;
+  font: bold;
+  color: #eaf5fa;
+}
+
 /* OLD CSS BELOW */
 
 body {

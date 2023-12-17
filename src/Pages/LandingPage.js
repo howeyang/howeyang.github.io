@@ -80,7 +80,7 @@ class LandingPage extends Component {
                       design pillars of the game, building vertical slices and
                       iterating on the features.
                       <br></br> <br></br>
-                      I've had a wide range of experiences making games - but I
+                      I've had a wide range of roles making games - but I
                       enjoy UI/UX, VFX and just making things sound, look and
                       feel great.
                     </div>
