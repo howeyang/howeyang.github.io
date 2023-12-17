@@ -34,22 +34,22 @@ class Main extends Component {
           <ul className={this.state.class}>
             <li>
               <NavLink exact to="/" className ="">
-              <div className="mixDifference"> About<br></br> Me </div> 
+              <div className=""> About<br></br> Me </div> 
               </NavLink>
             </li>
             <li>
               <NavLink to="/BattleRun" className ="">
-              <div className="mixDifference"> Work <br></br>Experience </div> 
+              <div className=""> Work <br></br>Experience </div> 
               </NavLink>
             </li>
             <li>
               <NavLink to="/CozyCafe" className ="">
-              <div className="mixDifference"> Personal <br></br> Projects </div> 
+              <div className=""> Personal <br></br> Projects </div> 
               </NavLink>
             </li>
             <li>
               <NavLink to="/Resume" className ="">
-              <div className="mixDifference"> Resume <br></br> Info </div> 
+              <div className=""> Resume <br></br> Info </div> 
               </NavLink>
             </li>
           </ul>

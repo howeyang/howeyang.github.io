@@ -510,6 +510,8 @@ ul.header li a:focus {
 .menubutton {
   transition-timing-function: ease;
   transition: 0.2s;
+  
+  width: 70vw !important;
 }
 
 .closemenu {
@@ -524,6 +526,7 @@ ul.header li a:focus {
 .active {
   background-color: rgba(255, 255, 255, 0.8);
   border-color: rgb(205, 205, 205);
+  color: #000 !important;
 }
 
 li {
