@@ -14,52 +14,52 @@ class CardProjects extends Component {
   }
 
   redirect() {
-    this.props.history.push("/Project");
+    this.props.history.push("/Personal");
   }
 
   render() {
     return (
-        <div className="hvr-sweep-to-right2">
-          <div className="hvr-sweep-to-right sandbox">
-            <div className="hvr-sweep-to-right3">
-              <Fade  delay={this.props.delay}>
-                <Card className="glow">
-                  <CardActionArea
-                    onClick={this.redirect}
-                    className="card-highlight"
-                  >
-                    <CardMedia
-                      className="card"
-                      image={require("../Images/fire_end.gif")}
-                      title="Smashing rocks together~"
-                    />
-                    <CardContent>
-                      <Typography
-                        gutterBottom={false}
-                        variant="h5"
-                        component="h3"
-                        className="whiteheader"
-                      >
-                        Projects & Case Studies
-                      </Typography>
-                      <Typography
-                        variant="body1"
-                        color="textPrimary"
-                        component="p"
-                      >
-                        <label>Unity3D | Scripts | Shaders</label>
-                        <span className="whitefont">
-                          Showcasing personal projects built mainly in Unity!
-                          
-                        </span>
-                      </Typography>
-                    </CardContent>
-                  </CardActionArea>
-                </Card>
-              </Fade>
-            </div>
+      <div className="hvr-sweep-to-right2">
+        <div className="hvr-sweep-to-right sandbox">
+          <div className="hvr-sweep-to-right3">
+            <Fade delay={this.props.delay}>
+              <Card className="glow cardBackground">
+                <CardActionArea
+                  onClick={this.redirect}
+                  className="card-highlight"
+                >
+                  <CardMedia
+                    className="card"
+                    image={require("../Images/fire_end.gif")}
+                    title="Smashing rocks together~"
+                  />
+
+                  <CardContent>
+                    <Typography
+                      gutterBottom={false}
+                      variant="h3"
+                      component="h3"
+                      className="cardHeader"
+                    >
+                      Projects & Case Studies
+                    </Typography>
+                    <Typography
+                      variant="body1"
+                      color="textPrimary"
+                      component="p"
+                    >
+                      <label2>Unity3D | Scripts | Shaders</label2>
+                      <div className="whiteText">
+                        Showcasing personal projects built in Unity!
+                      </div>
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+            </Fade>
           </div>
         </div>
+      </div>
     );
   }
 }

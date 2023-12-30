@@ -6,7 +6,7 @@ import MobileBar from "../Components/MobileBar";
 import NoMatch from "./NoMatch";
 import Grid from "@material-ui/core/Grid";
 import PageBattleRun from "./PageBattleRun";
-import PageCozyCafe from "./PageCozyCafe";
+import PagePersonal from "./PagePersonal";
 import PageResume from "./PageResume";
 
 class Main extends Component {
@@ -38,12 +38,12 @@ class Main extends Component {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/BattleRun" className ="">
+              <NavLink to="/Work" className ="">
               <div className=""> Work <br></br>Experience </div> 
               </NavLink>
             </li>
             <li>
-              <NavLink to="/CozyCafe" className ="">
+              <NavLink to="/Personal" className ="">
               <div className=""> Personal <br></br> Projects </div> 
               </NavLink>
             </li>
@@ -80,8 +80,8 @@ class Main extends Component {
             <div className="content">
               <Switch>
                 <Route exact path="/" component={LandingPage} />
-                <Route exact path="/BattleRun" component={PageBattleRun} />
-                <Route exact path="/CozyCafe" component={PageCozyCafe} />
+                <Route exact path="/Work" component={PageBattleRun} />
+                <Route exact path="/Personal" component={PagePersonal} />
                 <Route exact path="/Resume" component={PageResume} />
                 <Route component={NoMatch} />
               </Switch>

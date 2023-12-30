@@ -29,9 +29,9 @@ class LandingPage extends Component {
           <div>
             <div className="titleContainer">
               <div className="bannerMoveBottom">
-                <div className="bannerWhite glitchAnimation">Hello I'm </div>
+                <div className="bannerWhite glitchAnimation">Hi I'm </div>
               </div>{" "}
-              <div className="bannerOutline bannerMoveTop">XXXX YYYY</div>
+              <div className="bannerOutline bannerMoveTop">Howe Yang</div>
             </div>
           </div>
 
@@ -57,35 +57,33 @@ class LandingPage extends Component {
                 spacing={3}
               >
                 <Grid item xs={12} sm={12} md={12}>
-                <Fade duration={1000} delay={800}>
-                  <div className="blueSection">
-                    <div className="centerElement whiteText">
-                      Generalist Game Developer
+                  <Fade duration={1000} delay={800}>
+                    <div className="blueSection">
+                      <div className="centerElement whiteText">
+                        Generalist Game Developer
+                      </div>
+                      <div className="centerElement whiteText">
+                        I am a Canadian developer with a passion for games!
+                      </div>
                     </div>
-                    <div className="centerElement whiteText">
-                      I am a Canadian developer with a
-                      passion for games!
-                    </div>
-                  </div>
-                </Fade>
+                  </Fade>
                 </Grid>
-               
 
                 <Grid item xs={12} sm={12} md={12}>
-                <Fade duration={1000} delay={800}>
-                  <div className="blueSection">
-                    <div className="centerElement whiteText">
-                      I enjoy all the aspects of making a game - from
-                      pre-production and bouncing of game ideas, establishing
-                      design pillars of the game, building vertical slices and
-                      iterating on the features.
-                      <br></br> <br></br>
-                      I've had a wide range of roles making games - but I
-                      enjoy UI/UX, VFX and just making things sound, look and
-                      feel great.
+                  <Fade duration={1000} delay={800}>
+                    <div className="blueSection">
+                      <div className="centerElement whiteText">
+                        I enjoy all the aspects of making a game - from
+                        pre-production and bouncing of game ideas / design
+                        pillars, building vertical slices, iterating on the
+                        features and updating with post launch updates.
+                        <br></br> <br></br>
+                        I've had a wide range of roles making games - I enjoy
+                        UI/UX, VFX and just making things sound, look and feel
+                        great.
+                      </div>
                     </div>
-                  </div>
-                </Fade>
+                  </Fade>
                 </Grid>
               </Grid>
             </Grid>
@@ -115,35 +113,25 @@ class LandingPage extends Component {
               md={3}
               className="rightContainer forceHeight" //heightBypass
             >
-              <Fade duration={2000}>
+              <Fade duration={1300}>
                 <Grid
                   container
                   direction="column"
-                  justifyContent="center"
+                  justifyContent="flex-start"
                   alignItems="stretch"
-                  spacing={2}
+                  spacing={7}
+                  
                 >
                   <Grid item xs={12} sm={12} md={12}>
-                    <CardExperience delay={1400} />
+                    <CardExperience delay={1300} />
                   </Grid>
 
                   <Grid item xs={12} sm={12} md={12}>
                     <CardProjects delay={1400} />
                   </Grid>
 
-                  <Grid item xs={12} sm={12} md={12}>
-                    <CardExperience delay={1400} />
-                  </Grid>
+          
 
-                  <Grid item xs={12} sm={12} md={12}>
-                    <CardProjects delay={1400} />
-                  </Grid>
-
-                  <div className="hvr-sweep-to-right2">
-                    <div className="hvr-sweep-to-right">
-                      <div className="hvr-sweep-to-right3"></div>
-                    </div>
-                  </div>
                 </Grid>
               </Fade>
             </Grid>

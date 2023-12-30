@@ -10,7 +10,7 @@ class MobileBar extends Component {
 
     this.state = {
       active: false,
-      menutext : 'Menu'
+      menutext: "Menu",
     };
     this.handleClick = this.handleClick.bind(this);
     this.redirectProject = this.redirectProject.bind(this);
@@ -21,99 +21,141 @@ class MobileBar extends Component {
 
   redirectHome() {
     this.props.history.push("/");
-    this.setState(state => ({
-      active: !state.active
-    }));
-  }
-
-  redirectProject() {
-    this.props.history.push("/Project");
-    this.setState(state => ({
-      active: !state.active
+    this.setState((state) => ({
+      active: !state.active,
     }));
   }
 
   redirectAbout() {
-    this.props.history.push("/Experience");
-    this.setState(state => ({
-      active: !state.active
+    this.props.history.push("/Work");
+    this.setState((state) => ({
+      active: !state.active,
+    }));
+  }
+
+  redirectProject() {
+    this.props.history.push("/Personal");
+    this.setState((state) => ({
+      active: !state.active,
     }));
   }
 
   redirectContact() {
-    this.props.history.push("/Contact");
-    this.setState(state => ({
-      active: !state.active
+    this.props.history.push("/Resume");
+    this.setState((state) => ({
+      active: !state.active,
     }));
   }
 
   //Clicks
   handleClick() {
-    this.setState(state => ({
-      active: !state.active
+    this.setState((state) => ({
+      active: !state.active,
     }));
   }
 
   render() {
     return (
       <div>
-          <ul className="header visiblenav" key={100 + this.state.active}>
-            <li>
-              <a
-                className={
-                  this.state.active ? "menubutton active closemenu" : "menubutton"
-                }
-                onClick={this.handleClick}
-              >
-                {this.state.active ? "Close" : "Menu"}
-              </a>
-            </li>
-            <Fade collapse when={this.state.active} duration={100} key={1 + this.state.active}>
-              <ul className={
-                  this.state.active ? "header top2 visiblenav" : "hidden" }>
-                <li>
-                  <a className={
-                  this.state.active ? "menubutton active" : "hidden"} onClick={this.redirectHome}>
-                    Home
-                  </a>
-                </li>
-              </ul>
-            </Fade>
-            <Fade collapse when={this.state.active} duration={300} key={2 + this.state.active}>
-              <ul className={
-                  this.state.active ? "header top3 visiblenav" : "hidden"} >
-                <li>
-                  <a className={
-                  this.state.active ? "menubutton active" : "hidden"} onClick={this.redirectProject}
-                  >
-                    Projects
-                  </a>
-                </li>
-              </ul>
-            </Fade>
-            <Fade collapse when={this.state.active} duration={600} key={3 + this.state.active}>
-              <ul className={
-                  this.state.active ? "header top4 visiblenav" : "hidden"} >
-                <li>
-                  <a className={
-                  this.state.active ? "menubutton active" : "hidden"} onClick={this.redirectAbout}>
-                    Experience
-                  </a>
-                </li>
-              </ul>
-            </Fade>
-            <Fade collapse when={this.state.active} duration={900} key={4 + this.state.active} >
-              <ul className={
-                  this.state.active ? "header top5 visiblenav" : "hidden"}>
-                <li>
-                  <a className={
-                  this.state.active ? "menubutton active" : "hidden"} onClick={this.redirectContact}>
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </Fade>
-          </ul>
+        <ul className="header visiblenav" key={100 + this.state.active}>
+          <li>
+            <a
+              className={
+                this.state.active ? "menubutton active closemenu" : "menubutton"
+              }
+              onClick={this.handleClick}
+            >
+              {this.state.active ? "Close" : "Menu"}
+            </a>
+          </li>
+          <Fade
+            collapse
+            when={this.state.active}
+            duration={100}
+            key={1 + this.state.active}
+          >
+            <ul
+              className={
+                this.state.active ? "header top2 visiblenav" : "hidden"
+              }
+            >
+              <li>
+                <a
+                  className={this.state.active ? "menubutton active" : "hidden"}
+                  onClick={this.redirectHome}
+                >
+                  Home
+                </a>
+              </li>
+            </ul>
+          </Fade>
+
+          <Fade
+            collapse
+            when={this.state.active}
+            duration={300}
+            key={2 + this.state.active}
+          >
+            <ul
+              className={
+                this.state.active ? "header top4 visiblenav" : "hidden"
+              }
+            >
+              <li>
+                <a
+                  className={this.state.active ? "menubutton active" : "hidden"}
+                  onClick={this.redirectProject}
+                >
+                  Personal Projects
+                </a>
+              </li>
+            </ul>
+          </Fade>
+
+          <Fade
+            collapse
+            when={this.state.active}
+            duration={600}
+            key={3 + this.state.active}
+          >
+            <ul
+              className={
+                this.state.active ? "header top3 visiblenav" : "hidden"
+              }
+            >
+              <li>
+                <a
+                  className={this.state.active ? "menubutton active" : "hidden"}
+                  onClick={this.redirectAbout}
+                >
+                  Work Experience
+                </a>
+              </li>
+            </ul>
+          </Fade>
+
+          <Fade
+            collapse
+            when={this.state.active}
+            duration={900}
+            key={4 + this.state.active}
+          >
+            <ul
+              className={
+                this.state.active ? "header top5 visiblenav" : "hidden"
+              }
+            >
+              <li>
+                <a
+                  className={this.state.active ? "menubutton active" : "hidden"}
+                  onClick={this.redirectContact}
+                >
+                  Resume
+                </a>
+              </li>
+            </ul>
+          </Fade>
+        </ul>
       </div>
     );
   }

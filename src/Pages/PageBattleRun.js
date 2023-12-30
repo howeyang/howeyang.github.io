@@ -31,9 +31,9 @@ class PageBattleRun extends Component {
           <div>
             <div className="titleContainer titleText">
               <div className="bannerMoveBottom">
-                <div className="bannerWhite">Battle </div>
+                <div className="bannerWhite">Battle Run</div>
               </div>{" "}
-              <div className="bannerOutline bannerMoveTop">Run</div>
+              <div className="bannerOutline bannerMoveTop">Game Hive</div>
             </div>
           </div>
 

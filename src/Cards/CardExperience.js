@@ -14,7 +14,7 @@ class CardExperience extends Component {
   }
 
   redirect() {
-    this.props.history.push("/Experience");
+    this.props.history.push("/Work");
   }
 
   render() {
@@ -36,7 +36,7 @@ class CardExperience extends Component {
                   <CardContent>
                     <Typography
                       gutterBottom={false}
-                      variant="h5"
+                      variant="h3"
                       component="h3"
                       className="cardHeader"
                     >
@@ -47,11 +47,11 @@ class CardExperience extends Component {
                       color="textPrimary"
                       component="p"
                     >
-                      <label>Unity3D | Mobile Games</label>
+                      <label2>Unity3D | Mobile Games</label2>
                       <div className="whiteText">
-                        <b>Game Hive</b> : Unity Developer + Producer
+                        <b>Game Hive</b> <label2>2019 - 2024</label2>
                         <br></br>
-                        <b>Upsight</b> : Integration and Support
+                        <b>Unity Developer + Producer</b>
                       </div>
                     </Typography>
                   </CardContent>
