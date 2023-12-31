@@ -120,7 +120,6 @@ class LandingPage extends Component {
                   justifyContent="flex-start"
                   alignItems="stretch"
                   spacing={7}
-                  
                 >
                   <Grid item xs={12} sm={12} md={12}>
                     <CardExperience delay={1300} />
@@ -129,9 +128,6 @@ class LandingPage extends Component {
                   <Grid item xs={12} sm={12} md={12}>
                     <CardProjects delay={1400} />
                   </Grid>
-
-          
-
                 </Grid>
               </Fade>
             </Grid>

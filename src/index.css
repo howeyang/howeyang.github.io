@@ -55,6 +55,8 @@ Super white Gray :  DFDCE7 */
 
 .middleContainer {
   padding-top: 180px;
+  padding-left: 15px;
+  padding-right: 15px;
   text-align: center;
 }
 
@@ -397,7 +399,7 @@ label2 {
 /* OLD CSS BELOW */
 
 body {
-  overflow-y: scroll !important; 
+  overflow-y: scroll !important;
   overflow-y: scroll !important;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
@@ -617,6 +619,13 @@ li {
 
 .height100 {
   height: 100% !important;
+}
+
+/* Test Work Experience 3 Bar */
+
+.tallCard {
+  height: 60vh;
+  width: inherit;
 }
 
 /* Hovering Overlay TEST 

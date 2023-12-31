@@ -8,6 +8,7 @@ import CardReact from "../Cards/CardReact";
 import CardBeach from "../Cards/CardBeach";
 import CardFire from "../Cards/CardFire";
 import unitylogo from "../Images/landing/unity_logo.png";
+import battlerun from "../Images/work/battlerun/BattleRunMain.png";
 
 class PageCozyCafe extends Component {
   componentDidMount() {
@@ -31,9 +32,9 @@ class PageCozyCafe extends Component {
           <div>
             <div className="titleContainer titleText">
               <div className="bannerMoveBottom">
-                <div className="bannerWhite">Cozy </div>
+                <div className="bannerWhite">Work </div>
               </div>{" "}
-              <div className="bannerOutline bannerMoveTop">Cafe</div>
+              <div className="bannerOutline bannerMoveTop">Experience</div>
             </div>
           </div>
 
@@ -46,88 +47,51 @@ class PageCozyCafe extends Component {
           >
             <Grid
               item
-              xs={3}
-              sm={3}
-              md={3}
+              xs={4}
+              sm={4}
+              md={4}
               className="leftContainer forceHeight"
             >
-              <Fade duration={1000} delay={800}>
+              <Fade duration={2000}>
                 <div>
-                  <div className="whiteText leftText section">
-                    <div className="whiteText bigText"> Game Developer </div>
-                    <div className="centerElement subtitleText">
-                      <img
-                        src={unitylogo}
-                        alt="Unity"
-                        className="fixedimg circle centerElement"
-                      />
-                      <span className="subBanner"> Unity 3D Engine </span>
-                    </div>
-
-                    <div className="list">
-                      <li>● Using Unity's 3D engine to build games in C#</li>
-
-                      <li>● Using Unity Canvas System to Create UX / UI</li>
-
-                      <li>● Wrote Shaders for Unity in HLSL</li>
-
-                      <li>
-                        ● Built and Released games on Google Play and Apple App
-                        Store
-                      </li>
-                    </div>
-                  </div>
-                </div>
-              </Fade>
-
-              <Fade duration={1000} delay={1000}>
-                <div>
-                  <div className="whiteText leftText section">
-                    <div className="whiteText bigText"> Education </div>
-                    <div className="centerElement subtitleText">
-                      <img
-                        src={unitylogo}
-                        alt="Unity"
-                        className="fixedimg circle centerElement"
-                      />
-                      <span className="subBanner">
-                        {" "}
-                        University of Waterloo{" "}
-                      </span>
-                    </div>
-
-                    <div className="list">
-                      <li>● 2012-2016</li>
-                    </div>
-                  </div>
+                  <img
+                    className="bigAvatar section centerElement"
+                    src={battlerun}
+                  />
                 </div>
               </Fade>
             </Grid>
 
             <Grid
               item
-              xs={6}
-              sm={6}
-              md={6}
+              xs={4}
+              sm={4}
+              md={4}
               className="middleContainer forceHeight"
             >
               <Fade duration={2000}>
                 <div>
-                  <div className=""> Middle Container </div>
+                  <img
+                    className="bigAvatar section centerElement"
+                    src={battlerun}
+                  />
                 </div>
               </Fade>
             </Grid>
 
             <Grid
               item
-              xs={3}
-              sm={3}
-              md={3}
+              xs={4}
+              sm={4}
+              md={4}
               className="rightContainer forceHeight"
             >
               <Fade duration={2000}>
                 <div>
-                  <div className=""> right Container </div>
+                  <img
+                    className="bigAvatar section centerElement"
+                    src={battlerun}
+                  />
                 </div>
               </Fade>
             </Grid>
