@@ -10,127 +10,66 @@ import avatar from "../Images/gifs/ina.gif";
 class LandingPage extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
-    document.querySelector("body").style.background = "#007ABB";
+    document.querySelector("body").style.background = "#000";
     document
       .querySelector(".gradientBackground")
-      .classList.add("gradientSoftYellow");
+      .classList.add("gradientBlack");
   }
 
   componentWillUnmount() {
     document
       .querySelector(".gradientBackground")
-      .classList.remove("gradientSoftYellow");
+      .classList.remove("gradientBlack");
   }
 
   render() {
     return (
       <div>
         <div className="grid_root">
-          <div>
-            <div className="titleContainer">
-              <div className="bannerMoveBottom">
-                <div className="bannerWhite glitchAnimation">Hi I'm </div>
-              </div>{" "}
-              <div className="bannerOutline bannerMoveTop">Howe Yang</div>
-            </div>
-          </div>
-
           <Grid
             container
             direction="row"
-            justifyContent="space-between"
-            alignItems="center"
-            className="landingContainer"
+            justifyContent="center"
+            alignItems="stretch"
+            className=""
           >
-            <Grid
-              item
-              xs={3}
-              sm={3}
-              md={3}
-              className="leftContainer forceHeight"
-            >
-              <Grid
-                container
-                direction="column"
-                justifyContent="center"
-                alignItems="center"
-                spacing={3}
-              >
-                <Grid item xs={12} sm={12} md={12}>
-                  <Fade duration={1000} delay={800}>
-                    <div className="blueSection">
-                      <div className="centerElement whiteText">
-                        Generalist Game Developer
-                      </div>
-                      <div className="centerElement whiteText">
-                        I am a Canadian developer with a passion for games!
-                      </div>
-                    </div>
-                  </Fade>
-                </Grid>
-
-                <Grid item xs={12} sm={12} md={12}>
-                  <Fade duration={1000} delay={800}>
-                    <div className="blueSection">
-                      <div className="centerElement whiteText">
-                        I enjoy all the aspects of making a game - from
-                        pre-production and bouncing of game ideas / design
-                        pillars, building vertical slices, iterating on the
-                        features and updating with post launch updates.
-                        <br></br> <br></br>
-                        I've had a wide range of roles making games - I enjoy
-                        UI/UX, VFX and just making things sound, look and feel
-                        great.
-                      </div>
-                    </div>
-                  </Fade>
-                </Grid>
-              </Grid>
+            <Grid item xs={3} sm={3} md={3} className=" ">
+              <div>
+                <img
+                  src={avatar}
+                  alt="Chibi Meeee"
+                  className="bigAvatar bigCircle centerElement"
+                />
+              </div>
             </Grid>
 
-            <Grid
-              item
-              xs={6}
-              sm={6}
-              md={6}
-              className="middleContainer forceHeight"
-            >
-              <Fade duration={1200} delay={1200}>
-                <div>
-                  <img
-                    src={avatar}
-                    alt="Chibi Meeee"
-                    className="bigAvatar bigCircle centerElement"
-                  />
+            <Grid item xs={9} sm={9} md={9} className=" ">
+              <div>
+                <div className="titleContainer">
+                  <div className="bannerMoveBottom">
+                    <div className="bannerOutline bannerMoveTop">Hi I'm </div>
+                  </div>{" "}
+                  <div className="bannerOutline bannerMoveTop">Howe Yang</div>
+                  <br></br>
+                  <Fade duration={1000} delay={800}>
+                    <div className="centerElement subtitleText">
+                      I've had a wide range of roles making games - I enjoy
+                      UI/UX, VFX and just making things sound, look and feel
+                      great.
+                    </div>
+                  </Fade>
                 </div>
-              </Fade>
+              </div>
             </Grid>
 
-            <Grid
-              item
-              xs={3}
-              sm={3}
-              md={3}
-              className="rightContainer forceHeight" //heightBypass
-            >
-              <Fade duration={1300}>
-                <Grid
-                  container
-                  direction="column"
-                  justifyContent="flex-start"
-                  alignItems="stretch"
-                  spacing={7}
-                >
-                  <Grid item xs={12} sm={12} md={12}>
-                    <CardExperience delay={1300} />
-                  </Grid>
+          
 
-                  <Grid item xs={12} sm={12} md={12}>
-                    <CardProjects delay={1400} />
-                  </Grid>
-                </Grid>
-              </Fade>
-            </Grid>
+            <Grid item xs={3} sm={3} md={3} className="firstCard landingCard"></Grid>
+
+            <Grid item xs={3} sm={3} md={3} className="thirdCard"></Grid>
+
+            <Grid item xs={3} sm={3} md={3} className="section"></Grid>
+            <Grid item xs={3} sm={3} md={3} className="section"></Grid>
           </Grid>
         </div>
       </div>

@@ -29,7 +29,7 @@ Super white Gray :  DFDCE7 */
   font-family: "Archivo Black", sans-serif;
   position: absolute !important;
   font-weight: normal;
-  width: 100% !important;
+
   text-align: justify center !important;
   font-size: 6vw !important;
   text-align: center;
@@ -146,6 +146,12 @@ Super white Gray :  DFDCE7 */
   background: linear-gradient(to bottom, rgba(0, 166, 255, 0), #fff2cc);
 }
 
+
+.gradientBlack {
+  background: linear-gradient(to bottom, rgba(0, 166, 255, 0), #007ABB);
+}
+
+
 .bannerMoveTop {
   animation: banner-move2 1.25s forwards !important;
   animation-delay: 2s;
@@ -184,6 +190,7 @@ Super white Gray :  DFDCE7 */
   .bannerOutline {
     color: rgba(0, 122, 187, 0);
     -webkit-text-stroke: 0.15vw #fff;
+  
     animation-delay: 1.25s;
   }
 }
@@ -256,8 +263,8 @@ Super white Gray :  DFDCE7 */
   display: inline-block;
   line-height: normal;
   height: 100%;
-  padding: 5px;
   width: 100%;
+  color: #fff;
 }
 
 /* Landing */
@@ -400,7 +407,6 @@ label2 {
 
 body {
   overflow-y: scroll !important;
-  overflow-y: scroll !important;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   margin: 0;
@@ -430,7 +436,7 @@ ul.header li {
 ul.header {
   z-index: 2;
   display: block;
-  text-align: center;
+ 
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -445,6 +451,10 @@ ul.header {
 .visiblenav {
   background-color: rgba(0, 0, 0, 0.9);
   padding-bottom: 20px !important;
+}
+
+.centerText{
+  text-align: center !important;
 }
 
 .hidden {
@@ -467,25 +477,29 @@ ul.header {
   top: 240px !important;
 }
 
+ul{
+  text-align: right !important;
+}
+
 ul.header li a {
   border-radius: 5px;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   display: inline-block;
   margin-top: 10px;
   font: bold;
   font-weight: bold;
   padding: 10px;
-  padding-right: 25px;
-  padding-left: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
   position: relative;
   -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
   transition: ease 1s; /* For modern browsers */
   margin-left: 15px;
-  padding-right: 15px;
-  width: 120px;
+  margin-right: 15px;
+  width: 100px;
 }
 
 ul.header li a:after {
@@ -621,12 +635,19 @@ li {
   height: 100% !important;
 }
 
+/* New Landing CSS */
+
+.landingCard{
+  aspect-ratio : 1 / 1;
+}
+
 /* Test Work Experience 3 Bar */
 
 .tallCard {
   height: 60vh;
   width: inherit;
 }
+
 
 /* Hovering Overlay TEST 
 .container-overlay {

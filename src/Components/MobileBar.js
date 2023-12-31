@@ -57,11 +57,11 @@ class MobileBar extends Component {
   render() {
     return (
       <div>
-        <ul className="header visiblenav" key={100 + this.state.active}>
+        <ul className="header visiblenav centerText" key={100 + this.state.active}>
           <li>
             <a
               className={
-                this.state.active ? "menubutton active closemenu" : "menubutton"
+                this.state.active ? "menubutton active closemenu centerText" : "menubutton centerText"
               }
               onClick={this.handleClick}
             >
@@ -76,12 +76,12 @@ class MobileBar extends Component {
           >
             <ul
               className={
-                this.state.active ? "header top2 visiblenav" : "hidden"
+                this.state.active ? "header top2 visiblenav centerText" : "hidden"
               }
             >
               <li>
                 <a
-                  className={this.state.active ? "menubutton active" : "hidden"}
+                  className={this.state.active ? "menubutton active centerText" : "hidden"}
                   onClick={this.redirectHome}
                 >
                   Home
@@ -98,7 +98,7 @@ class MobileBar extends Component {
           >
             <ul
               className={
-                this.state.active ? "header top4 visiblenav" : "hidden"
+                this.state.active ? "header top4 visiblenav centerText" : "hidden"
               }
             >
               <li>
@@ -120,7 +120,7 @@ class MobileBar extends Component {
           >
             <ul
               className={
-                this.state.active ? "header top3 visiblenav" : "hidden"
+                this.state.active ? "header top3 visiblenav centerText" : "hidden"
               }
             >
               <li>
@@ -142,7 +142,7 @@ class MobileBar extends Component {
           >
             <ul
               className={
-                this.state.active ? "header top5 visiblenav" : "hidden"
+                this.state.active ? "header top5 visiblenav centerText" : "hidden"
               }
             >
               <li>

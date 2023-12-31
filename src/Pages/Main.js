@@ -30,7 +30,7 @@ class Main extends Component {
   render() {
     return (
       <HashRouter>
-        <Hidden xsDown>
+        <Hidden smDown>
           <ul className={this.state.class}>
             <li>
               <NavLink exact to="/" className ="">
@@ -54,7 +54,7 @@ class Main extends Component {
             </li>
           </ul>
         </Hidden>
-        <Hidden smUp>
+        <Hidden mdUp>
           <MobileBar></MobileBar>
         </Hidden>
 
