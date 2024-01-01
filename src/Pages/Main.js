@@ -34,28 +34,29 @@ class Main extends Component {
           <ul className={this.state.class}>
             <li>
               <NavLink exact to="/" className ="">
-              <div className=""> About<br></br> Me </div> 
+              <div className=""> Home<br></br> </div> 
               </NavLink>
             </li>
             <li>
               <NavLink to="/Work" className ="">
-              <div className=""> Work <br></br>Experience </div> 
+              <div className=""> Work <br></br> </div> 
               </NavLink>
             </li>
             <li>
               <NavLink to="/Personal" className ="">
-              <div className=""> Personal <br></br> Projects </div> 
+              <div className=""> Personal <br></br>  </div> 
               </NavLink>
             </li>
             <li>
               <NavLink to="/Resume" className ="">
-              <div className=""> Resume <br></br> Info </div> 
+              <div className=""> Resume <br></br>  </div> 
               </NavLink>
             </li>
           </ul>
         </Hidden>
         <Hidden mdUp>
           <MobileBar></MobileBar>
+          <div className="headerPadding"></div>
         </Hidden>
 
         <Grid

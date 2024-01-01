@@ -10,16 +10,16 @@ import avatar from "../Images/gifs/ina.gif";
 class LandingPage extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
-    document.querySelector("body").style.background = "#000";
+    document.querySelector("body").style.background = "#007abb";
     document
       .querySelector(".gradientBackground")
-      .classList.add("gradientBlack");
+      .classList.add("gradientSoftYellow");
   }
 
   componentWillUnmount() {
     document
       .querySelector(".gradientBackground")
-      .classList.remove("gradientBlack");
+      .classList.remove("gradientSoftYellow");
   }
 
   render() {
@@ -62,9 +62,40 @@ class LandingPage extends Component {
               </div>
             </Grid>
 
-          
+            <Grid
+              item
+              xs={2}
+              sm={2}
+              md={2}
+              className="orangeCard landingCard"
+            >
+              Game Hive
 
-            <Grid item xs={3} sm={3} md={3} className="firstCard landingCard"></Grid>
+            </Grid>
+
+            <Grid item xs={10} sm={10} md={10} className="">
+              <Grid
+                container
+                direction="row"
+                justifyContent="center"
+                alignItems="stretch"
+                className=""
+              >
+                <Grid item xs={6} sm={6} md={6} className="thirdCard landingCard"></Grid>
+                <Grid item xs={6} sm={6} md={6} className="thirdCard landingCard"></Grid>
+
+                <Grid item xs={6} sm={6} md={6} className="firstCard landingCard"></Grid>
+                <Grid item xs={6} sm={6} md={6} className="firstCard landingCard"></Grid>
+              </Grid>
+            </Grid>
+
+            <Grid
+              item
+              xs={3}
+              sm={3}
+              md={3}
+              className="firstCard landingCard"
+            ></Grid>
 
             <Grid item xs={3} sm={3} md={3} className="thirdCard"></Grid>
 
