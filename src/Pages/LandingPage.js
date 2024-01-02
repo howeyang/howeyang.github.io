@@ -64,6 +64,32 @@ class LandingPage extends Component {
 
             <Grid
               item
+              xs={6}
+              sm={6}
+              md={6}
+              className="orangeCard shortCard"
+            >
+              Waterloo Computer Science
+
+            </Grid>
+
+            <Grid
+              item
+              xs={6}
+              sm={6}
+              md={6}
+              className="orangeCard shortCard"
+            >
+              Game Hive
+              <br></br>
+              Developer and Producer - small text - with many minor roles and responsibilites
+
+            </Grid>
+
+            
+
+            <Grid
+              item
               xs={2}
               sm={2}
               md={2}

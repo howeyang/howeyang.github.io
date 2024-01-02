@@ -645,6 +645,10 @@ li {
   aspect-ratio : 1 / 1;
 }
 
+.shortCard{
+  height: 10vh;
+}
+
 .orangeCard{
   background: orange;
 }
