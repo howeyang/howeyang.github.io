@@ -30,6 +30,7 @@ class PageBattleRun extends Component {
     return (
       <div>
         <div className="grid_root">
+        <div className="emptySpace"></div>
           <div>
             <div className="titleContainer titleText">
               <div className="bannerMoveBottom">

@@ -25,16 +25,20 @@ Super white Gray :  DFDCE7 */
   padding-top: 5vw !important;
 }
 
+.emptySpace {
+  height: 80px !important;
+}
+
 .titleContainer {
   font-family: "Archivo Black", sans-serif;
-  position: absolute !important;
   font-weight: normal;
-
   text-align: justify center !important;
-  font-size: 6vw !important;
-  text-align: center;
-  height: 60px !important;
-  padding-top: 80px;
+  font-size: 3.5vw !important;
+  text-align: left;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .lefttitleContainer {
@@ -135,22 +139,16 @@ Super white Gray :  DFDCE7 */
 }
 
 .gradientBlue {
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 166, 255, 0),
-    #007abb
-  );
+  background: linear-gradient(to bottom, rgba(0, 166, 255, 0), #007abb);
 }
 
 .gradientSoftYellow {
   background: linear-gradient(to bottom, rgba(0, 166, 255, 0), #fff2cc);
 }
 
-
 .gradientBlack {
-  background: linear-gradient(to bottom, rgba(0, 166, 255, 0), #007ABB);
+  background: linear-gradient(to bottom, rgba(0, 166, 255, 0), #007abb);
 }
-
 
 .bannerMoveTop {
   animation: banner-move2 1.25s forwards !important;
@@ -190,7 +188,7 @@ Super white Gray :  DFDCE7 */
   .bannerOutline {
     color: rgba(0, 122, 187, 0);
     -webkit-text-stroke: 0.15vw #fff;
-  
+
     animation-delay: 1.25s;
   }
 }
@@ -321,8 +319,6 @@ Super white Gray :  DFDCE7 */
   display: inline-block;
 }
 
-/*constant-glitch 1s 0.7s forwards !important;*/
-
 @keyframes banner-move {
   0% {
     transform: translateY(100px);
@@ -332,32 +328,47 @@ Super white Gray :  DFDCE7 */
   }
 }
 
-@keyframes glitch {
-  0% {
-    transform: translateY(0px);
-    text-shadow: 0rem 0.2rem 0 red, 0rem 0.2rem 0 white;
-  }
-
-  2% {
-    text-shadow: 0rem -0.2rem 0 red, -0.1rem 0.2rem 0 blue;
-  }
-
-  4%,
-  100% {
-    text-shadow: none;
-    transform: none;
-  }
+.smallText {
+  font-size: 0.4em !important;
 }
 
-@keyframes constant-glitch {
-  0% {
-    text-shadow: -0.3rem 0rem 0 rgb(0, 255, 255) (162, 162, 162),
-      0.3rem 0rem 0 rgb(255, 255, 255);
-  }
+.icon {
+  display: inline-block;
+  padding: 0;
+  vertical-align: baseline;
+}
 
-  50% {
-    text-shadow: 0.3rem 0rem 0 rgb(0, 200, 255),
-      -0.3rem 0rem 0 rgb(255, 255, 255);
+.fancyButton {
+  background-color: #fff;
+  border: 2px solid #003e42;
+  border-radius: 30px;
+  box-shadow: #003e42 4px 4px 0 0;
+  color: #003e42;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  line-height: 1.2em;
+}
+
+.fancyButton:hover {
+  background-color: #86f0f7;
+}
+
+.fancyButton:active {
+  box-shadow: #003e42 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .fancyButton {
+    min-width: 120px;
+    padding: 0 25px;
   }
 }
 
@@ -436,7 +447,7 @@ ul.header li {
 ul.header {
   z-index: 2;
   display: block;
- 
+
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -457,7 +468,7 @@ ul.header {
   height: 80px !important;
 }
 
-.centerText{
+.centerText {
   text-align: center !important;
 }
 
@@ -481,7 +492,7 @@ ul.header {
   top: 240px !important;
 }
 
-ul{
+ul {
   text-align: right !important;
 }
 
@@ -641,15 +652,15 @@ li {
 
 /* New Landing CSS */
 
-.landingCard{
-  aspect-ratio : 1 / 1;
+.landingCard {
+  aspect-ratio: 1 / 1;
 }
 
-.shortCard{
+.shortCard {
   height: 10vh;
 }
 
-.orangeCard{
+.orangeCard {
   background: orange;
 }
 
@@ -659,7 +670,6 @@ li {
   height: 60vh;
   width: inherit;
 }
-
 
 /* Hovering Overlay TEST 
 .container-overlay {

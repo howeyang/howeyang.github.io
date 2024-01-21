@@ -6,6 +6,7 @@ import CardProjects from "../Cards/CardProjects";
 import Fade from "react-reveal/Fade";
 import { withRouter } from "react-router-dom";
 import avatar from "../Images/gifs/ina.gif";
+import outlink from "../Images/svg/outlink.svg"
 
 class LandingPage extends Component {
   componentDidMount() {
@@ -33,7 +34,11 @@ class LandingPage extends Component {
             alignItems="stretch"
             className=""
           >
-            <Grid item xs={3} sm={3} md={3} className=" ">
+            <Grid item xs={12} sm={12} md={12} className="emptySpace">
+              <div></div>
+            </Grid>
+
+            <Grid item xs={2} sm={2} md={2} className=" ">
               <div>
                 <img
                   src={avatar}
@@ -43,60 +48,49 @@ class LandingPage extends Component {
               </div>
             </Grid>
 
-            <Grid item xs={9} sm={9} md={9} className=" ">
+            <Grid item xs={6} sm={6} md={6} className=" ">
               <div>
                 <div className="titleContainer">
-                  <div className="bannerMoveBottom">
-                    <div className="bannerOutline bannerMoveTop">Hi I'm </div>
-                  </div>{" "}
-                  <div className="bannerOutline bannerMoveTop">Howe Yang</div>
-                  <br></br>
-                  <Fade duration={1000} delay={800}>
-                    <div className="centerElement subtitleText">
-                      I've had a wide range of roles making games - I enjoy
-                      UI/UX, VFX and just making things sound, look and feel
-                      great.
-                    </div>
-                  </Fade>
+                  <div className="verticalCenter">
+                    <div className="bannerMoveBottom">
+                      <div className="bannerOutline bannerMoveTop">Hi I'm </div>
+                    </div>{" "}
+                    <div className="bannerOutline bannerMoveTop">Howe Yang</div>
+                    <br></br>
+                    <Fade duration={1000} delay={800}>
+                      <div className="subtitleText">
+                        I love playing and making games!
+                        <br></br>I enjoy UI/UX, reverse engineering VFX and just
+                        making things sound, look and feel great.
+                      </div>
+
+                      <div className="fancyButton smallText">
+                        Graduate of University of Waterloo <br></br>
+                        Bachelor of Computer Science <img src={outlink} className="icon"></img>
+                      </div>
+                    </Fade>
+                  </div>
                 </div>
               </div>
             </Grid>
 
-            <Grid
-              item
-              xs={6}
-              sm={6}
-              md={6}
-              className="orangeCard shortCard"
-            >
-              Waterloo Computer Science
-
+            <Grid item xs={12} sm={12} md={12} className="emptySpace">
+              <div></div>
             </Grid>
 
-            <Grid
-              item
-              xs={6}
-              sm={6}
-              md={6}
-              className="orangeCard shortCard"
-            >
+            <Grid item xs={6} sm={6} md={6} className="orangeCard shortCard">
+              Waterloo Computer Science
+            </Grid>
+
+            <Grid item xs={6} sm={6} md={6} className="orangeCard shortCard">
               Game Hive
               <br></br>
-              Developer and Producer - small text - with many minor roles and responsibilites
-
+              Developer and Producer - small text - with many minor roles and
+              responsibilites
             </Grid>
 
-            
-
-            <Grid
-              item
-              xs={2}
-              sm={2}
-              md={2}
-              className="orangeCard landingCard"
-            >
+            <Grid item xs={2} sm={2} md={2} className="orangeCard landingCard">
               Game Hive
-
             </Grid>
 
             <Grid item xs={10} sm={10} md={10} className="">
@@ -107,11 +101,35 @@ class LandingPage extends Component {
                 alignItems="stretch"
                 className=""
               >
-                <Grid item xs={6} sm={6} md={6} className="thirdCard landingCard"></Grid>
-                <Grid item xs={6} sm={6} md={6} className="thirdCard landingCard"></Grid>
+                <Grid
+                  item
+                  xs={6}
+                  sm={6}
+                  md={6}
+                  className="thirdCard landingCard"
+                ></Grid>
+                <Grid
+                  item
+                  xs={6}
+                  sm={6}
+                  md={6}
+                  className="thirdCard landingCard"
+                ></Grid>
 
-                <Grid item xs={6} sm={6} md={6} className="firstCard landingCard"></Grid>
-                <Grid item xs={6} sm={6} md={6} className="firstCard landingCard"></Grid>
+                <Grid
+                  item
+                  xs={6}
+                  sm={6}
+                  md={6}
+                  className="firstCard landingCard"
+                ></Grid>
+                <Grid
+                  item
+                  xs={6}
+                  sm={6}
+                  md={6}
+                  className="firstCard landingCard"
+                ></Grid>
               </Grid>
             </Grid>
 
