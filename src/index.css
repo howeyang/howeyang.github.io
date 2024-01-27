@@ -329,13 +329,16 @@ Super white Gray :  DFDCE7 */
 }
 
 .smallText {
-  font-size: 0.4em !important;
+  font-size: 0.3em !important;
 }
 
 .icon {
   display: inline-block;
   padding: 0;
   vertical-align: baseline;
+  height: 16px;
+  width: 16px;
+  filter: invert(19%) sepia(14%) saturate(3681%) hue-rotate(141deg) brightness(93%) contrast(101%);
 }
 
 .fancyButton {
@@ -353,7 +356,7 @@ Super white Gray :  DFDCE7 */
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  line-height: 1.2em;
+  line-height: 1.3em;
 }
 
 .fancyButton:hover {
