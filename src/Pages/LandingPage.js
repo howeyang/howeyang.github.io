@@ -6,7 +6,7 @@ import CardProjects from "../Cards/CardProjects";
 import Fade from "react-reveal/Fade";
 import { withRouter } from "react-router-dom";
 import avatar from "../Images/gifs/ina.gif";
-import outlink from "../Images/svg/outlink.svg"
+import outlink from "../Images/svg/outlink.svg";
 
 class LandingPage extends Component {
   componentDidMount() {
@@ -66,7 +66,8 @@ class LandingPage extends Component {
 
                       <div className="fancyButton smallText">
                         Graduate of University of Waterloo <br></br>
-                        Bachelor of Computer Science <img src={outlink} className="icon"></img>
+                        Bachelor of Computer Science{" "}
+                        <img src={outlink} className="icon"></img>
                       </div>
                     </Fade>
                   </div>
@@ -78,73 +79,18 @@ class LandingPage extends Component {
               <div></div>
             </Grid>
 
-            <Grid item xs={6} sm={6} md={6} className="orangeCard shortCard">
-              Waterloo Computer Science
+            <Grid item xs={3} sm={3} md={3}>
+              <CardProjects delay={1300} />
             </Grid>
 
-            <Grid item xs={6} sm={6} md={6} className="orangeCard shortCard">
-              Game Hive
-              <br></br>
-              Developer and Producer - small text - with many minor roles and
-              responsibilites
+            <Grid item xs={3} sm={3} md={3}>
+              <CardProjects delay={1300} />
             </Grid>
 
-            <Grid item xs={2} sm={2} md={2} className="orangeCard landingCard">
-              Game Hive
+            <Grid item xs={3} sm={3} md={3}>
+              <CardProjects delay={1300} />
             </Grid>
 
-            <Grid item xs={10} sm={10} md={10} className="">
-              <Grid
-                container
-                direction="row"
-                justifyContent="center"
-                alignItems="stretch"
-                className=""
-              >
-                <Grid
-                  item
-                  xs={6}
-                  sm={6}
-                  md={6}
-                  className="thirdCard landingCard"
-                ></Grid>
-                <Grid
-                  item
-                  xs={6}
-                  sm={6}
-                  md={6}
-                  className="thirdCard landingCard"
-                ></Grid>
-
-                <Grid
-                  item
-                  xs={6}
-                  sm={6}
-                  md={6}
-                  className="firstCard landingCard"
-                ></Grid>
-                <Grid
-                  item
-                  xs={6}
-                  sm={6}
-                  md={6}
-                  className="firstCard landingCard"
-                ></Grid>
-              </Grid>
-            </Grid>
-
-            <Grid
-              item
-              xs={3}
-              sm={3}
-              md={3}
-              className="firstCard landingCard"
-            ></Grid>
-
-            <Grid item xs={3} sm={3} md={3} className="thirdCard"></Grid>
-
-            <Grid item xs={3} sm={3} md={3} className="section"></Grid>
-            <Grid item xs={3} sm={3} md={3} className="section"></Grid>
           </Grid>
         </div>
       </div>
