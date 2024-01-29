@@ -29,13 +29,16 @@ Super white Gray :  DFDCE7 */
   height: 80px !important;
 }
 
+.divider {
+  height: 20px !important;
+}
+
 .titleContainer {
-  font-family: "Archivo Black", sans-serif;
   font-weight: normal;
   text-align: justify center !important;
-  font-size: 3.5vw !important;
+  font-size: 4.5vw !important;
   text-align: left;
-
+  font-weight: 900;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,40 +159,37 @@ Super white Gray :  DFDCE7 */
   display: inline-block;
 }
 
+.bannerMoveTop2 {
+  animation: banner-move2 1.25s forwards !important;
+  animation-delay: 2.3s;
+  display: inline-block;
+}
+
 @keyframes banner-move2 {
   0% {
     transform: translateY(100px);
-    -webkit-text-stroke: 0.15vw #00000000;
+    
   }
   100% {
     transform: translateY(0px);
-    -webkit-text-stroke: 0.15vw #fff;
   }
 }
 
 .bannerWhite {
   color: rgba(255, 255, 255, 1);
-  animation: color-change 2s forwards !important;
-  animation-delay: 1s;
+  animation: color-change 3s forwards !important;
+  animation-delay: 0.5s;
 }
 
 @keyframes color-change {
   0% {
     color: rgba(0, 122, 187, 0);
-    -webkit-text-stroke: 0.15vw #fff;
+    text-shadow: 0px 0px 0px #003e42;
+  
   }
   100% {
-    color: rgba(255, 255, 255, 1);
-    -webkit-text-stroke: 0.15vw #fff;
-  }
-}
-
-@supports (-webkit-text-stroke: 0.15vw #fff) {
-  .bannerOutline {
-    color: rgba(0, 122, 187, 0);
-    -webkit-text-stroke: 0.15vw #fff;
-
-    animation-delay: 1.25s;
+    color: rgba(255, 255, 255, 1); 
+    text-shadow: 4px 4px 0px #003e42;
   }
 }
 
@@ -262,7 +262,7 @@ Super white Gray :  DFDCE7 */
   line-height: normal;
   height: 100%;
   width: 100%;
-  color: #fff;
+  color: #003e42;
 }
 
 /* Landing */
@@ -298,9 +298,16 @@ Super white Gray :  DFDCE7 */
 }
 
 .centerElement {
+  align-content: center !important;
+  text-align: center !important;
+  vertical-align: center !important;
+}
+
+.landingTextContainer{
   align-content: center;
-  text-align: center;
-  vertical-align: middle;
+  text-align: left;
+  vertical-align: center;
+  display: inline-block;
 }
 
 .subBanner {
@@ -314,7 +321,7 @@ Super white Gray :  DFDCE7 */
 }
 
 .bannerMoveBottom {
-  animation: banner-move 1s forwards !important;
+  animation: banner-move2 1s forwards !important;
   animation-delay: 1.5s;
   display: inline-block;
 }
@@ -329,7 +336,7 @@ Super white Gray :  DFDCE7 */
 }
 
 .smallText {
-  font-size: 0.3em !important;
+  font-size: 0.8em !important;
 }
 
 .icon {
