@@ -168,7 +168,6 @@ Super white Gray :  DFDCE7 */
 @keyframes banner-move2 {
   0% {
     transform: translateY(100px);
-    
   }
   100% {
     transform: translateY(0px);
@@ -185,10 +184,9 @@ Super white Gray :  DFDCE7 */
   0% {
     color: rgba(0, 122, 187, 0);
     text-shadow: 0px 0px 0px #003e42;
-  
   }
   100% {
-    color: rgba(255, 255, 255, 1); 
+    color: rgba(255, 255, 255, 1);
     text-shadow: 4px 4px 0px #003e42;
   }
 }
@@ -244,6 +242,10 @@ Super white Gray :  DFDCE7 */
   text-align: left !important;
 }
 
+.rightText {
+  text-align: right !important;
+}
+
 .whiteText {
   color: #fff;
   font-size: 1em;
@@ -252,6 +254,10 @@ Super white Gray :  DFDCE7 */
 .greyText {
   color: #424242;
   font-size: 1.25em;
+}
+
+.secondaryText{
+  color: #003e42;
 }
 
 .subtitleText {
@@ -288,6 +294,31 @@ Super white Gray :  DFDCE7 */
   padding: 5px;
 }
 
+.smallfixedimg {
+  width: 32px;
+  height: 32px;
+  padding: 5px;
+}
+
+.shiftleft {
+  position: relative;
+  left: -10px !important;
+}
+
+.shiftdown {
+  padding-top: 3px !important;
+}
+
+.leftfloat {
+  width: 10%;
+  float: left;
+}
+
+.rightfloat {
+  width: 88%;
+  float: right;
+}
+
 .circle {
   background: rgba(255, 255, 255, 1);
   border-radius: 50%;
@@ -303,7 +334,7 @@ Super white Gray :  DFDCE7 */
   vertical-align: center !important;
 }
 
-.landingTextContainer{
+.landingTextContainer {
   align-content: center;
   text-align: left;
   vertical-align: center;
@@ -336,7 +367,7 @@ Super white Gray :  DFDCE7 */
 }
 
 .smallText {
-  font-size: 0.8em !important;
+  font-size: 0.7em !important;
 }
 
 .icon {
@@ -345,7 +376,8 @@ Super white Gray :  DFDCE7 */
   vertical-align: baseline;
   height: 16px;
   width: 16px;
-  filter: invert(19%) sepia(14%) saturate(3681%) hue-rotate(141deg) brightness(93%) contrast(101%);
+  filter: invert(19%) sepia(14%) saturate(3681%) hue-rotate(141deg)
+    brightness(93%) contrast(101%);
 }
 
 .fancyButton {
@@ -356,7 +388,7 @@ Super white Gray :  DFDCE7 */
   color: #003e42;
   cursor: pointer;
   display: inline-block;
-  padding: 0 18px;
+  padding: 0 15px;
   line-height: 50px;
   text-align: center;
   text-decoration: none;
@@ -381,6 +413,27 @@ Super white Gray :  DFDCE7 */
     padding: 0 25px;
   }
 }
+
+.landingDivider {
+  border: 0;
+  height: 1px;
+  top: 20px;
+  position: relative;
+  animation: fadeline 1.5s forwards !important;
+  animation-delay: 1.5s !important;
+}
+
+@keyframes fadeline {
+  0% {
+    opacity: 0;
+    background-image: linear-gradient(to right, #003e42, rgba(204, 204, 204, 0));
+  }
+  100% {
+    opacity: 1;
+    background-image: linear-gradient(to right, #003e42, rgba(204, 204, 204, 0));
+  }
+}
+
 
 /* Card */
 

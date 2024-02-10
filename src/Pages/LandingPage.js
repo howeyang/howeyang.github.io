@@ -7,6 +7,7 @@ import Fade from "react-reveal/Fade";
 import { withRouter } from "react-router-dom";
 import avatar from "../Images/gifs/ina.gif";
 import outlink from "../Images/svg/outlink.svg";
+import graduate from "../Images/svg/graduate.svg";
 
 class LandingPage extends Component {
   componentDidMount() {
@@ -62,11 +63,21 @@ class LandingPage extends Component {
                         I love playing and making games!
                         <br></br>I enjoy UI/UX, reverse engineering VFX and just
                         making things sound, look and feel great.
-                        <br></br>
-                        <div className="fancyButton smallText centerElement">
-                          Graduate of University of Waterloo <br></br>
-                          Bachelor of Computer Science{" "}
-                          <img src={outlink} className="icon"></img>
+                        <p></p>
+                        <div className="fancyButton smallText">
+                          <div className="leftfloat">
+                            <img
+                              src={graduate}
+                              alt="Graduate"
+                              className="smallfixedimg shiftleft"
+                            />
+                          </div>
+
+                          <div className="rightfloat centerElement shiftdown">
+                            Graduate of University of Waterloo <br></br>
+                            Bachelor of Computer Science{" "}
+                            <img src={outlink} className="icon"></img>
+                          </div>
                         </div>
                       </div>
                     </Fade>
@@ -75,17 +86,22 @@ class LandingPage extends Component {
               </div>
             </Grid>
 
-            <Grid item xs={12} sm={12} md={12} className="divider"></Grid>
-
             <Grid
               container
               direction="row"
               justifyContent="center"
               alignItems="stretch"
               spacing={1}
+              className="centerElement"
             >
-              <Grid item xs={3} sm={3} md={3}>
-                <CardProjects delay={1300} />
+              <Grid item xs={3} sm={3} md={3} className="bigText rightText ">
+                <Fade duration={1000} delay={1200}>
+                  {" "}
+                  Published Games{" "}
+                </Fade>
+              </Grid>
+              <Grid item xs={8} sm={8} md={8} className="landingDivider">
+            
               </Grid>
 
               <Grid item xs={3} sm={3} md={3}>
@@ -93,7 +109,35 @@ class LandingPage extends Component {
               </Grid>
 
               <Grid item xs={3} sm={3} md={3}>
+                <CardProjects delay={1400} />
+              </Grid>
+
+              <Grid item xs={3} sm={3} md={3}>
+                <CardProjects delay={1500} />
+              </Grid>
+
+              <Grid item xs={12} sm={12} md={12} className="divider"></Grid>
+
+              <Grid item xs={3} sm={3} md={3} className="bigText rightText ">
+                <Fade duration={1000} delay={1600}>
+                  {" "}
+                  Personal Projects{" "}
+                </Fade>
+              </Grid>
+              <Grid item xs={8} sm={8} md={8} className="landingDivider">
+                {" "}
+              </Grid>
+
+              <Grid item xs={3} sm={3} md={3}>
                 <CardProjects delay={1300} />
+              </Grid>
+
+              <Grid item xs={3} sm={3} md={3}>
+                <CardProjects delay={1400} />
+              </Grid>
+
+              <Grid item xs={3} sm={3} md={3}>
+                <CardProjects delay={1500} />
               </Grid>
             </Grid>
           </Grid>
