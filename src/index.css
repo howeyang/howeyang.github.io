@@ -256,7 +256,7 @@ Super white Gray :  DFDCE7 */
   font-size: 1.25em;
 }
 
-.secondaryText{
+.secondaryText {
   color: #003e42;
 }
 
@@ -303,6 +303,16 @@ Super white Gray :  DFDCE7 */
 .shiftleft {
   position: relative;
   left: -10px !important;
+}
+
+.shiftright{
+  position: relative;
+  left: 20px !important;
+}
+
+.shiftleftmore {
+  position: relative;
+  left: -15px !important;
 }
 
 .shiftdown {
@@ -380,6 +390,12 @@ Super white Gray :  DFDCE7 */
     brightness(93%) contrast(101%);
 }
 
+.iconColor {
+  filter: invert(19%) sepia(14%) saturate(3681%) hue-rotate(141deg)
+    brightness(93%) contrast(101%);
+}
+
+
 .fancyButton {
   background-color: #fff;
   border: 2px solid #003e42;
@@ -426,14 +442,21 @@ Super white Gray :  DFDCE7 */
 @keyframes fadeline {
   0% {
     opacity: 0;
-    background-image: linear-gradient(to right, #003e42, rgba(204, 204, 204, 0));
+    background-image: linear-gradient(
+      to right,
+      #003e42,
+      rgba(204, 204, 204, 0)
+    );
   }
   100% {
     opacity: 1;
-    background-image: linear-gradient(to right, #003e42, rgba(204, 204, 204, 0));
+    background-image: linear-gradient(
+      to right,
+      #003e42,
+      rgba(204, 204, 204, 0)
+    );
   }
 }
-
 
 /* Card */
 
@@ -534,6 +557,8 @@ ul.header {
 .centerText {
   text-align: center !important;
 }
+
+.leftT
 
 .hidden {
   display: none !important;

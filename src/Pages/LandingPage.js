@@ -5,9 +5,10 @@ import CardAutobattler from "../Cards/CardAutobattler";
 import CardProjects from "../Cards/CardProjects";
 import Fade from "react-reveal/Fade";
 import { withRouter } from "react-router-dom";
-import avatar from "../Images/gifs/ina.gif";
+import avatar from "../Images/gifs/avatar.gif";
 import outlink from "../Images/svg/outlink.svg";
 import graduate from "../Images/svg/graduate.svg";
+import work from "../Images/svg/briefcase.svg";
 
 class LandingPage extends Component {
   componentDidMount() {
@@ -69,7 +70,7 @@ class LandingPage extends Component {
                             <img
                               src={graduate}
                               alt="Graduate"
-                              className="smallfixedimg shiftleft"
+                              className="smallfixedimg shiftleft iconColor"
                             />
                           </div>
 
@@ -77,6 +78,21 @@ class LandingPage extends Component {
                             Graduate of University of Waterloo <br></br>
                             Bachelor of Computer Science{" "}
                             <img src={outlink} className="icon"></img>
+                          </div>
+                        </div>
+                        <span className="fixedimg"> </span>
+                        <div className="fancyButton smallText">
+                          <div className="leftfloat">
+                            <img
+                              src={work}
+                              alt="work"
+                              className="smallfixedimg shiftleftmore iconColor"
+                            />
+                          </div>
+
+                          <div className="rightfloat leftText shiftright shiftdown">
+                          {" "} Previously at <br></br>
+                          {" "} Game Hive {" "} <img src={outlink} className="icon"></img>
                           </div>
                         </div>
                       </div>
@@ -100,9 +116,7 @@ class LandingPage extends Component {
                   Published Games{" "}
                 </Fade>
               </Grid>
-              <Grid item xs={8} sm={8} md={8} className="landingDivider">
-            
-              </Grid>
+              <Grid item xs={8} sm={8} md={8} className="landingDivider"></Grid>
 
               <Grid item xs={3} sm={3} md={3}>
                 <CardProjects delay={1300} />
