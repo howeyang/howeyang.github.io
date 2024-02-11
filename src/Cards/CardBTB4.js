@@ -7,20 +7,20 @@ import Typography from "@material-ui/core/Typography";
 import { withRouter } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 
-class CardExperience extends Component {
+class CardBTB4 extends Component {
   constructor(props) {
     super(props);
     this.redirect = this.redirect.bind(this);
   }
 
   redirect() {
-    this.props.history.push("/Work");
+    this.props.history.push("/Personal");
   }
 
   render() {
     return (
       <div className="hvr-sweep-to-right2">
-        <div className="hvr-sweep-to-right workexperience">
+        <div className="hvr-sweep-to-right sandbox">
           <div className="hvr-sweep-to-right3">
             <Fade delay={this.props.delay}>
               <Card className="glow cardBackground">
@@ -30,9 +30,10 @@ class CardExperience extends Component {
                 >
                   <CardMedia
                     className="card"
-                    image={require("../Images/card/card-battlerun.png")}
-                    title="Upsight and Game Hive!"
+                    image={require("../Images/splash/Splash_BTB4.jpg")}
+                    title="Irasshaimase!"
                   />
+
                   <CardContent>
                     <Typography
                       gutterBottom={false}
@@ -40,18 +41,16 @@ class CardExperience extends Component {
                       component="h3"
                       className="cardHeader"
                     >
-                      Work Experience
+                      Cozy Cafe
                     </Typography>
                     <Typography
                       variant="body1"
-                      color="textPrimary"
+                      color=""
                       component="p"
                     >
-                      <label2>Unity3D | Mobile Games</label2>
-                      <div className="whiteText">
-                        <b>Game Hive</b> <label2>2019 - 2024</label2>
-                        <br></br>
-                        <b>Unity Developer + Producer</b>
+                      <label2>Unity3D | Scripts | UI | Mobile </label2>
+                      <div className="secondaryText">
+                        Producer and Developer for Cozy Cafe <br></br>A comfy idle mobile game!
                       </div>
                     </Typography>
                   </CardContent>
@@ -65,4 +64,4 @@ class CardExperience extends Component {
   }
 }
 
-export default withRouter(CardExperience);
+export default withRouter(CardBTB4);

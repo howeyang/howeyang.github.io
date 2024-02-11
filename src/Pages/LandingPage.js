@@ -4,6 +4,8 @@ import CardExperience from "../Cards/CardExperience";
 import CardAutobattler from "../Cards/CardAutobattler";
 import CardProjects from "../Cards/CardProjects";
 import CardCozy from "../Cards/CardCozy";
+import CardBattleRun from "../Cards/CardBattleRun";
+import CardBTB4 from "../Cards/CardBTB4";
 import Fade from "react-reveal/Fade";
 import { withRouter } from "react-router-dom";
 import avatar from "../Images/gifs/avatar.gif";
@@ -125,11 +127,11 @@ class LandingPage extends Component {
               </Grid>
 
               <Grid item xs={3} sm={3} md={3}>
-                <CardProjects delay={1400} />
+                <CardBattleRun delay={1400} />
               </Grid>
 
               <Grid item xs={3} sm={3} md={3}>
-                <CardProjects delay={1500} />
+                <CardBTB4 delay={1500} />
               </Grid>
 
               <Grid item xs={12} sm={12} md={12} className="divider"></Grid>
