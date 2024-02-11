@@ -114,7 +114,8 @@ class LandingPage extends Component {
               <Grid item xs={3} sm={3} md={3} className="bigText rightText ">
                 <Fade duration={1000} delay={1200}>
                   {" "}
-                  Published Games{" "}
+                  <span className="secondaryText">Published Games</span>
+                  {" "}
                 </Fade>
               </Grid>
               <Grid item xs={8} sm={8} md={8} className="landingDivider"></Grid>
@@ -135,8 +136,9 @@ class LandingPage extends Component {
 
               <Grid item xs={3} sm={3} md={3} className="bigText rightText ">
                 <Fade duration={1000} delay={1600}>
+                {" "}
+                  <span className="secondaryText">Personal Projects</span>
                   {" "}
-                  Personal Projects{" "}
                 </Fade>
               </Grid>
               <Grid item xs={8} sm={8} md={8} className="landingDivider">

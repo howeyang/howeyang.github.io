@@ -31,7 +31,7 @@ class CardCozy extends Component {
                   <CardMedia
                     className="card"
                     image={require("../Images/card/card-cozy.png")}
-                    title="Smashing rocks together~"
+                    title="Irasshaimase!"
                   />
 
                   <CardContent>
@@ -45,12 +45,12 @@ class CardCozy extends Component {
                     </Typography>
                     <Typography
                       variant="body1"
-                      color="textPrimary"
+                      color=""
                       component="p"
                     >
-                      <label2>Unity3D | Scripts | Shaders</label2>
-                      <div className="whiteText">
-                        Showcasing personal projects built in Unity!
+                      <label2>Unity3D | Scripts | UI | Mobile </label2>
+                      <div className="secondaryText">
+                        Producer and Developer for Cozy Cafe <br></br>A comfy idle mobile game!
                       </div>
                     </Typography>
                   </CardContent>

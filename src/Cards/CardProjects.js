@@ -49,7 +49,7 @@ class CardProjects extends Component {
                       component="p"
                     >
                       <label2>Unity3D | Scripts | Shaders</label2>
-                      <div className="whiteText">
+                      <div className="secondaryText">
                         Showcasing personal projects built in Unity!
                       </div>
                     </Typography>
