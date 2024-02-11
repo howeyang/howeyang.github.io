@@ -107,7 +107,7 @@ Super white Gray :  DFDCE7 */
   width: 200vw;
   height: 200vh;
   background-attachment: fixed;
-  animation: movingDots 10s linear infinite;
+  /*animation: movingDots 10s linear infinite;*/
   z-index: -1;
 }
 

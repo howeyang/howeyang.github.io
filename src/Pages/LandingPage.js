@@ -3,6 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import CardExperience from "../Cards/CardExperience";
 import CardAutobattler from "../Cards/CardAutobattler";
 import CardProjects from "../Cards/CardProjects";
+import CardCozy from "../Cards/CardCozy";
 import Fade from "react-reveal/Fade";
 import { withRouter } from "react-router-dom";
 import avatar from "../Images/gifs/avatar.gif";
@@ -119,7 +120,7 @@ class LandingPage extends Component {
               <Grid item xs={8} sm={8} md={8} className="landingDivider"></Grid>
 
               <Grid item xs={3} sm={3} md={3}>
-                <CardProjects delay={1300} />
+                <CardCozy delay={1300} />
               </Grid>
 
               <Grid item xs={3} sm={3} md={3}>
