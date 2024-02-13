@@ -1,11 +1,15 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
-import CardExperience from "../Cards/CardExperience";
-import CardAutobattler from "../Cards/CardAutobattler";
-import CardProjects from "../Cards/CardProjects";
+
 import CardCozy from "../Cards/CardCozy";
 import CardBattleRun from "../Cards/CardBattleRun";
 import CardBTB4 from "../Cards/CardBTB4";
+
+import CardProjects from "../Cards/CardProjects";
+import CardBeach from "../Cards/CardBeach";
+import CardGalaxy from "../Cards/CardGalaxy";
+
+
 import Fade from "react-reveal/Fade";
 import { withRouter } from "react-router-dom";
 import avatar from "../Images/gifs/avatar.gif";
@@ -62,7 +66,7 @@ class LandingPage extends Component {
                       <div className="bannerMoveTop">Howe Yang</div>
                     </div>
 
-                    <Fade duration={1000} delay={800}>
+                    <Fade duration={1000} delay={700}>
                       <div className="subtitleText">
                         I love playing and making games!
                         <br></br>I enjoy UI/UX, reverse engineering VFX and just
@@ -110,11 +114,11 @@ class LandingPage extends Component {
               direction="row"
               justifyContent="center"
               alignItems="stretch"
-              spacing={1}
+              spacing={2}
               className="centerElement"
             >
               <Grid item xs={3} sm={3} md={3} className="bigText rightText ">
-                <Fade duration={1000} delay={1200}>
+                <Fade duration={1000} delay={800}>
                   {" "}
                   <span className="secondaryText">Published Games</span>
                   {" "}
@@ -123,21 +127,21 @@ class LandingPage extends Component {
               <Grid item xs={8} sm={8} md={8} className="landingDivider"></Grid>
 
               <Grid item xs={3} sm={3} md={3}>
-                <CardCozy delay={1300} />
+                <CardCozy delay={800} />
               </Grid>
 
               <Grid item xs={3} sm={3} md={3}>
-                <CardBattleRun delay={1400} />
+                <CardBattleRun delay={900} />
               </Grid>
 
               <Grid item xs={3} sm={3} md={3}>
-                <CardBTB4 delay={1500} />
+                <CardBTB4 delay={1000} />
               </Grid>
 
               <Grid item xs={12} sm={12} md={12} className="divider"></Grid>
 
-              <Grid item xs={3} sm={3} md={3} className="bigText rightText ">
-                <Fade duration={1000} delay={1600}>
+              <Grid item xs={3} sm={3} md={3} className="bigText rightText">
+                <Fade duration={1000} delay={1000}>
                 {" "}
                   <span className="secondaryText">Personal Projects</span>
                   {" "}
@@ -148,15 +152,15 @@ class LandingPage extends Component {
               </Grid>
 
               <Grid item xs={3} sm={3} md={3}>
-                <CardProjects delay={1300} />
+                <CardBeach delay={200} />
               </Grid>
 
               <Grid item xs={3} sm={3} md={3}>
-                <CardProjects delay={1400} />
+                <CardProjects delay={300} />
               </Grid>
 
               <Grid item xs={3} sm={3} md={3}>
-                <CardProjects delay={1500} />
+                <CardGalaxy delay={400} />
               </Grid>
             </Grid>
           </Grid>

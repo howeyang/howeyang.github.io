@@ -465,6 +465,7 @@ Super white Gray :  DFDCE7 */
 /* Card */
 
 .MuiPaper-root {
+  width:100%;
   background-color: #fff !important;
   border: #003e42 1px solid !important;
   background-color: #fff;
@@ -515,6 +516,10 @@ label2 {
   font: normal;
   color: #fff;
   font-weight: bold;
+}
+
+.cardMinHeight{
+  min-height: 80px;
 }
 
 /* OLD CSS BELOW */

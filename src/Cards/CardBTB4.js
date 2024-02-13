@@ -41,16 +41,18 @@ class CardBTB4 extends Component {
                       component="h3"
                       className="cardHeader"
                     >
-                      Cozy Cafe
+                      Beat the Boss 4
                     </Typography>
                     <Typography
                       variant="body1"
                       color=""
                       component="p"
+                      className="cardMinHeight"
                     >
-                      <label2>Unity3D | Scripts | UI | Mobile </label2>
+                      <label2>Unity3D | Mobile Casual Game </label2>
                       <div className="secondaryText">
-                        Producer and Developer for Cozy Cafe <br></br>A comfy idle mobile game!
+                        Role: Producer and Developer<br></br>
+                        Updating a Legacy title with new Content
                       </div>
                     </Typography>
                   </CardContent>

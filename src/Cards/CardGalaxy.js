@@ -7,14 +7,14 @@ import Typography from "@material-ui/core/Typography";
 import { withRouter } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 
-class CardProjects extends Component {
+class CardGalaxy extends Component {
   constructor(props) {
     super(props);
     this.redirect = this.redirect.bind(this);
   }
 
   redirect() {
-    this.props.history.push("/Personal");
+    // this.props.history.push("/Personal");
   }
 
   render() {
@@ -30,8 +30,8 @@ class CardProjects extends Component {
                 >
                   <CardMedia
                     className="card"
-                    image={require("../Images/fire_end.gif")}
-                    title="Smashing rocks together~"
+                    image={require("../Images/card/card-galaxy.png")}
+                    title="Coming Soon"
                   />
 
                   <CardContent>
@@ -41,7 +41,7 @@ class CardProjects extends Component {
                       component="h3"
                       className="cardHeader"
                     >
-                      Fire Shader
+                      Upcoming Project
                     </Typography>
                     <Typography
                       variant="body1"
@@ -49,9 +49,9 @@ class CardProjects extends Component {
                       component="p"
                       className="cardMinHeight"
                     >
-                      <label2>Unity3D | Scripts | Shaders</label2>
+                      <label2>Unity3D | Steam </label2>
                       <div className="secondaryText">
-                        Showcasing personal projects built in Unity!
+                        Working on an upcoming indie Steam title!
                       </div>
                     </Typography>
                   </CardContent>
@@ -65,4 +65,4 @@ class CardProjects extends Component {
   }
 }
 
-export default withRouter(CardProjects);
+export default withRouter(CardGalaxy);

@@ -5,7 +5,7 @@ import Hidden from "@material-ui/core/Hidden";
 import MobileBar from "../Components/MobileBar";
 import NoMatch from "./NoMatch";
 import Grid from "@material-ui/core/Grid";
-import PageBattleRun from "./PageBattleRun";
+import PageWork from "./PageWork";
 import PagePersonal from "./PagePersonal";
 import PageResume from "./PageResume";
 
@@ -81,7 +81,7 @@ class Main extends Component {
             <div className="content">
               <Switch>
                 <Route exact path="/" component={LandingPage} />
-                <Route exact path="/Work" component={PageBattleRun} />
+                <Route exact path="/Work" component={PageWork} />
                 <Route exact path="/Personal" component={PagePersonal} />
                 <Route exact path="/Resume" component={PageResume} />
                 <Route component={NoMatch} />
