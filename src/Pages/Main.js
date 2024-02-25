@@ -8,6 +8,8 @@ import Grid from "@material-ui/core/Grid";
 import PageWork from "./PageWork";
 import PagePersonal from "./PagePersonal";
 import PageResume from "./PageResume";
+import PageBattleRun from "./PageBattleRun";
+import PageCozyCafe from "./PageCozyCafe";
 
 class Main extends Component {
   state = {
@@ -84,6 +86,8 @@ class Main extends Component {
                 <Route exact path="/Work" component={PageWork} />
                 <Route exact path="/Personal" component={PagePersonal} />
                 <Route exact path="/Resume" component={PageResume} />
+                <Route exact path="/BattleRun" component={PageBattleRun} />
+                <Route exact path="/CozyCafe" component={PageCozyCafe} />
                 <Route component={NoMatch} />
               </Switch>
             </div>
