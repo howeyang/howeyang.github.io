@@ -211,8 +211,8 @@ Super white Gray :  DFDCE7 */
 
 .section {
   display: block;
-  background-color: rgba(0, 0, 0, 0.3);
-  border: rgba(156, 187, 208, 0.8) 1px solid;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: rgba(156, 187, 208, 0.8) 0px solid;
   border-radius: 10px;
   color: #fff;
   padding: 10px;
@@ -416,10 +416,14 @@ Super white Gray :  DFDCE7 */
   -webkit-user-select: none;
   touch-action: manipulation;
   line-height: 1.3em;
+  -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
+  transition: ease 1s; /* For modern browsers */
 }
 
 .fancyButton:hover {
   background-color: #86f0f7;
+  border: #86f0f7 2px solid !important;
+  box-shadow: #0eb6c2 4px 4px 0 0 !important;
 }
 
 .fancyButton:active {
@@ -467,9 +471,8 @@ Super white Gray :  DFDCE7 */
 .MuiPaper-root {
   width:100%;
   background-color: #fff !important;
-  border: #003e42 1px solid !important;
+  border: #003e42 2px solid !important;
   background-color: #fff;
-  border: 2px solid #003e42;
   border-radius: 30px !important;
   box-shadow: #003e42 4px 4px 0 0 !important;
   color: #003e42;
@@ -481,6 +484,13 @@ Super white Gray :  DFDCE7 */
   user-select: none!important;
   -webkit-user-select: none!important;
   touch-action: manipulation;
+  -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
+  transition: ease 1s; /* For modern browsers */
+}
+
+.MuiPaper-root:hover{
+  border: #86f0f7 2px solid !important;
+  box-shadow: #0eb6c2 4px 4px 0 0 !important;
 }
 
 .MuiCardContent-root {
@@ -598,7 +608,9 @@ ul.header {
   text-align: center !important;
 }
 
-.leftT
+.leftText{
+  text-align: left !important;
+}
 
 .hidden {
   display: none !important;

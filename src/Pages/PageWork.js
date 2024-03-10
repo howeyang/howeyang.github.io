@@ -12,9 +12,9 @@ import avatar from "../Images/work/battlerun/BattleRunMain.png";
 import CardProjects from "../Cards/CardProjects";
 import battlerun from "../Images/work/battlerun/BattleRunMain.png";
 
-import CardCozy from "../Cards/CardCozy";
-import CardBattleRun from "../Cards/CardBattleRun";
-import CardBTB4 from "../Cards/CardBTB4";
+import CardCozy from "../Cards/SmallCard/SmallCardCozy";
+import CardBattleRun from "../Cards/SmallCard/SmallCardBattleRun";
+import CardBTB4 from "../Cards/SmallCard/SmallCardBTB4";
 
 class PageWork extends Component {
   componentDidMount() {
@@ -62,16 +62,23 @@ class PageWork extends Component {
                 spacing={1}
                 className="centerElement"
               >
-                <Grid item xs={3} sm={3} md={3} className="section">
-                  Cool Infographic about Game Hive
+                <Grid item xs={12} sm={3} md={3} className="section leftText">
+                  Cool Info about Game Hive
+                  Game Hive - 
+                  <br></br>
+                  ● Toronto based Mobile Game Studio - focused on Casual and Idle Games
+                  <br></br>
+                  ● Made Tap Titans series, Beat the Boss Series and Battle Run
+                  <br></br>
+                  
                 </Grid>
 
                 <Grid
                   item
-                  xs={4}
+                  xs={12}
                   sm={4}
                   md={4}
-                  className="workSubtitle"
+                  className=""
                 >
                   <Grid
                     container
@@ -81,28 +88,35 @@ class PageWork extends Component {
                     spacing={0}
                     className=""
                   >
-                  <Grid item xs={12} sm={12} md={12} className="section workSubtitle">Producer and Developer </Grid>
+                  <Grid item xs={12} sm={12} md={12} className="section workSubtitle">Producer and Developer <br></br> 2019 -> 2024 </Grid>
                   <Grid item xs={12} sm={12} md={12} className=""> {" "} <br></br> </Grid>
-                  <Grid item xs={12} sm={12} md={12} className="section workSubtitle">Game Hive - Mobile Game Studio </Grid>
+                  <Grid item xs={12} sm={12} md={12} className="section workSubtitle">Game Hive <br></br>Mobile Game Studio </Grid>
                   </Grid>
-                </Grid>
 
-                <Grid item xs={3} sm={3} md={3} className="section">
-                  Image of Cozy Cafe? Or just start with the small cards
-                </Grid>
-
-                <Grid item xs={3} sm={3} md={3} className="">
-                  Section Explaining Roles and Key Achivements
-                </Grid>
-
-                <Grid item xs={4} sm={4} md={4} className="">
+                  <Grid item xs={12} sm={12} md={12} className="leftText"> {" "} <br></br>
+                  
+                  Section Explaining Roles and Key Achivements.
                   Work at Game Hive. Long Text explaining my work and
                   resposibilities.
+                  <br></br>
+                  ● Worked as a Producer for multiple projects from inception to release + post release Support 
+                  <br></br>
+                  ● Cross team collab and with external partners
+                  <br></br>
+                  ● Worked with a variety of team sizes - from 4, 8, 15, 30 sized teams
+
+                   </Grid>
                 </Grid>
 
-                <Grid item xs={3} sm={3} md={3} className="">
-                  Small Cards that Link to Cozy Cafe / Battle Run / BTB4
+                <Grid item xs={12} sm={3} md={3} className="">
+                  <CardCozy></CardCozy>
+                  <br></br>
+                  <CardBattleRun></CardBattleRun>
+                  <br></br>
+                  <CardBTB4></CardBTB4>
                 </Grid>
+
+            
               </Grid>
             </Grid>
 
