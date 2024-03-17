@@ -44,128 +44,159 @@ class PageWork extends Component {
               </div>
             </div>
           </div>
-
-          <Grid
-            container
-            direction="row"
-            justifyContent="center"
-            alignItems="stretch"
-            spacing={0}
-            className="centerElement"
-          >
-            <Grid item xs={12} sm={12} md={12} className="workSection">
-              <Grid
-                container
-                direction="row"
-                justifyContent="space-around"
-                alignItems="stretch"
-                spacing={1}
-                className="centerElement"
-              >
-                <Grid item xs={12} sm={3} md={3} className="section leftText">
-                  Cool Info about Game Hive
-                  Game Hive - 
-                  <br></br>
-                  ● Toronto based Mobile Game Studio - focused on Casual and Idle Games
-                  <br></br>
-                  ● Made Tap Titans series, Beat the Boss Series and Battle Run
-                  <br></br>
-                  
-                </Grid>
-
+          <Fade delay={500}>
+            <Grid
+              container
+              direction="row"
+              justifyContent="center"
+              alignItems="stretch"
+              spacing={0}
+              className="centerElement"
+            >
+              <Grid item xs={12} sm={12} md={12} className="workSection">
                 <Grid
-                  item
-                  xs={12}
-                  sm={4}
-                  md={4}
-                  className=""
+                  container
+                  direction="row"
+                  justifyContent="space-around"
+                  alignItems="stretch"
+                  spacing={1}
+                  className="centerElement"
                 >
-                  <Grid
-                    container
-                    direction="column"
-                    justifyContent="center"
-                    alignItems="stretch"
-                    spacing={0}
-                    className=""
-                  >
-                  <Grid item xs={12} sm={12} md={12} className="section workSubtitle">Producer and Developer <br></br> 2019 -> 2024 </Grid>
-                  <Grid item xs={12} sm={12} md={12} className=""> {" "} <br></br> </Grid>
-                  <Grid item xs={12} sm={12} md={12} className="section workSubtitle">Game Hive <br></br>Mobile Game Studio </Grid>
+                  <Grid item xs={12} sm={3} md={3} className="section leftText">
+                    Cool Info about Game Hive Game Hive -<br></br>●<br></br>
                   </Grid>
 
-                  <Grid item xs={12} sm={12} md={12} className="leftText"> {" "} <br></br>
-                  
-                  Section Explaining Roles and Key Achivements.
-                  Work at Game Hive. Long Text explaining my work and
-                  resposibilities.
-                  <br></br>
-                  ● Worked as a Producer for multiple projects from inception to release + post release Support 
-                  <br></br>
-                  ● Cross team collab and with external partners
-                  <br></br>
-                  ● Worked with a variety of team sizes - from 4, 8, 15, 30 sized teams
+                  <Grid item xs={12} sm={4} md={4} className="">
+                    <Grid
+                      container
+                      direction="column"
+                      justifyContent="center"
+                      alignItems="stretch"
+                      spacing={0}
+                      className=""
+                    >
+                      <Grid
+                        item
+                        xs={12}
+                        sm={12}
+                        md={12}
+                        className="section workSubtitle"
+                      >
+                        Producer and Developer <br></br> 2019 -> 2024{" "}
+                      </Grid>
+                      <Grid item xs={12} sm={12} md={12} className="">
+                        {" "}
+                        <br></br>{" "}
+                      </Grid>
+                      <Grid
+                        item
+                        xs={12}
+                        sm={12}
+                        md={12}
+                        className="workSubtitle"
+                      >
+                        <div className="fancyButton ">
+                          Game Hive <br></br>Mobile Game Studio
+                        </div>
+                      </Grid>
+                    </Grid>
 
-                   </Grid>
+                    <Grid
+                      item
+                      xs={12}
+                      sm={12}
+                      md={12}
+                      className="leftText mediumText"
+                    >
+                      {" "}
+                      <br></br>
+                      <br></br> ●{" "}
+                      <span>
+                        {" "}
+                        Worked as a Producer and Developer for multiple projects
+                        from inception to release{" "}
+                      </span>{" "}
+                      and Post Global Release Support
+                      <br></br>●{" "}
+                      <span>
+                        {" "}
+                        Organized and assisted with Cross team collaborations{" "}
+                      </span>{" "}
+                      and with external partners for marketing and promotional
+                      content
+                      <br></br> &emsp; ● Obtained $250,000 Grant from
+                      Canada's IMDF Fund
+                      <br></br> &emsp; ● Collaborated with Mr. Beast for
+                      Marketing Promo
+                      <br></br> &emsp; ● Worked with External Art studio to make a Custom Trailer
+                      <br></br>● Worked with a variety of team sizes - from 4,
+                      8, 15, 30 sized teams
+                      <br></br>
+                      <span>
+                        Planned and executed a roadmap for launching Battle Run
+                      </span>{" "}
+                      from a small team of 4 developers to a 30 person project
+                      with server developers, artists, designers and QA
+                    </Grid>
+                  </Grid>
+
+                  <Grid item xs={12} sm={3} md={3} className="">
+                    <CardCozy></CardCozy>
+                    <br></br>
+                    <CardBattleRun></CardBattleRun>
+                    <br></br>
+                    <CardBTB4></CardBTB4>
+                  </Grid>
                 </Grid>
-
-                <Grid item xs={12} sm={3} md={3} className="">
-                  <CardCozy></CardCozy>
-                  <br></br>
-                  <CardBattleRun></CardBattleRun>
-                  <br></br>
-                  <CardBTB4></CardBTB4>
-                </Grid>
-
-            
               </Grid>
-            </Grid>
 
-            <Grid item xs={12} sm={12} md={12}>
-              <div className="emptySpace"></div>
-            </Grid>
+              <Grid item xs={12} sm={12} md={12}>
+                <div className="emptySpace"></div>
+              </Grid>
 
-            <Grid item xs={12} sm={12} md={12} className="workSection">
-              <Grid
-                container
-                direction="row"
-                justifyContent="space-around"
-                alignItems="stretch"
-                spacing={1}
-                className="centerElement"
-              >
-                <Grid item xs={3} sm={3} md={3} className="section">
-                  Image of Battle Run
-                </Grid>
-
+              <Grid item xs={12} sm={12} md={12} className="workSection">
                 <Grid
-                  item
-                  xs={4}
-                  sm={4}
-                  md={4}
-                  className="section workSubtitle"
+                  container
+                  direction="row"
+                  justifyContent="space-around"
+                  alignItems="stretch"
+                  spacing={1}
+                  className="centerElement"
                 >
-                  Senior Integration at Upsight
-                </Grid>
+                  <Grid item xs={3} sm={3} md={3} className="section">
+                    Image of Battle Run
+                  </Grid>
 
-                <Grid item xs={3} sm={3} md={3} className="section">
-                  Image of Cozy Cafe
-                </Grid>
+                  <Grid
+                    item
+                    xs={4}
+                    sm={4}
+                    md={4}
+                    className="section workSubtitle"
+                  >
+                    Senior Integration at Upsight
+                  </Grid>
 
-                <Grid item xs={3} sm={3} md={3} className="">
-                  Section Explaining Roles and Key Achivements
-                </Grid>
+                  <Grid item xs={3} sm={3} md={3} className="section">
+                    Image of Cozy Cafe
+                  </Grid>
 
-                <Grid item xs={4} sm={4} md={4} className="">
-                  Work at Upsight. Long Text explaining my work and
-                  resposibilities.
-                </Grid>
+                  <Grid item xs={3} sm={3} md={3} className="">
+                    Section Explaining Roles and Key Achivements
+                  </Grid>
 
-                <Grid item xs={3} sm={3} md={3} className="">
-                  Supporting Images
+                  <Grid item xs={4} sm={4} md={4} className="">
+                    Work at Upsight. Long Text explaining my work and
+                    resposibilities.
+                  </Grid>
+
+                  <Grid item xs={3} sm={3} md={3} className="">
+                    Supporting Images
+                  </Grid>
                 </Grid>
               </Grid>
             </Grid>
-          </Grid>
+          </Fade>
         </div>
       </div>
     );

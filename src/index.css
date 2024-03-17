@@ -36,7 +36,7 @@ Super white Gray :  DFDCE7 */
 .titleContainer {
   font-weight: normal;
   text-align: justify center !important;
-  font-size: 4.5vw !important;
+  font-size: 48px !important;
   text-align: left;
   font-weight: 900;
   display: flex;
@@ -51,7 +51,7 @@ Super white Gray :  DFDCE7 */
   width: 100% !important;
   height: 15% !important;
   text-align: justify center !important;
-  font-size: 6vw !important;
+  font-size: 24px !important;
 }
 
 .leftContainer {
@@ -219,9 +219,10 @@ Super white Gray :  DFDCE7 */
   padding-right: 10px;
   padding-left: 10px;
   margin: 10px;
-  font-size: 1vw;
+  font-size: 12px;
   line-height: 1.1;
 }
+
 
 .blueSection {
   display: block;
@@ -233,7 +234,7 @@ Super white Gray :  DFDCE7 */
 }
 
 .bigText {
-  font-size: 2vw !important;
+  font-size: 24px !important;
   font-weight: bolder;
   font-family: "Poppins", sans-serif;
 }
@@ -248,7 +249,7 @@ Super white Gray :  DFDCE7 */
 
 .whiteText {
   color: #fff;
-  font-size: 1em;
+  font-size: 12px;
 }
 
 .boldText{
@@ -257,7 +258,7 @@ Super white Gray :  DFDCE7 */
 
 .greyText {
   color: #424242;
-  font-size: 1.25em;
+  font-size: 12px;
 }
 
 .secondaryText {
@@ -265,7 +266,7 @@ Super white Gray :  DFDCE7 */
 }
 
 .subtitleText {
-  font-size: 1.5vw !important;
+  font-size: 20px !important;
   font-weight: bolder;
   font-family: "Poppins", sans-serif;
   display: inline-block;
@@ -306,7 +307,7 @@ Super white Gray :  DFDCE7 */
 
 .shiftleft {
   position: relative;
-  left: -10px !important;
+  left: -15px !important;
 }
 
 .shiftright{
@@ -381,8 +382,22 @@ Super white Gray :  DFDCE7 */
 }
 
 .smallText {
-  font-size: 0.7em !important;
+  font-size: 12px !important;
 }
+
+.mediumText {
+  color: rgb(250, 250, 250);
+  font-size: 16px !important;
+  font-weight: 300;
+}
+
+.mediumText span {
+  text-decoration: none !important;
+  color: rgb(255, 255, 255) !important;
+  font-weight: 1000 !important;
+  display: inline !important;
+}
+
 
 .icon {
   display: inline-block;
@@ -435,6 +450,22 @@ Super white Gray :  DFDCE7 */
   .fancyButton {
     min-width: 120px;
     padding: 0 25px;
+  }
+}
+
+.fadeInOpacity{
+  opacity: 0;
+  animation: fadeText 1.5s forwards !important;
+  animation-delay: 1.5s !important;
+}
+
+@keyframes fadeText {
+  0% {
+    opacity: 0;
+    
+  }
+  100% {
+    opacity: 1;
   }
 }
 
@@ -499,7 +530,7 @@ Super white Gray :  DFDCE7 */
 
 .cardHeader {
   color: #003e42;
-  font-size: 2em !important;
+  font-size: 24px !important;
   font-family: "Poppins", serif !important;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;

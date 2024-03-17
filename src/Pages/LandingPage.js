@@ -9,7 +9,6 @@ import CardProjects from "../Cards/CardProjects";
 import CardBeach from "../Cards/CardBeach";
 import CardGalaxy from "../Cards/CardGalaxy";
 
-
 import Fade from "react-reveal/Fade";
 import { withRouter } from "react-router-dom";
 import avatar from "../Images/gifs/avatar.gif";
@@ -47,7 +46,7 @@ class LandingPage extends Component {
               <div></div>
             </Grid>
 
-            <Grid item xs={2} sm={2} md={2} className=" ">
+            <Grid item xs={2} sm={2} md={2} className="">
               <div>
                 <img
                   src={avatar}
@@ -98,8 +97,9 @@ class LandingPage extends Component {
                           </div>
 
                           <div className="rightfloat leftText shiftright shiftdown">
-                          {" "} Previously at <br></br>
-                          {" "} Game Hive {" "} <img src={outlink} className="icon"></img>
+                            {" "}
+                            Previously at <br></br> Game Hive{" "}
+                            <img src={outlink} className="icon"></img>
                           </div>
                         </div>
                       </div>
@@ -117,49 +117,47 @@ class LandingPage extends Component {
               spacing={2}
               className="centerElement"
             >
-              <Grid item xs={3} sm={3} md={3} className="bigText rightText ">
+              <Grid item xs={6} sm={6} md={3} className="bigText rightText ">
                 <Fade duration={1000} delay={800}>
                   {" "}
-                  <span className="secondaryText">Published Games</span>
-                  {" "}
+                  <span className="secondaryText">Published Games</span>{" "}
                 </Fade>
               </Grid>
-              <Grid item xs={8} sm={8} md={8} className="landingDivider"></Grid>
+              <Grid item xs={6} sm={6} md={8} className="landingDivider"></Grid>
 
-              <Grid item xs={3} sm={3} md={3}>
+              <Grid item xs={10} sm={6} md={3}>
                 <CardCozy delay={800} />
               </Grid>
 
-              <Grid item xs={3} sm={3} md={3}>
+              <Grid item xs={10} sm={6} md={3}>
                 <CardBattleRun delay={900} />
               </Grid>
 
-              <Grid item xs={3} sm={3} md={3}>
+              <Grid item xs={10} sm={6} md={3}>
                 <CardBTB4 delay={1000} />
               </Grid>
 
               <Grid item xs={12} sm={12} md={12} className="divider"></Grid>
 
-              <Grid item xs={3} sm={3} md={3} className="bigText rightText">
-                <Fade duration={1000} delay={1000}>
+              <Grid item xs={6} sm={6} md={3} className="bigText rightText">
                 {" "}
-                  <span className="secondaryText">Personal Projects</span>
-                  {" "}
-                </Fade>
+                <span className="secondaryText fadeInOpacity">
+                  Personal Projects
+                </span>{" "}
               </Grid>
-              <Grid item xs={8} sm={8} md={8} className="landingDivider">
+              <Grid item xs={6} sm={6} md={8} className="landingDivider">
                 {" "}
               </Grid>
 
-              <Grid item xs={3} sm={3} md={3}>
+              <Grid item xs={10} sm={6} md={3}>
                 <CardBeach delay={200} />
               </Grid>
 
-              <Grid item xs={3} sm={3} md={3}>
+              <Grid item xs={10} sm={6} md={3}>
                 <CardProjects delay={300} />
               </Grid>
 
-              <Grid item xs={3} sm={3} md={3}>
+              <Grid item xs={10} sm={6} md={3}>
                 <CardGalaxy delay={400} />
               </Grid>
             </Grid>
