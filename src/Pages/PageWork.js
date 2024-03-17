@@ -124,16 +124,18 @@ class PageWork extends Component {
                       </span>{" "}
                       and with external partners for marketing and promotional
                       content
-                      <br></br> &emsp; ● Obtained $250,000 Grant from
-                      Canada's IMDF Fund
-                      <br></br> &emsp; ● Collaborated with Mr. Beast for
-                      Marketing Promo
-                      <br></br> &emsp; ● Worked with External Art studio to make a Custom Trailer
+                      <a className="shiftright">
+                        <br></br> ● Obtained $250,000 Grant from Canada's IMDF
+                        Fund
+                        <br></br> ● Collaborated with Mr. Beast for Marketing
+                        Promo
+                        <br></br> ● Worked with External Art studio to make a Trailer
+                      </a>
                       <br></br>● Worked with a variety of team sizes - from 4,
-                      8, 15, 30 sized teams
+                        8, 15, 30 sized teams
                       <br></br>
                       <span>
-                        Planned and executed a roadmap for launching Battle Run
+                      ● Planned and executed a roadmap for launching multiple games
                       </span>{" "}
                       from a small team of 4 developers to a 30 person project
                       with server developers, artists, designers and QA
