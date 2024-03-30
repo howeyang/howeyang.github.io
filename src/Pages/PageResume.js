@@ -28,12 +28,13 @@ class PageResume extends Component {
     return (
       <div>
         <div className="grid_root">
-          <div>
-            <div className="titleContainer titleText">
-              <div className="bannerMoveBottom">
-                <div className="bannerWhite">Resume </div>
-              </div>{" "}
-              <div className="bannerOutline bannerMoveTop">Info</div>
+        <div className="emptySpace"></div>
+        <div className="titleContainer">
+            <div className="landingTextContainer">
+              <div className="bannerWhite">
+                <div className="bannerMoveBottom">Resume </div>{" "}
+                <div className="bannerMoveTop">Info </div>
+              </div>
             </div>
           </div>
 

@@ -29,12 +29,13 @@ class PageCozyCafe extends Component {
     return (
       <div>
         <div className="grid_root">
-          <div>
-            <div className="titleContainer titleText">
-              <div className="bannerMoveBottom">
-                <div className="bannerWhite">Work </div>
-              </div>{" "}
-              <div className="bannerOutline bannerMoveTop">Experience</div>
+        <div className="emptySpace"></div>
+        <div className="titleContainer">
+            <div className="landingTextContainer">
+              <div className="bannerWhite">
+                <div className="bannerMoveBottom">Personal </div>{" "}
+                <div className="bannerMoveTop">Projects </div>
+              </div>
             </div>
           </div>
 

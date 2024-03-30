@@ -199,7 +199,7 @@ Super white Gray :  DFDCE7 */
   background: linear-gradient(
     to bottom,
     rgba(220, 237, 200, 0),
-    rgb(82, 247, 143)
+    rgb(194, 255, 217)
   );
 }
 
@@ -579,6 +579,34 @@ label2 {
   
   font-size: 16px !important;
   font-weight: bolder !important;
+}
+
+/*  Project + Work Pages */
+
+.sectionContent { 
+  width: 100%; 
+}
+.sectionContentLeft{ 
+  width: auto;
+  float: left; /* [1] */
+  padding-right:10px;
+}
+
+.sectionContentMiddle { 
+  background-color: #fff !important;
+  color: rgb(238, 238, 238) !important;
+  overflow: auto; /* mix-blend-mode: difference !important; */
+}
+
+.sectionPadding{
+  padding-top: 10px !important;
+}
+
+.sectionContentRight { 
+  width: auto; 
+  float: right; /* [3] */
+  padding-left: 10px;
+  
 }
 
 /* OLD CSS BELOW */

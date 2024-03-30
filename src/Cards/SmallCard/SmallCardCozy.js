@@ -14,7 +14,7 @@ class SmallCardCozy extends Component {
   }
 
   redirect() {
-    this.props.history.push("/Personal");
+    this.props.history.push("/CozyCafe");
   }
 
   render() {

@@ -44,6 +44,7 @@ class PageWork extends Component {
               </div>
             </div>
           </div>
+          <div className="emptySpace"></div>
           <Fade delay={500}>
             <Grid
               container
@@ -82,7 +83,7 @@ class PageWork extends Component {
                         md={12}
                         className="section workSubtitle"
                       >
-                        Producer and Developer <br></br> 2019 -> 2024{" "}
+                        Producer and Developer at Game Hive<br></br> 2019 -> 2024{" "}
                       </Grid>
                       <Grid item xs={12} sm={12} md={12} className="">
                         {" "}
@@ -166,7 +167,7 @@ class PageWork extends Component {
                   className="centerElement"
                 >
                   <Grid item xs={3} sm={3} md={3} className="section">
-                    Image of Battle Run
+                    Infographic on Upsight - cool stuff like worked with Pokemon
                   </Grid>
 
                   <Grid
@@ -177,6 +178,7 @@ class PageWork extends Component {
                     className="section workSubtitle"
                   >
                     Senior Integration at Upsight
+                    <br></br> 2016 -> 2018{" "}
                   </Grid>
 
                   <Grid item xs={3} sm={3} md={3} className="section">
