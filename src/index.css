@@ -28,6 +28,10 @@ Super white Gray :  DFDCE7 */
 .emptySpace {
   height: 80px !important;
 }
+.emptySpace2{
+  width: 100px !important;
+  color: rgba(0, 0, 0, 0) !important;
+}
 
 .divider {
   height: 20px !important;
@@ -389,6 +393,7 @@ Super white Gray :  DFDCE7 */
   color: rgb(250, 250, 250);
   font-size: 16px !important;
   font-weight: 300;
+  line-height: 1.5;
 }
 
 .mediumText span {
@@ -559,6 +564,18 @@ label2 {
   font-weight: bold;
 }
 
+labelWork{
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-color: #eaf5fa;
+  border-radius: 5px;
+  font: bolder !important;
+  font-size: 18px;
+  color: #eaf5fa;
+}
+
 .cardMinHeight{
   min-height: 80px;
 }
@@ -584,7 +601,9 @@ label2 {
 /*  Project + Work Pages */
 
 .sectionContent { 
-  width: 100%; 
+  width: 95%; 
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .sectionContentLeft{ 
   width: auto;

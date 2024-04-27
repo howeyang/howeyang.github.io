@@ -11,6 +11,7 @@ import unitylogo from "../Images/landing/unity_logo.png";
 import avatar from "../Images/work/battlerun/BattleRunMain.png";
 import CardProjects from "../Cards/CardProjects";
 import battlerun from "../Images/work/battlerun/BattleRunMain.png";
+import outlink from "../Images/svg/outlink.svg";
 
 class PageCozyCafe extends Component {
   componentDidMount() {
@@ -59,7 +60,7 @@ class PageCozyCafe extends Component {
                   spacing={1}
                   className="centerElement"
                 >
-                  <Grid item xs={12} sm={3} md={3} className="leftText">
+                  <Grid item xs={12} sm={12} md={3} className="leftText mediumText">
                     <div class="sectionContent">
                       <div class="sectionContentLeft">Design</div>
                       <div class="sectionContentRight">
@@ -114,7 +115,7 @@ class PageCozyCafe extends Component {
                     </div>
                   </Grid>
 
-                  <Grid item xs={12} sm={4} md={4} className="">
+                  <Grid item xs={12} sm={12} md={4} className="">
                     <Grid
                       container
                       direction="column"
@@ -145,7 +146,12 @@ class PageCozyCafe extends Component {
                         className="workSubtitle"
                       >
                         <div className="fancyButton ">
-                          Game Hive <br></br>Mobile Game Studio
+                          Cozy Cafe <img src={outlink} className="icon"></img> <br></br>Google Play Store
+                        </div>
+                        <span className="emptySpace2">{" "}.{" "} </span>
+                       
+                        <div className="fancyButton ">
+                          Cozy Cafe <img src={outlink} className="icon"></img> <br></br>Apple App Store
                         </div>
                       </Grid>
                     </Grid>
@@ -155,45 +161,50 @@ class PageCozyCafe extends Component {
                       xs={12}
                       sm={12}
                       md={12}
-                      className="leftText mediumText"
+                      className="leftText mediumText sectionContent"
                     >
                       {" "}
                       <br></br>
-                      <br></br> ●{" "}
+                      <labelWork>Responsibilities</labelWork> <br />
                       <span>
-                        {" "}
-                        Worked as a Producer and Developer for multiple projects
-                        from inception to release{" "}
+                        ● Worked as a Producer and Developer for multiple
+                        projects from inception to release on Google and Apple
+                        App Stores{" "}
                       </span>{" "}
                       and Post Global Release Support
-                      <br></br>●{" "}
+                      <br></br>
                       <span>
-                        {" "}
-                        Organized and assisted with Cross team collaborations{" "}
+                        ● Organized and assisted with Cross team collaborations{" "}
                       </span>{" "}
                       and with external partners for marketing and promotional
                       content
                       <a className="shiftright">
-                        <br></br> ● Obtained $250,000 Grant from Canada's IMDF
-                        Fund
-                        <br></br> ● Collaborated with Mr. Beast for Marketing
-                        Promo
-                        <br></br> ● Worked with External Art studio to make a
-                        Trailer
+                        <br></br>{" "}
+                        <span>
+                          {" "}
+                          ● Obtained $250,000 Grant from Canada's IMDF Fund
+                        </span>
+                        <br></br>{" "}
+                        <span>
+                          ● Collaborated with Mr. Beast for Marketing Promo{" "}
+                        </span>
+                        <br></br>{" "}
+                        <span>
+                          {" "}
+                          ● Worked with External Art studio to make a Trailer
+                        </span>
                       </a>
-                      <br></br>● Worked with a variety of team sizes - from 4,
-                      8, 15, 30 sized teams
                       <br></br>
                       <span>
-                        ● Planned and executed a roadmap for launching multiple
-                        games
+                        ● Organized roadmaps and communicated work and
+                        expectations of various of team sizes{" "}
                       </span>{" "}
-                      from a small team of 4 developers to a 30 person project
-                      with server developers, artists, designers and QA
+                      - from 4, 8, 15, 30 sized teams with server developers,
+                      artists, designers and QA
                     </Grid>
                   </Grid>
 
-                  <Grid item xs={12} sm={3} md={3} className="">
+                  <Grid item xs={12} sm={12} md={3} className="">
                     Images
                   </Grid>
                 </Grid>

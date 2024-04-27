@@ -83,7 +83,8 @@ class PageWork extends Component {
                         md={12}
                         className="section workSubtitle"
                       >
-                        Producer and Developer at Game Hive<br></br> 2019 -> 2024{" "}
+                        Producer and Developer at Game Hive<br></br> 2019 ->
+                        2024{" "}
                       </Grid>
                       <Grid item xs={12} sm={12} md={12} className="">
                         {" "}
@@ -111,35 +112,42 @@ class PageWork extends Component {
                     >
                       {" "}
                       <br></br>
-                      <br></br> ●{" "}
+                      <labelWork>Responsibilities</labelWork> <br />
                       <span>
-                        {" "}
-                        Worked as a Producer and Developer for multiple projects
-                        from inception to release{" "}
+                        ● Worked as a Producer and Developer for multiple
+                        projects from inception to release on Google and Apple
+                        App Stores{" "}
                       </span>{" "}
                       and Post Global Release Support
-                      <br></br>●{" "}
+                      <br></br>
                       <span>
-                        {" "}
-                        Organized and assisted with Cross team collaborations{" "}
+                        ● Organized and assisted with Cross team collaborations{" "}
                       </span>{" "}
                       and with external partners for marketing and promotional
                       content
                       <a className="shiftright">
-                        <br></br> ● Obtained $250,000 Grant from Canada's IMDF
-                        Fund
-                        <br></br> ● Collaborated with Mr. Beast for Marketing
-                        Promo
-                        <br></br> ● Worked with External Art studio to make a Trailer
+                        <br></br>{" "}
+                        <span>
+                          {" "}
+                          ● Obtained $250,000 Grant from Canada's IMDF Fund
+                        </span>
+                        <br></br>{" "}
+                        <span>
+                          ● Collaborated with Mr. Beast for Marketing Promo{" "}
+                        </span>
+                        <br></br>{" "}
+                        <span>
+                          {" "}
+                          ● Worked with External Art studio to make a Trailer
+                        </span>
                       </a>
-                      <br></br>● Worked with a variety of team sizes - from 4,
-                        8, 15, 30 sized teams
                       <br></br>
                       <span>
-                      ● Planned and executed a roadmap for launching multiple games
+                        ● Organized roadmaps and communicated work and
+                        expectations of various of team sizes{" "}
                       </span>{" "}
-                      from a small team of 4 developers to a 30 person project
-                      with server developers, artists, designers and QA
+                      - from 4, 8, 15, 30 sized teams with server developers,
+                      artists, designers and QA
                     </Grid>
                   </Grid>
 
@@ -189,9 +197,54 @@ class PageWork extends Component {
                     Section Explaining Roles and Key Achivements
                   </Grid>
 
-                  <Grid item xs={4} sm={4} md={4} className="">
-                    Work at Upsight. Long Text explaining my work and
-                    resposibilities.
+                  <Grid
+                    item
+                    xs={4}
+                    sm={4}
+                    md={4}
+                    className="leftText mediumText"
+                  >
+                    {" "}
+                    <br></br>
+                    INSERT IMAGE OF UPSIGHT LOGO
+                    <br></br>
+                    <labelWork>Responsibilities</labelWork> <br />
+                    <span>
+                      ● Served as the technical point of contact and escalation
+                      lead for AAA clients such as Niantic, Ubisoft, Activision,
+                      EA, Nickelodeon, Scientific Games, Twitch
+                    </span>
+                    <br></br>
+                    <span>
+                      ● Helped clients optimize the use of a Mobile Plugin{" "}
+                    </span>{" "}
+                    which ranged from writing code, debugging issues and
+                    investigating problems
+                    <br></br>
+                    <span>● Provided expertise in Big Data analytics </span> by
+                    providing best practices and writing advanced analytical
+                    queries to improve performance
+                    <br></br>
+                    <span>
+                      ● Assisted in maintaining Hadoop and SQL databases ●{" "}
+                    </span>{" "}
+                    which lead to shorter disruptions and quicker resolutions
+                    <br></br>
+                    <span>
+                      ● Collaborated with Data Engineering, QA, Mobile Ad, and
+                      Customer Success teams{" "}
+                    </span>{" "}
+                    to investigate, debug and monitor back-end software
+                    infrastructure via JIRA issue tracking
+                    <br></br>
+                    <labelWork>Key Contributions</labelWork> <br />
+                    <span>● Employee of the month </span> within the first year
+                    of employment
+                    <br></br>
+                    <span>● Led to contract renewal of a key enterprise client </span> due to my contributions in issue resolution and support
+                    <br></br>
+                    <span>● Documented our Big Data ingestion pipeline from end-to-end  </span> which helped identify areas of improvement in the workflow and for onboarding new staff
+                    <br></br>
                   </Grid>
 
                   <Grid item xs={3} sm={3} md={3} className="">
