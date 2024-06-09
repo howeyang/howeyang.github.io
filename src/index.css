@@ -37,6 +37,21 @@ Super white Gray :  DFDCE7 */
   height: 20px !important;
 }
 
+.textdivider{
+  display: flex !important;
+  text-align: justify center !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: rgba(255, 255, 255, 0.151);
+  border-radius: 50%;
+  display: inline-block;
+}
+
 .titleContainer {
   font-weight: normal;
   text-align: justify center !important;
@@ -574,6 +589,13 @@ labelWork{
   font: bolder !important;
   font-size: 18px;
   color: #eaf5fa;
+}
+
+labelBigText{
+  font: bolder !important;
+  font-size: 30px;
+  color: #eaf5fa;
+  text-decoration: underline solid;
 }
 
 .cardMinHeight{

@@ -112,7 +112,7 @@ class PageWork extends Component {
                     >
                       {" "}
                       <br></br>
-                      <labelWork>Responsibilities</labelWork> <br />
+                      <labelBigText>Responsibilities</labelBigText> <br />
                       <span>
                         ● Worked as a Producer and Developer for multiple
                         projects from inception to release on Google and Apple
@@ -120,6 +120,8 @@ class PageWork extends Component {
                       </span>{" "}
                       and Post Global Release Support
                       <br></br>
+                      <div className="textdivider"> <div class="dot"></div> </div>
+                
                       <span>
                         ● Organized and assisted with Cross team collaborations{" "}
                       </span>{" "}
@@ -142,6 +144,7 @@ class PageWork extends Component {
                         </span>
                       </a>
                       <br></br>
+                      <div className="textdivider"> <div class="dot"></div> </div>
                       <span>
                         ● Organized roadmaps and communicated work and
                         expectations of various of team sizes{" "}
