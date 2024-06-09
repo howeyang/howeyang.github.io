@@ -605,6 +605,22 @@ labelWork{
   padding-left: 12px;
   padding-right: 12px;
 }
+
+.sectionName { 
+  width: 45%; 
+  padding-left: 5%;
+  padding-right: 5%;
+  margin:auto;
+}
+
+@media (min-width: 960px){
+  .sectionName { 
+    width: 95% !important; 
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
 .sectionContentLeft{ 
   width: auto;
   float: left; /* [1] */
@@ -612,10 +628,10 @@ labelWork{
 }
 
 .sectionContentMiddle { 
-  background-color: #fff !important;
-  color: rgb(238, 238, 238) !important;
   overflow: auto; /* mix-blend-mode: difference !important; */
+  padding-top: 3px;
 }
+
 
 .sectionPadding{
   padding-top: 10px !important;

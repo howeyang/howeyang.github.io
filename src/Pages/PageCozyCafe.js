@@ -61,7 +61,7 @@ class PageCozyCafe extends Component {
                   className="centerElement"
                 >
                   <Grid item xs={12} sm={12} md={3} className="leftText mediumText">
-                    <div class="sectionContent">
+                    <div class="sectionName">
                       <div class="sectionContentLeft">Design</div>
                       <div class="sectionContentRight">
                         Chris Doan
@@ -74,7 +74,7 @@ class PageCozyCafe extends Component {
                     <br></br>
                     <br></br>
 
-                    <div class="sectionContent">
+                    <div class="sectionName">
                       <div class="sectionContentLeft">Producer</div>
                       <div class="sectionContentRight">Howe Yang</div>
                       <div class="sectionContentMiddle"> > > ></div>
@@ -82,7 +82,7 @@ class PageCozyCafe extends Component {
 
                     <br></br>
 
-                    <div class="sectionContent">
+                    <div class="sectionName">
                       <div class="sectionContentLeft">Art</div>
                       <div class="sectionContentRight">
                         Nancy Andrews
@@ -95,7 +95,7 @@ class PageCozyCafe extends Component {
                     <br></br>
                     <br></br>
 
-                    <div class="sectionContent">
+                    <div class="sectionName">
                       <div class="sectionContentLeft">Animation</div>
                       <div class="sectionContentRight">Gabriel Lavoyer</div>
                       <div class="sectionContentMiddle"> > > ></div>
@@ -103,7 +103,7 @@ class PageCozyCafe extends Component {
 
                     <br></br>
 
-                    <div class="sectionContent">
+                    <div class="sectionName">
                       <div class="sectionContentLeft">Developers</div>
                       <div class="sectionContentRight">
                         Jason Chiu <br></br>
@@ -173,6 +173,7 @@ class PageCozyCafe extends Component {
                       </span>{" "}
                       and Post Global Release Support
                       <br></br>
+                      <br></br>
                       <span>
                         ● Organized and assisted with Cross team collaborations{" "}
                       </span>{" "}
@@ -194,6 +195,7 @@ class PageCozyCafe extends Component {
                           ● Worked with External Art studio to make a Trailer
                         </span>
                       </a>
+                      <br></br>
                       <br></br>
                       <span>
                         ● Organized roadmaps and communicated work and
