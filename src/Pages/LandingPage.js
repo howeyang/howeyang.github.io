@@ -66,7 +66,7 @@ class LandingPage extends Component {
                     </div>
 
                     <Fade duration={1000} delay={700}>
-                      <div className="subtitleText">
+                      <div className="subtitleText whiteText">
                         I love playing and making games!
                         <br></br>I enjoy UI/UX, reverse engineering VFX and just
                         making things sound, look and feel great.
@@ -81,7 +81,7 @@ class LandingPage extends Component {
                           </div>
 
                           <div className="rightfloat centerElement shiftdown">
-                            Graduate of University of Waterloo <br></br>
+                            University of Waterloo <br></br>
                             Bachelor of Computer Science{" "}
                             <img src={outlink} className="icon"></img>
                           </div>
@@ -125,15 +125,15 @@ class LandingPage extends Component {
               </Grid>
               <Grid item xs={6} sm={6} md={8} className="landingDivider"></Grid>
 
-              <Grid item xs={10} sm={6} md={3}>
+              <Grid item xs={10} sm={8} md={3}>
                 <CardCozy delay={800} />
               </Grid>
 
-              <Grid item xs={10} sm={6} md={3}>
+              <Grid item xs={10} sm={8} md={3}>
                 <CardBattleRun delay={900} />
               </Grid>
 
-              <Grid item xs={10} sm={6} md={3}>
+              <Grid item xs={10} sm={8} md={3}>
                 <CardBTB4 delay={1000} />
               </Grid>
 
@@ -149,15 +149,15 @@ class LandingPage extends Component {
                 {" "}
               </Grid>
 
-              <Grid item xs={10} sm={6} md={3}>
+              <Grid item xs={10} sm={8} md={3}>
                 <CardBeach delay={200} />
               </Grid>
 
-              <Grid item xs={10} sm={6} md={3}>
+              <Grid item xs={10} sm={8} md={3}>
                 <CardProjects delay={300} />
               </Grid>
 
-              <Grid item xs={10} sm={6} md={3}>
+              <Grid item xs={10} sm={8} md={3}>
                 <CardGalaxy delay={400} />
               </Grid>
             </Grid>

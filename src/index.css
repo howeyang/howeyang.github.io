@@ -165,7 +165,7 @@ Super white Gray :  DFDCE7 */
 }
 
 .gradientSoftYellow {
-  background: linear-gradient(to bottom, rgba(0, 166, 255, 0), #fff2cc);
+  background: linear-gradient(to bottom, rgba(185, 221, 240, 0.2), #fff2cc);
 }
 
 .gradientBlack {
@@ -401,7 +401,7 @@ Super white Gray :  DFDCE7 */
 }
 
 .smallText {
-  font-size: 12px !important;
+  font-size: 14px !important;
 }
 
 .mediumText {
@@ -440,10 +440,12 @@ Super white Gray :  DFDCE7 */
   border: 2px solid #003e42;
   border-radius: 30px;
   box-shadow: #003e42 4px 4px 0 0;
+  width: fit-content;
   color: #003e42;
   cursor: pointer;
   display: inline-block;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   line-height: 50px;
   text-align: center;
   text-decoration: none;
@@ -537,11 +539,13 @@ Super white Gray :  DFDCE7 */
   touch-action: manipulation;
   -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
   transition: ease 1s; /* For modern browsers */
+  filter: brightness(100%);
 }
 
 .MuiPaper-root:hover{
   border: #86f0f7 2px solid !important;
   box-shadow: #0eb6c2 4px 4px 0 0 !important;
+  filter: brightness(90%);
 }
 
 .MuiCardContent-root {
@@ -595,6 +599,9 @@ labelBigText{
   font: bolder !important;
   font-size: 30px;
   color: #eaf5fa;
+}
+
+.underline{
   text-decoration: underline solid;
 }
 
@@ -616,7 +623,7 @@ labelBigText{
 
 .workSubtitle {
   
-  font-size: 16px !important;
+  font-size: 20px !important;
   font-weight: bolder !important;
 }
 
