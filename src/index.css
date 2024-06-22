@@ -28,7 +28,7 @@ Super white Gray :  DFDCE7 */
 .emptySpace {
   height: 80px !important;
 }
-.emptySpace2{
+.emptySpace2 {
   width: 100px !important;
   color: rgba(0, 0, 0, 0) !important;
 }
@@ -37,7 +37,7 @@ Super white Gray :  DFDCE7 */
   height: 20px !important;
 }
 
-.textdivider{
+.textdivider {
   display: flex !important;
   text-align: justify center !important;
   justify-content: center !important;
@@ -242,7 +242,6 @@ Super white Gray :  DFDCE7 */
   line-height: 1.1;
 }
 
-
 .blueSection {
   display: block;
   background-color: #0079bb89;
@@ -271,7 +270,7 @@ Super white Gray :  DFDCE7 */
   font-size: 12px;
 }
 
-.boldText{
+.boldText {
   font-weight: bold !important;
 }
 
@@ -293,6 +292,18 @@ Super white Gray :  DFDCE7 */
   height: 100%;
   width: 100%;
   color: #003e42;
+}
+
+.largerText {
+  font-size: 20px !important;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  line-height: normal;
+  height: 100%;
+  width: 100%;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 /* Landing */
@@ -329,7 +340,7 @@ Super white Gray :  DFDCE7 */
   left: -15px !important;
 }
 
-.shiftright{
+.shiftright {
   position: relative;
   left: 20px !important;
 }
@@ -418,7 +429,6 @@ Super white Gray :  DFDCE7 */
   display: inline !important;
 }
 
-
 .icon {
   display: inline-block;
   padding: 0;
@@ -433,7 +443,6 @@ Super white Gray :  DFDCE7 */
   filter: invert(19%) sepia(14%) saturate(3681%) hue-rotate(141deg)
     brightness(93%) contrast(101%);
 }
-
 
 .fancyButton {
   background-color: #fff;
@@ -475,7 +484,7 @@ Super white Gray :  DFDCE7 */
   }
 }
 
-.fadeInOpacity{
+.fadeInOpacity {
   opacity: 0;
   animation: fadeText 1.5s forwards !important;
   animation-delay: 1.5s !important;
@@ -484,7 +493,6 @@ Super white Gray :  DFDCE7 */
 @keyframes fadeText {
   0% {
     opacity: 0;
-    
   }
   100% {
     opacity: 1;
@@ -522,7 +530,7 @@ Super white Gray :  DFDCE7 */
 /* Card */
 
 .MuiPaper-root {
-  width:100%;
+  width: 100%;
   background-color: #fff !important;
   border: #003e42 2px solid !important;
   background-color: #fff;
@@ -533,16 +541,16 @@ Super white Gray :  DFDCE7 */
   display: inline-block !important;
   line-height: 50px;
   text-align: center;
-  text-decoration: none!important;
-  user-select: none!important;
-  -webkit-user-select: none!important;
+  text-decoration: none !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
   touch-action: manipulation;
   -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
   transition: ease 1s; /* For modern browsers */
   filter: brightness(100%);
 }
 
-.MuiPaper-root:hover{
+.MuiPaper-root:hover {
   border: #86f0f7 2px solid !important;
   box-shadow: #0eb6c2 4px 4px 0 0 !important;
   filter: brightness(90%);
@@ -583,7 +591,7 @@ label2 {
   font-weight: bold;
 }
 
-labelWork{
+labelWork {
   padding: 2px;
   padding-left: 5px;
   padding-right: 5px;
@@ -595,17 +603,17 @@ labelWork{
   color: #eaf5fa;
 }
 
-labelBigText{
+labelBigText {
   font: bolder !important;
   font-size: 30px;
   color: #eaf5fa;
 }
 
-.underline{
+.underline {
   text-decoration: underline solid;
 }
 
-.cardMinHeight{
+.cardMinHeight {
   min-height: 80px;
 }
 
@@ -619,58 +627,83 @@ labelBigText{
   padding-bottom: 10px;
   font-size: 1vw;
   line-height: 1.1;
+
+  border-radius: 25px 25px 0 0; /* This line was updated */
+}
+
+.imageContainer {
+  width: 100%;
+  height: 70%;
+}
+
+.imageFit {
+  object-fit: contain !important;
+  height: 100px;
+  width: fit-content;
+  cursor: pointer;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  text-align: center;
+}
+
+.workHeaderSection {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+
+  font-size: 1vw;
+  line-height: 1.1;
 }
 
 .workSubtitle {
-  
   font-size: 20px !important;
   font-weight: bolder !important;
 }
 
 /*  Project + Work Pages */
 
-.sectionContent { 
-  width: 95%; 
+.sectionContent {
+  width: 95%;
   padding-left: 12px;
   padding-right: 12px;
 }
 
-.sectionName { 
-  width: 45%; 
+.sectionName {
+  width: 45%;
   padding-left: 5%;
   padding-right: 5%;
-  margin:auto;
+  margin: auto;
 }
 
-@media (min-width: 960px){
-  .sectionName { 
-    width: 95% !important; 
+@media (min-width: 960px) {
+  .sectionName {
+    width: 95% !important;
     padding-left: 12px;
     padding-right: 12px;
   }
 }
 
-.sectionContentLeft{ 
+.sectionContentLeft {
   width: auto;
   float: left; /* [1] */
-  padding-right:10px;
+  padding-right: 10px;
 }
 
-.sectionContentMiddle { 
+.sectionContentMiddle {
   overflow: auto; /* mix-blend-mode: difference !important; */
   padding-top: 3px;
 }
 
-
-.sectionPadding{
+.sectionPadding {
   padding-top: 10px !important;
 }
 
-.sectionContentRight { 
-  width: auto; 
+.sectionContentRight {
+  width: auto;
   float: right; /* [3] */
   padding-left: 10px;
-  
 }
 
 /* OLD CSS BELOW */
@@ -719,7 +752,7 @@ ul.header {
 }
 
 .visiblenav {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #003e42;
   padding-bottom: 20px !important;
 }
 
@@ -731,7 +764,7 @@ ul.header {
   text-align: center !important;
 }
 
-.leftText{
+.leftText {
   text-align: left !important;
 }
 
@@ -849,7 +882,6 @@ li {
 .card {
   padding-top: 50%;
 }
-
 
 .card-highlight {
   -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */

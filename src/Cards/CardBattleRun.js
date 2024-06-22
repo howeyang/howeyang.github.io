@@ -51,7 +51,7 @@ class CardBattleRun extends Component {
                     >
                       <label2>Unity3D | Multiplayer Mobile Game </label2>
                       <div className="secondaryText">
-                      Role: Producer and Developer<br></br>
+                      Role: Developer and Producer<br></br>
                         A multiplayer party / battle royale game.
                       </div>
                     </Typography>

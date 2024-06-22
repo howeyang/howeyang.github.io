@@ -51,7 +51,7 @@ class CardCozy extends Component {
                     >
                       <label2>Unity3D | Idle Mobile Game </label2>
                       <div className="secondaryText">
-                        Role: Producer and Developer<br></br>A comfy single
+                        Role: Developer and Producer<br></br>A comfy single
                         player idle mobile game.
                       </div>
                     </Typography>

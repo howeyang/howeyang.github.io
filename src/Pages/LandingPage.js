@@ -66,10 +66,13 @@ class LandingPage extends Component {
                     </div>
 
                     <Fade duration={1000} delay={700}>
-                      <div className="subtitleText whiteText">
-                        I love playing and making games!
-                        <br></br>I enjoy UI/UX, reverse engineering VFX and just
-                        making things sound, look and feel great.
+                      <div className="whiteText">
+                        <p className="largerText">
+                          I love playing and making games!
+                          <br></br>I enjoy UI/UX, reverse engineering VFX and
+                          just making things sound, look and feel great.
+                        </p>
+
                         <p></p>
                         <div className="fancyButton smallText">
                           <div className="leftfloat">

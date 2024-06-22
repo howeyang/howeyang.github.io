@@ -9,8 +9,8 @@ import CardBeach from "../Cards/CardBeach";
 import CardFire from "../Cards/CardFire";
 import unitylogo from "../Images/landing/unity_logo.png";
 import avatar from "../Images/work/battlerun/BattleRunMain.png";
-import CardProjects from "../Cards/CardProjects";
-import battlerun from "../Images/work/battlerun/BattleRunMain.png";
+import upsightlogo from "../Images/work/work/upsight-logo2.png";
+import gamehivelogo from "../Images/work/work/gamehive-logo.png";
 
 import CardCozy from "../Cards/SmallCard/SmallCardCozy";
 import CardBattleRun from "../Cards/SmallCard/SmallCardBattleRun";
@@ -46,7 +46,7 @@ class PageWork extends Component {
               </div>
             </div>
           </div>
-          <div className="emptySpace"></div>
+         
           <Fade delay={500}>
             <Grid
               container
@@ -57,6 +57,17 @@ class PageWork extends Component {
               className="centerElement"
             >
               <Hidden smDown>
+                <Grid item sm={3} md={3} className=""></Grid>
+                <Grid item sm={4} md={4} className="workSection">
+                  <div className="imageContainer">
+                    <img
+                      src={gamehivelogo}
+                      className="imageFit centerElement"
+                    ></img>
+                  </div>
+                </Grid>
+                <Grid item sm={3} md={3} className=""></Grid>
+
                 <Grid item xs={12} sm={12} md={12} className="workSection">
                   <Grid
                     container
@@ -92,9 +103,10 @@ class PageWork extends Component {
                           md={12}
                           className="workSubtitle"
                         >
-                        <labelBigText>Producer and Developer at Game Hive</labelBigText>
-                          <br></br> 2019 ->
-                          2024{" "}
+                          <labelBigText>
+                            Developer and Producer at Game Hive
+                          </labelBigText>
+                          <br></br> 2019 -> 2024{" "}
                         </Grid>
                         <Grid item xs={12} sm={12} md={12} className="">
                           {" "}
@@ -108,7 +120,7 @@ class PageWork extends Component {
                           className="workSubtitle"
                         >
                           <div className="fancyButton ">
-                            Game Hive <img src={outlink} className="icon"></img> 
+                            Game Hive <img src={outlink} className="icon"></img>
                             <br></br>Mobile Game Studio
                           </div>
                         </Grid>
@@ -123,7 +135,11 @@ class PageWork extends Component {
                       >
                         {" "}
                         <br></br>
-                        <labelBigText className ="underline">Responsibilities</labelBigText> <br />
+                        <labelBigText className="underline">
+                          Responsibilities
+                        </labelBigText>{" "}
+                        <br />
+                        <labelWork>As a Developer</labelWork> <br />
                         <span>
                           ● Worked as a Producer and Developer for multiple
                           projects from inception to release on Google and Apple
@@ -131,27 +147,37 @@ class PageWork extends Component {
                         </span>{" "}
                         and Post Global Release Support
                         <a className="shiftright">
-                          <br></br>{" "}
-                          <span>
-                            {" "}
-                            ● </span> Producer and Developer on Cozy Cafe
-                          
-                          <br></br>{" "}
-                          <span>
-                            {" "}
-                            ● </span> Producer and Developer on Battle Run
-                          
-                          <br></br>{" "}
-                          <span>
-                            {" "}
-                            ● </span> Producer and Developer on Beat the Boss 4
-                        
+                          <br></br> <span> ● </span> Producer and Developer on
+                          Cozy Cafe
+                          <br></br> <span> ● </span> Producer and Developer on
+                          Battle Run
+                          <br></br> <span> ● </span> Producer and Developer on
+                          Beat the Boss 4
                         </a>
                         <br></br>
                         <div className="textdivider">
                           {" "}
                           <div class="dot"></div>{" "}
                         </div>
+                        <span>
+                          ● Developed C# Scripts and HLSL Shaders in Unity for
+                          mobile games{" "}
+                        </span>{" "}
+                        for UI / UX and blah blah
+                        <a className="shiftright">
+                          <br></br> <span> ● </span> Producer and Developer on
+                          Cozy Cafe
+                          <br></br> <span> ● </span> Producer and Developer on
+                          Battle Run
+                          <br></br> <span> ● </span> Producer and Developer on
+                          Beat the Boss 4
+                        </a>
+                        <br></br>
+                        <div className="textdivider">
+                          {" "}
+                          <div class="dot"></div>{" "}
+                        </div>
+                        <labelWork>As a Producer</labelWork> <br />
                         <span>
                           ● Organized and assisted with Cross team
                           collaborations{" "}
@@ -202,6 +228,17 @@ class PageWork extends Component {
                   <div className="emptySpace"></div>
                 </Grid>
 
+                <Grid item sm={3} md={3} className=""></Grid>
+                <Grid item sm={4} md={4} className="workSection">
+                  <div className="imageContainer">
+                    <img
+                      src={upsightlogo}
+                      className="imageFit centerElement"
+                    ></img>
+                  </div>
+                </Grid>
+                <Grid item sm={3} md={3} className=""></Grid>
+
                 <Grid item xs={12} sm={12} md={12} className="workSection">
                   <Grid
                     container
@@ -216,16 +253,12 @@ class PageWork extends Component {
                       Pokemon
                     </Grid>
 
-                    <Grid
-                      item
-                      xs={4}
-                      sm={4}
-                      md={4}
-                      className=" workSubtitle"
-                    >
-                        <labelBigText>  Senior Integration at Upsight</labelBigText>
-                        <br></br> 2016 -> 2018{" "}
-                        
+                    <Grid item xs={4} sm={4} md={4} className=" workSubtitle">
+                      <labelBigText>
+                        {" "}
+                        Senior Integration at Upsight
+                      </labelBigText>
+                      <br></br> 2016 -> 2018{" "}
                     </Grid>
 
                     <Grid item xs={3} sm={3} md={3} className="section">
@@ -245,71 +278,60 @@ class PageWork extends Component {
                     >
                       {" "}
                       <br></br>
-                      <div className="workSubtitle centerText">Upsight closed down in 2019.</div>
-                      
+                      <div className="workSubtitle centerText">
+                        Upsight is no longer active.
+                      </div>
                       <br></br>
-                      <labelBigText className ="underline">Responsibilities</labelBigText> <br />
+                      <labelBigText className="underline">
+                        Responsibilities
+                      </labelBigText>{" "}
+                      <br />
                       <span>
                         ● Served as the technical point of contact and
                         escalation lead for AAA clients such as ...
                       </span>
                       <a className="shiftright">
-                          <br></br>{" "}
-                          <span>
-                            {" "}
-                            ● </span> Worked with Niantic - Pokemon GO
-                          
-                          <br></br>{" "}
-                          <span>
-                            {" "}
-                            ● </span> Worked with Twitch - Twitch Mobile
-                          
-                          <br></br>{" "}
-                          <span>
-                            {" "}
-                            ● </span> Worked with Scientific Games - Jackpot Party
-
-                            <br></br>{" "}
-                          <span>
-                            {" "}
-                            ● </span> Other Companies - EA, Activision, Scopely and more!
-                          
-                      
-                        </a>
-                        <br></br>
-                        <div className="textdivider">
-                          {" "}
-                          <div class="dot"></div>{" "}
-                        </div>
+                        <br></br> <span> ● </span> Worked with Niantic - Pokemon
+                        GO
+                        <br></br> <span> ● </span> Worked with Twitch - Twitch
+                        Mobile
+                        <br></br> <span> ● </span> Worked with Scientific Games
+                        - Jackpot Party
+                        <br></br> <span> ● </span> Other Companies - EA,
+                        Activision, Scopely and more!
+                      </a>
+                      <br></br>
+                      <div className="textdivider">
+                        {" "}
+                        <div class="dot"></div>{" "}
+                      </div>
                       <span>
                         ● Helped clients optimize the use of a Mobile Plugin{" "}
                       </span>{" "}
                       which ranged from writing code, debugging issues and
                       investigating problems
                       <br></br>
-                        <div className="textdivider">
-                          {" "}
-                          <div class="dot"></div>{" "}
-                        </div>
-                      <span>
-                        ● Provided expertise in Big Data analytics{" "}
-                      </span>{" "}
+                      <div className="textdivider">
+                        {" "}
+                        <div class="dot"></div>{" "}
+                      </div>
+                      <span>● Provided expertise in Big Data analytics </span>{" "}
                       by providing best practices and writing advanced
                       analytical queries to improve performance
                       <br></br>
-                        <div className="textdivider">
-                          {" "}
-                          <div class="dot"></div>{" "}
-                        </div>
+                      <div className="textdivider">
+                        {" "}
+                        <div class="dot"></div>{" "}
+                      </div>
                       <span>
                         ● Assisted in maintaining Hadoop and SQL databases ●{" "}
                       </span>{" "}
                       which lead to shorter disruptions and quicker resolutions
                       <br></br>
-                        <div className="textdivider">
-                          {" "}
-                          <div class="dot"></div>{" "}
-                        </div>
+                      <div className="textdivider">
+                        {" "}
+                        <div class="dot"></div>{" "}
+                      </div>
                       <span>
                         ● Collaborated with Data Engineering, QA, Mobile Ad, and
                         Customer Success teams{" "}
