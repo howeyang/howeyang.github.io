@@ -46,6 +46,8 @@ class PageWork extends Component {
               </div>
             </div>
           </div>
+
+          <div className="emptySpace"></div>
          
           <Fade delay={500}>
             <Grid
@@ -230,10 +232,10 @@ class PageWork extends Component {
 
                 <Grid item sm={3} md={3} className=""></Grid>
                 <Grid item sm={4} md={4} className="workSection">
-                  <div className="imageContainer">
+                  <div className="">
                     <img
                       src={upsightlogo}
-                      className="imageFit centerElement"
+                      className="imageFit"
                     ></img>
                   </div>
                 </Grid>

@@ -637,10 +637,9 @@ labelBigText {
 }
 
 .imageFit {
-  object-fit: contain !important;
+  
   height: 100px;
-  width: fit-content;
-  cursor: pointer;
+  width: auto;
   display: inline-block;
   padding-left: 15px;
   padding-right: 15px;
