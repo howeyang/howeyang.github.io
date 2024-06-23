@@ -8,9 +8,12 @@ import CardReact from "../Cards/CardReact";
 import CardBeach from "../Cards/CardBeach";
 import CardFire from "../Cards/CardFire";
 import unitylogo from "../Images/landing/unity_logo.png";
-import avatar from "../Images/work/battlerun/BattleRunMain.png";
+import cutehanging from "../Images/work/work/cute-hanging.png";
 import upsightlogo from "../Images/work/work/upsight-logo2.png";
 import gamehivelogo from "../Images/work/work/gamehive-logo.png";
+
+import upsightinfo from "../Images/work/work/infographic-upsight.png";
+import gamehiveinfo from "../Images/work/work/infographic-gamehive.png";
 
 import CardCozy from "../Cards/SmallCard/SmallCardCozy";
 import CardBattleRun from "../Cards/SmallCard/SmallCardBattleRun";
@@ -48,7 +51,7 @@ class PageWork extends Component {
           </div>
 
           <div className="emptySpace"></div>
-         
+
           <Fade delay={500}>
             <Grid
               container
@@ -60,15 +63,24 @@ class PageWork extends Component {
             >
               <Hidden smDown>
                 <Grid item sm={3} md={3} className=""></Grid>
-                <Grid item sm={4} md={4} className="workSection">
+                <Grid item sm={4} md={4} className="workHeaderSection">
                   <div className="imageContainer">
                     <img
                       src={gamehivelogo}
-                      className="imageFit centerElement"
+                      className="imageHeader centerElement"
                     ></img>
                   </div>
                 </Grid>
-                <Grid item sm={3} md={3} className=""></Grid>
+                <Grid item sm={3} md={3} className="">
+
+                <div className="imageContainer">
+                    <img
+                      src={cutehanging}
+                      className="imageHeader cutehangingPosition"
+                    ></img>
+                  </div>
+                
+                </Grid>
 
                 <Grid item xs={12} sm={12} md={12} className="workSection">
                   <Grid
@@ -79,14 +91,10 @@ class PageWork extends Component {
                     spacing={1}
                     className="centerElement"
                   >
-                    <Grid
-                      item
-                      xs={12}
-                      sm={3}
-                      md={3}
-                      className="section leftText"
-                    >
-                      Cool Info about Game Hive Game Hive -<br></br>●<br></br>
+                    <Grid item xs={12} sm={3} md={3} className="">
+                      <div className="imageContainer">
+                        <img src={gamehiveinfo} className="imageFit"></img>
+                      </div>
                     </Grid>
 
                     <Grid item xs={12} sm={4} md={4} className="">
@@ -217,6 +225,18 @@ class PageWork extends Component {
                     </Grid>
 
                     <Grid item xs={12} sm={3} md={3} className="">
+                    <div className="smallPadding">
+                      <labelBigText >
+                        Games I Worked On <br></br>
+                        
+                        </labelBigText>
+                        </div>
+                        <div className="">
+                        <labelWork>
+                        Click the respective card for info!<br></br>
+                        </labelWork>
+                        </div>
+                        <br></br>
                       <CardCozy></CardCozy>
                       <br></br>
                       <CardBattleRun></CardBattleRun>
@@ -231,12 +251,9 @@ class PageWork extends Component {
                 </Grid>
 
                 <Grid item sm={3} md={3} className=""></Grid>
-                <Grid item sm={4} md={4} className="workSection">
+                <Grid item sm={4} md={4} className="workHeaderSection">
                   <div className="">
-                    <img
-                      src={upsightlogo}
-                      className="imageFit"
-                    ></img>
+                    <img src={upsightlogo} className="imageHeader"></img>
                   </div>
                 </Grid>
                 <Grid item sm={3} md={3} className=""></Grid>
@@ -250,9 +267,10 @@ class PageWork extends Component {
                     spacing={1}
                     className="centerElement"
                   >
-                    <Grid item xs={3} sm={3} md={3} className="section">
-                      Infographic on Upsight - cool stuff like worked with
-                      Pokemon
+                    <Grid item xs={12} sm={3} md={3} className="">
+                      <div className="imageContainer">
+                        <img src={gamehiveinfo} className="imageFit"></img>
+                      </div>
                     </Grid>
 
                     <Grid item xs={4} sm={4} md={4} className=" workSubtitle">
@@ -267,9 +285,7 @@ class PageWork extends Component {
                       Image of Cozy Cafe
                     </Grid>
 
-                    <Grid item xs={3} sm={3} md={3} className="">
-                      Section Explaining Roles and Key Achivements
-                    </Grid>
+                  
 
                     <Grid
                       item

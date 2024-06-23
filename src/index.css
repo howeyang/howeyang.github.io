@@ -601,6 +601,7 @@ labelWork {
   font: bolder !important;
   font-size: 18px;
   color: #eaf5fa;
+  line-height: 1.6;
 }
 
 labelBigText {
@@ -628,7 +629,7 @@ labelBigText {
   font-size: 1vw;
   line-height: 1.1;
 
-  border-radius: 25px 25px 0 0; /* This line was updated */
+  border-radius: 25px 25px 25px 25px; /* This line was updated */
 }
 
 .imageContainer {
@@ -636,8 +637,7 @@ labelBigText {
   height: 70%;
 }
 
-.imageFit {
-  
+.imageHeader {
   height: 100px;
   width: auto;
   display: inline-block;
@@ -647,13 +647,31 @@ labelBigText {
   text-align: center;
 }
 
+.smallPadding{
+  padding: 10px;
+}
+
+.imageFit {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.cutehangingPosition{
+  position: relative;
+  top: 27px;
+  left: 20%;
+}
+
 .workHeaderSection {
   display: block;
-  background-color: rgba(0, 0, 0, 0.2);
+
+  background-image: linear-gradient(to bottom, rgba(169, 85, 32, 0.4) , rgba(0, 0, 0, 0.2));
   color: #fff;
 
   font-size: 1vw;
   line-height: 1.1;
+  border-radius: 25px 25px 0 0; /* This line was updated */
 }
 
 .workSubtitle {
