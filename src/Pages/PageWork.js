@@ -72,14 +72,12 @@ class PageWork extends Component {
                   </div>
                 </Grid>
                 <Grid item sm={3} md={3} className="">
-
-                <div className="imageContainer">
+                  <div className="imageContainer">
                     <img
                       src={cutehanging}
                       className="imageHeader cutehangingPosition"
                     ></img>
                   </div>
-                
                 </Grid>
 
                 <Grid item xs={12} sm={12} md={12} className="workSection">
@@ -130,8 +128,14 @@ class PageWork extends Component {
                           className="workSubtitle"
                         >
                           <div className="fancyButton ">
+                          <a
+                            className="text-link" 
+                            href="https://gamehive.com/"
+                            target="_blank"
+                            rel="noopener noreferrer">
                             Game Hive <img src={outlink} className="icon"></img>
                             <br></br>Mobile Game Studio
+                            </a>
                           </div>
                         </Grid>
                       </Grid>
@@ -151,43 +155,38 @@ class PageWork extends Component {
                         <br />
                         <labelWork>As a Developer</labelWork> <br />
                         <span>
-                          ● Worked as a Producer and Developer for multiple
-                          projects from inception to release on Google and Apple
-                          App Stores{" "}
+                          ● Developed C# Scripts and HLSL Shaders in Unity 3D
+                          for mobile games{" "}
+                        </span>{" "}
+                        <a className="shiftright">
+                          <br></br> <span> ● </span> Prototyped, Soft Launched and Global Launched multiple games on Google Play Store and Apple App Store
+                          <br></br> <span> ● </span> Worked on Menus and Panels
+                          - UI, their visual interactions and logic to player
+                          input
+                          <br></br> <span> ● </span> Worked on Shaders in HLSL
+                          to give games high performance and fidelity
+                          <br></br> <span> ● </span> Troubleshooted crashes and issues via ADB / Xcode logs / Unity crash logs to resolve bugs
+                          <br></br> <span> ● </span> Peer Reviewed coworkers' Pull Requests for issues.  Submitted my own Pull Requests with detailed information.
+                        </a>
+                        <br></br>
+                        <div className="textdivider">
+                          {" "}
+                          <div class="dot"></div>{" "}
+                        </div>
+                        
+                        <labelWork>As a Producer</labelWork> <br />
+                        <span>
+                          ● Producer for multiple projects from inception to
+                          release on Google and Apple App Stores{" "}
                         </span>{" "}
                         and Post Global Release Support
-                        <a className="shiftright">
-                          <br></br> <span> ● </span> Producer and Developer on
-                          Cozy Cafe
-                          <br></br> <span> ● </span> Producer and Developer on
-                          Battle Run
-                          <br></br> <span> ● </span> Producer and Developer on
-                          Beat the Boss 4
-                        </a>
+                        
                         <br></br>
                         <div className="textdivider">
                           {" "}
                           <div class="dot"></div>{" "}
                         </div>
-                        <span>
-                          ● Developed C# Scripts and HLSL Shaders in Unity for
-                          mobile games{" "}
-                        </span>{" "}
-                        for UI / UX and blah blah
-                        <a className="shiftright">
-                          <br></br> <span> ● </span> Producer and Developer on
-                          Cozy Cafe
-                          <br></br> <span> ● </span> Producer and Developer on
-                          Battle Run
-                          <br></br> <span> ● </span> Producer and Developer on
-                          Beat the Boss 4
-                        </a>
-                        <br></br>
-                        <div className="textdivider">
-                          {" "}
-                          <div class="dot"></div>{" "}
-                        </div>
-                        <labelWork>As a Producer</labelWork> <br />
+
                         <span>
                           ● Organized and assisted with Cross team
                           collaborations{" "}
@@ -207,7 +206,7 @@ class PageWork extends Component {
                           <br></br>{" "}
                           <span>
                             {" "}
-                            ● Worked with External Art studio to make a Trailer
+                            ● Worked with an External Art studio to make a Trailer
                           </span>
                         </a>
                         <br></br>
@@ -225,18 +224,17 @@ class PageWork extends Component {
                     </Grid>
 
                     <Grid item xs={12} sm={3} md={3} className="">
-                    <div className="smallPadding">
-                      <labelBigText >
-                        Games I Worked On <br></br>
-                        
+                      <div className="smallPadding">
+                        <labelBigText>
+                          Games I Worked On <br></br>
                         </labelBigText>
-                        </div>
-                        <div className="">
+                      </div>
+                      <div className="">
                         <labelWork>
-                        Click the respective card for info!<br></br>
+                          Click the respective card for info!<br></br>
                         </labelWork>
-                        </div>
-                        <br></br>
+                      </div>
+                      <br></br>
                       <CardCozy></CardCozy>
                       <br></br>
                       <CardBattleRun></CardBattleRun>
@@ -269,7 +267,7 @@ class PageWork extends Component {
                   >
                     <Grid item xs={12} sm={3} md={3} className="">
                       <div className="imageContainer">
-                        <img src={gamehiveinfo} className="imageFit"></img>
+                        <img src={upsightinfo} className="imageFit"></img>
                       </div>
                     </Grid>
 
@@ -284,8 +282,6 @@ class PageWork extends Component {
                     <Grid item xs={3} sm={3} md={3} className="section">
                       Image of Cozy Cafe
                     </Grid>
-
-                  
 
                     <Grid
                       item
