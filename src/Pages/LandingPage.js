@@ -75,35 +75,49 @@ class LandingPage extends Component {
 
                         <p></p>
                         <div className="fancyButton smallText">
-                          <div className="leftfloat">
-                            <img
-                              src={graduate}
-                              alt="Graduate"
-                              className="smallfixedimg shiftleft iconColor"
-                            />
-                          </div>
+                          <a
+                            className="text-link"
+                            href="https://uwaterloo.ca/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <div className="leftfloat">
+                              <img
+                                src={graduate}
+                                alt="Graduate"
+                                className="smallfixedimg shiftleft iconColor"
+                              />
+                            </div>
 
-                          <div className="rightfloat centerElement shiftdown">
-                            University of Waterloo <br></br>
-                            Bachelor of Computer Science{" "}
-                            <img src={outlink} className="icon"></img>
-                          </div>
+                            <div className="rightfloat centerElement shiftdown">
+                              University of Waterloo <br></br>
+                              Bachelor of Computer Science{" "}
+                              <img src={outlink} className="icon"></img>
+                            </div>
+                          </a>
                         </div>
                         <span className="fixedimg"> </span>
                         <div className="fancyButton smallText">
-                          <div className="leftfloat">
-                            <img
-                              src={work}
-                              alt="work"
-                              className="smallfixedimg shiftleftmore iconColor"
-                            />
-                          </div>
+                          <a
+                            className="text-link"
+                            href="https://gamehive.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <div className="leftfloat">
+                              <img
+                                src={work}
+                                alt="work"
+                                className="smallfixedimg shiftleftmore iconColor"
+                              />
+                            </div>
 
-                          <div className="rightfloat leftText shiftright shiftdown">
-                            {" "}
-                            Previously at <br></br> Game Hive{" "}
-                            <img src={outlink} className="icon"></img>
-                          </div>
+                            <div className="rightfloat leftText shiftright shiftdown">
+                              {" "}
+                              Previously at <br></br> Game Hive{" "}
+                              <img src={outlink} className="icon"></img>
+                            </div>
+                          </a>
                         </div>
                       </div>
                     </Fade>
