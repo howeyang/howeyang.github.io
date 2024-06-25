@@ -69,8 +69,9 @@ class LandingPage extends Component {
                       <div className="whiteText">
                         <p className="largerText">
                           I love playing and making games!
-                          <br></br>I enjoy UI/UX, reverse engineering VFX and
-                          just making things sound, look and feel great.
+                          <br></br>I enjoy coming up with game ideas, making sleek and responsive UI/UX and reverse engineering VFX.
+                          <br></br>
+                          I like making things sound, look and feel great!
                         </p>
 
                         <p></p>

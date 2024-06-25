@@ -13,6 +13,10 @@ import CardProjects from "../Cards/CardProjects";
 import battlerun from "../Images/work/battlerun/BattleRunMain.png";
 import outlink from "../Images/svg/outlink.svg";
 
+import cutehanging from "../Images/work/work/cute-hanging.png";
+import cozycafelogo from "../Images/work/cozycafe/cozycafe_logo.png";
+import cozycafe_vertical from "../Images/work/cozycafe/cozycafe_vertical.png";
+
 class PageCozyCafe extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
@@ -20,12 +24,22 @@ class PageCozyCafe extends Component {
     document
       .querySelector(".gradientBackground")
       .classList.add("gradientGreen");
+
+      document
+      .querySelector(".landingContainer")
+      .classList.add("gradientCozy");
+
+    
   }
 
   componentWillUnmount() {
     document
       .querySelector(".gradientBackground")
       .classList.remove("gradientGreen");
+
+      document
+      .querySelector(".landingContainer")
+      .classList.remove("gradientCozy");
   }
 
   render() {
@@ -51,6 +65,24 @@ class PageCozyCafe extends Component {
               spacing={0}
               className="centerElement"
             >
+              <Grid item sm={3} md={3} className=""></Grid>
+              <Grid item sm={4} md={4} className="workHeaderSection2">
+                <div className="imageContainer">
+                  <img
+                    src={cozycafelogo}
+                    className="imageHeader centerElement"
+                  ></img>
+                </div>
+              </Grid>
+              <Grid item sm={3} md={3} className="">
+                <div className="imageContainer">
+                  <img
+                    src={cutehanging}
+                    className="imageHeader cutehangingPosition"
+                  ></img>
+                </div>
+              </Grid>
+
               <Grid item xs={12} sm={12} md={12} className="workSection">
                 <Grid
                   container
@@ -60,8 +92,20 @@ class PageCozyCafe extends Component {
                   spacing={1}
                   className="centerElement"
                 >
-                  <Grid item xs={12} sm={12} md={3} className="leftText mediumText">
-                    <div class="sectionName">
+                  <Grid
+                    item
+                    xs={12}
+                    sm={12}
+                    md={3}
+                    className=""
+                  >
+                    <div className="smallPadding centerText">
+                      <labelBigText>
+                        Team Members <br></br>
+                      </labelBigText>
+                    </div>
+
+                    <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Design</div>
                       <div class="sectionContentRight">
                         Chris Doan
@@ -74,7 +118,7 @@ class PageCozyCafe extends Component {
                     <br></br>
                     <br></br>
 
-                    <div class="sectionName">
+                    <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Producer</div>
                       <div class="sectionContentRight">Howe Yang</div>
                       <div class="sectionContentMiddle"> > > ></div>
@@ -82,7 +126,7 @@ class PageCozyCafe extends Component {
 
                     <br></br>
 
-                    <div class="sectionName">
+                    <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Art</div>
                       <div class="sectionContentRight">
                         Nancy Andrews
@@ -95,7 +139,7 @@ class PageCozyCafe extends Component {
                     <br></br>
                     <br></br>
 
-                    <div class="sectionName">
+                    <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Animation</div>
                       <div class="sectionContentRight">Gabriel Lavoyer</div>
                       <div class="sectionContentMiddle"> > > ></div>
@@ -103,7 +147,7 @@ class PageCozyCafe extends Component {
 
                     <br></br>
 
-                    <div class="sectionName">
+                    <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Developers</div>
                       <div class="sectionContentRight">
                         Jason Chiu <br></br>
@@ -129,29 +173,36 @@ class PageCozyCafe extends Component {
                         xs={12}
                         sm={12}
                         md={12}
-                        className="section workSubtitle"
+                        className="workSubtitle"
                       >
-                        Producer and Developer at Game Hive<br></br> 2019 ->
-                        2024{" "}
+                        <labelBigText>Developer and Producer</labelBigText>
+                        <br></br> 2023 -> 2024{" "}
                       </Grid>
                       <Grid item xs={12} sm={12} md={12} className="">
                         {" "}
                         <br></br>{" "}
                       </Grid>
-                      <Grid
-                        item
-                        xs={12}
-                        sm={12}
-                        md={12}
-                        className="workSubtitle"
-                      >
-                        <div className="fancyButton ">
-                          Cozy Cafe <img src={outlink} className="icon"></img> <br></br>Google Play Store
+                    </Grid>
+
+                    <Grid
+                      container
+                      direction="row"
+                      justifyContent="center"
+                      alignItems="center"
+                      spacing={1}
+                      className=""
+                    >
+                      <Grid item xs={5} sm={5} md={5}>
+                        <div className="fancyButton workSubtitle">
+                          Cozy Cafe <img src={outlink} className="icon"></img>{" "}
+                          <br></br>Google Play Store
                         </div>
-                        <span className="emptySpace2">{" "}.{" "} </span>
-                       
-                        <div className="fancyButton ">
-                          Cozy Cafe <img src={outlink} className="icon"></img> <br></br>Apple App Store
+                      </Grid>
+
+                      <Grid item xs={5} sm={5} md={5}>
+                        <div className="fancyButton workSubtitle">
+                          Cozy Cafe <img src={outlink} className="icon"></img>{" "}
+                          <br></br>Apple App Store
                         </div>
                       </Grid>
                     </Grid>
@@ -161,19 +212,50 @@ class PageCozyCafe extends Component {
                       xs={12}
                       sm={12}
                       md={12}
-                      className="leftText mediumText sectionContent"
+                      className="leftText mediumText"
                     >
                       {" "}
                       <br></br>
-                      <labelWork>Responsibilities</labelWork> <br />
+                      <labelBigText className="underline">
+                        Responsibilities
+                      </labelBigText>{" "}
+                      <br />
+                      <labelWork>As a Developer</labelWork> <br />
                       <span>
-                        ● Worked as a Producer and Developer for multiple
-                        projects from inception to release on Google and Apple
-                        App Stores{" "}
+                        ● Developed C# Scripts and HLSL Shaders in Unity 3D for
+                        mobile games{" "}
+                      </span>{" "}
+                      <a className="shiftright">
+                        <br></br> <span> ● </span> Prototyped, Soft Launched and
+                        Global Launched multiple games on Google Play Store and
+                        Apple App Store
+                        <br></br> <span> ● </span> Worked on Menus and Panels -
+                        UI, their visual interactions and logic to player input
+                        <br></br> <span> ● </span> Worked on Shaders in HLSL to
+                        give games high performance and fidelity
+                        <br></br> <span> ● </span> Troubleshooted crashes and
+                        issues via ADB / Xcode logs / Unity crash logs to
+                        resolve bugs
+                        <br></br> <span> ● </span> Peer Reviewed coworkers' Pull
+                        Requests for issues. Submitted my own Pull Requests with
+                        detailed information.
+                      </a>
+                      <br></br>
+                      <div className="textdivider">
+                        {" "}
+                        <div class="dot"></div>{" "}
+                      </div>
+                      <labelWork>As a Producer</labelWork> <br />
+                      <span>
+                        ● Producer for multiple projects from inception to
+                        release on Google and Apple App Stores{" "}
                       </span>{" "}
                       and Post Global Release Support
                       <br></br>
-                      <br></br>
+                      <div className="textdivider">
+                        {" "}
+                        <div class="dot"></div>{" "}
+                      </div>
                       <span>
                         ● Organized and assisted with Cross team collaborations{" "}
                       </span>{" "}
@@ -192,11 +274,14 @@ class PageCozyCafe extends Component {
                         <br></br>{" "}
                         <span>
                           {" "}
-                          ● Worked with External Art studio to make a Trailer
+                          ● Worked with an External Art studio to make a Trailer
                         </span>
                       </a>
                       <br></br>
-                      <br></br>
+                      <div className="textdivider">
+                        {" "}
+                        <div class="dot"></div>{" "}
+                      </div>
                       <span>
                         ● Organized roadmaps and communicated work and
                         expectations of various of team sizes{" "}
@@ -206,55 +291,26 @@ class PageCozyCafe extends Component {
                     </Grid>
                   </Grid>
 
-                  <Grid item xs={12} sm={12} md={3} className="">
-                    Images
-                  </Grid>
-                </Grid>
-              </Grid>
+                  <Grid item xs={12} sm={3} md={3} className="">
+                    <div className="smallPadding">
+                      <labelBigText>
+                        Screenshots! <br></br>
+                      </labelBigText>
+                    </div>
+                    <div className="">
+                      <labelWork>
+                        Comfy Cute Idle Incremental<br></br>
+                      </labelWork>
+                    </div>
 
-              <Grid item xs={12} sm={12} md={12}>
-                <div className="emptySpace"></div>
-              </Grid>
+                    <div className="imageContainer">
+                      <img
+                        src={cozycafe_vertical}
+                        className="imageFit"
+                      ></img>
+                    </div>
 
-              <Grid item xs={12} sm={12} md={12} className="workSection">
-                <Grid
-                  container
-                  direction="row"
-                  justifyContent="space-around"
-                  alignItems="stretch"
-                  spacing={1}
-                  className="centerElement"
-                >
-                  <Grid item xs={3} sm={3} md={3} className="section">
-                    Infographic on Upsight - cool stuff like worked with Pokemon
-                  </Grid>
-
-                  <Grid
-                    item
-                    xs={4}
-                    sm={4}
-                    md={4}
-                    className="section workSubtitle"
-                  >
-                    Senior Integration at Upsight
-                    <br></br> 2016 -> 2018{" "}
-                  </Grid>
-
-                  <Grid item xs={3} sm={3} md={3} className="section">
-                    Image of Cozy Cafe
-                  </Grid>
-
-                  <Grid item xs={3} sm={3} md={3} className="">
-                    Section Explaining Roles and Key Achivements
-                  </Grid>
-
-                  <Grid item xs={4} sm={4} md={4} className="">
-                    Work at Upsight. Long Text explaining my work and
-                    resposibilities.
-                  </Grid>
-
-                  <Grid item xs={3} sm={3} md={3} className="">
-                    Supporting Images
+                    <br></br>
                   </Grid>
                 </Grid>
               </Grid>

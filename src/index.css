@@ -217,9 +217,17 @@ Super white Gray :  DFDCE7 */
 .gradientGreen {
   background: linear-gradient(
     to bottom,
-    rgba(220, 237, 200, 0),
+    rgba(0, 166, 255, 0),
     rgb(194, 255, 217)
   );
+}
+
+.gradientCozy {
+  background: url("./Images/work/cozycafe/cozycafebigsplash.png") no-repeat
+    center center;
+  background-size: auto 100%;
+  transition: ease 1s;
+  background-attachment: fixed !important;
 }
 
 .gradientBlue {
@@ -445,7 +453,7 @@ Super white Gray :  DFDCE7 */
 }
 
 .text-link {
-  color:inherit;
+  color: inherit;
   text-decoration: none !important;
 }
 
@@ -627,7 +635,7 @@ labelBigText {
 
 .workSection {
   display: block;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.25);
   color: #fff;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -652,7 +660,7 @@ labelBigText {
   text-align: center;
 }
 
-.smallPadding{
+.smallPadding {
   padding: 10px;
 }
 
@@ -662,7 +670,7 @@ labelBigText {
   object-fit: contain;
 }
 
-.cutehangingPosition{
+.cutehangingPosition {
   position: relative;
   top: 27px;
   left: 20%;
@@ -671,7 +679,26 @@ labelBigText {
 .workHeaderSection {
   display: block;
 
-  background-image: linear-gradient(to bottom, rgba(169, 85, 32, 0.4) , rgba(0, 0, 0, 0.2));
+  background-image: linear-gradient(
+    to bottom,
+    rgba(169, 85, 32, 0.4),
+    rgba(0, 0, 0, 0.25)
+  );
+  color: #fff;
+
+  font-size: 1vw;
+  line-height: 1.1;
+  border-radius: 25px 25px 0 0; /* This line was updated */
+}
+
+.workHeaderSection2 {
+  display: block;
+
+  background-image: linear-gradient(
+    to bottom,
+    rgba(59, 255, 180, 0.3),
+    rgba(0, 0, 0, 0.25)
+  );
   color: #fff;
 
   font-size: 1vw;

@@ -251,13 +251,13 @@ class PageWork extends Component {
                   <div className="emptySpace"></div>
                 </Grid>
 
-                <Grid item sm={3} md={3} className=""></Grid>
+                <Grid item sm={6} md={6} className=""></Grid>
                 <Grid item sm={4} md={4} className="workHeaderSection">
                   <div className="">
                     <img src={upsightlogo} className="imageHeader"></img>
                   </div>
                 </Grid>
-                <Grid item sm={3} md={3} className=""></Grid>
+                <Grid item sm={2} md={2} className=""></Grid>
 
                 <Grid item xs={12} sm={12} md={12} className="workSection">
                   <Grid
@@ -379,6 +379,10 @@ class PageWork extends Component {
                         to investigate, debug and monitor back-end software
                         infrastructure via JIRA issue tracking
                         <br></br>
+                        <div className="textdivider">
+                          {" "}
+                          <div class="dot"></div>{" "}
+                        </div>
                         <labelWork>Key Contributions</labelWork> <br />
                         <span>● Employee of the month </span> within the first
                         year of employment
