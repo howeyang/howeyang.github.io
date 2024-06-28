@@ -17,6 +17,8 @@ import cutehanging from "../Images/work/work/cute-hanging.png";
 import cozycafelogo from "../Images/work/cozycafe/cozycafe_logo.png";
 import cozycafe_vertical from "../Images/work/cozycafe/cozycafe_vertical.png";
 
+import ReactPlayer from "react-player";
+
 class PageCozyCafe extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
@@ -25,11 +27,7 @@ class PageCozyCafe extends Component {
       .querySelector(".gradientBackground")
       .classList.add("gradientGreen");
 
-      document
-      .querySelector(".landingContainer")
-      .classList.add("gradientCozy");
-
-    
+    document.querySelector(".landingContainer").classList.add("gradientCozy");
   }
 
   componentWillUnmount() {
@@ -37,7 +35,7 @@ class PageCozyCafe extends Component {
       .querySelector(".gradientBackground")
       .classList.remove("gradientGreen");
 
-      document
+    document
       .querySelector(".landingContainer")
       .classList.remove("gradientCozy");
   }
@@ -92,13 +90,7 @@ class PageCozyCafe extends Component {
                   spacing={1}
                   className="centerElement"
                 >
-                  <Grid
-                    item
-                    xs={12}
-                    sm={12}
-                    md={3}
-                    className=""
-                  >
+                  <Grid item xs={12} sm={12} md={3} className="">
                     <div className="smallPadding centerText">
                       <labelBigText>
                         Team Members <br></br>
@@ -222,24 +214,54 @@ class PageCozyCafe extends Component {
                       <br />
                       <labelWork>As a Developer</labelWork> <br />
                       <span>
-                        ● Developed C# Scripts and HLSL Shaders in Unity 3D for
-                        mobile games{" "}
+                        ● Set up a initial systems like Loading Scene -> Main Scene{" "}
                       </span>{" "}
+                      and other transition UX like Stage Transitions
+                      <br></br>
+                      <div className="textdivider">
+                        {" "}
+                        <div class="dot"></div>{" "}
+                      </div>
+
+                      <span>
+                        ● Worked on Menus and Panels and their underlying logic{" "}
+                      </span>{" "}
+                      and with external partners for marketing and promotional
+                      content
                       <a className="shiftright">
-                        <br></br> <span> ● </span> Prototyped, Soft Launched and
-                        Global Launched multiple games on Google Play Store and
-                        Apple App Store
-                        <br></br> <span> ● </span> Worked on Menus and Panels -
-                        UI, their visual interactions and logic to player input
-                        <br></br> <span> ● </span> Worked on Shaders in HLSL to
-                        give games high performance and fidelity
-                        <br></br> <span> ● </span> Troubleshooted crashes and
-                        issues via ADB / Xcode logs / Unity crash logs to
-                        resolve bugs
-                        <br></br> <span> ● </span> Peer Reviewed coworkers' Pull
-                        Requests for issues. Submitted my own Pull Requests with
-                        detailed information.
+                        <br></br>{" "}
+                        <span>
+                          {" "}
+                          ● Stage Upgrade Menu
+                        </span>
+                        <br></br>{" "}
+                        <span>
+                          ● Merchandise Upgrade Menu{" "}
+                        </span>
+                        <br></br>{" "}
+                        <span>
+                          {" "}
+                          ● Shop System and Menus
+                        </span>
                       </a>
+
+                      <br></br>
+                      <div className="textdivider">
+                        {" "}
+                        <div class="dot"></div>{" "}
+                      </div>
+
+
+                      <span>
+                        ● Worked on many{" "}
+                      </span>{" "}
+                      and Post Global Release Support
+                      <br></br>
+                      <div className="textdivider">
+                        {" "}
+                        <div class="dot"></div>{" "}
+                      </div>
+                      
                       <br></br>
                       <div className="textdivider">
                         {" "}
@@ -288,6 +310,7 @@ class PageCozyCafe extends Component {
                       </span>{" "}
                       - from 4, 8, 15, 30 sized teams with server developers,
                       artists, designers and QA
+                      <br></br>
                     </Grid>
                   </Grid>
 
@@ -304,13 +327,39 @@ class PageCozyCafe extends Component {
                     </div>
 
                     <div className="imageContainer">
-                      <img
-                        src={cozycafe_vertical}
-                        className="imageFit"
-                      ></img>
+                      <img src={cozycafe_vertical} className="imageFit"></img>
                     </div>
 
                     <br></br>
+                  </Grid>
+
+                  <Grid
+                      container
+                      direction="row"
+                      justifyContent="center"
+                      alignItems="stretch"
+                      spacing={2}
+                      className=""
+                    >
+                    <Grid item xs={12} sm={5} md={5} className="">
+                      <ReactPlayer
+                        url="./Videos/BoxOpen.mp4"
+                        width="100%"
+                        height="600px"
+                        controls={true}
+                        playing={false}
+                      />
+                    </Grid>
+
+                    <Grid item xs={12} sm={5} md={5} className="">
+                      <ReactPlayer
+                        url="./Videos/EventStage.mp4"
+                        width="100%"
+                        height="600px"
+                        controls={true}
+                        playing={false}
+                      />
+                    </Grid>
                   </Grid>
                 </Grid>
               </Grid>
