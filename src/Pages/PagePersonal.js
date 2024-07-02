@@ -7,6 +7,8 @@ import Hidden from "@material-ui/core/Hidden";
 import CardReact from "../Cards/CardReact";
 import CardBeach from "../Cards/CardBeach";
 import CardFire from "../Cards/CardFire";
+import CardProjects from "../Cards/CardProjects";
+
 import unitylogo from "../Images/landing/unity_logo.png";
 import battlerun from "../Images/work/battlerun/BattleRunMain.png";
 
@@ -29,8 +31,8 @@ class PageCozyCafe extends Component {
     return (
       <div>
         <div className="grid_root">
-        <div className="emptySpace"></div>
-        <div className="titleContainer">
+          <div className="emptySpace"></div>
+          <div className="titleContainer">
             <div className="landingTextContainer">
               <div className="bannerWhite">
                 <div className="bannerMoveBottom">Personal </div>{" "}
@@ -42,11 +44,35 @@ class PageCozyCafe extends Component {
           <Grid
             container
             direction="row"
-            justifyContent="space-between"
+            justifyContent="center"
             alignItems="center"
+            spacing={3}
             className="landingContainer"
           >
-            <Grid
+          <Grid item xs={12} sm={12} md={12} className="emptySpace">
+              <div></div>
+            </Grid>
+            
+            <Grid item xs={10} sm={8} md={3}>
+              <CardBeach delay={200} />
+            </Grid>
+
+            <Grid item xs={10} sm={8} md={3}>
+              <CardProjects delay={300} />
+            </Grid>
+
+            
+          </Grid>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default PageCozyCafe;
+
+/*
+<Grid
               item
               xs={4}
               sm={4}
@@ -96,11 +122,4 @@ class PageCozyCafe extends Component {
                 </div>
               </Fade>
             </Grid>
-          </Grid>
-        </div>
-      </div>
-    );
-  }
-}
-
-export default PageCozyCafe;
+*/

@@ -14,7 +14,7 @@ class CardFire extends Component {
   }
 
   redirect() {
-    this.props.history.push("/Project/ProjectFire");
+    this.props.history.push("/PageFire");
   }
 
   render() {

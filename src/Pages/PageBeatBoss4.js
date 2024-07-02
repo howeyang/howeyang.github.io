@@ -10,7 +10,6 @@ import CardFire from "../Cards/CardFire";
 import unitylogo from "../Images/landing/unity_logo.png";
 import avatar from "../Images/work/battlerun/BattleRunMain.png";
 import CardProjects from "../Cards/CardProjects";
-
 import battlerun from "../Images/work/battlerun/BattleRunMain.png";
 import outlink from "../Images/svg/outlink.svg";
 
@@ -20,7 +19,7 @@ import cozycafe_vertical from "../Images/work/cozycafe/cozycafe_vertical.png";
 
 import ReactPlayer from "react-player";
 
-class PageBattleRun extends Component {
+class PageBeatBoss4 extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
     document.querySelector("body").style.background = "#ed81a1";
@@ -49,7 +48,7 @@ class PageBattleRun extends Component {
           <div className="titleContainer">
             <div className="landingTextContainer">
               <div className="bannerWhite">
-                <div className="bannerMoveBottom">Battle Run ● </div>{" "}
+                <div className="bannerMoveBottom">Beat the Boss 4 ● </div>{" "}
                 <div className="bannerMoveTop">Mobile Game</div>
               </div>
             </div>
@@ -100,7 +99,10 @@ class PageBattleRun extends Component {
 
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Design</div>
-                      <div class="sectionContentRight">Steven Wang</div>
+                      <div class="sectionContentRight">
+                       Steven Wang
+                        
+                      </div>
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
 
@@ -117,12 +119,16 @@ class PageBattleRun extends Component {
 
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Art</div>
-                      <div class="sectionContentRight">Desiree Moffatt</div>
+                      <div class="sectionContentRight">
+                      Desiree Moffatt
+                      
+                      </div>
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
 
                     <br></br>
                     <br></br>
+
 
                     <br></br>
 
@@ -213,13 +219,10 @@ class PageBattleRun extends Component {
                       </labelBigText>{" "}
                       <br />
                       <labelWork>As a Developer</labelWork> <br />
-                      <span>
-                        ● Created multiple UI Elements and Panels{" "}
-                      </span>{" "}
-                      with their underlying UI/UX and logic
+                      <span>● Created multiple UI Elements and Panels </span> with their
+                      underlying UI/UX and logic
                       <a className="shiftright">
-                        <br></br>{" "}
-                        <span> ● Main HUD overlay and HUD buttons </span>
+                      <br></br> <span> ● Main HUD overlay and HUD buttons </span>
                         <br></br> <span> ● Stage Upgrade Upgrade Menu</span>
                         <br></br> <span>● Merchandise Upgrade Menu </span>
                         <br></br> <span> ● Shop Systems and Menus</span>
@@ -242,9 +245,9 @@ class PageBattleRun extends Component {
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
-                      <span>● Helped create in-game Stages</span> and multiple
-                      variants by importing / slicing sprites and using Unity's
-                      Tile map system
+                      <span>● Helped create in-game Stages
+                        </span> and multiple variants by importing / slicing sprites and using Unity's Tile map system
+                  
                       <br></br>
                       <div className="textdivider">
                         {" "}
@@ -252,40 +255,42 @@ class PageBattleRun extends Component {
                       </div>
                       <labelWork>As a Producer</labelWork> <br />
                       <span>
-                        ● Organized and set initial milestones and deadlines{" "}
+                        ● Organized and set initial milestones and deadlines {" "}
                       </span>{" "}
-                      for Cozy Cafe from it's inception to global release - we
-                      released within 3 months!
+                      for Cozy Cafe from it's inception to global release - we released within 3 months!
                       <br></br>
                       <a className="shiftright">
+                        
                         <span>
                           {" "}
-                          ● Assessed and prioritized what features we needed to
-                          work on
+                          ● Assessed and prioritized what features we needed to work on
                         </span>
                         <br></br>{" "}
                         <span>
-                          ● Changed feature priority based on KPIs and designer
-                          feedback
+                          ● Changed feature priority based on KPIs and designer feedback
                         </span>
                         <br></br>{" "}
                         <span>
                           {" "}
-                          ● Released and Submitted Updates on Google and Apple
-                          App Stores
+                          ● Released and Submitted Updates on Google and Apple App Stores
                         </span>
                       </a>
+
                       <div className="textdivider">
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
-                      <span>● Organized and created promotional slides </span>{" "}
+                      <span>
+                        ● Organized and created promotional slides {" "}
+                      </span>{" "}
                       for Google, Apple and 3rd party representatives
+                      
                       <br></br>
                       <div className="textdivider">
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
+                     
                     </Grid>
                   </Grid>
 
@@ -346,4 +351,4 @@ class PageBattleRun extends Component {
   }
 }
 
-export default PageBattleRun;
+export default PageBeatBoss4;

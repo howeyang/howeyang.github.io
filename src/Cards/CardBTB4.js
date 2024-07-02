@@ -14,7 +14,7 @@ class CardBTB4 extends Component {
   }
 
   redirect() {
-    this.props.history.push("/Personal");
+    this.props.history.push("/BeatBoss4");
   }
 
   render() {

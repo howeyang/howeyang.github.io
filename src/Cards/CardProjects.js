@@ -14,7 +14,7 @@ class CardProjects extends Component {
   }
 
   redirect() {
-    this.props.history.push("/Personal");
+    this.props.history.push("/PageFire");
   }
 
   render() {
@@ -49,9 +49,9 @@ class CardProjects extends Component {
                       component="p"
                       className="cardMinHeight"
                     >
-                      <label2>Unity3D | Scripts | Shaders</label2>
+                      <label2>Unity3D | Scripts | Shader HLSL</label2>
                       <div className="secondaryText">
-                        Showcasing personal projects built in Unity!
+                        Reverse Engineered Fire Shader in HLSL
                       </div>
                     </Typography>
                   </CardContent>

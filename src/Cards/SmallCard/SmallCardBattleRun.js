@@ -14,7 +14,7 @@ class SmallCardBattleRun extends Component {
   }
 
   redirect() {
-    this.props.history.push("/Personal");
+    this.props.history.push("/BattleRun");
   }
 
   render() {

@@ -10,6 +10,10 @@ import PagePersonal from "./PagePersonal";
 import PageResume from "./PageResume";
 import PageBattleRun from "./PageBattleRun";
 import PageCozyCafe from "./PageCozyCafe";
+import PageBeatBoss4 from "./PageBeatBoss4";
+
+import PageBeach from "../Projects/ProjectBeachWave";
+import PageFire from "../Projects/ProjectFire";
 
 class Main extends Component {
   state = {
@@ -88,6 +92,10 @@ class Main extends Component {
                 <Route exact path="/Resume" component={PageResume} />
                 <Route exact path="/BattleRun" component={PageBattleRun} />
                 <Route exact path="/CozyCafe" component={PageCozyCafe} />
+                <Route exact path="/BeatBoss4" component={PageBeatBoss4} />
+                
+                <Route exact path="/PageBeach" component={PageBeach} />
+                <Route exact path="/PageFire" component={PageFire} />
                 <Route component={NoMatch} />
               </Switch>
             </div>

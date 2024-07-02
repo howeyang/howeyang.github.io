@@ -14,7 +14,7 @@ class CardBeach extends Component {
   }
 
   redirect() {
-    this.props.history.push("/Personal");
+    this.props.history.push("/PageBeach");
   }
 
   render() {
@@ -49,9 +49,9 @@ class CardBeach extends Component {
                       component="p"
                       className="cardMinHeight"
                     >
-                      <label2>Unity3D | Scripts | Shaders</label2>
+                      <label2>Unity3D | Scripts | Shader HLSL </label2>
                       <div className="secondaryText">
-                        Showcasing personal projects built in Unity!
+                        Self research on how to create a stylized Water Shader
                       </div>
                     </Typography>
                   </CardContent>

@@ -186,15 +186,29 @@ class PageCozyCafe extends Component {
                     >
                       <Grid item xs={5} sm={5} md={5}>
                         <div className="fancyButton workSubtitle">
-                          Cozy Cafe <img src={outlink} className="icon"></img>{" "}
-                          <br></br>Google Play Store
+                          <a
+                            className="text-link"
+                            href="https://play.google.com/store/apps/details?id=com.gamehivecorp.idlecafe"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Cozy Cafe <img src={outlink} className="icon"></img>{" "}
+                            <br></br>Google Play Store
+                          </a>
                         </div>
                       </Grid>
 
                       <Grid item xs={5} sm={5} md={5}>
                         <div className="fancyButton workSubtitle">
-                          Cozy Cafe <img src={outlink} className="icon"></img>{" "}
-                          <br></br>Apple App Store
+                          <a
+                            className="text-link"
+                            href="https://apps.apple.com/us/app/cozy-cafe-animal-restaurant/id6447704854"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Cozy Cafe <img src={outlink} className="icon"></img>{" "}
+                            <br></br>Apple App Store
+                          </a>
                         </div>
                       </Grid>
                     </Grid>
@@ -213,55 +227,35 @@ class PageCozyCafe extends Component {
                       </labelBigText>{" "}
                       <br />
                       <labelWork>As a Developer</labelWork> <br />
-                      <span>
-                        ● Set up a initial systems like Loading Scene -> Main Scene{" "}
-                      </span>{" "}
-                      and other transition UX like Stage Transitions
-                      <br></br>
-                      <div className="textdivider">
-                        {" "}
-                        <div class="dot"></div>{" "}
-                      </div>
-
-                      <span>
-                        ● Worked on Menus and Panels and their underlying logic{" "}
-                      </span>{" "}
-                      and with external partners for marketing and promotional
-                      content
+                      <span>● Created multiple UI Elements and Panels </span> with their
+                      underlying UI/UX and logic
                       <a className="shiftright">
-                        <br></br>{" "}
-                        <span>
-                          {" "}
-                          ● Stage Upgrade Menu
-                        </span>
-                        <br></br>{" "}
-                        <span>
-                          ● Merchandise Upgrade Menu{" "}
-                        </span>
-                        <br></br>{" "}
-                        <span>
-                          {" "}
-                          ● Shop System and Menus
-                        </span>
+                      <br></br> <span> ● Main HUD overlay and HUD buttons </span>
+                        <br></br> <span> ● Stage Upgrade Upgrade Menu</span>
+                        <br></br> <span>● Merchandise Upgrade Menu </span>
+                        <br></br> <span> ● Shop Systems and Menus</span>
                       </a>
-
                       <br></br>
                       <div className="textdivider">
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
-
-
-                      <span>
-                        ● Worked on many{" "}
-                      </span>{" "}
-                      and Post Global Release Support
+                      <span>● Created multiple User Experience sequences </span>{" "}
+                      to improve player immersion and experience{" "}
+                      <a className="shiftright">
+                        <br></br> <span> ● Stage Transition to Next Stage</span>
+                        <br></br> <span>● Opening Loot Box Sequence </span>
+                        <br></br>{" "}
+                        <span> ● Initial Loading Screen to Main Game</span>
+                      </a>
                       <br></br>
                       <div className="textdivider">
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
-                      
+                      <span>● Helped create in-game Stages
+                        </span> and multiple variants by importing / slicing sprites and using Unity's Tile map system
+                  
                       <br></br>
                       <div className="textdivider">
                         {" "}
@@ -269,48 +263,42 @@ class PageCozyCafe extends Component {
                       </div>
                       <labelWork>As a Producer</labelWork> <br />
                       <span>
-                        ● Producer for multiple projects from inception to
-                        release on Google and Apple App Stores{" "}
+                        ● Organized and set initial milestones and deadlines {" "}
                       </span>{" "}
-                      and Post Global Release Support
+                      for Cozy Cafe from it's inception to global release - we released within 3 months!
                       <br></br>
-                      <div className="textdivider">
-                        {" "}
-                        <div class="dot"></div>{" "}
-                      </div>
-                      <span>
-                        ● Organized and assisted with Cross team collaborations{" "}
-                      </span>{" "}
-                      and with external partners for marketing and promotional
-                      content
                       <a className="shiftright">
-                        <br></br>{" "}
+                        
                         <span>
                           {" "}
-                          ● Obtained $250,000 Grant from Canada's IMDF Fund
+                          ● Assessed and prioritized what features we needed to work on
                         </span>
                         <br></br>{" "}
                         <span>
-                          ● Collaborated with Mr. Beast for Marketing Promo{" "}
+                          ● Changed feature priority based on KPIs and designer feedback
                         </span>
                         <br></br>{" "}
                         <span>
                           {" "}
-                          ● Worked with an External Art studio to make a Trailer
+                          ● Released and Submitted Updates on Google and Apple App Stores
                         </span>
                       </a>
-                      <br></br>
+
                       <div className="textdivider">
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
                       <span>
-                        ● Organized roadmaps and communicated work and
-                        expectations of various of team sizes{" "}
+                        ● Organized and created promotional slides {" "}
                       </span>{" "}
-                      - from 4, 8, 15, 30 sized teams with server developers,
-                      artists, designers and QA
+                      for Google, Apple and 3rd party representatives
+                      
                       <br></br>
+                      <div className="textdivider">
+                        {" "}
+                        <div class="dot"></div>{" "}
+                      </div>
+                     
                     </Grid>
                   </Grid>
 
@@ -334,13 +322,13 @@ class PageCozyCafe extends Component {
                   </Grid>
 
                   <Grid
-                      container
-                      direction="row"
-                      justifyContent="center"
-                      alignItems="stretch"
-                      spacing={2}
-                      className=""
-                    >
+                    container
+                    direction="row"
+                    justifyContent="center"
+                    alignItems="stretch"
+                    spacing={2}
+                    className=""
+                  >
                     <Grid item xs={12} sm={5} md={5} className="">
                       <ReactPlayer
                         url="./Videos/BoxOpen.mp4"
