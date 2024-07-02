@@ -76,7 +76,7 @@ class PageCozyCafe extends Component {
                 <div className="imageContainer">
                   <img
                     src={cutehanging}
-                    className="imageHeader cutehangingPosition"
+                    className="cuteHeader cutehangingPosition"
                   ></img>
                 </div>
               </Grid>
@@ -107,8 +107,9 @@ class PageCozyCafe extends Component {
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
 
-                    <br></br>
-                    <br></br>
+                    
+                    <div className="emptySpaceFloat"></div>
+                   
 
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Producer</div>
@@ -116,7 +117,7 @@ class PageCozyCafe extends Component {
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
 
-                    <br></br>
+                    <div className="emptySpaceFloat"></div>
 
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Art</div>
@@ -128,8 +129,7 @@ class PageCozyCafe extends Component {
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
 
-                    <br></br>
-                    <br></br>
+                    <div className="emptySpaceFloat"></div>
 
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Animation</div>
@@ -137,7 +137,7 @@ class PageCozyCafe extends Component {
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
 
-                    <br></br>
+                    <div className="emptySpaceFloat"></div>
 
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Developers</div>
@@ -149,6 +149,7 @@ class PageCozyCafe extends Component {
                       </div>
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
+                    <div className="emptySpaceFloat"></div>
                   </Grid>
 
                   <Grid item xs={12} sm={12} md={4} className="">
@@ -218,7 +219,7 @@ class PageCozyCafe extends Component {
                       xs={12}
                       sm={12}
                       md={12}
-                      className="leftText mediumText"
+                      className="leftText mediumText "
                     >
                       {" "}
                       <br></br>
@@ -230,17 +231,17 @@ class PageCozyCafe extends Component {
                       <span>● Created multiple UI Elements and Panels </span> with their
                       underlying UI/UX and logic
                       <a className="shiftright">
-                      <br></br> <span> ● Main HUD overlay and HUD buttons </span>
-                        <br></br> <span> ● Stage Upgrade Upgrade Menu</span>
-                        <br></br> <span>● Merchandise Upgrade Menu </span>
-                        <br></br> <span> ● Shop Systems and Menus</span>
+                      <br></br> <span> ● Created main Landing Page </span>
+                        <br></br> <span> ● Created Character Select</span>
+                        <br></br> <span> ● Created Tournament Position System </span>
+                        <br></br> <span>● Expanded on Battle Pass / Milestone System  </span>
                       </a>
                       <br></br>
                       <div className="textdivider">
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
-                      <span>● Created multiple User Experience sequences </span>{" "}
+                      <span>● Parsed Server Data into Client side UI Elements </span>{" "}
                       to improve player immersion and experience{" "}
                       <a className="shiftright">
                         <br></br> <span> ● Stage Transition to Next Stage</span>
@@ -253,8 +254,23 @@ class PageCozyCafe extends Component {
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
-                      <span>● Helped create in-game Stages
-                        </span> and multiple variants by importing / slicing sprites and using Unity's Tile map system
+                      <span>● Handwrote Shaders to be used in menus and in core gameplay </span>{" "}
+                      to improve player immersion and experience{" "}
+                      <a className="shiftright">
+                        <br></br> <span> ● Speed Pad Shader </span>
+                        <br></br> <span>● Gacha Opening Sequence Shader </span>
+                        <br></br>{" "}
+                        <span> ● Initial Loading Screen to Main Game</span>
+                      </a>
+                  
+                      <br></br>
+                      <div className="textdivider">
+                        {" "}
+                        <div class="dot"></div>{" "}
+                      </div>
+
+                      <span>● Developed and maintained Internal Testing tools
+                        </span> to ease developer and designer for testing new features or balance
                   
                       <br></br>
                       <div className="textdivider">
@@ -326,8 +342,8 @@ class PageCozyCafe extends Component {
                     direction="row"
                     justifyContent="center"
                     alignItems="stretch"
-                    spacing={2}
-                    className=""
+                    spacing={1}
+                    className="noMargin"
                   >
                     <Grid item xs={12} sm={5} md={5} className="">
                       <ReactPlayer

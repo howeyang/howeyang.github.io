@@ -106,8 +106,7 @@ class PageBeatBoss4 extends Component {
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
 
-                    <br></br>
-                    <br></br>
+                    <div className="emptySpaceFloat"></div>
 
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Producer</div>
@@ -115,7 +114,7 @@ class PageBeatBoss4 extends Component {
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
 
-                    <br></br>
+                    <div className="emptySpaceFloat"></div>
 
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Art</div>
@@ -126,11 +125,7 @@ class PageBeatBoss4 extends Component {
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
 
-                    <br></br>
-                    <br></br>
-
-
-                    <br></br>
+                    <div className="emptySpaceFloat"></div>
 
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Developers</div>
@@ -141,6 +136,7 @@ class PageBeatBoss4 extends Component {
                       </div>
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
+                    <div className="emptySpaceFloat"></div>
                   </Grid>
 
                   <Grid item xs={12} sm={12} md={4} className="">

@@ -45,7 +45,7 @@ class Main extends Component {
             </li>
             <li>
               <NavLink to="/Work" className ="">
-              <div className=""> Work </div> 
+              <div className=""> Experience </div> 
               </NavLink>
             </li>
             <li>

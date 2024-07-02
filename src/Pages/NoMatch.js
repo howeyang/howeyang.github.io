@@ -15,14 +15,16 @@ class NoMatch extends Component {
   render() {
     return (
       <div>
-        <div>
-          <div className="titleContainer titleText">
-            <div className="bannerMoveBottom">
-              <div className="bannerWhite">Error </div>
-            </div>{" "}
-            <div className="bannerOutline bannerMoveTop">Page Not Found</div>
+        <div className="emptySpace"></div>
+          <div className="titleContainer">
+            <div className="landingTextContainer">
+              <div className="bannerWhite">
+                <div className="bannerMoveBottom">Error ● </div>{" "}
+                <div className="bannerMoveTop">Page Not Found</div>
+              </div>
+            </div>
           </div>
-        </div>
+
         <Grid
           container
           direction="row"
@@ -30,6 +32,8 @@ class NoMatch extends Component {
           alignItems="center"
           className="landingContainer"
         >
+        
+
           <Grid
             item
             xs={12}
@@ -38,7 +42,7 @@ class NoMatch extends Component {
             className="leftContainer forceHeight"
           >
             <Fade up>
-              <div className="whiteText" title="how did u get here??">
+              <div className="bigText whiteText" title="how did u get here??">
                 {" "}
                 This is a little awkward ... you reached an undeclared page.
                 <br></br> Please use the Navigation bar to return to working

@@ -14,8 +14,10 @@ import CardProjects from "../Cards/CardProjects";
 import battlerun from "../Images/work/battlerun/BattleRunMain.png";
 import outlink from "../Images/svg/outlink.svg";
 
-import cutehanging from "../Images/work/work/cute-hanging.png";
-import cozycafelogo from "../Images/work/cozycafe/cozycafe_logo.png";
+import cutehanging from "../Images/work/battlerun/DustSpin.png";
+import maciejump from "../Images/work/battlerun/MacieJump.png";
+
+import logo from "../Images/logo/gamehive-battlerun.png";
 import cozycafe_vertical from "../Images/work/cozycafe/cozycafe_vertical.png";
 
 import ReactPlayer from "react-player";
@@ -23,12 +25,12 @@ import ReactPlayer from "react-player";
 class PageBattleRun extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
-    document.querySelector("body").style.background = "#ed81a1";
+    document.querySelector("body").style.background = "#3C73A8";
     document
       .querySelector(".gradientBackground")
       .classList.add("gradientGreen");
 
-    document.querySelector(".landingContainer").classList.add("gradientCozy");
+    document.querySelector(".landingContainer").classList.add("gradientBattleRun");
   }
 
   componentWillUnmount() {
@@ -38,7 +40,7 @@ class PageBattleRun extends Component {
 
     document
       .querySelector(".landingContainer")
-      .classList.remove("gradientCozy");
+      .classList.remove("gradientBattleRun");
   }
 
   render() {
@@ -64,22 +66,29 @@ class PageBattleRun extends Component {
               spacing={0}
               className="centerElement"
             >
-              <Grid item sm={3} md={3} className=""></Grid>
+              <Grid item sm={3} md={3} className="">
+              
+              <div className="imageContainer">
+                  <img
+                    src={maciejump}
+                    className="imageHeader2 runhangingPosition"
+                  ></img>
+                </div>
+                
+                </Grid>
               <Grid item sm={4} md={4} className="workHeaderSection2">
                 <div className="imageContainer">
                   <img
-                    src={cozycafelogo}
+                    src={logo}
                     className="imageHeader centerElement"
                   ></img>
                 </div>
               </Grid>
               <Grid item sm={3} md={3} className="">
-                <div className="imageContainer">
-                  <img
+              <img
                     src={cutehanging}
-                    className="imageHeader cutehangingPosition"
+                    className="cuteHeader runhangingPosition"
                   ></img>
-                </div>
               </Grid>
 
               <Grid item xs={12} sm={12} md={12} className="workSection">
@@ -104,8 +113,7 @@ class PageBattleRun extends Component {
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
 
-                    <br></br>
-                    <br></br>
+                    <div className="emptySpaceFloat"></div>
 
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Producer</div>
@@ -113,7 +121,7 @@ class PageBattleRun extends Component {
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
 
-                    <br></br>
+                    <div className="emptySpaceFloat"></div>
 
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Art</div>
@@ -121,10 +129,7 @@ class PageBattleRun extends Component {
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
 
-                    <br></br>
-                    <br></br>
-
-                    <br></br>
+                    <div className="emptySpaceFloat"></div>
 
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Developers</div>
@@ -135,6 +140,7 @@ class PageBattleRun extends Component {
                       </div>
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
+                    <div className="emptySpaceFloat"></div>
                   </Grid>
 
                   <Grid item xs={12} sm={12} md={4} className="">
@@ -204,7 +210,7 @@ class PageBattleRun extends Component {
                       xs={12}
                       sm={12}
                       md={12}
-                      className="leftText mediumText"
+                      className="leftText mediumText textPadding"
                     >
                       {" "}
                       <br></br>
@@ -252,10 +258,9 @@ class PageBattleRun extends Component {
                       </div>
                       <labelWork>As a Producer</labelWork> <br />
                       <span>
-                        ● Organized and set initial milestones and deadlines{" "}
+                        ●  Planned and executed a roadmap for launching Battle Run from a small team{" "}
                       </span>{" "}
-                      for Cozy Cafe from it's inception to global release - we
-                      released within 3 months!
+                      of 4 developers to a 30 person project with server developers, artists, designers and QA
                       <br></br>
                       <a className="shiftright">
                         <span>
@@ -313,8 +318,8 @@ class PageBattleRun extends Component {
                     direction="row"
                     justifyContent="center"
                     alignItems="stretch"
-                    spacing={2}
-                    className=""
+                    spacing={1}
+                    className="noMargin"
                   >
                     <Grid item xs={12} sm={5} md={5} className="">
                       <ReactPlayer

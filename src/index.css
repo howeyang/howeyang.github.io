@@ -30,6 +30,13 @@ Super white Gray :  DFDCE7 */
 .emptySpace {
   height: 80px !important;
 }
+
+.emptySpaceFloat {
+  height: 20px !important;
+  width: 100%;
+  clear: both;
+}
+
 .emptySpace2 {
   width: 100px !important;
   color: rgba(0, 0, 0, 0) !important;
@@ -232,6 +239,14 @@ Super white Gray :  DFDCE7 */
   background-attachment: fixed !important;
 }
 
+.gradientBattleRun {
+  background: url("./Images/work/battlerun/BattleRunSplash.png") no-repeat
+    center center;
+  background-size: auto 100%;
+  transition: ease 1s;
+  background-attachment: fixed !important;
+}
+
 
 
 .gradientBlue {
@@ -279,6 +294,9 @@ Super white Gray :  DFDCE7 */
 
 .whiteText {
   color: #fff;
+}
+
+.smallText {
   font-size: 12px;
 }
 
@@ -565,6 +583,7 @@ Super white Gray :  DFDCE7 */
   -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
   transition: ease 1s; /* For modern browsers */
   filter: brightness(100%);
+  overflow-x: none !important;
 }
 
 .MuiPaper-root:hover {
@@ -631,8 +650,17 @@ labelBigText {
   text-decoration: underline solid;
 }
 
+.textPadding {
+  padding-left: 10px !important;
+  padding-right: 10x !important;
+}
+
 .cardMinHeight {
   min-height: 80px;
+}
+
+.noMargin{
+margin :0 !important;
 }
 
 /* Work Section */
@@ -660,6 +688,24 @@ labelBigText {
   display: inline-block;
   padding-left: 15px;
   padding-right: 15px;
+  text-align: center;
+}
+
+.cuteHeader{
+  height: 100px;
+  width: auto;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+.imageHeader2 {
+  height: 125px;
+  width: auto;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
 
   text-align: center;
 }
@@ -677,7 +723,13 @@ labelBigText {
 .cutehangingPosition {
   position: relative;
   top: 27px;
-  left: 20%;
+  left: 0%;
+}
+
+.runhangingPosition{
+  position: relative;
+  top: -10%;
+  left: 0%;
 }
 
 .workHeaderSection {
@@ -724,7 +776,7 @@ labelBigText {
 }
 
 .sectionName {
-  width: 45%;
+  width: 55%;
   padding-left: 5%;
   padding-right: 5%;
   margin: auto;
@@ -741,12 +793,12 @@ labelBigText {
 .sectionContentLeft {
   width: auto;
   float: left; /* [1] */
-  padding-right: 10px;
+  padding-right: 5px;
 }
 
 .sectionContentMiddle {
   overflow: auto; /* mix-blend-mode: difference !important; */
-  padding-top: 3px;
+  padding-top: 2px;
 }
 
 .sectionPadding {
@@ -756,7 +808,7 @@ labelBigText {
 .sectionContentRight {
   width: auto;
   float: right; /* [3] */
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
 /* OLD CSS BELOW */
