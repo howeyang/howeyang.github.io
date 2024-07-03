@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
 
 import CardCozy from "../Cards/CardCozy";
@@ -69,19 +70,21 @@ class LandingPage extends Component {
                       <div className="whiteText">
                         <p className="largerText">
                           I love playing and making games!
-                          <br></br>I enjoy coming up with game ideas, making sleek and responsive UI/UX and reverse engineering VFX.
-                          <br></br>
-                          I like making things sound, look and feel great!
+                          <br></br>I enjoy coming up with game ideas, making
+                          sleek and responsive UI/UX and reverse engineering
+                          VFX.
+                          <br></br>I like making things sound, look and feel
+                          great!
                         </p>
 
                         <p></p>
-                        <div className="fancyButton smallText">
-                          <a
-                            className="text-link"
-                            href="https://uwaterloo.ca/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
+                        <a
+                          className="text-link"
+                          href="https://uwaterloo.ca/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <div className="fancyButton smallText">
                             <div className="leftfloat">
                               <img
                                 src={graduate}
@@ -95,16 +98,11 @@ class LandingPage extends Component {
                               Bachelor of Computer Science{" "}
                               <img src={outlink} className="icon"></img>
                             </div>
-                          </a>
-                        </div>
+                          </div>
+                        </a>
                         <span className="fixedimg"> </span>
-                        <div className="fancyButton smallText">
-                          <a
-                            className="text-link"
-                            href="https://gamehive.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
+                        <NavLink to="/Work" className="">
+                          <div className="fancyButton smallText">
                             <div className="leftfloat">
                               <img
                                 src={work}
@@ -118,8 +116,8 @@ class LandingPage extends Component {
                               Previously at <br></br> Game Hive{" "}
                               <img src={outlink} className="icon"></img>
                             </div>
-                          </a>
-                        </div>
+                          </div>
+                        </NavLink>
                       </div>
                     </Fade>
                   </div>

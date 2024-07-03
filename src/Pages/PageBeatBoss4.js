@@ -47,7 +47,7 @@ class PageBeatBoss4 extends Component {
           <div className="emptySpace"></div>
           <div className="titleContainer">
             <div className="landingTextContainer">
-              <div className="bannerWhite">
+              <div className="bannerWhite centerText">
                 <div className="bannerMoveBottom">Beat the Boss 4 ● </div>{" "}
                 <div className="bannerMoveTop">Mobile Game</div>
               </div>

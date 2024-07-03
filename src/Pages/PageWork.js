@@ -124,18 +124,18 @@ class PageWork extends Component {
                           md={12}
                           className="workSubtitle"
                         >
-                          <div className="fancyButton ">
-                            <a
-                              className="text-link"
-                              href="https://gamehive.com/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
+                          <a
+                            className="text-link"
+                            href="https://gamehive.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <div className="fancyButton ">
                               Game Hive{" "}
                               <img src={outlink} className="icon"></img>
                               <br></br>Mobile Game Studio
-                            </a>
-                          </div>
+                            </div>
+                          </a>
                         </Grid>
                       </Grid>
 
@@ -169,9 +169,9 @@ class PageWork extends Component {
                           <br></br> <span> ● </span> Troubleshooted crashes and
                           issues via ADB / Xcode logs / Unity crash logs to
                           resolve bugs
-
-                          <br></br> <span> ● </span> Created and maintained Internal Testing and Debugging tools in Unity for team's ease of use
-
+                          <br></br> <span> ● </span> Created and maintained
+                          Internal Testing and Debugging tools in Unity for
+                          team's ease of use
                           <br></br> <span> ● </span> Peer Reviewed coworkers'
                           Pull Requests for issues. Submitted my own Pull
                           Requests with detailed information.
@@ -205,7 +205,6 @@ class PageWork extends Component {
                             ● Obtained $250,000 Grant from Canada's IMDF Fund
                           </span>
                           <br></br>{" "}
-                         
                           <span>
                             {" "}
                             ● Worked with an External Art studio to make a
@@ -218,8 +217,8 @@ class PageWork extends Component {
                           <div class="dot"></div>{" "}
                         </div>
                         <span>
-                          ● Organized roadmaps and coordinated feature deadlines with Team Leads
-                          of various team sizes{" "}
+                          ● Organized roadmaps and coordinated feature deadlines
+                          with Team Leads of various team sizes{" "}
                         </span>{" "}
                         - from 4, 8, 15, 30 sized teams with server developers,
                         artists, designers and QA

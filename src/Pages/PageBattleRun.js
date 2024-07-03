@@ -52,7 +52,7 @@ class PageBattleRun extends Component {
           <div className="emptySpace"></div>
           <div className="titleContainer">
             <div className="landingTextContainer">
-              <div className="bannerWhite">
+              <div className="bannerWhite centerText">
                 <div className="bannerMoveBottom">Battle Run ● </div>{" "}
                 <div className="bannerMoveTop">Mobile Game</div>
               </div>
@@ -185,7 +185,7 @@ class PageBattleRun extends Component {
                         className="workSubtitle"
                       >
                         <labelBigText>Developer and Producer</labelBigText>
-                        <br></br> 2023 -> 2024{" "}
+                        <br></br> 2020 -> 2023{" "}
                       </Grid>
                       <Grid item xs={12} sm={12} md={12} className="">
                         {" "}
@@ -202,31 +202,33 @@ class PageBattleRun extends Component {
                       className="workSubtitle"
                     >
                       <Grid item xs={5} sm={5} md={5}>
-                        <div className="fancyButton smallText">
-                          <a
-                            className="text-link"
-                            href="https://play.google.com/store/apps/details?id=com.gamehivecorp.idlecafe"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Battle Run  <br></br> <img src={outlink} className="icon"></img>{" "}
-                            <br></br>Google Store
-                          </a>
-                        </div>
+                        <a
+                          className="text-link"
+                          href="https://play.google.com/store/apps/details?id=com.gamehivecorp.battlerun"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <div className="fancyButton smallText">
+                            Battle Run <br></br>{" "}
+                            <img src={outlink} className="icon"></img> <br></br>
+                            Google Store
+                          </div>
+                        </a>
                       </Grid>
 
                       <Grid item xs={5} sm={5} md={5}>
-                        <div className="fancyButton smallText">
-                          <a
-                            className="text-link"
-                            href="https://apps.apple.com/us/app/cozy-cafe-animal-restaurant/id6447704854"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Battle Run  <br></br> <img src={outlink} className="icon"></img>{" "}
-                            <br></br>Apple Store
-                          </a>
-                        </div>
+                        <a
+                          className="text-link"
+                          href="https://apps.apple.com/us/app/battle-run/id1612277646"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <div className="fancyButton smallText">
+                            Battle Run <br></br>{" "}
+                            <img src={outlink} className="icon"></img> <br></br>
+                            Apple Store
+                          </div>
+                        </a>
                       </Grid>
                     </Grid>
 
@@ -251,36 +253,31 @@ class PageBattleRun extends Component {
                       <a className="shiftright">
                         <br></br>{" "}
                         <span> ● Main HUD overlay and HUD buttons </span>
-                        <br></br> <span> ● Stage Upgrade Upgrade Menu</span>
-                        <br></br> <span>● Merchandise Upgrade Menu </span>
-                        <br></br> <span> ● Shop Systems and Menus</span>
+                        <br></br> <span> ● Character Select Screen </span>
+                        <br></br> <span>● Internal Test Panel </span>
+                        <br></br> <span> ● Leaderboard System </span>
+                        <br></br> <span> ● Fixes and Additional Features to Existing systems</span>
                       </a>
                       <br></br>
                       <div className="textdivider">
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
-                      <span>● Created multiple User Experience sequences </span>{" "}
-                      to improve player immersion and experience{" "}
+                      <span>
+                        ● Integrated with a Server Rest API with Client{" "}
+                      </span>{" "}
+                      to enable Server Cloud Data to drive Unity Client behavior{" "}
                       <a className="shiftright">
-                        <br></br> <span> ● Stage Transition to Next Stage</span>
-                        <br></br> <span>● Opening Loot Box Sequence </span>
-                        <br></br>{" "}
-                        <span> ● Initial Loading Screen to Main Game</span>
+                        <br></br> <span> ● Leaderboard System </span>
+                        <br></br> <span>● Player Values stored Server side </span>
+                     
                       </a>
                       <br></br>
                       <div className="textdivider">
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
-                      <span>● Helped create in-game Stages</span> and multiple
-                      variants by importing / slicing sprites and using Unity's
-                      Tile map system
-                      <br></br>
-                      <div className="textdivider">
-                        {" "}
-                        <div class="dot"></div>{" "}
-                      </div>
+                     
                       <labelWork>As a Producer</labelWork> <br />
                       <span>
                         ● Planned and executed a roadmap for launching Battle
@@ -321,52 +318,66 @@ class PageBattleRun extends Component {
                     </Grid>
                   </Grid>
 
-                  <Grid item xs={12} sm={3} md={3} className="">
+                  <Grid item xs={12} sm={12} md={3} className="">
                     <div className="smallPadding">
                       <labelBigText>
-                        Screenshots! <br></br>
+                        Work Examples in Game <br></br>
                       </labelBigText>
                     </div>
                     <div className="">
-                      <labelWork>
-                        Comfy Cute Idle Incremental<br></br>
-                      </labelWork>
+                      <labelWork>Landing Page HUD</labelWork>
                     </div>
 
-                    <div className="imageContainer">
-                      <img src={cozycafe_vertical} className="imageFit"></img>
+                    <ReactPlayer
+                      url="./landingpage.mp4"
+                      width="100%"
+                      height="auto"
+                      controls={true}
+                      playing={false}
+                      loop={true}
+                    />
+                    <div className="emptySpaceFloat"></div>
+
+                    <div className="">
+                      <labelWork>Leaderboard and Test Menu</labelWork>
                     </div>
 
-                    <br></br>
-                  </Grid>
+                    <ReactPlayer
+                      url="./Videos/Leaderboard.mp4"
+                      width="100%"
+                      height="auto"
+                      controls={true}
+                      playing={false}
+                      loop={true}
+                    />
+                      <div className="emptySpaceFloat"></div>
 
-                  <Grid
-                    container
-                    direction="row"
-                    justifyContent="center"
-                    alignItems="stretch"
-                    spacing={1}
-                    className="noMargin"
-                  >
-                    <Grid item xs={12} sm={5} md={5} className="">
-                      <ReactPlayer
-                        url="./Videos/BoxOpen.mp4"
-                        width="100%"
-                        height="600px"
-                        controls={true}
-                        playing={false}
-                      />
-                    </Grid>
+                    <div className="">
+                      <labelWork>Speed Pad Shader</labelWork>
+                    </div>
 
-                    <Grid item xs={12} sm={5} md={5} className="">
-                      <ReactPlayer
-                        url="./Videos/EventStage.mp4"
-                        width="100%"
-                        height="600px"
-                        controls={true}
-                        playing={false}
-                      />
-                    </Grid>
+                    <ReactPlayer
+                      url="./speedshader.mp4"
+                      width="100%"
+                      height="auto"
+                      controls={true}
+                      playing={false}
+                      loop={true}
+                    />
+ <div className="emptySpaceFloat"></div>
+                    <div className="">
+                      <labelWork>Gacha Opening Shader</labelWork>
+                    </div>
+
+                    <ReactPlayer
+                      url="./Videos/GachaShader.mp4"
+                      width="100%"
+                      height="auto"
+                      controls={true}
+                      playing={false}
+                      loop={true}
+                    />
+
                   </Grid>
                 </Grid>
               </Grid>

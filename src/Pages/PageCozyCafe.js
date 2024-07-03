@@ -107,9 +107,7 @@ class PageCozyCafe extends Component {
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
 
-                    
                     <div className="emptySpaceFloat"></div>
-                   
 
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Producer</div>
@@ -186,31 +184,33 @@ class PageCozyCafe extends Component {
                       className="workSubtitle"
                     >
                       <Grid item xs={5} sm={5} md={5}>
-                        <div className="fancyButton  smallText">
-                          <a
-                            className="text-link"
-                            href="https://play.google.com/store/apps/details?id=com.gamehivecorp.idlecafe"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Cozy Cafe <br></br><img src={outlink} className="icon"></img>{" "}
-                            <br></br>Google Store
-                          </a>
-                        </div>
+                        <a
+                          className="text-link"
+                          href="https://play.google.com/store/apps/details?id=com.gamehivecorp.idlecafe"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <div className="fancyButton  smallText">
+                            Cozy Cafe <br></br>
+                            <img src={outlink} className="icon"></img> <br></br>
+                            Google Store
+                          </div>
+                        </a>
                       </Grid>
 
                       <Grid item xs={5} sm={5} md={5}>
-                        <div className="fancyButton  smallText">
-                          <a
-                            className="text-link"
-                            href="https://apps.apple.com/us/app/cozy-cafe-animal-restaurant/id6447704854"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Cozy Cafe  <br></br> <img src={outlink} className="icon"></img>{" "}
-                            <br></br>Apple Store
-                          </a>
-                        </div>
+                        <a
+                          className="text-link"
+                          href="https://apps.apple.com/us/app/cozy-cafe-animal-restaurant/id6447704854"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <div className="fancyButton  smallText">
+                            Cozy Cafe <br></br>{" "}
+                            <img src={outlink} className="icon"></img> <br></br>
+                            Apple Store
+                          </div>
+                        </a>
                       </Grid>
                     </Grid>
 
@@ -228,20 +228,28 @@ class PageCozyCafe extends Component {
                       </labelBigText>{" "}
                       <br />
                       <labelWork>As a Developer</labelWork> <br />
-                      <span>● Created multiple UI Elements and Panels </span> with their
-                      underlying UI/UX and logic
+                      <span>
+                        ● Created multiple UI Elements and Panels{" "}
+                      </span>{" "}
+                      with their underlying UI/UX and logic
                       <a className="shiftright">
-                      <br></br> <span> ● Created main Landing Page </span>
+                        <br></br> <span> ● Created main Landing Page </span>
                         <br></br> <span> ● Created Character Select</span>
-                        <br></br> <span> ● Created Tournament Position System </span>
-                        <br></br> <span>● Expanded on Battle Pass / Milestone System  </span>
+                        <br></br>{" "}
+                        <span> ● Created Tournament Position System </span>
+                        <br></br>{" "}
+                        <span>
+                          ● Expanded on Battle Pass / Milestone System{" "}
+                        </span>
                       </a>
                       <br></br>
                       <div className="textdivider">
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
-                      <span>● Parsed Server Data into Client side UI Elements </span>{" "}
+                      <span>
+                        ● Parsed Server Data into Client side UI Elements{" "}
+                      </span>{" "}
                       to improve player immersion and experience{" "}
                       <a className="shiftright">
                         <br></br> <span> ● Stage Transition to Next Stage</span>
@@ -254,7 +262,10 @@ class PageCozyCafe extends Component {
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
-                      <span>● Handwrote Shaders to be used in menus and in core gameplay </span>{" "}
+                      <span>
+                        ● Handwrote Shaders to be used in menus and in core
+                        gameplay{" "}
+                      </span>{" "}
                       to improve player immersion and experience{" "}
                       <a className="shiftright">
                         <br></br> <span> ● Speed Pad Shader </span>
@@ -262,16 +273,16 @@ class PageCozyCafe extends Component {
                         <br></br>{" "}
                         <span> ● Initial Loading Screen to Main Game</span>
                       </a>
-                  
                       <br></br>
                       <div className="textdivider">
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
-
-                      <span>● Developed and maintained Internal Testing tools
-                        </span> to ease developer and designer for testing new features or balance
-                  
+                      <span>
+                        ● Developed and maintained Internal Testing tools
+                      </span>{" "}
+                      to ease developer and designer for testing new features or
+                      balance
                       <br></br>
                       <div className="textdivider">
                         {" "}
@@ -279,42 +290,40 @@ class PageCozyCafe extends Component {
                       </div>
                       <labelWork>As a Producer</labelWork> <br />
                       <span>
-                        ● Organized and set initial milestones and deadlines {" "}
+                        ● Organized and set initial milestones and deadlines{" "}
                       </span>{" "}
-                      for Cozy Cafe from it's inception to global release - we released within 3 months!
+                      for Cozy Cafe from it's inception to global release - we
+                      released within 3 months!
                       <br></br>
                       <a className="shiftright">
-                        
                         <span>
                           {" "}
-                          ● Assessed and prioritized what features we needed to work on
+                          ● Assessed and prioritized what features we needed to
+                          work on
                         </span>
                         <br></br>{" "}
                         <span>
-                          ● Changed feature priority based on KPIs and designer feedback
+                          ● Changed feature priority based on KPIs and designer
+                          feedback
                         </span>
                         <br></br>{" "}
                         <span>
                           {" "}
-                          ● Released and Submitted Updates on Google and Apple App Stores
+                          ● Released and Submitted Updates on Google and Apple
+                          App Stores
                         </span>
                       </a>
-
                       <div className="textdivider">
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
-                      <span>
-                        ● Organized and created promotional slides {" "}
-                      </span>{" "}
+                      <span>● Organized and created promotional slides </span>{" "}
                       for Google, Apple and 3rd party representatives
-                      
                       <br></br>
                       <div className="textdivider">
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
-                     
                     </Grid>
                   </Grid>
 
