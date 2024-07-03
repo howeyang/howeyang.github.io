@@ -37,26 +37,44 @@ class Main extends Component {
     return (
       <HashRouter>
         <Hidden smDown>
-          <ul className={this.state.class}>
+          <ul className={`${this.state.class}`}>
             <li>
-              <NavLink exact to="/" className ="">
-              <div className=""> Home </div> 
+              <NavLink exact to="/CozyCafe" className="sectionContentLeft">
+                <div className="centerText"> Cozy Cafe </div>
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Work" className ="">
-              <div className=""> Experience </div> 
+              <NavLink to="/BattleRun" className="sectionContentLeft">
+                <div className="centerText"> Battle Run </div>
               </NavLink>
             </li>
-            <li>
-              <NavLink to="/Personal" className ="">
-              <div className=""> Personal </div> 
+
+            <li className="sectionContentRight">
+              <NavLink to="/Resume" className="">
+                <div className="centerText"> Resume </div>
               </NavLink>
             </li>
-            <li>
-              <NavLink to="/Resume" className ="">
-              <div className=""> Resume  </div> 
+
+            <li className="sectionContentRight">
+              <NavLink to="/Personal" className="">
+                <div className="centerText"> Personal </div>
               </NavLink>
+            </li>
+
+            <li className="sectionContentRight">
+              <NavLink to="/Work" className="">
+                <div className="centerText"> Experience </div>
+              </NavLink>
+            </li>
+
+            <li className="sectionContentRight">
+              <NavLink exact to="/">
+                <div className="centerText"> Home </div>
+              </NavLink>
+            </li>
+
+            <li>
+              <div className="sectionContentMiddle"> </div>
             </li>
           </ul>
         </Hidden>
@@ -72,18 +90,10 @@ class Main extends Component {
           alignItems="stretch"
           className="landingContainer"
         >
-        
-      <div className="repeatingDotPattern"></div>
-        <div className="gradientBackground">
-        </div>
+          <div className="repeatingDotPattern"></div>
+          <div className="gradientBackground"></div>
 
-          <Grid
-            item
-            xs={12}
-            sm={12}
-            md={12}
-            className="forceHeight"
-          >
+          <Grid item xs={12} sm={12} md={12} className="forceHeight">
             <div className="content">
               <Switch>
                 <Route exact path="/" component={LandingPage} />
@@ -93,7 +103,7 @@ class Main extends Component {
                 <Route exact path="/BattleRun" component={PageBattleRun} />
                 <Route exact path="/CozyCafe" component={PageCozyCafe} />
                 <Route exact path="/BeatBoss4" component={PageBeatBoss4} />
-                
+
                 <Route exact path="/PageBeach" component={PageBeach} />
                 <Route exact path="/PageFire" component={PageFire} />
                 <Route component={NoMatch} />
