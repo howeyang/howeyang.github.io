@@ -183,32 +183,32 @@ class PageCozyCafe extends Component {
                       justifyContent="center"
                       alignItems="center"
                       spacing={1}
-                      className=""
+                      className="workSubtitle"
                     >
                       <Grid item xs={5} sm={5} md={5}>
-                        <div className="fancyButton workSubtitle">
+                        <div className="fancyButton  smallText">
                           <a
                             className="text-link"
                             href="https://play.google.com/store/apps/details?id=com.gamehivecorp.idlecafe"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            Cozy Cafe <img src={outlink} className="icon"></img>{" "}
-                            <br></br>Google Play Store
+                            Cozy Cafe <br></br><img src={outlink} className="icon"></img>{" "}
+                            <br></br>Google Store
                           </a>
                         </div>
                       </Grid>
 
                       <Grid item xs={5} sm={5} md={5}>
-                        <div className="fancyButton workSubtitle">
+                        <div className="fancyButton  smallText">
                           <a
                             className="text-link"
                             href="https://apps.apple.com/us/app/cozy-cafe-animal-restaurant/id6447704854"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            Cozy Cafe <img src={outlink} className="icon"></img>{" "}
-                            <br></br>Apple App Store
+                            Cozy Cafe  <br></br> <img src={outlink} className="icon"></img>{" "}
+                            <br></br>Apple Store
                           </a>
                         </div>
                       </Grid>

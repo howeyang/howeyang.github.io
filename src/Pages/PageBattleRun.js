@@ -30,7 +30,9 @@ class PageBattleRun extends Component {
       .querySelector(".gradientBackground")
       .classList.add("gradientGreen");
 
-    document.querySelector(".landingContainer").classList.add("gradientBattleRun");
+    document
+      .querySelector(".landingContainer")
+      .classList.add("gradientBattleRun");
   }
 
   componentWillUnmount() {
@@ -67,28 +69,23 @@ class PageBattleRun extends Component {
               className="centerElement"
             >
               <Grid item sm={3} md={3} className="">
-              
-              <div className="imageContainer">
+                <div className="imageContainer">
                   <img
                     src={maciejump}
                     className="imageHeader2 runhangingPosition"
                   ></img>
                 </div>
-                
-                </Grid>
+              </Grid>
               <Grid item sm={4} md={4} className="workHeaderSection2">
                 <div className="imageContainer">
-                  <img
-                    src={logo}
-                    className="imageHeader centerElement"
-                  ></img>
+                  <img src={logo} className="imageHeader centerElement"></img>
                 </div>
               </Grid>
               <Grid item sm={3} md={3} className="">
-              <img
-                    src={cutehanging}
-                    className="cuteHeader runhangingPosition"
-                  ></img>
+                <img
+                  src={cutehanging}
+                  className="cuteHeader runhangingPosition"
+                ></img>
               </Grid>
 
               <Grid item xs={12} sm={12} md={12} className="workSection">
@@ -109,7 +106,17 @@ class PageBattleRun extends Component {
 
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Design</div>
-                      <div class="sectionContentRight">Steven Wang</div>
+                      <div class="sectionContentRight">
+                        Chris Doan
+                        <br></br>
+                        Steven Wang
+                        <br></br>
+                        Javier Garcia
+                        <br></br>
+                        Fabio Sacchetti
+                        <br></br>
+                        Alex Gray
+                      </div>
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
 
@@ -117,7 +124,9 @@ class PageBattleRun extends Component {
 
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Producer</div>
-                      <div class="sectionContentRight">Howe Yang</div>
+                      <div class="sectionContentRight">
+                        Roy Apoong <br /> Howe Yang
+                      </div>
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
 
@@ -125,7 +134,15 @@ class PageBattleRun extends Component {
 
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Art</div>
-                      <div class="sectionContentRight">Desiree Moffatt</div>
+                      <div class="sectionContentRight">
+                        Justin Yu
+                        <br></br>
+                        Nancy Andrews
+                        <br></br>
+                        Patricia Takahashi
+                        <br></br>
+                        Gabriel Lavoyer
+                      </div>
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
 
@@ -134,9 +151,17 @@ class PageBattleRun extends Component {
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Developers</div>
                       <div class="sectionContentRight">
+                        Jason Chiu <br></br>
                         Ryan Seto <br></br>
+                        Iman Kazerani <br></br>
+                        Aditya Nair <br></br>
                         Howe Yang <br></br>
-                        Raphael Ferras <br></br>
+                        Helen Zhang <br></br>
+                        Timothy Chan <br></br>
+                        Erin Vaartjes <br></br>
+                        Michael Zhao <br></br>
+                        Reza Saputra <br></br>
+                        Hazem Aziz <br></br>
                       </div>
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
@@ -174,32 +199,32 @@ class PageBattleRun extends Component {
                       justifyContent="center"
                       alignItems="center"
                       spacing={1}
-                      className=""
+                      className="workSubtitle"
                     >
                       <Grid item xs={5} sm={5} md={5}>
-                        <div className="fancyButton workSubtitle">
+                        <div className="fancyButton smallText">
                           <a
                             className="text-link"
                             href="https://play.google.com/store/apps/details?id=com.gamehivecorp.idlecafe"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            Cozy Cafe <img src={outlink} className="icon"></img>{" "}
-                            <br></br>Google Play Store
+                            Battle Run  <br></br> <img src={outlink} className="icon"></img>{" "}
+                            <br></br>Google Store
                           </a>
                         </div>
                       </Grid>
 
                       <Grid item xs={5} sm={5} md={5}>
-                        <div className="fancyButton workSubtitle">
+                        <div className="fancyButton smallText">
                           <a
                             className="text-link"
                             href="https://apps.apple.com/us/app/cozy-cafe-animal-restaurant/id6447704854"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            Cozy Cafe <img src={outlink} className="icon"></img>{" "}
-                            <br></br>Apple App Store
+                            Battle Run  <br></br> <img src={outlink} className="icon"></img>{" "}
+                            <br></br>Apple Store
                           </a>
                         </div>
                       </Grid>
@@ -258,9 +283,11 @@ class PageBattleRun extends Component {
                       </div>
                       <labelWork>As a Producer</labelWork> <br />
                       <span>
-                        ●  Planned and executed a roadmap for launching Battle Run from a small team{" "}
+                        ● Planned and executed a roadmap for launching Battle
+                        Run from a small team{" "}
                       </span>{" "}
-                      of 4 developers to a 30 person project with server developers, artists, designers and QA
+                      of 4 developers to a 30 person project with server
+                      developers, artists, designers and QA
                       <br></br>
                       <a className="shiftright">
                         <span>
