@@ -10,7 +10,9 @@ import gamehivelogo from "../Images/work/work/gamehive-logo.png";
 import upsightinfo from "../Images/work/work/infographic-upsight.png";
 import gamehiveinfo from "../Images/work/work/infographic-gamehive.png";
 
-import upsightdashboard from "../Images/work/work/upsight-dashboard.png";
+import upsightdashboard1 from "../Images/work/work/dashboard1.png";
+import upsightdashboard2 from "../Images/work/work/dashboard2.png";
+import upsightdatamine from "../Images/work/work/datamine.png";
 
 import CardCozy from "../Cards/SmallCard/SmallCardCozy";
 import CardBattleRun from "../Cards/SmallCard/SmallCardBattleRun";
@@ -22,6 +24,7 @@ class PageWork extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
     document.querySelector("body").style.background = "#e1771b";
+
     document
       .querySelector(".gradientBackground")
       .classList.add("gradientOrange");
@@ -250,13 +253,13 @@ class PageWork extends Component {
                   <div className="emptySpace"></div>
                 </Grid>
 
-                <Grid item sm={6} md={6} className=""></Grid>
+                <Grid item sm={3} md={3} className=""></Grid>
                 <Grid item sm={4} md={4} className="workHeaderSection">
                   <div className="">
                     <img src={upsightlogo} className="imageHeader"></img>
                   </div>
                 </Grid>
-                <Grid item sm={2} md={2} className=""></Grid>
+                <Grid item sm={3} md={3} className=""></Grid>
 
                 <Grid item xs={12} sm={12} md={12} className="workSection">
                   <Grid
@@ -273,7 +276,7 @@ class PageWork extends Component {
                       </div>
                     </Grid>
 
-                    <Grid item xs={12} sm={7} md={7} className="">
+                    <Grid item xs={12} sm={4} md={4} className="">
                       <Grid
                         container
                         direction="column"
@@ -399,9 +402,31 @@ class PageWork extends Component {
                         workflow and for onboarding new staff
                       </Grid>
                     </Grid>
-                    <Grid item xs={11} sm={11} md={11} className="">
+                    <Grid item xs={12} sm={3} md={3} className="">
+                      <div className="smallPadding">
+                        <labelBigText>
+                          Upsight Dashboard <br></br>
+                        </labelBigText>
+                      </div>
                       <div className="">
-                        <img src={upsightdashboard} className="imageFit"></img>
+                        <labelWork>Dashboards - Visualize KPIs</labelWork>
+                      </div>
+
+                      <div className="">
+                        <img src={upsightdashboard1} className="imageFit"></img>
+                      </div>
+
+                      <div className="">
+                        <img src={upsightdashboard2} className="imageFit"></img>
+                      </div>
+                      <div className="emptySpaceFloat"></div>
+
+                      <div className="">
+                        <labelWork>Datamine - Query Big Data </labelWork>
+                      </div>
+
+                      <div className="">
+                        <img src={upsightdatamine} className="imageFit"></img>
                       </div>
                     </Grid>
                   </Grid>
