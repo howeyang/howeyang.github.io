@@ -22,7 +22,17 @@ class Main extends Component {
 
   listenScrollEvent = e => {
     if (window.scrollY > 10) {
-      this.setState({ class: "header visiblenav" });
+      if (window.location.hash == "#/Work" || window.location.hash == "#/BeatBoss4") {
+        this.setState({ class: "header orangeNav" });
+      } else if (window.location.hash == "#/CozyCafe") {
+        this.setState({ class: "header pinkNav" });
+      }else if (window.location.hash == "#/BattleRun" || window.location.hash == "#/Personal") {
+        this.setState({ class: "header greenNav" });
+      }
+      
+      else {
+        this.setState({ class: "header visiblenav" });
+      }
     } else {
       this.setState({ class: "header" });
     }
@@ -37,7 +47,7 @@ class Main extends Component {
     return (
       <HashRouter>
         <Hidden smDown>
-          <ul className={`${this.state.class}`}>
+          <ul className={`${this.state.class} headerNav`}>
             <li>
               <NavLink exact to="/CozyCafe" className="sectionContentLeft">
                 <div className="centerText"> Cozy Cafe </div>

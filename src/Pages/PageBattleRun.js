@@ -256,7 +256,11 @@ class PageBattleRun extends Component {
                         <br></br> <span> ● Character Select Screen </span>
                         <br></br> <span>● Internal Test Panel </span>
                         <br></br> <span> ● Leaderboard System </span>
-                        <br></br> <span> ● Fixes and Additional Features to Existing systems</span>
+                        <br></br>{" "}
+                        <span>
+                          {" "}
+                          ● Fixes and Additional Features to Existing systems
+                        </span>
                       </a>
                       <br></br>
                       <div className="textdivider">
@@ -269,15 +273,14 @@ class PageBattleRun extends Component {
                       to enable Server Cloud Data to drive Unity Client behavior{" "}
                       <a className="shiftright">
                         <br></br> <span> ● Leaderboard System </span>
-                        <br></br> <span>● Player Values stored Server side </span>
-                     
+                        <br></br>{" "}
+                        <span>● Player Values stored Server side </span>
                       </a>
                       <br></br>
                       <div className="textdivider">
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
-                     
                       <labelWork>As a Producer</labelWork> <br />
                       <span>
                         ● Planned and executed a roadmap for launching Battle
@@ -335,6 +338,7 @@ class PageBattleRun extends Component {
                       controls={true}
                       playing={false}
                       loop={true}
+                      light={true}
                     />
                     <div className="emptySpaceFloat"></div>
 
@@ -349,8 +353,9 @@ class PageBattleRun extends Component {
                       controls={true}
                       playing={false}
                       loop={true}
+                      light={true}
                     />
-                      <div className="emptySpaceFloat"></div>
+                    <div className="emptySpaceFloat"></div>
 
                     <div className="">
                       <labelWork>Speed Pad Shader</labelWork>
@@ -363,8 +368,9 @@ class PageBattleRun extends Component {
                       controls={true}
                       playing={false}
                       loop={true}
+                      light={true}
                     />
- <div className="emptySpaceFloat"></div>
+                    <div className="emptySpaceFloat"></div>
                     <div className="">
                       <labelWork>Gacha Opening Shader</labelWork>
                     </div>
@@ -376,8 +382,8 @@ class PageBattleRun extends Component {
                       controls={true}
                       playing={false}
                       loop={true}
+                      light={true}
                     />
-
                   </Grid>
                 </Grid>
               </Grid>
