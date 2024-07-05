@@ -259,8 +259,12 @@ Super white Gray :  DFDCE7 */
   background-size: auto 100%;
   transition: ease 1s;
   background-attachment: fixed !important;
-  animation: fadeIn 2s;
+  transition: opacity 1.5s  ease-in-out;;
+  -webkit-transition: opacity 1.5s  ease-in-out;;  
+  -moz-transition: opacity 1.5s ease-in-out;   
+  opacity: 0;
 }
+
 
 .gradientBattleRun {
   background: url("./Images/work/battlerun/BattleRunSplash.png") no-repeat
@@ -268,6 +272,10 @@ Super white Gray :  DFDCE7 */
   background-size: auto 100%;
   transition: ease 1s;
   background-attachment: fixed !important;
+  transition: opacity 1.5s  ease-in-out;;
+  -webkit-transition: opacity 1.5s  ease-in-out;;  
+  -moz-transition: opacity 1.5s ease-in-out;   
+  opacity: 0;
 }
 
 .gradientBoss {
@@ -275,6 +283,10 @@ Super white Gray :  DFDCE7 */
   background-size: auto 100%;
   transition: ease 1s;
   background-attachment: fixed !important;
+  transition: opacity 1.5s  ease-in-out;;
+  -webkit-transition: opacity 1.5s  ease-in-out;;  
+  -moz-transition: opacity 1.5s ease-in-out;   
+  opacity: 0;
 }
 
 .gradientBlue {
@@ -720,7 +732,7 @@ labelBigText {
   text-align: center;
 }
 
-.imageFatHeader{
+.imageFatHeader {
   height: auto;
   width: 90%;
   display: inline-block;

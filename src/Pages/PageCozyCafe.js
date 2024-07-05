@@ -26,18 +26,12 @@ class PageCozyCafe extends Component {
     document
       .querySelector(".gradientBackground")
       .classList.add("gradientGreen");
-
-    document.querySelector(".splashBackground").classList.add("gradientCozy");
   }
 
   componentWillUnmount() {
     document
       .querySelector(".gradientBackground")
       .classList.remove("gradientGreen");
-
-    document
-      .querySelector(".splashBackground")
-      .classList.remove("gradientCozy");
   }
 
   render() {

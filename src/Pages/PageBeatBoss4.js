@@ -1,19 +1,9 @@
 import React, { Component } from "react";
-import CardAutobattler from "../Cards/CardAutobattler";
-import CardSandbox from "../Cards/CardSandbox";
 import Grid from "@material-ui/core/Grid";
 import Fade from "react-reveal/Fade";
 import Hidden from "@material-ui/core/Hidden";
-import CardReact from "../Cards/CardReact";
-import CardBeach from "../Cards/CardBeach";
-import CardFire from "../Cards/CardFire";
-import unitylogo from "../Images/landing/unity_logo.png";
-import avatar from "../Images/work/battlerun/BattleRunMain.png";
-import CardProjects from "../Cards/CardProjects";
-import battlerun from "../Images/work/battlerun/BattleRunMain.png";
-import outlink from "../Images/svg/outlink.svg";
 
-import cutehanging from "../Images/work/work/cute-hanging.png";
+import outlink from "../Images/svg/outlink.svg";
 import cozycafelogo from "../Images/work/boss4/bosslogo.png";
 
 import boss4work from "../Images/work/boss4/safe4work.jpg";
@@ -21,27 +11,17 @@ import bossrevamp from "../Images/work/boss4/bossrevamp.jpg";
 import bossweapons from "../Images/work/boss4/newWeapons.jpg";
 import bossfinisher from "../Images/work/boss4/revampExperience.jpg";
 
-import ReactPlayer from "react-player";
-
 class PageBeatBoss4 extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
     document.querySelector("body").style.background = "#af4154";
-    document
-      .querySelector(".gradientBackground")
-      .classList.add("gradientBlue");
-
-    document.querySelector(".splashBackground").classList.add("gradientBoss");
+    document.querySelector(".gradientBackground").classList.add("gradientBlue");
   }
 
   componentWillUnmount() {
     document
       .querySelector(".gradientBackground")
       .classList.remove("gradientBlue");
-
-    document
-      .querySelector(".splashBackground")
-      .classList.remove("gradientBoss");
   }
 
   render() {
@@ -76,9 +56,7 @@ class PageBeatBoss4 extends Component {
                   ></img>
                 </div>
               </Grid>
-              <Grid item sm={3} md={3} className="">
-                
-              </Grid>
+              <Grid item sm={3} md={3} className=""></Grid>
 
               <Grid item xs={12} sm={12} md={12} className="workSection">
                 <Grid
@@ -98,10 +76,7 @@ class PageBeatBoss4 extends Component {
 
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Design</div>
-                      <div class="sectionContentRight">
-                       Steven Wang
-                        
-                      </div>
+                      <div class="sectionContentRight">Steven Wang</div>
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
 
@@ -117,10 +92,7 @@ class PageBeatBoss4 extends Component {
 
                     <div class="sectionName leftText mediumText">
                       <div class="sectionContentLeft">Art</div>
-                      <div class="sectionContentRight">
-                      Desiree Moffatt
-                      
-                      </div>
+                      <div class="sectionContentRight">Desiree Moffatt</div>
                       <div class="sectionContentMiddle"> > > ></div>
                     </div>
 
@@ -171,7 +143,7 @@ class PageBeatBoss4 extends Component {
                       spacing={1}
                       className=""
                     >
-                    <Grid item xs={5} sm={5} md={5}>
+                      <Grid item xs={5} sm={5} md={5}>
                         <a
                           className="text-link"
                           href="https://play.google.com/store/apps/details?id=com.gamehivecorp.beattheboss4"
@@ -200,7 +172,6 @@ class PageBeatBoss4 extends Component {
                           </div>
                         </a>
                       </Grid>
-
                     </Grid>
 
                     <Grid
@@ -217,10 +188,13 @@ class PageBeatBoss4 extends Component {
                       </labelBigText>{" "}
                       <br />
                       <labelWork>As a Developer</labelWork> <br />
-                      <span>● Created multiple UI Elements and Panels </span> with their
-                      underlying UI/UX and logic
+                      <span>
+                        ● Created multiple UI Elements and Panels{" "}
+                      </span>{" "}
+                      with their underlying UI/UX and logic
                       <a className="shiftright">
-                      <br></br> <span> ● Main HUD overlay and HUD buttons </span>
+                        <br></br>{" "}
+                        <span> ● Main HUD overlay and HUD buttons </span>
                         <br></br> <span> ● Stage Upgrade Upgrade Menu</span>
                         <br></br> <span>● Merchandise Upgrade Menu </span>
                         <br></br> <span> ● Shop Systems and Menus</span>
@@ -243,9 +217,9 @@ class PageBeatBoss4 extends Component {
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
-                      <span>● Helped create in-game Stages
-                        </span> and multiple variants by importing / slicing sprites and using Unity's Tile map system
-                  
+                      <span>● Helped create in-game Stages</span> and multiple
+                      variants by importing / slicing sprites and using Unity's
+                      Tile map system
                       <br></br>
                       <div className="textdivider">
                         {" "}
@@ -253,42 +227,40 @@ class PageBeatBoss4 extends Component {
                       </div>
                       <labelWork>As a Producer</labelWork> <br />
                       <span>
-                        ● Organized and set initial milestones and deadlines {" "}
+                        ● Organized and set initial milestones and deadlines{" "}
                       </span>{" "}
-                      for Cozy Cafe from it's inception to global release - we released within 3 months!
+                      for Cozy Cafe from it's inception to global release - we
+                      released within 3 months!
                       <br></br>
                       <a className="shiftright">
-                        
                         <span>
                           {" "}
-                          ● Assessed and prioritized what features we needed to work on
+                          ● Assessed and prioritized what features we needed to
+                          work on
                         </span>
                         <br></br>{" "}
                         <span>
-                          ● Changed feature priority based on KPIs and designer feedback
+                          ● Changed feature priority based on KPIs and designer
+                          feedback
                         </span>
                         <br></br>{" "}
                         <span>
                           {" "}
-                          ● Released and Submitted Updates on Google and Apple App Stores
+                          ● Released and Submitted Updates on Google and Apple
+                          App Stores
                         </span>
                       </a>
-
                       <div className="textdivider">
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
-                      <span>
-                        ● Organized and created promotional slides {" "}
-                      </span>{" "}
+                      <span>● Organized and created promotional slides </span>{" "}
                       for Google, Apple and 3rd party representatives
-                      
                       <br></br>
                       <div className="textdivider">
                         {" "}
                         <div class="dot"></div>{" "}
                       </div>
-                     
                     </Grid>
                   </Grid>
 
@@ -341,7 +313,6 @@ class PageBeatBoss4 extends Component {
                     <div className="">
                       <img src={bossfinisher} className="imageFit"></img>
                     </div>
-
                   </Grid>
                 </Grid>
               </Grid>

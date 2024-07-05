@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, NavLink, HashRouter, Switch } from "react-router-dom";
+import { Route, NavLink, HashRouter, Switch, History } from "react-router-dom";
 import LandingPage from "./LandingPage";
 import Hidden from "@material-ui/core/Hidden";
 import MobileBar from "../Components/MobileBar";
@@ -17,7 +17,30 @@ import PageFire from "../Projects/ProjectFire";
 
 class Main extends Component {
   state = {
-    class: "header invisiblenav"
+    class: "header invisiblenav",
+    opacityCozy: 0,
+    opacityBattle: 0,
+    opacityBoss: 0
+  };
+
+  listenHistoryChange = e => {
+    if (window.location.hash == "#/CozyCafe") {
+      this.setState({ opacityCozy: 1 });
+    } else {
+      this.setState({ opacityCozy: 0 });
+    }
+
+    if (window.location.hash == "#/BattleRun") {
+      this.setState({ opacityBattle: 1 });
+    } else {
+      this.setState({ opacityBattle: 0 });
+    }
+
+    if (window.location.hash == "#/BeatBoss4") {
+      this.setState({ opacityBoss: 1 });
+    } else {
+      this.setState({ opacityBoss: 0 });
+    }
   };
 
   listenScrollEvent = e => {
@@ -44,6 +67,8 @@ class Main extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
     window.addEventListener("scroll", this.listenScrollEvent);
+    window.addEventListener("hashchange", this.listenHistoryChange);
+    window.addEventListener("load", this.listenHistoryChange);
   }
 
   /*
@@ -112,7 +137,18 @@ class Main extends Component {
         >
           <div className="repeatingDotPattern"></div>
           <div className="gradientBackground"></div>
-          <div className="splashBackground"></div>
+          <div
+            className="splashBackground gradientBattleRun"
+            style={{ opacity: this.state.opacityBattle }}
+          ></div>
+          <div
+            className="splashBackground gradientBoss"
+            style={{ opacity: this.state.opacityBoss }}
+          ></div>
+          <div
+            className="splashBackground gradientCozy"
+            style={{ opacity: this.state.opacityCozy }}
+          ></div>
 
           <Grid item xs={12} sm={12} md={12} className="forceHeight">
             <div className="content">

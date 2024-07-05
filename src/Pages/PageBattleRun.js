@@ -29,20 +29,12 @@ class PageBattleRun extends Component {
     document
       .querySelector(".gradientBackground")
       .classList.add("gradientGreen");
-
-    document
-      .querySelector(".landingContainer")
-      .classList.add("gradientBattleRun");
   }
 
   componentWillUnmount() {
     document
       .querySelector(".gradientBackground")
       .classList.remove("gradientGreen");
-
-    document
-      .querySelector(".landingContainer")
-      .classList.remove("gradientBattleRun");
   }
 
   render() {
