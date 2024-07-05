@@ -48,6 +48,8 @@ class LandingPage extends Component {
             </Grid>
 
             <Grid item xs={2} sm={2} md={2} className="">
+            <Fade duration={1000} delay={900}>
+            
               <div>
                 <img
                   src={avatar}
@@ -55,6 +57,7 @@ class LandingPage extends Component {
                   className="bigAvatar bigCircle centerElement"
                 />
               </div>
+              </Fade>
             </Grid>
 
             <Grid item xs={6} sm={6} md={6} className=" ">
