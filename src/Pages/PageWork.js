@@ -116,10 +116,22 @@ class PageWork extends Component {
                           </labelBigText>
                           <br></br> 2019 -> 2024{" "}
                         </Grid>
-                        <Grid item xs={12} sm={12} md={12} className="">
-                          {" "}
-                          <br></br>{" "}
+
+                        <div className="emptySpaceFloat"></div>
+
+                        <Grid
+                          item
+                          xs={12}
+                          sm={12}
+                          md={12}
+                          className="leftText mediumText section"
+                        >
+                          <b>Game Hive is a mobile game studio </b> based in Toronto.
+                          Game Hive leans towards F2P, casual and stylized games with their biggest titles being Tap Titans, Beat the Boss and Battle Run.
                         </Grid>
+
+                        <div className="emptySpaceFloat"></div>
+
                         <Grid
                           item
                           xs={12}
@@ -240,14 +252,13 @@ class PageWork extends Component {
                         </labelWork>
                       </div>
                       <div className="emptySpaceFloat"></div>
-                      
 
                       <div className="">
                         <labelWork>Idle Resturant Game </labelWork>
                       </div>
                       <CardCozy></CardCozy>
                       <div className="emptySpaceFloat"></div>
-                      
+
                       <div className="">
                         <labelWork>PVP Party Racing Game </labelWork>
                       </div>
@@ -309,10 +320,25 @@ class PageWork extends Component {
                           </labelBigText>
                           <br></br> 2016 -> 2018{" "}
                         </Grid>
-                        <Grid item xs={12} sm={12} md={12} className="">
-                          {" "}
-                          <br></br>{" "}
+
+                        <div className="emptySpaceFloat"></div>
+
+                        <Grid
+                          item
+                          xs={12}
+                          sm={12}
+                          md={12}
+                          className="leftText mediumText section"
+                        >
+                          <b>
+                            Upsight was a mobile plugin with analytics, mediated ads and
+                            website dashboard service{" "}
+                          </b>{" "}
+                          for enterprise clients. Upsight would digest data from applications and renders metrics as beautiful dashboards and also provide a database that could be queried.
                         </Grid>
+
+                        <div className="emptySpaceFloat"></div>
+
                         <Grid
                           item
                           xs={12}

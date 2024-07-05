@@ -163,11 +163,24 @@ class PageCozyCafe extends Component {
                         <labelBigText>Developer and Producer</labelBigText>
                         <br></br> 2023 -> 2024{" "}
                       </Grid>
-                      <Grid item xs={12} sm={12} md={12} className="">
-                        {" "}
-                        <br></br>{" "}
-                      </Grid>
+                      
                     </Grid>
+
+                    <div className="emptySpaceFloat"></div>
+
+                    <Grid
+                      item
+                      xs={12}
+                      sm={12}
+                      md={12}
+                      className="leftText mediumText section"
+                    >
+                    <b>Cozy Cafe is a comfy idle incremental game</b> for single players, where you will visit a variety of different restaurants and watch your growing roster of cute animal Waiters and Chefs serve delicious foods!
+                    
+                    </Grid>
+
+                    <div className="emptySpaceFloat"></div>
+
 
                     <Grid
                       container
@@ -185,7 +198,7 @@ class PageCozyCafe extends Component {
                           rel="noopener noreferrer"
                         >
                           <div className="fancyButton  smallText">
-                            Cozy Cafe <br></br>
+                            Cozy Cafe {" "}
                             <img src={outlink} className="icon"></img> <br></br>
                             Google Store
                           </div>
@@ -200,7 +213,7 @@ class PageCozyCafe extends Component {
                           rel="noopener noreferrer"
                         >
                           <div className="fancyButton  smallText">
-                            Cozy Cafe <br></br>{" "}
+                            Cozy Cafe {" "}
                             <img src={outlink} className="icon"></img> <br></br>
                             Apple Store
                           </div>

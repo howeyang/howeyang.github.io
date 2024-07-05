@@ -179,11 +179,23 @@ class PageBattleRun extends Component {
                         <labelBigText>Developer and Producer</labelBigText>
                         <br></br> 2020 -> 2023{" "}
                       </Grid>
-                      <Grid item xs={12} sm={12} md={12} className="">
-                        {" "}
-                        <br></br>{" "}
-                      </Grid>
+                      
                     </Grid>
+
+                    <div className="emptySpaceFloat"></div>
+
+                    <Grid
+                      item
+                      xs={12}
+                      sm={12}
+                      md={12}
+                      className="leftText mediumText section"
+                    >
+                      <b>Battle Run is an online PVP Party Racing game</b> for
+                      single players or with your friends! Players will race each other on a generated race track with traps and power ups in a frantic rush to the finish!
+                    </Grid>
+
+                    <div className="emptySpaceFloat"></div>
 
                     <Grid
                       container
@@ -201,7 +213,7 @@ class PageBattleRun extends Component {
                           rel="noopener noreferrer"
                         >
                           <div className="fancyButton smallText">
-                            Battle Run <br></br>{" "}
+                            Battle Run {" "}
                             <img src={outlink} className="icon"></img> <br></br>
                             Google Store
                           </div>
@@ -216,7 +228,7 @@ class PageBattleRun extends Component {
                           rel="noopener noreferrer"
                         >
                           <div className="fancyButton smallText">
-                            Battle Run <br></br>{" "}
+                            Battle Run {" "}
                             <img src={outlink} className="icon"></img> <br></br>
                             Apple Store
                           </div>

@@ -129,11 +129,22 @@ class PageBeatBoss4 extends Component {
                         <labelBigText>Developer and Producer</labelBigText>
                         <br></br> 2023 -> 2024{" "}
                       </Grid>
-                      <Grid item xs={12} sm={12} md={12} className="">
-                        {" "}
-                        <br></br>{" "}
-                      </Grid>
+                    
                     </Grid>
+
+                    <div className="emptySpaceFloat"></div>
+
+                    <Grid
+                      item
+                      xs={12}
+                      sm={12}
+                      md={12}
+                      className="leftText mediumText section"
+                    >
+                      <b>Beat the Boss 4 is a casual game</b> for a single player experience of beating up your boss / the most unlikeable people with a variety of silly weapons across multiple stages.
+                    </Grid>
+
+                    <div className="emptySpaceFloat"></div>
 
                     <Grid
                       container
@@ -151,8 +162,8 @@ class PageBeatBoss4 extends Component {
                           rel="noopener noreferrer"
                         >
                           <div className="fancyButton  smallText">
-                            Beat the Boss 4 <br></br>
-                            <img src={outlink} className="icon"></img> <br></br>
+                            Boss 4 <img src={outlink} className="icon"></img>{" "}
+                            <br></br>
                             Google Store
                           </div>
                         </a>
@@ -166,8 +177,8 @@ class PageBeatBoss4 extends Component {
                           rel="noopener noreferrer"
                         >
                           <div className="fancyButton  smallText">
-                            Beat the Boss 4 <br></br>{" "}
-                            <img src={outlink} className="icon"></img> <br></br>
+                            Boss 4 <img src={outlink} className="icon"></img>{" "}
+                            <br></br>
                             Apple Store
                           </div>
                         </a>
