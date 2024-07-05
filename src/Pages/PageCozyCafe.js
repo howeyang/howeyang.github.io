@@ -27,7 +27,7 @@ class PageCozyCafe extends Component {
       .querySelector(".gradientBackground")
       .classList.add("gradientGreen");
 
-    document.querySelector(".landingContainer").classList.add("gradientCozy");
+    document.querySelector(".splashBackground").classList.add("gradientCozy");
   }
 
   componentWillUnmount() {
@@ -36,7 +36,7 @@ class PageCozyCafe extends Component {
       .classList.remove("gradientGreen");
 
     document
-      .querySelector(".landingContainer")
+      .querySelector(".splashBackground")
       .classList.remove("gradientCozy");
   }
 
@@ -201,7 +201,7 @@ class PageCozyCafe extends Component {
                       <Grid item xs={5} sm={5} md={5}>
                         <a
                           className="text-link"
-                          href="https://apps.apple.com/us/app/cozy-cafe-animal-restaurant/id6447704854"
+                          href="https://apps.apple.com/ca/app/cozy-cafe-animal-restaurant/id6447704854"
                           target="_blank"
                           rel="noopener noreferrer"
                         >

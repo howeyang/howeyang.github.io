@@ -49,7 +49,7 @@ class CardBTB4 extends Component {
                       component="p"
                       className="cardMinHeight"
                     >
-                      <label2>Unity3D | Mobile Casual Game </label2>
+                      <label2>Unity3D | Casual Mobile Game </label2>
                       <div className="secondaryText">
                         Role: Developer and Producer<br></br>
                         Updating a Legacy title with new Content

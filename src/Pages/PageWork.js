@@ -239,11 +239,23 @@ class PageWork extends Component {
                           Click the respective card for info!<br></br>
                         </labelWork>
                       </div>
-                      <br></br>
+                      <div className="emptySpaceFloat"></div>
+                      
+
+                      <div className="">
+                        <labelWork>Idle Resturant Game </labelWork>
+                      </div>
                       <CardCozy></CardCozy>
-                      <br></br>
+                      <div className="emptySpaceFloat"></div>
+                      
+                      <div className="">
+                        <labelWork>PVP Party Racing Game </labelWork>
+                      </div>
                       <CardBattleRun></CardBattleRun>
-                      <br></br>
+                      <div className="emptySpaceFloat"></div>
+                      <div className="">
+                        <labelWork>Casual Game </labelWork>
+                      </div>
                       <CardBTB4></CardBTB4>
                     </Grid>
                   </Grid>

@@ -139,6 +139,24 @@ Super white Gray :  DFDCE7 */
   z-index: -1;
 }
 
+.splashBackground {
+  position: fixed;
+  width: 200vw;
+  height: 200vh;
+  background-attachment: fixed;
+  transition: all 0.5s ease;
+  z-index: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @keyframes movingDots {
   0% {
     background-position: 0% 0%;
@@ -227,8 +245,12 @@ Super white Gray :  DFDCE7 */
   background: linear-gradient(
     to bottom,
     rgba(0, 166, 255, 0),
-    rgb(194, 255, 217)
+    rgb(66, 255, 138)
   );
+}
+
+.gradientBlue {
+  background: linear-gradient(to bottom, rgba(0, 166, 255, 0), #045e96);
 }
 
 .gradientCozy {
@@ -237,6 +259,7 @@ Super white Gray :  DFDCE7 */
   background-size: auto 100%;
   transition: ease 1s;
   background-attachment: fixed !important;
+  animation: fadeIn 2s;
 }
 
 .gradientBattleRun {
@@ -247,7 +270,12 @@ Super white Gray :  DFDCE7 */
   background-attachment: fixed !important;
 }
 
-
+.gradientBoss {
+  background: url("./Images/work/boss4/boss4.png") no-repeat center center;
+  background-size: auto 100%;
+  transition: ease 1s;
+  background-attachment: fixed !important;
+}
 
 .gradientBlue {
   background: linear-gradient(to bottom, rgba(77, 182, 172, 0), #007abb);
@@ -339,7 +367,7 @@ Super white Gray :  DFDCE7 */
 /* Landing */
 
 .bigAvatar {
-  width: 90%;
+  width: auto;
   height: 90%;
   padding: 5px;
 }
@@ -659,8 +687,8 @@ labelBigText {
   min-height: 80px;
 }
 
-.noMargin{
-margin :0 !important;
+.noMargin {
+  margin: 0 !important;
 }
 
 /* Work Section */
@@ -688,10 +716,21 @@ margin :0 !important;
   display: inline-block;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 10px;
   text-align: center;
 }
 
-.cuteHeader{
+.imageFatHeader{
+  height: auto;
+  width: 90%;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.cuteHeader {
   height: 100px;
   width: auto;
   display: inline-block;
@@ -722,11 +761,11 @@ margin :0 !important;
 
 .cutehangingPosition {
   position: relative;
-  top: 27px;
+  top: 33px;
   left: 0%;
 }
 
-.runhangingPosition{
+.runhangingPosition {
   position: relative;
   top: -10%;
   left: 0%;
@@ -877,6 +916,11 @@ ul.header {
   padding-bottom: 5px !important;
 }
 
+.redNav {
+  background-color: #af4154;
+  padding-bottom: 5px !important;
+}
+
 .headerPadding {
   height: 80px !important;
 }
@@ -910,10 +954,9 @@ ul.header {
 }
 
 ul {
-  
 }
 
-.headerNav{
+.headerNav {
   -webkit-transition: ease 1s; /* For Safari 3.0 to 6.0 */
   transition: ease 1s; /* For modern browsers */
 }

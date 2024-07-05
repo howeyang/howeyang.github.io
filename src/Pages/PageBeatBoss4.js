@@ -14,30 +14,34 @@ import battlerun from "../Images/work/battlerun/BattleRunMain.png";
 import outlink from "../Images/svg/outlink.svg";
 
 import cutehanging from "../Images/work/work/cute-hanging.png";
-import cozycafelogo from "../Images/work/cozycafe/cozycafe_logo.png";
-import cozycafe_vertical from "../Images/work/cozycafe/cozycafe_vertical.png";
+import cozycafelogo from "../Images/work/boss4/bosslogo.png";
+
+import boss4work from "../Images/work/boss4/safe4work.jpg";
+import bossrevamp from "../Images/work/boss4/bossrevamp.jpg";
+import bossweapons from "../Images/work/boss4/newWeapons.jpg";
+import bossfinisher from "../Images/work/boss4/revampExperience.jpg";
 
 import ReactPlayer from "react-player";
 
 class PageBeatBoss4 extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
-    document.querySelector("body").style.background = "#ed81a1";
+    document.querySelector("body").style.background = "#af4154";
     document
       .querySelector(".gradientBackground")
-      .classList.add("gradientGreen");
+      .classList.add("gradientBlue");
 
-    document.querySelector(".landingContainer").classList.add("gradientCozy");
+    document.querySelector(".splashBackground").classList.add("gradientBoss");
   }
 
   componentWillUnmount() {
     document
       .querySelector(".gradientBackground")
-      .classList.remove("gradientGreen");
+      .classList.remove("gradientBlue");
 
     document
-      .querySelector(".landingContainer")
-      .classList.remove("gradientCozy");
+      .querySelector(".splashBackground")
+      .classList.remove("gradientBoss");
   }
 
   render() {
@@ -68,17 +72,12 @@ class PageBeatBoss4 extends Component {
                 <div className="imageContainer">
                   <img
                     src={cozycafelogo}
-                    className="imageHeader centerElement"
+                    className="imageFatHeader centerElement"
                   ></img>
                 </div>
               </Grid>
               <Grid item sm={3} md={3} className="">
-                <div className="imageContainer">
-                  <img
-                    src={cutehanging}
-                    className="imageHeader cutehangingPosition"
-                  ></img>
-                </div>
+                
               </Grid>
 
               <Grid item xs={12} sm={12} md={12} className="workSection">
@@ -172,33 +171,36 @@ class PageBeatBoss4 extends Component {
                       spacing={1}
                       className=""
                     >
-                      <Grid item xs={5} sm={5} md={5}>
-                        <div className="fancyButton workSubtitle">
-                          <a
-                            className="text-link"
-                            href="https://play.google.com/store/apps/details?id=com.gamehivecorp.idlecafe"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Cozy Cafe <img src={outlink} className="icon"></img>{" "}
-                            <br></br>Google Play Store
-                          </a>
-                        </div>
+                    <Grid item xs={5} sm={5} md={5}>
+                        <a
+                          className="text-link"
+                          href="https://play.google.com/store/apps/details?id=com.gamehivecorp.beattheboss4"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <div className="fancyButton  smallText">
+                            Beat the Boss 4 <br></br>
+                            <img src={outlink} className="icon"></img> <br></br>
+                            Google Store
+                          </div>
+                        </a>
                       </Grid>
 
                       <Grid item xs={5} sm={5} md={5}>
-                        <div className="fancyButton workSubtitle">
-                          <a
-                            className="text-link"
-                            href="https://apps.apple.com/us/app/cozy-cafe-animal-restaurant/id6447704854"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Cozy Cafe <img src={outlink} className="icon"></img>{" "}
-                            <br></br>Apple App Store
-                          </a>
-                        </div>
+                        <a
+                          className="text-link"
+                          href="https://apps.apple.com/ca/app/beat-the-boss-4-stress-relief/id1034018838"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <div className="fancyButton  smallText">
+                            Beat the Boss 4 <br></br>{" "}
+                            <img src={outlink} className="icon"></img> <br></br>
+                            Apple Store
+                          </div>
+                        </a>
                       </Grid>
+
                     </Grid>
 
                     <Grid
@@ -296,46 +298,50 @@ class PageBeatBoss4 extends Component {
                         Screenshots! <br></br>
                       </labelBigText>
                     </div>
+
                     <div className="">
                       <labelWork>
-                        Comfy Cute Idle Incremental<br></br>
+                        Updated Visuals<br></br>
                       </labelWork>
                     </div>
 
-                    <div className="imageContainer">
-                      <img src={cozycafe_vertical} className="imageFit"></img>
+                    <div className="">
+                      <img src={boss4work} className="imageFit"></img>
+                    </div>
+                    <div className="emptySpaceFloat"></div>
+
+                    <div className="">
+                      <labelWork>
+                        Spin Off Titles<br></br>
+                      </labelWork>
                     </div>
 
-                    <br></br>
-                  </Grid>
+                    <div className="">
+                      <img src={bossrevamp} className="imageFit"></img>
+                    </div>
+                    <div className="emptySpaceFloat"></div>
 
-                  <Grid
-                    container
-                    direction="row"
-                    justifyContent="center"
-                    alignItems="stretch"
-                    spacing={2}
-                    className=""
-                  >
-                    <Grid item xs={12} sm={5} md={5} className="">
-                      <ReactPlayer
-                        url="./Videos/BoxOpen.mp4"
-                        width="100%"
-                        height="600px"
-                        controls={true}
-                        playing={false}
-                      />
-                    </Grid>
+                    <div className="">
+                      <labelWork>
+                        Updated Weapons from the Past<br></br>
+                      </labelWork>
+                    </div>
 
-                    <Grid item xs={12} sm={5} md={5} className="">
-                      <ReactPlayer
-                        url="./Videos/EventStage.mp4"
-                        width="100%"
-                        height="600px"
-                        controls={true}
-                        playing={false}
-                      />
-                    </Grid>
+                    <div className="">
+                      <img src={bossweapons} className="imageFit"></img>
+                    </div>
+                    <div className="emptySpaceFloat"></div>
+
+                    <div className="">
+                      <labelWork>
+                        Revamp User Experience<br></br>
+                      </labelWork>
+                    </div>
+
+                    <div className="">
+                      <img src={bossfinisher} className="imageFit"></img>
+                    </div>
+
                   </Grid>
                 </Grid>
               </Grid>

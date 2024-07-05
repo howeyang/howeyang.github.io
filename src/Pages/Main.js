@@ -22,15 +22,18 @@ class Main extends Component {
 
   listenScrollEvent = e => {
     if (window.scrollY > 10) {
-      if (window.location.hash == "#/Work" || window.location.hash == "#/BeatBoss4") {
+      if (window.location.hash == "#/Work") {
         this.setState({ class: "header orangeNav" });
       } else if (window.location.hash == "#/CozyCafe") {
         this.setState({ class: "header pinkNav" });
-      }else if (window.location.hash == "#/BattleRun" || window.location.hash == "#/Personal") {
+      } else if (window.location.hash == "#/BeatBoss4") {
+        this.setState({ class: "header redNav" });
+      } else if (
+        window.location.hash == "#/BattleRun" ||
+        window.location.hash == "#/Personal"
+      ) {
         this.setState({ class: "header greenNav" });
-      }
-      
-      else {
+      } else {
         this.setState({ class: "header visiblenav" });
       }
     } else {
@@ -43,6 +46,13 @@ class Main extends Component {
     window.addEventListener("scroll", this.listenScrollEvent);
   }
 
+  /*
+          <li className="sectionContentRight">
+              <NavLink to="/Resume" className="">
+                <div className="centerText"> Resume </div>
+              </NavLink>
+            </li>
+  */
   render() {
     return (
       <HashRouter>
@@ -59,9 +69,9 @@ class Main extends Component {
               </NavLink>
             </li>
 
-            <li className="sectionContentRight">
-              <NavLink to="/Resume" className="">
-                <div className="centerText"> Resume </div>
+            <li>
+              <NavLink to="/BeatBoss4" className="sectionContentLeft">
+                <div className="centerText"> Boss 4 </div>
               </NavLink>
             </li>
 
@@ -102,6 +112,7 @@ class Main extends Component {
         >
           <div className="repeatingDotPattern"></div>
           <div className="gradientBackground"></div>
+          <div className="splashBackground"></div>
 
           <Grid item xs={12} sm={12} md={12} className="forceHeight">
             <div className="content">
