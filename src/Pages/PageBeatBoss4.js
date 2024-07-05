@@ -48,7 +48,7 @@ class PageBeatBoss4 extends Component {
               className="centerElement"
             >
               <Grid item sm={3} md={3} className=""></Grid>
-              <Grid item sm={4} md={4} className="workHeaderSection2">
+              <Grid item sm={6} md={4} className="workHeaderSection2">
                 <div className="imageContainer">
                   <img
                     src={cozycafelogo}
@@ -127,7 +127,7 @@ class PageBeatBoss4 extends Component {
                         className="workSubtitle"
                       >
                         <labelBigText>Developer and Producer</labelBigText>
-                        <br></br> 2023 -> 2024{" "}
+                        <br></br> 2020{" "}
                       </Grid>
                     
                     </Grid>

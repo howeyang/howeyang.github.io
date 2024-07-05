@@ -83,38 +83,39 @@ class Main extends Component {
       <HashRouter>
         <Hidden smDown>
           <ul className={`${this.state.class} headerNav`}>
-            <li>
-              <NavLink exact to="/CozyCafe" className="sectionContentLeft">
-                <div className="centerText"> Cozy Cafe </div>
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/BattleRun" className="sectionContentLeft">
-                <div className="centerText"> Battle Run </div>
+            <li className="sectionContentLeft">
+              <NavLink exact to="/">
+                <div className="centerText"> Home </div>
               </NavLink>
             </li>
 
-            <li>
-              <NavLink to="/BeatBoss4" className="sectionContentLeft">
-                <div className="centerText"> Boss 4 </div>
-              </NavLink>
-            </li>
-
-            <li className="sectionContentRight">
-              <NavLink to="/Personal" className="">
-                <div className="centerText"> Personal </div>
-              </NavLink>
-            </li>
-
-            <li className="sectionContentRight">
+            <li className="sectionContentLeft">
               <NavLink to="/Work" className="">
                 <div className="centerText"> Experience </div>
               </NavLink>
             </li>
 
+            <li className="sectionContentLeft">
+              <NavLink to="/Personal" className="">
+                <div className="centerText"> Personal </div>
+              </NavLink>
+            </li>
+
+            <li  className="sectionContentRight">
+              <NavLink to="/BeatBoss4">
+                <div className="centerText"> Boss 4 </div>
+              </NavLink>
+            </li>
+
             <li className="sectionContentRight">
-              <NavLink exact to="/">
-                <div className="centerText"> Home </div>
+              <NavLink to="/BattleRun" >
+                <div className="centerText"> Battle Run </div>
+              </NavLink>
+            </li>
+
+            <li className="sectionContentRight">
+              <NavLink exact to="/CozyCafe" >
+                <div className="centerText"> Cozy Cafe </div>
               </NavLink>
             </li>
 
@@ -156,7 +157,7 @@ class Main extends Component {
                 <Route exact path="/" component={LandingPage} />
                 <Route exact path="/Work" component={PageWork} />
                 <Route exact path="/Personal" component={PagePersonal} />
-                <Route exact path="/Resume" component={PageResume} />
+
                 <Route exact path="/BattleRun" component={PageBattleRun} />
                 <Route exact path="/CozyCafe" component={PageCozyCafe} />
                 <Route exact path="/BeatBoss4" component={PageBeatBoss4} />
@@ -175,3 +176,43 @@ class Main extends Component {
 }
 
 export default Main;
+
+/* Old Nav Set up
+
+ <li>
+              <NavLink exact to="/CozyCafe" className="sectionContentLeft">
+                <div className="centerText"> Cozy Cafe </div>
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/BattleRun" className="sectionContentLeft">
+                <div className="centerText"> Battle Run </div>
+              </NavLink>
+            </li>
+
+            <li>
+              <NavLink to="/BeatBoss4" className="sectionContentLeft">
+                <div className="centerText"> Boss 4 </div>
+              </NavLink>
+            </li>
+
+            <li className="sectionContentRight">
+              <NavLink to="/Personal" className="">
+                <div className="centerText"> Personal </div>
+              </NavLink>
+            </li>
+
+            <li className="sectionContentRight">
+              <NavLink to="/Work" className="">
+                <div className="centerText"> Experience </div>
+              </NavLink>
+            </li>
+
+            <li className="sectionContentRight">
+              <NavLink exact to="/">
+                <div className="centerText"> Home </div>
+              </NavLink>
+            </li>
+
+
+*/

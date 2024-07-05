@@ -68,7 +68,7 @@ class PageBattleRun extends Component {
                   ></img>
                 </div>
               </Grid>
-              <Grid item sm={4} md={4} className="workHeaderSection2">
+              <Grid item sm={6} md={4} className="workHeaderSection2">
                 <div className="imageContainer">
                   <img src={logo} className="imageHeader centerElement"></img>
                 </div>

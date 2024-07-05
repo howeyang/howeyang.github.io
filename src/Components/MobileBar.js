@@ -17,6 +17,9 @@ class MobileBar extends Component {
     this.redirectHome = this.redirectHome.bind(this);
     this.redirectAbout = this.redirectAbout.bind(this);
     this.redirectContact = this.redirectContact.bind(this);
+    this.redirectCozy = this.redirectCozy.bind(this);
+    this.redirectBattle = this.redirectBattle.bind(this);
+    this.redirectBoss = this.redirectBoss.bind(this);
   }
 
   redirectHome() {
@@ -42,6 +45,27 @@ class MobileBar extends Component {
 
   redirectContact() {
     this.props.history.push("/Resume");
+    this.setState((state) => ({
+      active: !state.active,
+    }));
+  }
+
+  redirectCozy() {
+    this.props.history.push("/CozyCafe");
+    this.setState((state) => ({
+      active: !state.active,
+    }));
+  }
+
+  redirectBattle() {
+    this.props.history.push("/BattleRun");
+    this.setState((state) => ({
+      active: !state.active,
+    }));
+  }
+
+  redirectBoss() {
+    this.props.history.push("/BeatBoss4");
     this.setState((state) => ({
       active: !state.active,
     }));
@@ -148,9 +172,53 @@ class MobileBar extends Component {
               <li>
                 <a
                   className={this.state.active ? "menubutton active" : "hidden"}
-                  onClick={this.redirectContact}
+                  onClick={this.redirectCozy}
                 >
-                  Resume
+                  Work - Cozy Cafe
+                </a>
+              </li>
+            </ul>
+          </Fade>
+
+          <Fade
+            collapse
+            when={this.state.active}
+            duration={900}
+            key={4 + this.state.active}
+          >
+            <ul
+              className={
+                this.state.active ? "header top6 visiblenav centerText" : "hidden"
+              }
+            >
+              <li>
+                <a
+                  className={this.state.active ? "menubutton active" : "hidden"}
+                  onClick={this.redirectBattle}
+                >
+                  Work - Battle Run
+                </a>
+              </li>
+            </ul>
+          </Fade>
+
+          <Fade
+            collapse
+            when={this.state.active}
+            duration={900}
+            key={4 + this.state.active}
+          >
+            <ul
+              className={
+                this.state.active ? "header top7 visiblenav centerText" : "hidden"
+              }
+            >
+              <li>
+                <a
+                  className={this.state.active ? "menubutton active" : "hidden"}
+                  onClick={this.redirectBoss}
+                >
+                  Work - Beat the Boss 4
                 </a>
               </li>
             </ul>

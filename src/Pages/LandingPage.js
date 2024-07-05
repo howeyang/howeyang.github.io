@@ -80,7 +80,6 @@ class LandingPage extends Component {
                           great!
                         </p>
 
-                        <p></p>
                         <a
                           className="text-link"
                           href="https://uwaterloo.ca/"
