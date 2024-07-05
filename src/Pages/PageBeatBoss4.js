@@ -129,7 +129,6 @@ class PageBeatBoss4 extends Component {
                         <labelBigText>Developer and Producer</labelBigText>
                         <br></br> 2020{" "}
                       </Grid>
-                    
                     </Grid>
 
                     <div className="emptySpaceFloat"></div>
@@ -141,7 +140,10 @@ class PageBeatBoss4 extends Component {
                       md={12}
                       className="leftText mediumText section"
                     >
-                      <b>Beat the Boss 4 is a casual game</b> for a single player experience of beating up your boss / the most unlikeable people with a variety of silly weapons across multiple stages.
+                      <b>Beat the Boss 4 is a casual game</b> for a single
+                      player experience of beating up your boss / the most
+                      unlikeable people with a variety of silly weapons across
+                      multiple stages.
                     </Grid>
 
                     <div className="emptySpaceFloat"></div>
@@ -199,38 +201,41 @@ class PageBeatBoss4 extends Component {
                       </labelBigText>{" "}
                       <br />
                       <labelWork>As a Developer</labelWork> <br />
+                      <span>● Updated legacy code </span> - added new features
+                      and fixed old bugs
+                      <a className="shiftright">
+                        <br></br> <span> ● Added new Weapons </span>
+                        <br></br>{" "}
+                        <span> ● Added new Panels and UI Elements</span>
+                      </a>
+                      <br></br>
+                      <div className="textdivider">
+                        {" "}
+                        <div class="dot"></div>{" "}
+                      </div>
+                      <span>● Launched two spin off titles</span> by refactoring
+                      the underlying game{" "}
+                      <a className="shiftright">
+                        <br></br>{" "}
+                        <span>
+                          {" "}
+                          ● Rehauled Visuals and UI for an updated User
+                          Experience
+                        </span>
+                        <br></br>{" "}
+                        <span>
+                          ● Added up to date Testing Tools / Internal tools{" "}
+                        </span>
+                      </a>
+                      <br></br>
+                      <div className="textdivider">
+                        {" "}
+                        <div class="dot"></div>{" "}
+                      </div>
                       <span>
-                        ● Created multiple UI Elements and Panels{" "}
+                        ● Updated legacy SDKs and plugins to newer versions{" "}
                       </span>{" "}
-                      with their underlying UI/UX and logic
-                      <a className="shiftright">
-                        <br></br>{" "}
-                        <span> ● Main HUD overlay and HUD buttons </span>
-                        <br></br> <span> ● Stage Upgrade Upgrade Menu</span>
-                        <br></br> <span>● Merchandise Upgrade Menu </span>
-                        <br></br> <span> ● Shop Systems and Menus</span>
-                      </a>
-                      <br></br>
-                      <div className="textdivider">
-                        {" "}
-                        <div class="dot"></div>{" "}
-                      </div>
-                      <span>● Created multiple User Experience sequences </span>{" "}
-                      to improve player immersion and experience{" "}
-                      <a className="shiftright">
-                        <br></br> <span> ● Stage Transition to Next Stage</span>
-                        <br></br> <span>● Opening Loot Box Sequence </span>
-                        <br></br>{" "}
-                        <span> ● Initial Loading Screen to Main Game</span>
-                      </a>
-                      <br></br>
-                      <div className="textdivider">
-                        {" "}
-                        <div class="dot"></div>{" "}
-                      </div>
-                      <span>● Helped create in-game Stages</span> and multiple
-                      variants by importing / slicing sprites and using Unity's
-                      Tile map system
+                      such as Ad SDKs and Analytics SDKs
                       <br></br>
                       <div className="textdivider">
                         {" "}
@@ -240,8 +245,7 @@ class PageBeatBoss4 extends Component {
                       <span>
                         ● Organized and set initial milestones and deadlines{" "}
                       </span>{" "}
-                      for Cozy Cafe from it's inception to global release - we
-                      released within 3 months!
+                      for Beat the Boss 4 and it's spin off titles
                       <br></br>
                       <a className="shiftright">
                         <span>
@@ -261,17 +265,7 @@ class PageBeatBoss4 extends Component {
                           App Stores
                         </span>
                       </a>
-                      <div className="textdivider">
-                        {" "}
-                        <div class="dot"></div>{" "}
-                      </div>
-                      <span>● Organized and created promotional slides </span>{" "}
-                      for Google, Apple and 3rd party representatives
-                      <br></br>
-                      <div className="textdivider">
-                        {" "}
-                        <div class="dot"></div>{" "}
-                      </div>
+                     
                     </Grid>
                   </Grid>
 
