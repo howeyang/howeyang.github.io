@@ -265,7 +265,6 @@ class PageBeatBoss4 extends Component {
                           App Stores
                         </span>
                       </a>
-                     
                     </Grid>
                   </Grid>
 
@@ -300,7 +299,7 @@ class PageBeatBoss4 extends Component {
 
                     <div className="">
                       <labelWork>
-                        Updated Weapons from the Past<br></br>
+                        New Weapons<br></br>
                       </labelWork>
                     </div>
 
