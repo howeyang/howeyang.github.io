@@ -280,7 +280,7 @@ class PageBattleRun extends Component {
                         <br></br> <span> ● Speed Pad Shader </span>
                         <br></br> <span>● Gacha Opening Box Shader </span>
                         <br></br>
-                        <span>● UI Element Shaders - Shine / Rotation </span>
+                        <span>● Various UI Element Shaders  </span> - Glow / Shine / Rotation
                       </a>
                       <br></br>
                       <div className="textdivider">
