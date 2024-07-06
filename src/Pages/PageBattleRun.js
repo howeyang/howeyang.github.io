@@ -273,6 +273,21 @@ class PageBattleRun extends Component {
                         <div class="dot"></div>{" "}
                       </div>
                       <span>
+                        ● Created custom Shaders in HLSL throughout the game{" "}
+                      </span>{" "}
+                      for efficient visual effects{" "}
+                      <a className="shiftright">
+                        <br></br> <span> ● Speed Pad Shader </span>
+                        <br></br> <span>● Gacha Opening Box Shader </span>
+                        <br></br>
+                        <span>● UI Element Shaders - Shine / Rotation </span>
+                      </a>
+                      <br></br>
+                      <div className="textdivider">
+                        {" "}
+                        <div class="dot"></div>{" "}
+                      </div>
+                      <span>
                         ● Integrated with a Server Rest API with Client{" "}
                       </span>{" "}
                       to enable Server Cloud Data to drive Unity Client behavior{" "}
