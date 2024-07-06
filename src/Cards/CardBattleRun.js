@@ -31,7 +31,7 @@ class CardBattleRun extends Component {
                   <CardMedia
                     className="card"
                     image={require("../Images/card/card-battlerun.png")}
-                    title="Irasshaimase!"
+                    title="Gotta go Fast"
                   />
 
                   <CardContent>

@@ -334,7 +334,7 @@ class PageWork extends Component {
                             Upsight was a mobile plugin with analytics, mediated ads and
                             website dashboard service{" "}
                           </b>{" "}
-                          for enterprise clients. Upsight would digest data from applications and renders metrics as beautiful dashboards and also provide a database that could be queried.
+                          for enterprise clients. Upsight would digest data from applications and renders metrics as beautiful dashboards and also provide a queryable Big Data database.
                         </Grid>
 
                         <div className="emptySpaceFloat"></div>

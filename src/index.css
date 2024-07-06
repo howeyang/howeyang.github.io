@@ -381,14 +381,18 @@ Super white Gray :  DFDCE7 */
 .bigAvatar {
   width: auto;
   height: 90%;
-  padding: 5px;
+  padding: 4px;
 }
 
 .bigCircle {
-  background: #0079bb51;
+  background: #003e42;
+  border: 0px solid #003e42;
+  border-radius: 30px;
+  width: fit-content;
+  color: #003e42;
   border-radius: 50%;
-  width: 90%;
-  height: 90%;
+  width: 85%;
+  height: 85%;
   z-index: 0;
   position: relative;
 }

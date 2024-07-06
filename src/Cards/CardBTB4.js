@@ -31,7 +31,7 @@ class CardBTB4 extends Component {
                   <CardMedia
                     className="card"
                     image={require("../Images/splash/Splash_BTB4.jpg")}
-                    title="Irasshaimase!"
+                    title="Boom! Bang! Pow!"
                   />
 
                   <CardContent>

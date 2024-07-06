@@ -49,7 +49,8 @@ class ProjectBeachWave extends Component {
                 className="workHeaderSection workSubtitle"
               >
                 <labelBigText>Beach Water Shader</labelBigText>
-                <br></br> Completed in 2019{" "}
+                <br></br> Written in HLSL Shader Script <br></br> Completed in
+                2019{" "}
               </Grid>
               <Grid item sm={3} md={3} className=""></Grid>
               <Grid item xs={12} sm={12} md={12} className="workSection">

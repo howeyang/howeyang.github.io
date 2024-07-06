@@ -49,7 +49,7 @@ class Main extends Component {
         this.setState({ class: "header orangeNav" });
       } else if (window.location.hash == "#/CozyCafe") {
         this.setState({ class: "header pinkNav" });
-      } else if (window.location.hash == "#/BeatBoss4") {
+      } else if (window.location.hash == "#/BeatBoss4" || window.location.hash == "#/PageFire") {
         this.setState({ class: "header redNav" });
       } else if (
         window.location.hash == "#/BattleRun" ||
