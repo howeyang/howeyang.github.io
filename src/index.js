@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'video-react/dist/video-react.css';
 import BackgroundVideo from './Components/BackgroundVideo';
 import App from './Pages/Main';
 import * as serviceWorker from './Components/serviceWorker';

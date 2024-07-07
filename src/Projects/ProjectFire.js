@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
 import Fade from "react-reveal/Fade";
-import ReactPlayer from "react-player";
+
+import { Player } from "video-react";
+import thumbfire1 from "../Images/Thumbnails/ThumbFire1.png";
+import thumbfire2 from "../Images/Thumbnails/ThumbFire2.png";
 
 class ProjectFire extends Component {
   componentDidMount() {
@@ -155,14 +158,12 @@ class ProjectFire extends Component {
                       <labelWork>Completed Shader</labelWork>
                     </div>
 
-                    <ReactPlayer
-                      url="./fire/firevideo.mp4"
-                      width="100%"
-                      height="auto"
-                      controls={true}
-                      playing={false}
+                    <Player
+                      poster={thumbfire1}
+                      src="./fire/firevideo.mp4"
+                      preload={"none"}
+                      muted={true}
                       loop={true}
-                      light={false}
                     />
 
                     <div className="emptySpaceFloat"></div>
@@ -171,16 +172,13 @@ class ProjectFire extends Component {
                       <labelWork>Progress Over Time</labelWork>
                     </div>
 
-                    <ReactPlayer
-                      url="./fire/fire_side_x_side.mp4"
-                      width="100%"
-                      height="auto"
-                      controls={true}
-                      playing={false}
+                    <Player
+                      poster={thumbfire2}
+                      src="./fire/fire_side_x_side.mp4"
+                      preload={"none"}
+                      muted={true}
                       loop={true}
-                      light={false}
                     />
-                    <div className="emptySpaceFloat"></div>
                   </Grid>
                 </Grid>
               </Grid>

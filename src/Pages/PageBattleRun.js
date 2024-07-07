@@ -20,7 +20,12 @@ import maciejump from "../Images/work/battlerun/MacieJump.png";
 import logo from "../Images/logo/gamehive-battlerun.png";
 import cozycafe_vertical from "../Images/work/cozycafe/cozycafe_vertical.png";
 
-import ReactPlayer from "react-player";
+import thumbleader from "../Images/Thumbnails/ThumbLeader.png";
+import thumblanding from "../Images/Thumbnails/ThumbLanding.png";
+import thumbspeed from "../Images/Thumbnails/ThumbSpeed.png";
+import thumbgacha from "../Images/Thumbnails/ThumbGacha.png";
+
+import { Player } from "video-react";
 
 class PageBattleRun extends Component {
   componentDidMount() {
@@ -352,57 +357,56 @@ class PageBattleRun extends Component {
                       <labelWork>Landing Page HUD</labelWork>
                     </div>
 
-                    <ReactPlayer
-                      url="./landingpage.mp4"
-                      width="100%"
-                      height="auto"
-                      controls={true}
-                      playing={false}
-                      loop={true}
+                    <Player 
+                    poster={thumblanding} 
+                    src="./landingpage.mp4"
+                    preload={"none"}
+                    muted={true}
+                    loop={true}
                     />
+                    
                     <div className="emptySpaceFloat"></div>
 
                     <div className="">
                       <labelWork>Leaderboard and Test Menu</labelWork>
                     </div>
 
-                    <ReactPlayer
-                      url="./Videos/Leaderboard.mp4"
-                      width="100%"
-                      height="auto"
-                      controls={true}
-                      playing={false}
-                      loop={true}
-                    
-                      
+                    <Player 
+                    poster={thumbleader} 
+                    src="./Videos/Leaderboard.mp4"
+                    preload={"none"}
+                    muted={true}
+                    loop={true}
                     />
+
                     <div className="emptySpaceFloat"></div>
 
                     <div className="">
                       <labelWork>Speed Pad Shader</labelWork>
                     </div>
 
-                    <ReactPlayer
-                      url="./speedshader.mp4"
-                      width="100%"
-                      height="auto"
-                      controls={true}
-                      playing={false}
-                      loop={true}
+                    <Player 
+                    poster={thumbspeed} 
+                    src="./speedshader.mp4"
+                    preload={"none"}
+                    muted={true}
+                    loop={true}
                     />
+
+                    
                     <div className="emptySpaceFloat"></div>
                     <div className="">
                       <labelWork>Gacha Opening Shader</labelWork>
                     </div>
 
-                    <ReactPlayer
-                      url="./Videos/GachaShader.mp4"
-                      width="100%"
-                      height="auto"
-                      controls={true}
-                      playing={false}
-                      loop={true}
+                    <Player 
+                    poster={thumbgacha} 
+                    src="./Videos/GachaShader.mp4"
+                    preload={"none"}
+                    muted={true}
+                    loop={true}
                     />
+
                   </Grid>
                 </Grid>
               </Grid>

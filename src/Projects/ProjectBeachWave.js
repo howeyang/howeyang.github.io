@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
 import Fade from "react-reveal/Fade";
-import ReactPlayer from "react-player";
+
+import { Player } from "video-react";
+import thumbwave from "../Images/Thumbnails/ThumbWave.png";
+import thumbbreakdown from "../Images/Thumbnails/ThumbBreakdown.png";
 
 class ProjectBeachWave extends Component {
   componentDidMount() {
@@ -212,31 +215,27 @@ class ProjectBeachWave extends Component {
                       <labelWork>Completed Shader</labelWork>
                     </div>
 
-                    <ReactPlayer
-                      url="./target2.mp4"
-                      width="100%"
-                      height="auto"
-                      controls={true}
-                      playing={false}
+                    <Player
+                      poster={thumbwave}
+                      src="./target2.mp4"
+                      preload={"none"}
+                      muted={true}
                       loop={true}
-                      light={false}
                     />
+
                     <div className="emptySpaceFloat"></div>
 
                     <div className="">
                       <labelWork>Layering Effects</labelWork>
                     </div>
 
-                    <ReactPlayer
-                      url="./breakdown.mp4"
-                      width="100%"
-                      height="auto"
-                      controls={true}
-                      playing={false}
+                    <Player
+                      poster={thumbbreakdown}
+                      src="./breakdown.mp4"
+                      preload={"none"}
+                      muted={true}
                       loop={true}
-                      light={false}
                     />
-                    <div className="emptySpaceFloat"></div>
                   </Grid>
                 </Grid>
               </Grid>

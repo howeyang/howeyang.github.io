@@ -17,7 +17,9 @@ import cutehanging from "../Images/work/work/cute-hanging.png";
 import cozycafelogo from "../Images/work/cozycafe/cozycafe_logo.png";
 import cozycafe_vertical from "../Images/work/cozycafe/cozycafe_vertical.png";
 
-import ReactPlayer from "react-player";
+import { Player } from "video-react";
+import thumbcozy1 from "../Images/Thumbnails/ThumbCozy1.png";
+import thumbcozy2 from "../Images/Thumbnails/ThumbCozy2.png";
 
 class PageCozyCafe extends Component {
   componentDidMount() {
@@ -163,7 +165,6 @@ class PageCozyCafe extends Component {
                         <labelBigText>Developer and Producer</labelBigText>
                         <br></br> 2023 -> 2024{" "}
                       </Grid>
-                      
                     </Grid>
 
                     <div className="emptySpaceFloat"></div>
@@ -175,12 +176,13 @@ class PageCozyCafe extends Component {
                       md={12}
                       className="leftText mediumText section"
                     >
-                    <b>Cozy Cafe is a comfy idle incremental game</b> for single players, where you will visit a variety of different restaurants and watch your growing roster of cute animal Waiters and Chefs serve delicious foods!
-                    
+                      <b>Cozy Cafe is a comfy idle incremental game</b> for
+                      single players, where you will visit a variety of
+                      different restaurants and watch your growing roster of
+                      cute animal Waiters and Chefs serve delicious foods!
                     </Grid>
 
                     <div className="emptySpaceFloat"></div>
-
 
                     <Grid
                       container
@@ -198,8 +200,8 @@ class PageCozyCafe extends Component {
                           rel="noopener noreferrer"
                         >
                           <div className="fancyButton  smallText">
-                            Cozy Cafe {" "}
-                            <img src={outlink} className="icon"></img> <br></br>
+                            Cozy Cafe <img src={outlink} className="icon"></img>{" "}
+                            <br></br>
                             Google Store
                           </div>
                         </a>
@@ -213,8 +215,8 @@ class PageCozyCafe extends Component {
                           rel="noopener noreferrer"
                         >
                           <div className="fancyButton  smallText">
-                            Cozy Cafe {" "}
-                            <img src={outlink} className="icon"></img> <br></br>
+                            Cozy Cafe <img src={outlink} className="icon"></img>{" "}
+                            <br></br>
                             Apple Store
                           </div>
                         </a>
@@ -357,27 +359,33 @@ class PageCozyCafe extends Component {
                     container
                     direction="row"
                     justifyContent="center"
-                    alignItems="stretch"
-                    spacing={1}
-                    className="noMargin"
+                    alignItems="center"
+                    spacing={0}
+                    className="centerElement"
                   >
-                    <Grid item xs={12} sm={5} md={5} className="">
-                      <ReactPlayer
-                        url="./Videos/BoxOpen.mp4"
-                        width="100%"
-                        height="600px"
-                        controls={true}
-                        playing={false}
+                    <Grid item xs={11} sm={11} md={5} className="">
+                      <Player
+                         poster={thumbcozy1}
+                         fluid={false}
+                         width={400}
+                         height={600}
+                        src="./Videos/BoxOpen.mp4"
+                        preload={"none"}
+                        muted={true}
+                        loop={true}
                       />
                     </Grid>
 
-                    <Grid item xs={12} sm={5} md={5} className="">
-                      <ReactPlayer
-                        url="./Videos/EventStage.mp4"
-                        width="100%"
-                        height="600px"
-                        controls={true}
-                        playing={false}
+                    <Grid item xs={11} sm={11} md={5} className="">
+                      <Player
+                        poster={thumbcozy2}
+                        fluid={false}
+                        width={400}
+                        height={600}
+                        src="./Videos/EventStage.mp4"
+                        preload={"none"}
+                        muted={true}
+                        loop={true}
                       />
                     </Grid>
                   </Grid>
