@@ -48,15 +48,14 @@ class LandingPage extends Component {
             </Grid>
 
             <Grid item xs={4} sm={4} md={2} className="">
-            <Fade duration={1000} delay={900}>
-            
-              <div>
-                <img
-                  src={avatar}
-                  alt="Chibi Meeee"
-                  className="bigAvatar bigCircle centerElement"
-                />
-              </div>
+              <Fade duration={1000} delay={900}>
+                <div>
+                  <img
+                    src={avatar}
+                    alt="Chibi Meeee"
+                    className="bigAvatar bigCircle centerElement"
+                  />
+                </div>
               </Fade>
             </Grid>
 
@@ -135,13 +134,17 @@ class LandingPage extends Component {
               spacing={2}
               className="centerElement"
             >
-              <Grid item xs={6} sm={6} md={3} className="bigText rightText ">
-                <Fade duration={1000} delay={800}>
-                  {" "}
-                  <span className="secondaryText">Published Games</span>{" "}
-                </Fade>
+              <Grid item xs={10} sm={10} md={10} className="bigText">
+              <Fade duration={1000} delay={700}>
+                  <div className="sectionContentLeft secondaryText">
+                    {" "}
+                    Published Games{" "}
+                  </div>
+
+                  <div className="sectionContentRight"> </div>
+                  <div className="sectionContentMiddle landingDivider"> </div>
+               </Fade>
               </Grid>
-              <Grid item xs={6} sm={6} md={8} className="landingDivider"></Grid>
 
               <Grid item xs={10} sm={8} md={3}>
                 <CardCozy delay={800} />
@@ -157,15 +160,18 @@ class LandingPage extends Component {
 
               <Grid item xs={12} sm={12} md={12} className="divider"></Grid>
 
-              <Grid item xs={6} sm={6} md={3} className="bigText rightText">
-                {" "}
-                <span className="secondaryText fadeInOpacity">
-                  Personal Projects
-                </span>{" "}
+              <Grid item xs={10} sm={10} md={10} className="bigText">
+                <Fade duration={1000} delay={700}>
+                  <div className="sectionContentLeft secondaryText">
+                    {" "}
+                    Personal Projects{" "}
+                  </div>
+
+                  <div className="sectionContentRight"> </div>
+                  <div className="sectionContentMiddle landingDivider"> </div>
+                </Fade>
               </Grid>
-              <Grid item xs={6} sm={6} md={8} className="landingDivider">
-                {" "}
-              </Grid>
+             
 
               <Grid item xs={10} sm={8} md={3}>
                 <CardBeach delay={200} />

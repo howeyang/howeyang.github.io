@@ -587,31 +587,17 @@ Super white Gray :  DFDCE7 */
 
 .landingDivider {
   border: 0;
-  height: 1px;
-  top: 20px;
+  height: 15px;
+  top: 10px;
   position: relative;
-  animation: fadeline 1.5s forwards !important;
-  animation-delay: 1.5s !important;
+  opacity: 1;
+    background-image: linear-gradient(
+      to right,
+      #003e42,
+      rgba(204, 204, 204, 0)
+    );
 }
 
-@keyframes fadeline {
-  0% {
-    opacity: 0;
-    background-image: linear-gradient(
-      to right,
-      #003e42,
-      rgba(204, 204, 204, 0)
-    );
-  }
-  100% {
-    opacity: 1;
-    background-image: linear-gradient(
-      to right,
-      #003e42,
-      rgba(204, 204, 204, 0)
-    );
-  }
-}
 
 /* Card */
 
@@ -875,6 +861,12 @@ labelBigText {
 
 .sectionContentMiddle {
   overflow: auto; /* mix-blend-mode: difference !important; */
+  padding-top: 2px;
+}
+
+.floatFill {
+  float: none;
+  overflow: hidden;
   padding-top: 2px;
 }
 
