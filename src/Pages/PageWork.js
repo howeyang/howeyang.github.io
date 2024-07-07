@@ -20,9 +20,18 @@ import CardBTB4 from "../Cards/SmallCard/SmallCardBTB4";
 
 import outlink from "../Images/svg/outlink.svg";
 
+import WorkMobile from "../Pages/PageWorkMobile";
+
+/*
+IMPORTANT -> Mobile version is contained in WorkMobile b/c its refactored.
+Change contents in both if changes in one! ~ past Howe
+*/
+
 class PageWork extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
+    window.addEventListener("resize", this.resizeWindow);
+
     document.querySelector("body").style.background = "#e1771b";
 
     document
@@ -36,9 +45,14 @@ class PageWork extends Component {
       .classList.remove("gradientOrange");
   }
 
+  resizeWindow = e => {
+    window.scrollTo(0, 0);
+  };
+
   render() {
     return (
       <div>
+        <Hidden smDown>
         <div className="grid_root">
           <div className="emptySpace"></div>
           <div className="titleContainer">
@@ -61,7 +75,7 @@ class PageWork extends Component {
               spacing={0}
               className="centerElement"
             >
-              <Hidden smDown>
+              
                 <Grid item sm={3} md={3} className=""></Grid>
                 <Grid item sm={4} md={4} className="workHeaderSection">
                   <div className="imageContainer">
@@ -469,10 +483,17 @@ class PageWork extends Component {
                     </Grid>
                   </Grid>
                 </Grid>
-              </Hidden>
+              
+
+              
             </Grid>
           </Fade>
         </div>
+        </Hidden>
+
+        <Hidden mdUp>
+              <WorkMobile></WorkMobile>
+              </Hidden>
       </div>
     );
   }

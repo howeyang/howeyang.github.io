@@ -259,12 +259,11 @@ Super white Gray :  DFDCE7 */
   background-size: auto 100%;
   transition: ease 1s;
   background-attachment: fixed !important;
-  transition: opacity 1.5s  ease-in-out;;
-  -webkit-transition: opacity 1.5s  ease-in-out;;  
-  -moz-transition: opacity 1.5s ease-in-out;   
+  transition: opacity 1.5s ease-in-out;
+  -webkit-transition: opacity 1.5s ease-in-out;
+  -moz-transition: opacity 1.5s ease-in-out;
   opacity: 0;
 }
-
 
 .gradientBattleRun {
   background: url("./Images/work/battlerun/BattleRunSplash.png") no-repeat
@@ -272,9 +271,9 @@ Super white Gray :  DFDCE7 */
   background-size: auto 100%;
   transition: ease 1s;
   background-attachment: fixed !important;
-  transition: opacity 1.5s  ease-in-out;;
-  -webkit-transition: opacity 1.5s  ease-in-out;;  
-  -moz-transition: opacity 1.5s ease-in-out;   
+  transition: opacity 1.5s ease-in-out;
+  -webkit-transition: opacity 1.5s ease-in-out;
+  -moz-transition: opacity 1.5s ease-in-out;
   opacity: 0;
 }
 
@@ -283,9 +282,9 @@ Super white Gray :  DFDCE7 */
   background-size: auto 100%;
   transition: ease 1s;
   background-attachment: fixed !important;
-  transition: opacity 1.5s  ease-in-out;;
-  -webkit-transition: opacity 1.5s  ease-in-out;;  
-  -moz-transition: opacity 1.5s ease-in-out;   
+  transition: opacity 1.5s ease-in-out;
+  -webkit-transition: opacity 1.5s ease-in-out;
+  -moz-transition: opacity 1.5s ease-in-out;
   opacity: 0;
 }
 
@@ -451,6 +450,14 @@ Super white Gray :  DFDCE7 */
   align-content: center !important;
   text-align: center !important;
   vertical-align: center !important;
+}
+
+.centerImage {
+  position: relative;
+  margin: auto;
+  display: block;
+  width: 90%;
+  
 }
 
 .landingTextContainer {
@@ -755,6 +762,15 @@ labelBigText {
   text-align: center;
 }
 
+.cuteHeader2 {
+  height: 90px;
+  width: auto;
+  display: inline-block;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+}
+
 .imageHeader2 {
   height: 125px;
   width: auto;
@@ -779,6 +795,12 @@ labelBigText {
   position: relative;
   top: 33px;
   left: 0%;
+}
+
+.cutehangingPosition2 {
+  position: relative;
+  top: 43px;
+  left: -10px;
 }
 
 .runhangingPosition {
