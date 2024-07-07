@@ -47,7 +47,7 @@ class LandingPage extends Component {
               <div></div>
             </Grid>
 
-            <Grid item xs={2} sm={2} md={2} className="">
+            <Grid item xs={4} sm={4} md={2} className="">
             <Fade duration={1000} delay={900}>
             
               <div>
@@ -60,7 +60,7 @@ class LandingPage extends Component {
               </Fade>
             </Grid>
 
-            <Grid item xs={6} sm={6} md={6} className=" ">
+            <Grid item xs={10} sm={10} md={6} className=" ">
               <div>
                 <div className="titleContainer">
                   <div className="landingTextContainer">
