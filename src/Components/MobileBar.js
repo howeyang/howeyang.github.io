@@ -184,7 +184,7 @@ class MobileBar extends Component {
             collapse
             when={this.state.active}
             duration={900}
-            key={4 + this.state.active}
+            key={5 + this.state.active}
           >
             <ul
               className={
@@ -206,7 +206,7 @@ class MobileBar extends Component {
             collapse
             when={this.state.active}
             duration={900}
-            key={4 + this.state.active}
+            key={6 + this.state.active}
           >
             <ul
               className={

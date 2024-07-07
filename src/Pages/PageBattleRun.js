@@ -96,9 +96,9 @@ class PageBattleRun extends Component {
                       </labelBigText>
                     </div>
 
-                    <div class="sectionName leftText mediumText">
-                      <div class="sectionContentLeft">Design</div>
-                      <div class="sectionContentRight">
+                    <div className="sectionName leftText mediumText">
+                      <div className="sectionContentLeft">Design</div>
+                      <div className="sectionContentRight">
                         Chris Doan
                         <br></br>
                         Steven Wang
@@ -109,24 +109,24 @@ class PageBattleRun extends Component {
                         <br></br>
                         Alex Gray
                       </div>
-                      <div class="sectionContentMiddle"> > > ></div>
+                      <div className="sectionContentMiddle"> > > ></div>
                     </div>
 
                     <div className="emptySpaceFloat"></div>
 
-                    <div class="sectionName leftText mediumText">
-                      <div class="sectionContentLeft">Producer</div>
-                      <div class="sectionContentRight">
+                    <div className="sectionName leftText mediumText">
+                      <div className="sectionContentLeft">Producer</div>
+                      <div className="sectionContentRight">
                         Roy Apoong <br /> Howe Yang
                       </div>
-                      <div class="sectionContentMiddle"> > > ></div>
+                      <div className="sectionContentMiddle"> > > ></div>
                     </div>
 
                     <div className="emptySpaceFloat"></div>
 
-                    <div class="sectionName leftText mediumText">
-                      <div class="sectionContentLeft">Art</div>
-                      <div class="sectionContentRight">
+                    <div className="sectionName leftText mediumText">
+                      <div className="sectionContentLeft">Art</div>
+                      <div className="sectionContentRight">
                         Justin Yu
                         <br></br>
                         Nancy Andrews
@@ -135,14 +135,14 @@ class PageBattleRun extends Component {
                         <br></br>
                         Gabriel Lavoyer
                       </div>
-                      <div class="sectionContentMiddle"> > > ></div>
+                      <div className="sectionContentMiddle"> > > ></div>
                     </div>
 
                     <div className="emptySpaceFloat"></div>
 
-                    <div class="sectionName leftText mediumText">
-                      <div class="sectionContentLeft">Developers</div>
-                      <div class="sectionContentRight">
+                    <div className="sectionName leftText mediumText">
+                      <div className="sectionContentLeft">Developers</div>
+                      <div className="sectionContentRight">
                         Jason Chiu <br></br>
                         Ryan Seto <br></br>
                         Iman Kazerani <br></br>
@@ -155,7 +155,7 @@ class PageBattleRun extends Component {
                         Reza Saputra <br></br>
                         Hazem Aziz <br></br>
                       </div>
-                      <div class="sectionContentMiddle"> > > ></div>
+                      <div className="sectionContentMiddle"> > > ></div>
                     </div>
                     <div className="emptySpaceFloat"></div>
                   </Grid>
@@ -270,7 +270,7 @@ class PageBattleRun extends Component {
                       <br></br>
                       <div className="textdivider">
                         {" "}
-                        <div class="dot"></div>{" "}
+                        <div className="dot"></div>{" "}
                       </div>
                       <span>
                         ● Created custom Shaders in HLSL throughout the game{" "}
@@ -280,12 +280,13 @@ class PageBattleRun extends Component {
                         <br></br> <span> ● Speed Pad Shader </span>
                         <br></br> <span>● Gacha Opening Box Shader </span>
                         <br></br>
-                        <span>● Various UI Element Shaders  </span> - Glow / Shine / Rotation
+                        <span>● Various UI Element Shaders </span> - Glow /
+                        Shine / Rotation
                       </a>
                       <br></br>
                       <div className="textdivider">
                         {" "}
-                        <div class="dot"></div>{" "}
+                        <div className="dot"></div>{" "}
                       </div>
                       <span>
                         ● Integrated with a Server Rest API with Client{" "}
@@ -299,7 +300,7 @@ class PageBattleRun extends Component {
                       <br></br>
                       <div className="textdivider">
                         {" "}
-                        <div class="dot"></div>{" "}
+                        <div className="dot"></div>{" "}
                       </div>
                       <labelWork>As a Producer</labelWork> <br />
                       <span>
@@ -329,14 +330,14 @@ class PageBattleRun extends Component {
                       </a>
                       <div className="textdivider">
                         {" "}
-                        <div class="dot"></div>{" "}
+                        <div className="dot"></div>{" "}
                       </div>
                       <span>● Organized and created promotional slides </span>{" "}
                       for Google, Apple and 3rd party representatives
                       <br></br>
                       <div className="textdivider">
                         {" "}
-                        <div class="dot"></div>{" "}
+                        <div className="dot"></div>{" "}
                       </div>
                     </Grid>
                   </Grid>
@@ -358,7 +359,6 @@ class PageBattleRun extends Component {
                       controls={true}
                       playing={false}
                       loop={true}
-                      light={true}
                     />
                     <div className="emptySpaceFloat"></div>
 
@@ -373,7 +373,8 @@ class PageBattleRun extends Component {
                       controls={true}
                       playing={false}
                       loop={true}
-                      light={true}
+                    
+                      
                     />
                     <div className="emptySpaceFloat"></div>
 
@@ -388,7 +389,6 @@ class PageBattleRun extends Component {
                       controls={true}
                       playing={false}
                       loop={true}
-                      light={true}
                     />
                     <div className="emptySpaceFloat"></div>
                     <div className="">
@@ -402,7 +402,6 @@ class PageBattleRun extends Component {
                       controls={true}
                       playing={false}
                       loop={true}
-                      light={true}
                     />
                   </Grid>
                 </Grid>
