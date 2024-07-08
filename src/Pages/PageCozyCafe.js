@@ -26,7 +26,6 @@ import CozyMobile from "../Pages/PageCozyMobile";
 class PageCozyCafe extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
-    window.addEventListener("resize", this.resizeWindow);
 
     document.querySelector("body").style.background = "#ed81a1";
     document
@@ -39,10 +38,6 @@ class PageCozyCafe extends Component {
       .querySelector(".gradientBackground")
       .classList.remove("gradientGreen");
   }
-
-  resizeWindow = e => {
-    window.scrollTo(0, 0);
-  };
 
   render() {
     return (

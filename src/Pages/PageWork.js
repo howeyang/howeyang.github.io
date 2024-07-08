@@ -30,7 +30,6 @@ Change contents in both if changes in one! ~ past Howe
 class PageWork extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
-    window.addEventListener("resize", this.resizeWindow);
 
     document.querySelector("body").style.background = "#e1771b";
 
@@ -44,10 +43,6 @@ class PageWork extends Component {
       .querySelector(".gradientBackground")
       .classList.remove("gradientOrange");
   }
-
-  resizeWindow = e => {
-    window.scrollTo(0, 0);
-  };
 
   render() {
     return (

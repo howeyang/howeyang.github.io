@@ -31,7 +31,6 @@ import BattleRunMobile from "../Pages/PageBattleRunMobile";
 class PageBattleRun extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
-    window.addEventListener("resize", this.resizeWindow);
 
     document.querySelector("body").style.background = "#3C73A8";
     document
@@ -45,10 +44,6 @@ class PageBattleRun extends Component {
       .classList.remove("gradientGreen");
   }
 
-
-  resizeWindow = e => {
-    window.scrollTo(0, 0);
-  };
 
   render() {
     return (
