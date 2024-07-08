@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa8c6b55.chunk.css",
+    "main.css": "/static/css/main.9489b7d4.chunk.css",
     "main.js": "/static/js/main.cc319296.chunk.js",
     "main.js.map": "/static/js/main.cc319296.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -9,10 +9,10 @@
     "static/js/2.3c6bf76e.chunk.js": "/static/js/2.3c6bf76e.chunk.js",
     "static/js/2.3c6bf76e.chunk.js.map": "/static/js/2.3c6bf76e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bbf7ee74716c87c44054f45e38743674.js": "/precache-manifest.bbf7ee74716c87c44054f45e38743674.js",
+    "precache-manifest.d4f81fe1e7cb0199d2072d8155aadfdf.js": "/precache-manifest.d4f81fe1e7cb0199d2072d8155aadfdf.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.da68fc70.chunk.css.map": "/static/css/2.da68fc70.chunk.css.map",
-    "static/css/main.aa8c6b55.chunk.css.map": "/static/css/main.aa8c6b55.chunk.css.map",
+    "static/css/main.9489b7d4.chunk.css.map": "/static/css/main.9489b7d4.chunk.css.map",
     "static/media/BattleRunMain.png": "/static/media/BattleRunMain.d6425e11.png",
     "static/media/index.css": "/static/media/old-cardwork.d903b20e.png",
     "static/media/DustSpin.png": "/static/media/DustSpin.ed70842c.png",
