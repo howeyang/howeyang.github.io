@@ -26,10 +26,13 @@ import thumbspeed from "../Images/Thumbnails/ThumbSpeed.png";
 import thumbgacha from "../Images/Thumbnails/ThumbGacha.png";
 
 import { Player } from "video-react";
+import BattleRunMobile from "../Pages/PageBattleRunMobile";
 
 class PageBattleRun extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
+    window.addEventListener("resize", this.resizeWindow);
+
     document.querySelector("body").style.background = "#3C73A8";
     document
       .querySelector(".gradientBackground")
@@ -42,9 +45,15 @@ class PageBattleRun extends Component {
       .classList.remove("gradientGreen");
   }
 
+
+  resizeWindow = e => {
+    window.scrollTo(0, 0);
+  };
+
   render() {
     return (
       <div>
+        <Hidden smDown>
         <div className="grid_root">
           <div className="emptySpace"></div>
           <div className="titleContainer">
@@ -413,6 +422,11 @@ class PageBattleRun extends Component {
             </Grid>
           </Fade>
         </div>
+        </Hidden>
+
+        <Hidden mdUp>
+          <BattleRunMobile></BattleRunMobile>
+        </Hidden>
       </div>
     );
   }

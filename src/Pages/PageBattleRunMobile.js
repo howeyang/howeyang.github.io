@@ -10,18 +10,24 @@ import CardFire from "../Cards/CardFire";
 import unitylogo from "../Images/landing/unity_logo.png";
 import avatar from "../Images/work/battlerun/BattleRunMain.png";
 import CardProjects from "../Cards/CardProjects";
+
 import battlerun from "../Images/work/battlerun/BattleRunMain.png";
 import outlink from "../Images/svg/outlink.svg";
 
-import cutehanging from "../Images/work/work/cute-hanging.png";
-import cozycafelogo from "../Images/work/cozycafe/cozycafe_logo.png";
+import cutehanging from "../Images/work/battlerun/DustSpin.png";
+import maciejump from "../Images/work/battlerun/MacieJump.png";
+
+import logo from "../Images/logo/gamehive-battlerun.png";
 import cozycafe_vertical from "../Images/work/cozycafe/cozycafe_vertical.png";
 
-import { Player } from "video-react";
-import thumbcozy1 from "../Images/Thumbnails/ThumbCozy1.png";
-import thumbcozy2 from "../Images/Thumbnails/ThumbCozy2.png";
+import thumbleader from "../Images/Thumbnails/ThumbLeader.png";
+import thumblanding from "../Images/Thumbnails/ThumbLanding.png";
+import thumbspeed from "../Images/Thumbnails/ThumbSpeed.png";
+import thumbgacha from "../Images/Thumbnails/ThumbGacha.png";
 
-class PageCozyCafe extends Component {
+import { Player } from "video-react";
+
+class PageBattleRunMobile extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }
@@ -33,8 +39,8 @@ class PageCozyCafe extends Component {
           <div className="emptySpace"></div>
           <div className="titleContainer">
             <div className="landingTextContainer">
-              <div className="bannerWhite">
-                <div className="bannerMoveBottom">Cozy Cafe ● </div>{" "}
+              <div className="bannerWhite centerText">
+                <div className="bannerMoveBottom">Battle Run ● </div>{" "}
                 <div className="bannerMoveTop">Mobile Game</div>
               </div>
             </div>
@@ -49,22 +55,24 @@ class PageCozyCafe extends Component {
               spacing={0}
               className="centerElement"
             >
-              <Grid item sm={3} md={3} className=""></Grid>
-              <Grid item sm={6} md={6} className="workHeaderSection2">
-                <div className="imageContainer">
-                  <img
-                    src={cozycafelogo}
-                    className="imageHeader centerElement"
-                  ></img>
-                </div>
-              </Grid>
               <Grid item sm={3} md={3} className="">
                 <div className="imageContainer">
                   <img
-                    src={cutehanging}
-                    className="cuteHeader2 cutehangingPosition2"
+                    src={maciejump}
+                    className="imageHeader2 runhangingPosition"
                   ></img>
                 </div>
+              </Grid>
+              <Grid item sm={6} md={4} className="workHeaderSection2">
+                <div className="imageContainer">
+                  <img src={logo} className="imageHeader centerElement"></img>
+                </div>
+              </Grid>
+              <Grid item sm={3} md={3} className="">
+                <img
+                  src={cutehanging}
+                  className="cuteHeader runhangingPosition"
+                ></img>
               </Grid>
 
               <Grid item xs={12} sm={12} md={12} className="workSection">
@@ -76,8 +84,7 @@ class PageCozyCafe extends Component {
                   spacing={1}
                   className="centerElement"
                 >
-                  
-                  <Grid item xs={11} sm={11} md={11} className="">
+                  <Grid item xs={11} sm={11} md={4} className="">
                     <Grid
                       container
                       direction="column"
@@ -94,7 +101,7 @@ class PageCozyCafe extends Component {
                         className="workSubtitle"
                       >
                         <labelBigText>Developer and Producer</labelBigText>
-                        <br></br> 2023 -> 2024{" "}
+                        <br></br> 2020 -> 2023{" "}
                       </Grid>
                     </Grid>
 
@@ -107,10 +114,10 @@ class PageCozyCafe extends Component {
                       md={12}
                       className="leftText mediumText section"
                     >
-                      <b>Cozy Cafe is a comfy idle incremental game</b> for
-                      single players, where you will visit a variety of
-                      different restaurants and watch your growing roster of
-                      cute animal Waiters and Chefs serve delicious foods!
+                      <b>Battle Run is an online PVP Party Racing game</b> for
+                      single players or with your friends! Players will race
+                      each other on a generated race track with traps and power
+                      ups in a frantic rush to the finish!
                     </Grid>
 
                     <div className="emptySpaceFloat"></div>
@@ -126,13 +133,13 @@ class PageCozyCafe extends Component {
                       <Grid item xs={5} sm={5} md={5}>
                         <a
                           className="text-link"
-                          href="https://play.google.com/store/apps/details?id=com.gamehivecorp.idlecafe"
+                          href="https://play.google.com/store/apps/details?id=com.gamehivecorp.battlerun"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           <div className="fancyButton smallText fancyButtonMobile">
-                            Cozy Cafe <img src={outlink} className="icon"></img>{" "}
-                            <br></br>
+                            Battle Run{" "}
+                            <img src={outlink} className="icon"></img> <br></br>
                             Google Store
                           </div>
                         </a>
@@ -141,13 +148,13 @@ class PageCozyCafe extends Component {
                       <Grid item xs={5} sm={5} md={5}>
                         <a
                           className="text-link"
-                          href="https://apps.apple.com/ca/app/cozy-cafe-animal-restaurant/id6447704854"
+                          href="https://apps.apple.com/us/app/battle-run/id1612277646"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           <div className="fancyButton smallText fancyButtonMobile">
-                            Cozy Cafe <img src={outlink} className="icon"></img>{" "}
-                            <br></br>
+                            Battle Run{" "}
+                            <img src={outlink} className="icon"></img> <br></br>
                             Apple Store
                           </div>
                         </a>
@@ -159,7 +166,7 @@ class PageCozyCafe extends Component {
                       xs={12}
                       sm={12}
                       md={12}
-                      className="leftText mediumText "
+                      className="leftText mediumText textPadding"
                     >
                       {" "}
                       <br></br>
@@ -173,13 +180,15 @@ class PageCozyCafe extends Component {
                       </span>{" "}
                       with their underlying UI/UX and logic
                       <a className="shiftright">
-                        <br></br> <span> ● Created main Landing Page </span>
-                        <br></br> <span> ● Created Character Select</span>
                         <br></br>{" "}
-                        <span> ● Created Tournament Position System </span>
+                        <span> ● Main HUD overlay and HUD buttons </span>
+                        <br></br> <span> ● Character Select Screen </span>
+                        <br></br> <span>● Internal Test Panel </span>
+                        <br></br> <span> ● Leaderboard System </span>
                         <br></br>{" "}
                         <span>
-                          ● Expanded on Battle Pass / Milestone System{" "}
+                          {" "}
+                          ● Fixes and Additional Features to Existing systems
                         </span>
                       </a>
                       <br></br>
@@ -188,30 +197,15 @@ class PageCozyCafe extends Component {
                         <div className="dot"></div>{" "}
                       </div>
                       <span>
-                        ● Parsed Server Data into Client side UI Elements{" "}
+                        ● Created custom Shaders in HLSL throughout the game{" "}
                       </span>{" "}
-                      to improve player immersion and experience{" "}
-                      <a className="shiftright">
-                        <br></br> <span> ● Stage Transition to Next Stage</span>
-                        <br></br> <span>● Opening Loot Box Sequence </span>
-                        <br></br>{" "}
-                        <span> ● Initial Loading Screen to Main Game</span>
-                      </a>
-                      <br></br>
-                      <div className="textdivider">
-                        {" "}
-                        <div className="dot"></div>{" "}
-                      </div>
-                      <span>
-                        ● Handwrote Shaders to be used in menus and in core
-                        gameplay{" "}
-                      </span>{" "}
-                      to improve player immersion and experience{" "}
+                      for efficient visual effects{" "}
                       <a className="shiftright">
                         <br></br> <span> ● Speed Pad Shader </span>
-                        <br></br> <span>● Gacha Opening Sequence Shader </span>
-                        <br></br>{" "}
-                        <span> ● Initial Loading Screen to Main Game</span>
+                        <br></br> <span>● Gacha Opening Box Shader </span>
+                        <br></br>
+                        <span>● Various UI Element Shaders </span> - Glow /
+                        Shine / Rotation
                       </a>
                       <br></br>
                       <div className="textdivider">
@@ -219,10 +213,14 @@ class PageCozyCafe extends Component {
                         <div className="dot"></div>{" "}
                       </div>
                       <span>
-                        ● Developed and maintained Internal Testing tools
+                        ● Integrated with a Server Rest API with Client{" "}
                       </span>{" "}
-                      to ease developer and designer for testing new features or
-                      balance
+                      to enable Server Cloud Data to drive Unity Client behavior{" "}
+                      <a className="shiftright">
+                        <br></br> <span> ● Leaderboard System </span>
+                        <br></br>{" "}
+                        <span>● Player Values stored Server side </span>
+                      </a>
                       <br></br>
                       <div className="textdivider">
                         {" "}
@@ -230,10 +228,11 @@ class PageCozyCafe extends Component {
                       </div>
                       <labelWork>As a Producer</labelWork> <br />
                       <span>
-                        ● Organized and set initial milestones and deadlines{" "}
+                        ● Planned and executed a roadmap for launching Battle
+                        Run from a small team{" "}
                       </span>{" "}
-                      for Cozy Cafe from it's inception to global release - we
-                      released within 3 months!
+                      of 4 developers to a 30 person project with server
+                      developers, artists, designers and QA
                       <br></br>
                       <a className="shiftright">
                         <span>
@@ -267,50 +266,65 @@ class PageCozyCafe extends Component {
                     </Grid>
                   </Grid>
 
-                  <Grid item xs={12} sm={12} md={12} className="">
+                  <Grid item xs={12} sm={12} md={3} className="">
                     <div className="smallPadding">
                       <labelBigText>
-                        Screenshots! <br></br>
+                        Work Examples in Game <br></br>
                       </labelBigText>
                     </div>
                     <div className="">
-                      <labelWork>
-                        Comfy Cute Idle Incremental<br></br>
-                      </labelWork>
+                      <labelWork>Landing Page HUD</labelWork>
                     </div>
 
-                    <div className="imageContainer">
-                      <img src={cozycafe_vertical} className="centerImage"></img>
+                    <Player
+                      poster={thumblanding}
+                      src="./landingpage.mp4"
+                      preload={"none"}
+                      muted={true}
+                      loop={true}
+                    />
+
+                    <div className="emptySpaceFloat"></div>
+
+                    <div className="">
+                      <labelWork>Leaderboard and Test Menu</labelWork>
                     </div>
 
-                    <br></br>
+                    <Player
+                      poster={thumbleader}
+                      src="./Videos/Leaderboard.mp4"
+                      preload={"none"}
+                      muted={true}
+                      loop={true}
+                    />
+
+                    <div className="emptySpaceFloat"></div>
+
+                    <div className="">
+                      <labelWork>Speed Pad Shader</labelWork>
+                    </div>
+
+                    <Player
+                      poster={thumbspeed}
+                      src="./speedshader.mp4"
+                      preload={"none"}
+                      muted={true}
+                      loop={true}
+                    />
+
+                    <div className="emptySpaceFloat"></div>
+                    <div className="">
+                      <labelWork>Gacha Opening Shader</labelWork>
+                    </div>
+
+                    <Player
+                      poster={thumbgacha}
+                      src="./Videos/GachaShader.mp4"
+                      preload={"none"}
+                      muted={true}
+                      loop={true}
+                    />
                   </Grid>
-
-                  <Grid item xs={12} sm={12} md={12} className="centerImage">
-                      <Player
-                         poster={thumbcozy1}
-                         fluid={false}
-                         width={"100%"}
-                         height={600}
-                        src="./Videos/BoxOpen.mp4"
-                        preload={"none"}
-                        muted={true}
-                        loop={true}
-                      />
-                    </Grid>
-
-                    <Grid item xs={12} sm={12} md={12} className="centerImage">
-                      <Player
-                        poster={thumbcozy2}
-                        fluid={false}
-                        width={"100%"}
-                        height={600}
-                        src="./Videos/EventStage.mp4"
-                        preload={"none"}
-                        muted={true}
-                        loop={true}
-                      />
-                    </Grid>
 
                   <Grid item xs={12} sm={12} md={3} className="">
                     <div className="smallPadding centerText">
@@ -324,7 +338,13 @@ class PageCozyCafe extends Component {
                       <div className="sectionContentRight">
                         Chris Doan
                         <br></br>
+                        Steven Wang
+                        <br></br>
                         Javier Garcia
+                        <br></br>
+                        Fabio Sacchetti
+                        <br></br>
+                        Alex Gray
                       </div>
                       <div className="sectionContentMiddle"> > > ></div>
                     </div>
@@ -333,7 +353,9 @@ class PageCozyCafe extends Component {
 
                     <div className="sectionName leftText mediumText">
                       <div className="sectionContentLeft">Producer</div>
-                      <div className="sectionContentRight">Howe Yang</div>
+                      <div className="sectionContentRight">
+                        Roy Apoong <br /> Howe Yang
+                      </div>
                       <div className="sectionContentMiddle"> > > ></div>
                     </div>
 
@@ -342,7 +364,11 @@ class PageCozyCafe extends Component {
                     <div className="sectionName leftText mediumText">
                       <div className="sectionContentLeft">Art</div>
                       <div className="sectionContentRight">
+                        Justin Yu
+                        <br></br>
                         Nancy Andrews
+                        <br></br>
+                        Patricia Takahashi
                         <br></br>
                         Gabriel Lavoyer
                       </div>
@@ -352,18 +378,17 @@ class PageCozyCafe extends Component {
                     <div className="emptySpaceFloat"></div>
 
                     <div className="sectionName leftText mediumText">
-                      <div className="sectionContentLeft">Animation</div>
-                      <div className="sectionContentRight">Gabriel Lavoyer</div>
-                      <div className="sectionContentMiddle"> > > ></div>
-                    </div>
-
-                    <div className="emptySpaceFloat"></div>
-
-                    <div className="sectionName leftText mediumText">
                       <div className="sectionContentLeft">Developers</div>
                       <div className="sectionContentRight">
                         Jason Chiu <br></br>
+                        Ryan Seto <br></br>
+                        Iman Kazerani <br></br>
+                        Aditya Nair <br></br>
                         Howe Yang <br></br>
+                        Helen Zhang <br></br>
+                        Timothy Chan <br></br>
+                        Erin Vaartjes <br></br>
+                        Michael Zhao <br></br>
                         Reza Saputra <br></br>
                         Hazem Aziz <br></br>
                       </div>
@@ -371,6 +396,7 @@ class PageCozyCafe extends Component {
                     </div>
                     <div className="emptySpaceFloat"></div>
                   </Grid>
+
                 </Grid>
               </Grid>
             </Grid>
@@ -381,4 +407,4 @@ class PageCozyCafe extends Component {
   }
 }
 
-export default PageCozyCafe;
+export default PageBattleRunMobile;

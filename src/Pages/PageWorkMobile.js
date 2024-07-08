@@ -129,7 +129,7 @@ class PageWorkMobile extends Component {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <div className="fancyButton ">
+                          <div className="fancyButton fancyButtonMobile">
                             Game Hive <img src={outlink} className="icon"></img>
                             <br></br>Mobile Game Studio
                           </div>

@@ -208,7 +208,7 @@ class PageWork extends Component {
                         <br></br>
                         <div className="textdivider">
                           {" "}
-                          <div class="dot"></div>{" "}
+                          <div className="dot"></div>{" "}
                         </div>
                         <labelWork>As a Producer</labelWork> <br />
                         <span>
@@ -219,7 +219,7 @@ class PageWork extends Component {
                         <br></br>
                         <div className="textdivider">
                           {" "}
-                          <div class="dot"></div>{" "}
+                          <div className="dot"></div>{" "}
                         </div>
                         <span>
                           ● Organized and assisted with Cross team
@@ -243,7 +243,7 @@ class PageWork extends Component {
                         <br></br>
                         <div className="textdivider">
                           {" "}
-                          <div class="dot"></div>{" "}
+                          <div className="dot"></div>{" "}
                         </div>
                         <span>
                           ● Organized roadmaps and coordinated feature deadlines
@@ -396,7 +396,7 @@ class PageWork extends Component {
                         <br></br>
                         <div className="textdivider">
                           {" "}
-                          <div class="dot"></div>{" "}
+                          <div className="dot"></div>{" "}
                         </div>
                         <span>
                           ● Helped clients optimize the use of a Mobile Plugin{" "}
@@ -406,7 +406,7 @@ class PageWork extends Component {
                         <br></br>
                         <div className="textdivider">
                           {" "}
-                          <div class="dot"></div>{" "}
+                          <div className="dot"></div>{" "}
                         </div>
                         <span>● Provided expertise in Big Data analytics </span>{" "}
                         by providing best practices and writing advanced
@@ -414,7 +414,7 @@ class PageWork extends Component {
                         <br></br>
                         <div className="textdivider">
                           {" "}
-                          <div class="dot"></div>{" "}
+                          <div className="dot"></div>{" "}
                         </div>
                         <span>
                           ● Assisted in maintaining Hadoop and SQL databases{" "}
@@ -424,7 +424,7 @@ class PageWork extends Component {
                         <br></br>
                         <div className="textdivider">
                           {" "}
-                          <div class="dot"></div>{" "}
+                          <div className="dot"></div>{" "}
                         </div>
                         <span>
                           ● Collaborated with Data Engineering, QA, Mobile Ad,

@@ -551,6 +551,10 @@ Super white Gray :  DFDCE7 */
   transition: ease 1s; /* For modern browsers */
 }
 
+.fancyButtonMobile{
+  width: 80% !important;
+}
+
 .fancyButton:hover {
   background-color: #86f0f7;
   border: #86f0f7 2px solid !important;
