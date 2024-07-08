@@ -65,7 +65,7 @@ class ProjectFire extends Component {
                   spacing={1}
                   className="centerElement"
                 >
-                  <Grid item xs={12} sm={12} md={3} className="">
+                  <Grid item xs={11} sm={11} md={3} className="">
                     <div className="smallPadding mediumText leftText">
                       <labelBigText>
                         The Inspiration <br></br>
@@ -85,7 +85,7 @@ class ProjectFire extends Component {
                     </div>
                   </Grid>
 
-                  <Grid item xs={12} sm={12} md={4} className="">
+                  <Grid item xs={11} sm={11} md={4} className="">
                     <Grid
                       item
                       xs={12}
@@ -108,8 +108,8 @@ class ProjectFire extends Component {
                       fire shader:
                       <Grid
                         item
-                        xs={12}
-                        sm={12}
+                        xs={11}
+                        sm={11}
                         md={12}
                         className="leftText mediumText section"
                       >
