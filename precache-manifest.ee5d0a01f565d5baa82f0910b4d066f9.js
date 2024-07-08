@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af05dab8da14cf699c758f6fd24fb885",
+    "revision": "c9835ff5dd43fda1e237f66b80f6c73e",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.da68fc70.chunk.css"
   },
   {
-    "revision": "0377551edc45e577c96f",
+    "revision": "d712dfd7095e2dd7f203",
     "url": "/static/css/main.9489b7d4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.3c6bf76e.chunk.js"
   },
   {
-    "revision": "0377551edc45e577c96f",
-    "url": "/static/js/main.cc319296.chunk.js"
+    "revision": "d712dfd7095e2dd7f203",
+    "url": "/static/js/main.eed18143.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -44,44 +44,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Splash_BTB4.0bf0549a.jpg"
   },
   {
-    "revision": "6faf5e97c60e47e1d8b5de4488877ea7",
-    "url": "/static/media/ThumbBreakdown.6faf5e97.png"
+    "revision": "97306427a269577243fb1cc0c5cdaa8a",
+    "url": "/static/media/ThumbBreakdown.97306427.png"
   },
   {
-    "revision": "de9cda74e1607c03ee8cfe9fd7720b51",
-    "url": "/static/media/ThumbCozy1.de9cda74.png"
+    "revision": "f3ede9c409918c9554f700f1e596f666",
+    "url": "/static/media/ThumbCozy1.f3ede9c4.png"
   },
   {
-    "revision": "f6a7da6e00a7505c84fb253b4b9b9e23",
-    "url": "/static/media/ThumbCozy2.f6a7da6e.png"
+    "revision": "a713256cc9283dcc1d9771e243967932",
+    "url": "/static/media/ThumbCozy2.a713256c.png"
   },
   {
-    "revision": "b59cb147ed7e98ce967a88f3c37bdbe1",
-    "url": "/static/media/ThumbFire1.b59cb147.png"
+    "revision": "a406cb152a76a3b99626d2f5b9dfd0aa",
+    "url": "/static/media/ThumbFire1.a406cb15.png"
   },
   {
-    "revision": "98f37247115e96b252d6c6bb64b8951f",
-    "url": "/static/media/ThumbFire2.98f37247.png"
+    "revision": "22b16adc9b9f4c725491772798fc8d12",
+    "url": "/static/media/ThumbFire2.22b16adc.png"
   },
   {
-    "revision": "615f43814a2840346b805cd67b13639a",
-    "url": "/static/media/ThumbGacha.615f4381.png"
+    "revision": "355799eb425f3b079d8fb6638a685e92",
+    "url": "/static/media/ThumbGacha.355799eb.png"
   },
   {
-    "revision": "7bac66f61352b1220f9e22f60972957c",
-    "url": "/static/media/ThumbLanding.7bac66f6.png"
+    "revision": "2aa536623c1f921e9e2d0e8718b432d9",
+    "url": "/static/media/ThumbLanding.2aa53662.png"
   },
   {
-    "revision": "8d815faef88c3ce345058a80a70b7e77",
-    "url": "/static/media/ThumbLeader.8d815fae.png"
+    "revision": "83d123282b46e99c8012b3396f4301f1",
+    "url": "/static/media/ThumbLeader.83d12328.png"
   },
   {
-    "revision": "b79b06bce538e1a6c8afb332e13e8033",
-    "url": "/static/media/ThumbSpeed.b79b06bc.png"
+    "revision": "67c1b7591f2cf292ca26a09b76a978bf",
+    "url": "/static/media/ThumbSpeed.67c1b759.png"
   },
   {
-    "revision": "96111f0c778dcfc0f681a0bda4b5c17b",
-    "url": "/static/media/ThumbWave.96111f0c.png"
+    "revision": "d093ec437884d896b73edf7400a266af",
+    "url": "/static/media/ThumbWave.d093ec43.png"
   },
   {
     "revision": "ca3eb194387075be9b294fb41d5aff80",
@@ -160,8 +160,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fire_end.89369e32.gif"
   },
   {
-    "revision": "4e722fb49c8b3964055bebd34573584f",
-    "url": "/static/media/gamehive-battlerun.4e722fb4.png"
+    "revision": "1db1d9a43cc980dfead7afa39e4b0abb",
+    "url": "/static/media/gamehive-battlerun.1db1d9a4.png"
   },
   {
     "revision": "aff8ea3e8e8eac3f042cdfa3bc88fdbd",
