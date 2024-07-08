@@ -454,10 +454,9 @@ Super white Gray :  DFDCE7 */
 
 .centerImage {
   position: relative;
-  margin: auto;
+  margin: auto !important;
   display: block;
   width: 90%;
-  
 }
 
 .landingTextContainer {
@@ -756,6 +755,7 @@ labelBigText {
   padding-right: 0px;
   text-align: center;
 }
+
 
 .imageHeader2 {
   height: 125px;

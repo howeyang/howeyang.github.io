@@ -266,7 +266,7 @@ class PageCozyCafe extends Component {
                         <br></br>
                         <div className="textdivider">
                           {" "}
-                          <div class="dot"></div>{" "}
+                          <div className="dot"></div>{" "}
                         </div>
                         <span>
                           ● Parsed Server Data into Client side UI Elements{" "}
@@ -282,7 +282,7 @@ class PageCozyCafe extends Component {
                         <br></br>
                         <div className="textdivider">
                           {" "}
-                          <div class="dot"></div>{" "}
+                          <div className="dot"></div>{" "}
                         </div>
                         <span>
                           ● Handwrote Shaders to be used in menus and in core
@@ -299,7 +299,7 @@ class PageCozyCafe extends Component {
                         <br></br>
                         <div className="textdivider">
                           {" "}
-                          <div class="dot"></div>{" "}
+                          <div className="dot"></div>{" "}
                         </div>
                         <span>
                           ● Developed and maintained Internal Testing tools
@@ -309,7 +309,7 @@ class PageCozyCafe extends Component {
                         <br></br>
                         <div className="textdivider">
                           {" "}
-                          <div class="dot"></div>{" "}
+                          <div className="dot"></div>{" "}
                         </div>
                         <labelWork>As a Producer</labelWork> <br />
                         <span>
@@ -338,19 +338,19 @@ class PageCozyCafe extends Component {
                         </a>
                         <div className="textdivider">
                           {" "}
-                          <div class="dot"></div>{" "}
+                          <div className="dot"></div>{" "}
                         </div>
                         <span>● Organized and created promotional slides </span>{" "}
                         for Google, Apple and 3rd party representatives
                         <br></br>
                         <div className="textdivider">
                           {" "}
-                          <div class="dot"></div>{" "}
+                          <div className="dot"></div>{" "}
                         </div>
                       </Grid>
                     </Grid>
 
-                    <Grid item xs={12} sm={3} md={3} className="">
+                    <Grid item xs={11} sm={3} md={3} className="">
                       <div className="smallPadding">
                         <labelBigText>
                           Screenshots! <br></br>
@@ -374,14 +374,14 @@ class PageCozyCafe extends Component {
                       direction="row"
                       justifyContent="center"
                       alignItems="center"
-                      spacing={0}
+                      spacing={2}
                       className="centerElement"
                     >
                       <Grid item xs={11} sm={11} md={5} className="">
                         <Player
                           poster={thumbcozy1}
                           fluid={false}
-                          width={400}
+                          width={"100%"}
                           height={600}
                           src="./Videos/BoxOpen.mp4"
                           preload={"none"}
@@ -394,7 +394,7 @@ class PageCozyCafe extends Component {
                         <Player
                           poster={thumbcozy2}
                           fluid={false}
-                          width={400}
+                          width={"100%"}
                           height={600}
                           src="./Videos/EventStage.mp4"
                           preload={"none"}

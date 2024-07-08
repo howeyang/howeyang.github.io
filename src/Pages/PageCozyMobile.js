@@ -24,16 +24,6 @@ import thumbcozy2 from "../Images/Thumbnails/ThumbCozy2.png";
 class PageCozyCafe extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
-    document.querySelector("body").style.background = "#ed81a1";
-    document
-      .querySelector(".gradientBackground")
-      .classList.add("gradientGreen");
-  }
-
-  componentWillUnmount() {
-    document
-      .querySelector(".gradientBackground")
-      .classList.remove("gradientGreen");
   }
 
   render() {
@@ -195,7 +185,7 @@ class PageCozyCafe extends Component {
                       <br></br>
                       <div className="textdivider">
                         {" "}
-                        <div class="dot"></div>{" "}
+                        <div className="dot"></div>{" "}
                       </div>
                       <span>
                         ● Parsed Server Data into Client side UI Elements{" "}
@@ -210,7 +200,7 @@ class PageCozyCafe extends Component {
                       <br></br>
                       <div className="textdivider">
                         {" "}
-                        <div class="dot"></div>{" "}
+                        <div className="dot"></div>{" "}
                       </div>
                       <span>
                         ● Handwrote Shaders to be used in menus and in core
@@ -226,7 +216,7 @@ class PageCozyCafe extends Component {
                       <br></br>
                       <div className="textdivider">
                         {" "}
-                        <div class="dot"></div>{" "}
+                        <div className="dot"></div>{" "}
                       </div>
                       <span>
                         ● Developed and maintained Internal Testing tools
@@ -236,7 +226,7 @@ class PageCozyCafe extends Component {
                       <br></br>
                       <div className="textdivider">
                         {" "}
-                        <div class="dot"></div>{" "}
+                        <div className="dot"></div>{" "}
                       </div>
                       <labelWork>As a Producer</labelWork> <br />
                       <span>
@@ -265,14 +255,14 @@ class PageCozyCafe extends Component {
                       </a>
                       <div className="textdivider">
                         {" "}
-                        <div class="dot"></div>{" "}
+                        <div className="dot"></div>{" "}
                       </div>
                       <span>● Organized and created promotional slides </span>{" "}
                       for Google, Apple and 3rd party representatives
                       <br></br>
                       <div className="textdivider">
                         {" "}
-                        <div class="dot"></div>{" "}
+                        <div className="dot"></div>{" "}
                       </div>
                     </Grid>
                   </Grid>
@@ -296,19 +286,11 @@ class PageCozyCafe extends Component {
                     <br></br>
                   </Grid>
 
-                  <Grid
-                    container
-                    direction="row"
-                    justifyContent="center"
-                    alignItems="center"
-                    spacing={0}
-                    className="centerElement"
-                  >
-                    <Grid item xs={11} sm={11} md={5} className="">
+                  <Grid item xs={12} sm={12} md={12} className="centerImage">
                       <Player
                          poster={thumbcozy1}
                          fluid={false}
-                         width={400}
+                         width={"100%"}
                          height={600}
                         src="./Videos/BoxOpen.mp4"
                         preload={"none"}
@@ -317,11 +299,11 @@ class PageCozyCafe extends Component {
                       />
                     </Grid>
 
-                    <Grid item xs={11} sm={11} md={5} className="">
+                    <Grid item xs={12} sm={12} md={12} className="centerImage">
                       <Player
                         poster={thumbcozy2}
                         fluid={false}
-                        width={400}
+                        width={"100%"}
                         height={600}
                         src="./Videos/EventStage.mp4"
                         preload={"none"}
@@ -329,7 +311,6 @@ class PageCozyCafe extends Component {
                         loop={true}
                       />
                     </Grid>
-                  </Grid>
 
                   <Grid item xs={12} sm={12} md={3} className="">
                     <div className="smallPadding centerText">

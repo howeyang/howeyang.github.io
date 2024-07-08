@@ -23,17 +23,6 @@ import outlink from "../Images/svg/outlink.svg";
 class PageWorkMobile extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
-    document.querySelector("body").style.background = "#e1771b";
-
-    document
-      .querySelector(".gradientBackground")
-      .classList.add("gradientOrange");
-  }
-
-  componentWillUnmount() {
-    document
-      .querySelector(".gradientBackground")
-      .classList.remove("gradientOrange");
   }
 
   render() {
@@ -148,7 +137,7 @@ class PageWorkMobile extends Component {
                       </Grid>
                       <Grid item xs={12} sm={12} md={12} className="">
                         <div className="">
-                          <img src={gamehiveinfo} className=" centerImage"></img>
+                          <img src={gamehiveinfo} className="centerImage"></img>
                         </div>
                       </Grid>
                     </Grid>
@@ -289,8 +278,6 @@ class PageWorkMobile extends Component {
                   spacing={1}
                   className="centerElement"
                 >
-                  
-
                   <Grid item xs={11} sm={11} md={11} className="">
                     <Grid
                       container
@@ -345,10 +332,10 @@ class PageWorkMobile extends Component {
                         </div>
                       </Grid>
                       <Grid item xs={12} sm={12} md={12} className="">
-                    <div className="">
-                      <img src={upsightinfo} className="centerImage"></img>
-                    </div>
-                  </Grid>
+                        <div className="">
+                          <img src={upsightinfo} className="centerImage"></img>
+                        </div>
+                      </Grid>
                     </Grid>
 
                     <Grid
