@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
-
+import Fade from "react-reveal/Fade";
 import CardBeach from "../Cards/CardBeach";
 import CardProjects from "../Cards/CardProjects";
-
 
 class PageCozyCafe extends Component {
   componentDidMount() {
@@ -34,28 +33,28 @@ class PageCozyCafe extends Component {
             </div>
           </div>
 
-          <Grid
-            container
-            direction="row"
-            justifyContent="center"
-            alignItems="center"
-            spacing={3}
-            className="landingContainer"
-          >
-          <Grid item xs={12} sm={12} md={12} className="emptySpace">
-              <div></div>
-            </Grid>
-            
-            <Grid item xs={10} sm={8} md={3}>
-              <CardBeach delay={200} />
-            </Grid>
+          <Fade delay={700}>
+            <Grid
+              container
+              direction="row"
+              justifyContent="center"
+              alignItems="center"
+              spacing={3}
+              className="landingContainer"
+            >
+              <Grid item xs={12} sm={12} md={12} className="emptySpace">
+                <div></div>
+              </Grid>
 
-            <Grid item xs={10} sm={8} md={3}>
-              <CardProjects delay={300} />
-            </Grid>
+              <Grid item xs={10} sm={8} md={3}>
+                <CardBeach delay={200} />
+              </Grid>
 
-            
-          </Grid>
+              <Grid item xs={10} sm={8} md={3}>
+                <CardProjects delay={300} />
+              </Grid>
+            </Grid>
+          </Fade>
         </div>
       </div>
     );

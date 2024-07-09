@@ -44,18 +44,19 @@ class ProjectBeachWave extends Component {
               spacing={0}
               className="centerElement"
             >
-              <Grid item sm={3} md={3} className=""></Grid>
+              <Grid item xs={2} sm={2} md={3} className=""></Grid>
               <Grid
                 item
-                sm={6}
-                md={4}
+                xs={8}
+                sm={8}
+                md={6}
                 className="workHeaderSection workSubtitle"
               >
                 <labelBigText>Beach Water Shader</labelBigText>
                 <br></br> Written in HLSL Shader Script <br></br> Completed in
                 2019{" "}
               </Grid>
-              <Grid item sm={3} md={3} className=""></Grid>
+              <Grid item xs={2} sm={2} md={3} className=""></Grid>
               <Grid item xs={12} sm={12} md={12} className="workSection">
                 <Grid
                   container

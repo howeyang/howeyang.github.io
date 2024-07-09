@@ -41,16 +41,16 @@ class LandingPage extends Component {
                   />
                 </div>
               </Fade>
-  */
 
-  render() {
-    return (
-      <div>
-        <div className="grid_root">
-          <Grid
+
+
+              HMMM
+
+
+                      <Grid
             container
             direction="row"
-            justifyContent="center"
+            justifyContent="left"
             alignItems="stretch"
             className=""
           >
@@ -58,10 +58,13 @@ class LandingPage extends Component {
               <div></div>
             </Grid>
 
-            <Grid item xs={4} sm={4} md={2} className="PUT AVATAR HERE INSIDE THIS">
-              
-            </Grid>
-
+            <Grid
+              item
+              xs={1}
+              sm={1}
+              md={1}
+              className="PUT AVATAR HERE INSIDE THIS"
+            ></Grid>
             <Grid item xs={10} sm={10} md={6} className=" ">
               <div>
                 <div className="titleContainer">
@@ -70,8 +73,42 @@ class LandingPage extends Component {
                       <div className="bannerMoveBottom">Hi I'm </div>{" "}
                       <div className="bannerMoveTop">Howe Yang</div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </Grid>
+          </Grid>
+  */
 
-                    <Fade duration={1000} delay={700}>
+  render() {
+    return (
+      <div>
+        <div className="grid_root">
+
+        <div className="emptySpace"></div>
+          <div className="titleContainer">
+            <div className="landingTextContainer">
+              <div className="bannerWhite centerText">
+              <div className="bannerMoveBottom">Hi I'm </div>{" "}
+                      <div className="bannerMoveTop">Howe Yang</div>
+              </div>
+            </div>
+          </div>
+
+          <Fade duration={1000} delay={700}>
+            <Grid
+              container
+              direction="row"
+              justifyContent="center"
+              alignItems="stretch"
+              className=""
+            >
+              <Grid item xs={10} sm={10} md={6} className=" ">
+                <div>
+                  <div className="titleContainer">
+                    <div className="landingTextContainer">
+                     
+
                       <div className="whiteText">
                         <p className="largerText">
                           I love playing and making games!
@@ -123,22 +160,20 @@ class LandingPage extends Component {
                           </div>
                         </NavLink>
                       </div>
-                    </Fade>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </Grid>
+              </Grid>
 
-            <Grid
-              container
-              direction="row"
-              justifyContent="center"
-              alignItems="stretch"
-              spacing={2}
-              className="centerElement"
-            >
-              <Grid item xs={10} sm={10} md={10} className="bigText">
-              <Fade duration={1000} delay={700}>
+              <Grid
+                container
+                direction="row"
+                justifyContent="center"
+                alignItems="stretch"
+                spacing={2}
+                className="centerElement"
+              >
+                <Grid item xs={10} sm={10} md={10} className="bigText">
                   <div className="sectionContentLeft secondaryText">
                     {" "}
                     Published Games{" "}
@@ -146,25 +181,23 @@ class LandingPage extends Component {
 
                   <div className="sectionContentRight"> </div>
                   <div className="sectionContentMiddle landingDivider"> </div>
-               </Fade>
-              </Grid>
+                </Grid>
 
-              <Grid item xs={10} sm={8} md={3}>
-                <CardCozy delay={800} />
-              </Grid>
+                <Grid item xs={10} sm={8} md={3}>
+                  <CardCozy delay={700} />
+                </Grid>
 
-              <Grid item xs={10} sm={8} md={3}>
-                <CardBattleRun delay={900} />
-              </Grid>
+                <Grid item xs={10} sm={8} md={3}>
+                  <CardBattleRun delay={750} />
+                </Grid>
 
-              <Grid item xs={10} sm={8} md={3}>
-                <CardBTB4 delay={1000} />
-              </Grid>
+                <Grid item xs={10} sm={8} md={3}>
+                  <CardBTB4 delay={800} />
+                </Grid>
 
-              <Grid item xs={12} sm={12} md={12} className="divider"></Grid>
+                <Grid item xs={12} sm={12} md={12} className="divider"></Grid>
 
-              <Grid item xs={10} sm={10} md={10} className="bigText">
-                <Fade duration={1000} delay={700}>
+                <Grid item xs={10} sm={10} md={10} className="bigText">
                   <div className="sectionContentLeft secondaryText">
                     {" "}
                     Personal Projects{" "}
@@ -172,23 +205,22 @@ class LandingPage extends Component {
 
                   <div className="sectionContentRight"> </div>
                   <div className="sectionContentMiddle landingDivider"> </div>
-                </Fade>
-              </Grid>
-             
+                </Grid>
 
-              <Grid item xs={10} sm={8} md={3}>
-                <CardBeach delay={200} />
-              </Grid>
+                <Grid item xs={10} sm={8} md={3}>
+                  <CardBeach delay={0} />
+                </Grid>
 
-              <Grid item xs={10} sm={8} md={3}>
-                <CardProjects delay={300} />
-              </Grid>
+                <Grid item xs={10} sm={8} md={3}>
+                  <CardProjects delay={0} />
+                </Grid>
 
-              <Grid item xs={10} sm={8} md={3}>
-                <CardGalaxy delay={400} />
+                <Grid item xs={10} sm={8} md={3}>
+                  <CardGalaxy delay={0} />
+                </Grid>
               </Grid>
             </Grid>
-          </Grid>
+          </Fade>
         </div>
       </div>
     );

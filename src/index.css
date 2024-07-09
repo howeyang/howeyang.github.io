@@ -9,11 +9,8 @@ Super white Gray :  DFDCE7 */
 
 /* NEW CSS BELOW */
 
-.content {
-}
-
 .landingContainer {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .paddingContainer {
@@ -133,12 +130,18 @@ Super white Gray :  DFDCE7 */
   z-index: 0;
 }
 
+.fadeInAnimation{
+  animation: fadeIn 1s linear forwards;
+  opacity: 0 !important;
+  animation-delay: 2s;
+}
+
 @keyframes fadeIn {
   0% {
-    opacity: 0;
+    opacity: 0 !important;
   }
   100% {
-    opacity: 1;
+    opacity: 1 !important;
   }
 }
 

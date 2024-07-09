@@ -22,7 +22,7 @@ class SmallCardCozy extends Component {
       <div className="hvr-sweep-to-right2">
         <div className="hvr-sweep-to-right sandbox">
           <div className="hvr-sweep-to-right3">
-            <Fade delay={this.props.delay}>
+           
               <Card className="glow cardBackground">
                 <CardActionArea
                   onClick={this.redirect}
@@ -36,7 +36,7 @@ class SmallCardCozy extends Component {
 
                 </CardActionArea>
               </Card>
-            </Fade>
+           
           </div>
         </div>
       </div>
