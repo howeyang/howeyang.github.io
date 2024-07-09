@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c04f628.chunk.css",
+    "main.css": "/static/css/main.606e9d54.chunk.css",
     "main.js": "/static/js/main.8be3ceb1.chunk.js",
     "main.js.map": "/static/js/main.8be3ceb1.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -9,10 +9,10 @@
     "static/js/2.ca21aeea.chunk.js": "/static/js/2.ca21aeea.chunk.js",
     "static/js/2.ca21aeea.chunk.js.map": "/static/js/2.ca21aeea.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.61ff418ae0b718efda62975a12e569e3.js": "/precache-manifest.61ff418ae0b718efda62975a12e569e3.js",
+    "precache-manifest.6c0977acdee61ace8753aa86e493cdb3.js": "/precache-manifest.6c0977acdee61ace8753aa86e493cdb3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.da68fc70.chunk.css.map": "/static/css/2.da68fc70.chunk.css.map",
-    "static/css/main.2c04f628.chunk.css.map": "/static/css/main.2c04f628.chunk.css.map",
+    "static/css/main.606e9d54.chunk.css.map": "/static/css/main.606e9d54.chunk.css.map",
     "static/media/index.css": "/static/media/cozycafebigsplash.96c14987.png",
     "static/media/DustSpin.png": "/static/media/DustSpin.ed70842c.png",
     "static/media/MacieJump.png": "/static/media/MacieJump.72bbb25e.png",
