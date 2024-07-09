@@ -32,6 +32,18 @@ class LandingPage extends Component {
       .classList.remove("gradientSoftYellow");
   }
 
+  /*
+<Fade duration={1000} delay={900}>
+                <div>
+                  <img
+                    src={avatar}
+                    alt="Chibi Meeee"
+                    className="bigAvatar bigCircle centerElement"
+                  />
+                </div>
+              </Fade>
+  */
+
   render() {
     return (
       <div>
@@ -47,16 +59,8 @@ class LandingPage extends Component {
               <div></div>
             </Grid>
 
-            <Grid item xs={4} sm={4} md={2} className="">
-              <Fade duration={1000} delay={900}>
-                <div>
-                  <img
-                    src={avatar}
-                    alt="Chibi Meeee"
-                    className="bigAvatar bigCircle centerElement"
-                  />
-                </div>
-              </Fade>
+            <Grid item xs={4} sm={4} md={2} className="PUT AVATAR HERE INSIDE THIS">
+              
             </Grid>
 
             <Grid item xs={10} sm={10} md={6} className=" ">
