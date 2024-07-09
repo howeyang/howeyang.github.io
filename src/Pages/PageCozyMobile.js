@@ -16,7 +16,7 @@ class PageCozyCafe extends Component {
     window.scrollTo(0, 0);
   }
 
-  componentWillUnmount(){
+  componentWillUnmount() {
     window.scrollTo(0, 0);
   }
 
@@ -70,7 +70,6 @@ class PageCozyCafe extends Component {
                   spacing={1}
                   className="centerElement"
                 >
-                  
                   <Grid item xs={11} sm={11} md={11} className="">
                     <Grid
                       container
@@ -274,37 +273,47 @@ class PageCozyCafe extends Component {
                     </div>
 
                     <div className="imageContainer">
-                      <img src={cozycafe_vertical} className="centerImage"></img>
+                      <img
+                        src={cozycafe_vertical}
+                        className="centerImage"
+                      ></img>
                     </div>
 
                     <br></br>
                   </Grid>
 
                   <Grid item xs={12} sm={12} md={12} className="centerImage">
-                      <Player
-                         poster={thumbcozy1}
-                         fluid={false}
-                         width={"100%"}
-                         height={600}
-                        src="./Videos/BoxOpen.mp4"
-                        preload={"none"}
-                        muted={true}
-                        loop={true}
-                      />
-                    </Grid>
+                    <labelWork>
+                      Shop and Opening Sequence<br></br>
+                    </labelWork>
+                    <Player
+                      poster={thumbcozy1}
+                      fluid={false}
+                      width={"100%"}
+                      height={600}
+                      src="./Videos/BoxOpen.mp4"
+                      preload={"none"}
+                      muted={true}
+                      loop={true}
+                    />
+                  </Grid>
 
-                    <Grid item xs={12} sm={12} md={12} className="centerImage">
-                      <Player
-                        poster={thumbcozy2}
-                        fluid={false}
-                        width={"100%"}
-                        height={600}
-                        src="./Videos/EventStage.mp4"
-                        preload={"none"}
-                        muted={true}
-                        loop={true}
-                      />
-                    </Grid>
+                  <Grid item xs={12} sm={12} md={12} className="centerImage">
+                    <labelWork>
+                      Event Stage Gameplay<br></br>
+                    </labelWork>
+
+                    <Player
+                      poster={thumbcozy2}
+                      fluid={false}
+                      width={"100%"}
+                      height={600}
+                      src="./Videos/EventStage.mp4"
+                      preload={"none"}
+                      muted={true}
+                      loop={true}
+                    />
+                  </Grid>
 
                   <Grid item xs={12} sm={12} md={3} className="">
                     <div className="smallPadding centerText">

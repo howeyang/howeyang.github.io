@@ -364,6 +364,9 @@ class PageCozyCafe extends Component {
                       className="centerElement"
                     >
                       <Grid item xs={11} sm={11} md={5} className="">
+                      <labelWork>
+                          Shop and Opening Sequence<br></br>
+                        </labelWork>
                         <Player
                           poster={thumbcozy1}
                           fluid={false}
@@ -377,6 +380,9 @@ class PageCozyCafe extends Component {
                       </Grid>
 
                       <Grid item xs={11} sm={11} md={5} className="">
+                      <labelWork>
+                          Event Stage Gameplay<br></br>
+                        </labelWork>
                         <Player
                           poster={thumbcozy2}
                           fluid={false}
