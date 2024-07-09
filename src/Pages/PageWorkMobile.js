@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
 import Fade from "react-reveal/Fade";
-import Hidden from "@material-ui/core/Hidden";
 
 import cutehanging from "../Images/work/work/cute-hanging.png";
 import upsightlogo from "../Images/work/work/upsight-logo2.png";

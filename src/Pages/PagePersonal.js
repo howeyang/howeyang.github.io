@@ -1,16 +1,9 @@
 import React, { Component } from "react";
-import CardAutobattler from "../Cards/CardAutobattler";
-import CardSandbox from "../Cards/CardSandbox";
 import Grid from "@material-ui/core/Grid";
-import Fade from "react-reveal/Fade";
-import Hidden from "@material-ui/core/Hidden";
-import CardReact from "../Cards/CardReact";
+
 import CardBeach from "../Cards/CardBeach";
-import CardFire from "../Cards/CardFire";
 import CardProjects from "../Cards/CardProjects";
 
-import unitylogo from "../Images/landing/unity_logo.png";
-import battlerun from "../Images/work/battlerun/BattleRunMain.png";
 
 class PageCozyCafe extends Component {
   componentDidMount() {

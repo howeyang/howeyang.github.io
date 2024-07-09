@@ -11,7 +11,6 @@ import CardBeach from "../Cards/CardBeach";
 import CardGalaxy from "../Cards/CardGalaxy";
 
 import Fade from "react-reveal/Fade";
-import { withRouter } from "react-router-dom";
 import avatar from "../Images/gifs/avatar.gif";
 import outlink from "../Images/svg/outlink.svg";
 import graduate from "../Images/svg/graduate.svg";

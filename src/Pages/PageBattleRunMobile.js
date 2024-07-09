@@ -1,24 +1,12 @@
 import React, { Component } from "react";
-import CardAutobattler from "../Cards/CardAutobattler";
-import CardSandbox from "../Cards/CardSandbox";
 import Grid from "@material-ui/core/Grid";
 import Fade from "react-reveal/Fade";
-import Hidden from "@material-ui/core/Hidden";
-import CardReact from "../Cards/CardReact";
-import CardBeach from "../Cards/CardBeach";
-import CardFire from "../Cards/CardFire";
-import unitylogo from "../Images/landing/unity_logo.png";
-import avatar from "../Images/work/battlerun/BattleRunMain.png";
-import CardProjects from "../Cards/CardProjects";
-
-import battlerun from "../Images/work/battlerun/BattleRunMain.png";
 import outlink from "../Images/svg/outlink.svg";
 
 import cutehanging from "../Images/work/battlerun/DustSpin.png";
 import maciejump from "../Images/work/battlerun/MacieJump.png";
 
 import logo from "../Images/logo/gamehive-battlerun.png";
-import cozycafe_vertical from "../Images/work/cozycafe/cozycafe_vertical.png";
 
 import thumbleader from "../Images/Thumbnails/ThumbLeader.png";
 import thumblanding from "../Images/Thumbnails/ThumbLanding.png";

@@ -109,25 +109,6 @@ Super white Gray :  DFDCE7 */
   background-color: rgb(226, 81, 255) !important;
 }
 
-.firstCard {
-  background: url("./Images/card/card-beach.png") no-repeat center;
-  background-size: cover;
-}
-
-.secondCard {
-  background: url("./Images/card/card-beach.png") no-repeat center;
-  background-size: cover;
-}
-
-.thirdCard {
-  background: url("./Images/card/card-autobattler.png") no-repeat center;
-  background-size: cover;
-}
-
-.fourthCard {
-  background: url("./Images/card/old-cardwork.png") no-repeat center;
-  background-size: cover;
-}
 
 .mixDifference {
   mix-blend-mode: difference !important;

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
 import Fade from "react-reveal/Fade";
-import Hidden from "@material-ui/core/Hidden";
 
 import outlink from "../Images/svg/outlink.svg";
 import cozycafelogo from "../Images/work/boss4/bosslogo.png";
