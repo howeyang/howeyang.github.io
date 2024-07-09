@@ -737,6 +737,16 @@ labelBigText {
   text-align: center;
 }
 
+.imageHeaderMobile {
+  height: auto;
+  width: 80%;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+
 .cuteHeader {
   height: 100px;
   width: auto;

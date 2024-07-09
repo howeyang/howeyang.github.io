@@ -48,7 +48,7 @@ class PageCozyCafe extends Component {
                 <div className="imageContainer">
                   <img
                     src={cozycafelogo}
-                    className="imageHeader centerElement"
+                    className="imageHeaderMobile centerElement"
                   ></img>
                 </div>
               </Grid>

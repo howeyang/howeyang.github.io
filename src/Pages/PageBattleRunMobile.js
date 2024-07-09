@@ -57,7 +57,7 @@ class PageBattleRunMobile extends Component {
               </Grid>
               <Grid item sm={8} xs={8} className="workHeaderSection2">
                 <div className="imageContainer">
-                  <img src={logo} className="imageHeader centerElement"></img>
+                  <img src={logo} className="imageHeaderMobile centerElement"></img>
                 </div>
               </Grid>
               <Grid item sm={2} xs={2} className="">
