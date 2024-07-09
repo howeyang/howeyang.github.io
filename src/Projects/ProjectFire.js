@@ -161,7 +161,7 @@ class ProjectFire extends Component {
 
                     <Player
                       poster={thumbfire1}
-                      src="./fire/firevideo.mp4"
+                      src="./Videos/firevideo.mp4"
                       preload={"none"}
                       muted={true}
                       loop={true}
@@ -175,7 +175,7 @@ class ProjectFire extends Component {
 
                     <Player
                       poster={thumbfire2}
-                      src="./fire/fire_side_x_side.mp4"
+                      src="./Videos/fireprogress.mp4"
                       preload={"none"}
                       muted={true}
                       loop={true}
