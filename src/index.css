@@ -1170,6 +1170,14 @@ li {
   width: inherit;
 }
 
+/*special case for video-react to prevent glitches */
+@media (max-width: 960px) {
+  .video-react-fullscreen-control {
+    display:none !important;
+  }
+}
+
+
 /* Hovering Overlay TEST 
 .container-overlay {
   position: relative;
