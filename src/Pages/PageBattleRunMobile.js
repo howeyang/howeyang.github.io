@@ -59,7 +59,7 @@ class PageBattleRunMobile extends Component {
               spacing={0}
               className="centerElement"
             >
-              <Grid item sm={3} md={3} className="">
+              <Grid item sm={2} xs={2} className="">
                 <div className="imageContainer">
                   <img
                     src={maciejump}
@@ -67,15 +67,15 @@ class PageBattleRunMobile extends Component {
                   ></img>
                 </div>
               </Grid>
-              <Grid item sm={6} md={4} className="workHeaderSection2">
+              <Grid item sm={8} xs={8} className="workHeaderSection2">
                 <div className="imageContainer">
                   <img src={logo} className="imageHeader centerElement"></img>
                 </div>
               </Grid>
-              <Grid item sm={3} md={3} className="">
+              <Grid item sm={2} xs={2} className="">
                 <img
                   src={cutehanging}
-                  className="cuteHeader runhangingPosition"
+                  className="cuteHeader runhangingPositionMobile"
                 ></img>
               </Grid>
 

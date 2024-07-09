@@ -54,17 +54,19 @@ class PageWorkMobile extends Component {
               spacing={0}
               className="centerElement"
             >
-              <Grid item sm={3} md={3} className=""></Grid>
-              <Grid item sm={6} md={6} className="workHeaderSection">
+              
+
+              <Grid item sm={0} xs={0} className=""></Grid>
+              <Grid item sm={6} xs={6} className="workHeaderSection2">
                 <div className="imageContainer">
                   <img
                     src={gamehivelogo}
-                    className="imageFatHeader centerElement"
+                    className="imageHeader centerElement"
                   ></img>
                 </div>
               </Grid>
-              <Grid item sm={3} md={3} className="">
-                <div className="imageContainer">
+              <Grid item sm={6} xs={6} className="">
+                <div className="imageContainer cuteMobileContainer">
                   <img
                     src={cutehanging}
                     className="cuteHeader2 cutehangingPosition2"
@@ -72,7 +74,7 @@ class PageWorkMobile extends Component {
                 </div>
               </Grid>
 
-              <Grid item xs={12} sm={12} md={12} className="workSection">
+              <Grid item xs={12} sm={12} md={12} className="workSectionMobile">
                 <Grid
                   container
                   direction="row"
@@ -265,13 +267,13 @@ class PageWorkMobile extends Component {
                 <div className="emptySpace"></div>
               </Grid>
 
-              <Grid item sm={3} md={3} className=""></Grid>
-              <Grid item sm={6} md={6} className="workHeaderSection">
+              <Grid item sm={2} xs={2} className=""></Grid>
+              <Grid item sm={8} xs={8} className="workHeaderSection">
                 <div className="">
                   <img src={upsightlogo} className="imageHeader"></img>
                 </div>
               </Grid>
-              <Grid item sm={3} md={3} className=""></Grid>
+              <Grid item sm={2} xs={2} className=""></Grid>
 
               <Grid item xs={12} sm={12} md={12} className="workSection">
                 <Grid

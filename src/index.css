@@ -725,7 +725,7 @@ labelBigText {
   font-size: 1vw;
   line-height: 1.1;
 
-  border-radius: 5px 5px 5px 5px; /* This line was updated */
+  border-radius: 0px 25px 25px 25px; /* This line was updated */
 }
 
 .imageContainer {
@@ -805,7 +805,7 @@ labelBigText {
   width: 80% !important;
 }
 
-.cuteMobileContainer{
+.cuteMobileContainer {
   display: flex;
   align-items: flex-end;
 }
@@ -821,6 +821,12 @@ labelBigText {
   position: relative;
   top: -10%;
   left: 0%;
+}
+
+.runhangingPositionMobile {
+  position: relative;
+  top: -10%;
+  left: -20%;
 }
 
 .workHeaderSection {
