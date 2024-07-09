@@ -22,19 +22,19 @@ class Main extends Component {
   };
 
   listenHistoryChange = e => {
-    if (window.location.hash == "#/CozyCafe") {
+    if (window.location.hash === "#/CozyCafe") {
       this.setState({ opacityCozy: 1 });
     } else {
       this.setState({ opacityCozy: 0 });
     }
 
-    if (window.location.hash == "#/BattleRun") {
+    if (window.location.hash === "#/BattleRun") {
       this.setState({ opacityBattle: 1 });
     } else {
       this.setState({ opacityBattle: 0 });
     }
 
-    if (window.location.hash == "#/BeatBoss4") {
+    if (window.location.hash === "#/BeatBoss4") {
       this.setState({ opacityBoss: 1 });
     } else {
       this.setState({ opacityBoss: 0 });
@@ -43,15 +43,15 @@ class Main extends Component {
 
   listenScrollEvent = e => {
     if (window.scrollY > 10) {
-      if (window.location.hash == "#/Work") {
+      if (window.location.hash === "#/Work") {
         this.setState({ class: "header orangeNav" });
-      } else if (window.location.hash == "#/CozyCafe") {
+      } else if (window.location.hash === "#/CozyCafe") {
         this.setState({ class: "header pinkNav" });
-      } else if (window.location.hash == "#/BeatBoss4" || window.location.hash == "#/PageFire") {
+      } else if (window.location.hash === "#/BeatBoss4" || window.location.hash === "#/PageFire") {
         this.setState({ class: "header redNav" });
       } else if (
-        window.location.hash == "#/BattleRun" ||
-        window.location.hash == "#/Personal"
+        window.location.hash === "#/BattleRun" ||
+        window.location.hash === "#/Personal"
       ) {
         this.setState({ class: "header greenNav" });
       } else {
