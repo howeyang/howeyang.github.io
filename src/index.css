@@ -817,6 +817,12 @@ labelBigText {
   left: 0%;
 }
 
+.runhangingPositionMacie {
+  position: relative;
+  top: 0%;
+  left: -30%;
+}
+
 .runhangingPositionMobile {
   position: relative;
   top: -10%;

@@ -51,7 +51,7 @@ class PageBattleRunMobile extends Component {
                 <div className="imageContainer">
                   <img
                     src={maciejump}
-                    className="imageHeader2 runhangingPosition"
+                    className="imageHeader2 runhangingPositionMacie"
                   ></img>
                 </div>
               </Grid>

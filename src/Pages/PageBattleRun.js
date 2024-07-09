@@ -201,10 +201,10 @@ class PageBattleRun extends Component {
                       direction="row"
                       justifyContent="center"
                       alignItems="center"
-                      spacing={1}
+                      spacing={0}
                       className="workSubtitle"
                     >
-                      <Grid item xs={5} sm={5} md={5}>
+                      <Grid item xs={6} sm={6} md={6}>
                         <a
                           className="text-link"
                           href="https://play.google.com/store/apps/details?id=com.gamehivecorp.battlerun"
@@ -219,7 +219,9 @@ class PageBattleRun extends Component {
                         </a>
                       </Grid>
 
-                      <Grid item xs={5} sm={5} md={5}>
+                      {" "}
+
+                      <Grid item xs={6} sm={6} md={6}>
                         <a
                           className="text-link"
                           href="https://apps.apple.com/us/app/battle-run/id1612277646"

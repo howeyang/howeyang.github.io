@@ -156,10 +156,10 @@ class PageBeatBoss4 extends Component {
                         direction="row"
                         justifyContent="center"
                         alignItems="center"
-                        spacing={1}
+                        spacing={0}
                         className=""
                       >
-                        <Grid item xs={5} sm={5} md={5}>
+                        <Grid item xs={6} sm={6} md={6}>
                           <a
                             className="text-link"
                             href="https://play.google.com/store/apps/details?id=com.gamehivecorp.beattheboss4"
@@ -174,7 +174,9 @@ class PageBeatBoss4 extends Component {
                           </a>
                         </Grid>
 
-                        <Grid item xs={5} sm={5} md={5}>
+                        {" "}
+
+                        <Grid item xs={6} sm={6} md={6}>
                           <a
                             className="text-link"
                             href="https://apps.apple.com/ca/app/beat-the-boss-4-stress-relief/id1034018838"
