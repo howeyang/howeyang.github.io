@@ -53,8 +53,8 @@ class PageCozyCafe extends Component {
               spacing={0}
               className="centerElement"
             >
-              <Grid item sm={3} md={3} className=""></Grid>
-              <Grid item sm={6} md={6} className="workHeaderSection2">
+              <Grid item sm={0} xs={0} className=""></Grid>
+              <Grid item sm={6} xs={6} className="workHeaderSection2">
                 <div className="imageContainer">
                   <img
                     src={cozycafelogo}
@@ -62,8 +62,8 @@ class PageCozyCafe extends Component {
                   ></img>
                 </div>
               </Grid>
-              <Grid item sm={3} md={3} className="">
-                <div className="imageContainer">
+              <Grid item sm={6} xs={6} className="">
+                <div className="imageContainer cuteMobileContainer">
                   <img
                     src={cutehanging}
                     className="cuteHeader2 cutehangingPosition2"
@@ -71,7 +71,7 @@ class PageCozyCafe extends Component {
                 </div>
               </Grid>
 
-              <Grid item xs={12} sm={12} md={12} className="workSection">
+              <Grid item xs={12} sm={12} md={12} className="workSectionMobile">
                 <Grid
                   container
                   direction="row"

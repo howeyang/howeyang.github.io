@@ -151,8 +151,8 @@ class Main extends Component {
             style={{ opacity: this.state.opacityCozy }}
           ></div>
 
-          <Grid item xs={12} sm={12} md={12} className="forceHeight">
-            <div className="content">
+          <Grid item xs={12} sm={12} md={12} className="">
+            <div className="content paddingContainer">
               <Switch>
                 <Route exact path="/" component={LandingPage} />
                 <Route exact path="/Work" component={PageWork} />
