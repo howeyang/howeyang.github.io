@@ -60,7 +60,7 @@ class PageWorkMobile extends Component {
                 <div className="imageContainer">
                   <img
                     src={gamehivelogo}
-                    className="imageHeader centerElement"
+                    className="imageHeaderMobile centerElement"
                   ></img>
                 </div>
               </Grid>
@@ -269,7 +269,7 @@ class PageWorkMobile extends Component {
               <Grid item sm={2} xs={2} className=""></Grid>
               <Grid item sm={8} xs={8} className="workHeaderSection">
                 <div className="">
-                  <img src={upsightlogo} className="imageHeader"></img>
+                  <img src={upsightlogo} className="imageHeaderMobile"></img>
                 </div>
               </Grid>
               <Grid item sm={2} xs={2} className=""></Grid>
