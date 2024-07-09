@@ -820,7 +820,8 @@ labelBigText {
 .runhangingPositionMacie {
   position: relative;
   top: 0%;
-  left: -30%;
+  left: -50px;
+  overflow: hidden;
 }
 
 .runhangingPositionMobile {
