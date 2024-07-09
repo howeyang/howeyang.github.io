@@ -117,28 +117,6 @@ class MobileBar extends Component {
           <Fade
             collapse
             when={this.state.active}
-            duration={300}
-            key={2 + this.state.active}
-          >
-            <ul
-              className={
-                this.state.active ? "header top4 visiblenav centerText" : "hidden"
-              }
-            >
-              <li>
-                <a
-                  className={this.state.active ? "menubutton active" : "hidden"}
-                  onClick={this.redirectProject}
-                >
-                  Personal Projects
-                </a>
-              </li>
-            </ul>
-          </Fade>
-
-          <Fade
-            collapse
-            when={this.state.active}
             duration={600}
             key={3 + this.state.active}
           >
@@ -166,15 +144,15 @@ class MobileBar extends Component {
           >
             <ul
               className={
-                this.state.active ? "header top5 visiblenav centerText" : "hidden"
+                this.state.active ? "header top4 visiblenav centerText" : "hidden"
               }
             >
               <li>
                 <a
-                  className={this.state.active ? "menubutton active" : "hidden"}
+                  className={this.state.active ? "menubuttonWork active" : "hidden"}
                   onClick={this.redirectCozy}
                 >
-                  Work - Cozy Cafe
+                  Cozy Cafe
                 </a>
               </li>
             </ul>
@@ -188,15 +166,15 @@ class MobileBar extends Component {
           >
             <ul
               className={
-                this.state.active ? "header top6 visiblenav centerText" : "hidden"
+                this.state.active ? "header top5 visiblenav centerText" : "hidden"
               }
             >
               <li>
                 <a
-                  className={this.state.active ? "menubutton active" : "hidden"}
+                  className={this.state.active ? "menubuttonWork active" : "hidden"}
                   onClick={this.redirectBattle}
                 >
-                  Work - Battle Run
+                  Battle Run
                 </a>
               </li>
             </ul>
@@ -210,15 +188,37 @@ class MobileBar extends Component {
           >
             <ul
               className={
+                this.state.active ? "header top6 visiblenav centerText" : "hidden"
+              }
+            >
+              <li>
+                <a
+                  className={this.state.active ? "menubuttonWork active" : "hidden"}
+                  onClick={this.redirectBoss}
+                >
+                  Beat the Boss 4
+                </a>
+              </li>
+            </ul>
+          </Fade>
+
+          <Fade
+            collapse
+            when={this.state.active}
+            duration={300}
+            key={2 + this.state.active}
+          >
+            <ul
+              className={
                 this.state.active ? "header top7 visiblenav centerText" : "hidden"
               }
             >
               <li>
                 <a
                   className={this.state.active ? "menubutton active" : "hidden"}
-                  onClick={this.redirectBoss}
+                  onClick={this.redirectProject}
                 >
-                  Work - Beat the Boss 4
+                  Personal Projects
                 </a>
               </li>
             </ul>
