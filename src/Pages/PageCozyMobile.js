@@ -323,7 +323,7 @@ class PageCozyCafe extends Component {
                       </labelBigText>
                     </div>
 
-                    <div className="sectionName leftText mediumText">
+                    <div className="sectionNameMobile leftText mediumText">
                       <div className="sectionContentLeft">Design</div>
                       <div className="sectionContentRight">
                         Chris Doan
@@ -335,7 +335,7 @@ class PageCozyCafe extends Component {
 
                     <div className="emptySpaceFloat"></div>
 
-                    <div className="sectionName leftText mediumText">
+                    <div className="sectionNameMobile leftText mediumText">
                       <div className="sectionContentLeft">Producer</div>
                       <div className="sectionContentRight">Howe Yang</div>
                       <div className="sectionContentMiddle"> > > ></div>
@@ -343,7 +343,7 @@ class PageCozyCafe extends Component {
 
                     <div className="emptySpaceFloat"></div>
 
-                    <div className="sectionName leftText mediumText">
+                    <div className="sectionNameMobile leftText mediumText">
                       <div className="sectionContentLeft">Art</div>
                       <div className="sectionContentRight">
                         Nancy Andrews
@@ -355,7 +355,7 @@ class PageCozyCafe extends Component {
 
                     <div className="emptySpaceFloat"></div>
 
-                    <div className="sectionName leftText mediumText">
+                    <div className="sectionNameMobile leftText mediumText">
                       <div className="sectionContentLeft">Animation</div>
                       <div className="sectionContentRight">Gabriel Lavoyer</div>
                       <div className="sectionContentMiddle"> > > ></div>
@@ -363,7 +363,7 @@ class PageCozyCafe extends Component {
 
                     <div className="emptySpaceFloat"></div>
 
-                    <div className="sectionName leftText mediumText">
+                    <div className="sectionNameMobile leftText mediumText">
                       <div className="sectionContentLeft">Developers</div>
                       <div className="sectionContentRight">
                         Jason Chiu <br></br>

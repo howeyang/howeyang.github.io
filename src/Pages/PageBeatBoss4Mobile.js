@@ -43,8 +43,8 @@ class PageBeatBoss4Mobile extends Component {
               spacing={0}
               className="centerElement"
             >
-              <Grid item sm={3} md={3} className=""></Grid>
-              <Grid item sm={6} md={4} className="workHeaderSection2">
+              <Grid item sm={2} xs={2} className=""></Grid>
+              <Grid item sm={8} xs={8} className="workHeaderSection2">
                 <div className="imageContainer">
                   <img
                     src={cozycafelogo}
@@ -52,7 +52,7 @@ class PageBeatBoss4Mobile extends Component {
                   ></img>
                 </div>
               </Grid>
-              <Grid item sm={3} md={3} className=""></Grid>
+              <Grid item sm={2} xs={2} className=""></Grid>
 
               <Grid item xs={12} sm={12} md={12} className="workSection">
                 <Grid
@@ -281,7 +281,7 @@ class PageBeatBoss4Mobile extends Component {
                       </labelBigText>
                     </div>
 
-                    <div class="sectionName leftText mediumText">
+                    <div class="sectionNameMobile leftText mediumText">
                       <div class="sectionContentLeft">Design</div>
                       <div class="sectionContentRight">Steven Wang</div>
                       <div class="sectionContentMiddle"> > > ></div>
@@ -289,7 +289,7 @@ class PageBeatBoss4Mobile extends Component {
 
                     <div className="emptySpaceFloat"></div>
 
-                    <div class="sectionName leftText mediumText">
+                    <div class="sectionNameMobile leftText mediumText">
                       <div class="sectionContentLeft">Producer</div>
                       <div class="sectionContentRight">Howe Yang</div>
                       <div class="sectionContentMiddle"> > > ></div>
@@ -297,7 +297,7 @@ class PageBeatBoss4Mobile extends Component {
 
                     <div className="emptySpaceFloat"></div>
 
-                    <div class="sectionName leftText mediumText">
+                    <div class="sectionNameMobile leftText mediumText">
                       <div class="sectionContentLeft">Art</div>
                       <div class="sectionContentRight">Desiree Moffatt</div>
                       <div class="sectionContentMiddle"> > > ></div>
@@ -305,7 +305,7 @@ class PageBeatBoss4Mobile extends Component {
 
                     <div className="emptySpaceFloat"></div>
 
-                    <div class="sectionName leftText mediumText">
+                    <div class="sectionNameMobile leftText mediumText">
                       <div class="sectionContentLeft">Developers</div>
                       <div class="sectionContentRight">
                         Ryan Seto <br></br>

@@ -879,6 +879,13 @@ labelBigText {
   margin: auto;
 }
 
+.sectionNameMobile {
+  width: 80%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin: auto;
+}
+
 @media (min-width: 960px) {
   .sectionName {
     width: 95% !important;

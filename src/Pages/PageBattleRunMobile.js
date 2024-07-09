@@ -337,7 +337,7 @@ class PageBattleRunMobile extends Component {
                       </labelBigText>
                     </div>
 
-                    <div className="sectionName leftText mediumText">
+                    <div className="sectionNameMobile leftText mediumText">
                       <div className="sectionContentLeft">Design</div>
                       <div className="sectionContentRight">
                         Chris Doan
@@ -355,7 +355,7 @@ class PageBattleRunMobile extends Component {
 
                     <div className="emptySpaceFloat"></div>
 
-                    <div className="sectionName leftText mediumText">
+                    <div className="sectionNameMobile leftText mediumText">
                       <div className="sectionContentLeft">Producer</div>
                       <div className="sectionContentRight">
                         Roy Apoong <br /> Howe Yang
@@ -365,7 +365,7 @@ class PageBattleRunMobile extends Component {
 
                     <div className="emptySpaceFloat"></div>
 
-                    <div className="sectionName leftText mediumText">
+                    <div className="sectionNameMobile leftText mediumText">
                       <div className="sectionContentLeft">Art</div>
                       <div className="sectionContentRight">
                         Justin Yu
@@ -381,7 +381,7 @@ class PageBattleRunMobile extends Component {
 
                     <div className="emptySpaceFloat"></div>
 
-                    <div className="sectionName leftText mediumText">
+                    <div className="sectionNameMobile leftText mediumText">
                       <div className="sectionContentLeft">Developers</div>
                       <div className="sectionContentRight">
                         Jason Chiu <br></br>
