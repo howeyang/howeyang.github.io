@@ -4,6 +4,8 @@ import Fade from "react-reveal/Fade";
 import outlink from "../Images/svg/outlink.svg";
 
 import cutehanging from "../Images/work/work/cute-hanging.png";
+import cutehangingLeft from "../Images/work/work/cuteleft.png";
+import cutehangingRight from "../Images/work/work/cuteright.png";
 import cozycafelogo from "../Images/work/cozycafe/cozycafe_logo.png";
 import cozycafe_vertical from "../Images/work/cozycafe/cozycafe_vertical.png";
 
@@ -43,8 +45,15 @@ class PageCozyCafe extends Component {
               spacing={0}
               className="centerElement"
             >
-              <Grid item sm={0} xs={0} className=""></Grid>
-              <Grid item sm={6} xs={6} className="workHeaderSection2">
+              <Grid item sm={2} xs={2} className="">
+                <div className="imageContainer cuteMobileContainer">
+                  <img
+                    src={cutehangingLeft}
+                    className="cuteHeaderMobile cutehangingLeft"
+                  ></img>
+                </div>
+              </Grid>
+              <Grid item sm={8} xs={8} className="workHeaderSection2">
                 <div className="imageContainer">
                   <img
                     src={cozycafelogo}
@@ -52,16 +61,16 @@ class PageCozyCafe extends Component {
                   ></img>
                 </div>
               </Grid>
-              <Grid item sm={6} xs={6} className="">
+              <Grid item sm={2} xs={2} className="">
                 <div className="imageContainer cuteMobileContainer">
                   <img
-                    src={cutehanging}
-                    className="cuteHeader2 cutehangingPosition2"
+                    src={cutehangingRight}
+                    className="cuteHeaderMobile2 cutehangingRight"
                   ></img>
                 </div>
               </Grid>
 
-              <Grid item xs={12} sm={12} md={12} className="workSectionMobile">
+              <Grid item xs={12} sm={12} md={12} className="workSection">
                 <Grid
                   container
                   direction="row"

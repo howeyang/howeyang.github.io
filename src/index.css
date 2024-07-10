@@ -765,13 +765,30 @@ labelBigText {
   text-align: center;
 }
 
+.cuteHeaderMobile {
+  width: 90%;
+  height: auto;
+  display: inline-block;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+}
+
+.cuteHeaderMobile2 {
+  width: 120%;
+  height: auto;
+  display: inline-block;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+}
+
 .imageHeader2 {
   height: 125px;
   width: auto;
   display: inline-block;
   padding-left: 15px;
   padding-right: 15px;
-
   text-align: center;
 }
 
@@ -810,6 +827,20 @@ labelBigText {
   left: 70%;
   overflow: hidden;
 }
+
+.cutehangingLeft {
+  position: relative;
+  top: 7%;
+  height:auto;
+  overflow: hidden;
+}
+
+.cutehangingRight {
+  position: relative;
+  top: 11%;
+  left: -20%;
+}
+
 
 .runhangingPosition {
   position: relative;
