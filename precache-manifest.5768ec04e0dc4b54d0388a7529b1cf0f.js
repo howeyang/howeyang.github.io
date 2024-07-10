@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b7571e2399fdf31c629d195626e7c79",
+    "revision": "b338b8131c6201a0c62e4479f80f9910",
     "url": "/index.html"
   },
   {
-    "revision": "0a06ddbf57a0cb39bf79",
+    "revision": "6c74fe6d8b7147a42086",
     "url": "/static/css/2.da68fc70.chunk.css"
   },
   {
-    "revision": "8f21d05e11aa7502d724",
-    "url": "/static/css/main.606e9d54.chunk.css"
+    "revision": "9f0edcbed934e05af2f5",
+    "url": "/static/css/main.8ae0eabf.chunk.css"
   },
   {
-    "revision": "0a06ddbf57a0cb39bf79",
-    "url": "/static/js/2.ca21aeea.chunk.js"
+    "revision": "6c74fe6d8b7147a42086",
+    "url": "/static/js/2.fa4f1cb9.chunk.js"
   },
   {
-    "revision": "8f21d05e11aa7502d724",
-    "url": "/static/js/main.8be3ceb1.chunk.js"
+    "revision": "9f0edcbed934e05af2f5",
+    "url": "/static/js/main.d20aa563.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -112,8 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cardBTB4.0bf0549a.jpg"
   },
   {
-    "revision": "ced7eb9aafc6f0b7d37f0e08f79f7000",
-    "url": "/static/media/cozycafe_logo.ced7eb9a.png"
+    "revision": "3d119423670a51a2661cea0dc5b907c8",
+    "url": "/static/media/cozycafe_logo.3d119423.png"
   },
   {
     "revision": "65b13d43acc4aabe1080dc091e3b6d5b",
@@ -126,6 +126,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e10880f84186e307989195f13203e656",
     "url": "/static/media/cute-hanging.e10880f8.png"
+  },
+  {
+    "revision": "99f999178458e82f21bc9256b1d5dbe6",
+    "url": "/static/media/cuteleft.99f99917.png"
+  },
+  {
+    "revision": "e5e634392590d8b664f75328902cdd3f",
+    "url": "/static/media/cuteright.e5e63439.png"
   },
   {
     "revision": "59e6ef030da9a5adf52088253387b203",
@@ -144,8 +152,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fire_end.89369e32.gif"
   },
   {
-    "revision": "1db1d9a43cc980dfead7afa39e4b0abb",
-    "url": "/static/media/gamehive-battlerun.1db1d9a4.png"
+    "revision": "100a0e023f5d2a30944d27a4852abdba",
+    "url": "/static/media/gamehive-battlerun.100a0e02.png"
+  },
+  {
+    "revision": "9199f5ccadabee60c3384edfa830c105",
+    "url": "/static/media/gamehive-logo.9199f5cc.png"
   },
   {
     "revision": "aff8ea3e8e8eac3f042cdfa3bc88fdbd",
