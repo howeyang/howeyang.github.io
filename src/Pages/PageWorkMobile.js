@@ -74,7 +74,7 @@ class PageWorkMobile extends Component {
                 <div className="imageContainer cuteMobileContainer">
                   <img
                     src={cutehangingRight}
-                    className="cuteHeaderMobile2 cutehangingRight"
+                    className="cuteHeaderMobile cutehangingRight"
                   ></img>
                 </div>
               </Grid>

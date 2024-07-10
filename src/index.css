@@ -830,15 +830,14 @@ labelBigText {
 
 .cutehangingLeft {
   position: relative;
-  top: 7%;
-  height:auto;
+  top: 10%;
   overflow: hidden;
 }
 
 .cutehangingRight {
   position: relative;
-  top: 11%;
-  left: -20%;
+  top: 8%;
+  left: -5%;
 }
 
 
