@@ -125,35 +125,21 @@ class PageCozyCafe extends Component {
                       spacing={1}
                       className="workSubtitle"
                     >
-                      <Grid item xs={5} sm={5} md={5}>
-                        <a
-                          className="text-link"
-                          href="https://play.google.com/store/apps/details?id=com.gamehivecorp.idlecafe"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <div className="fancyButton smallText fancyButtonMobile">
-                            Cozy Cafe <img src={outlink} className="icon"></img>{" "}
-                            <br></br>
-                            Google Store
-                          </div>
-                        </a>
-                      </Grid>
-
-                      <Grid item xs={5} sm={5} md={5}>
-                        <a
-                          className="text-link"
-                          href="https://apps.apple.com/ca/app/cozy-cafe-animal-restaurant/id6447704854"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <div className="fancyButton smallText fancyButtonMobile">
-                            Cozy Cafe <img src={outlink} className="icon"></img>{" "}
-                            <br></br>
-                            Apple Store
-                          </div>
-                        </a>
-                      </Grid>
+                      <Grid item xs={5} sm={6} md={6}>
+                          <a
+                            className="text-link"
+                            href="https://gamehive.com/games/cozy-cafe"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <div className="fancyButton  smallText">
+                              More Details about Cozy Cafe{" "}
+                              <img src={outlink} className="icon"></img>{" "}
+                              <br></br>
+                            </div>
+                          </a>
+                        </Grid>
+                      
                     </Grid>
 
                     <Grid

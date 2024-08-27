@@ -191,36 +191,21 @@ class PageCozyCafe extends Component {
                         <Grid item xs={5} sm={6} md={6}>
                           <a
                             className="text-link"
-                            href="https://play.google.com/store/apps/details?id=com.gamehivecorp.idlecafe"
+                            href="https://gamehive.com/games/cozy-cafe"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
                             <div className="fancyButton  smallText">
-                              Cozy Cafe{" "}
+                              More Details about Cozy Cafe{" "}
                               <img src={outlink} className="icon"></img>{" "}
                               <br></br>
-                              Google Store
                             </div>
                           </a>
                         </Grid>
 
                         {" "}
 
-                        <Grid item xs={6} sm={6} md={6}>
-                          <a
-                            className="text-link"
-                            href="https://apps.apple.com/ca/app/cozy-cafe-animal-restaurant/id6447704854"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <div className="fancyButton  smallText">
-                              Cozy Cafe{" "}
-                              <img src={outlink} className="icon"></img>{" "}
-                              <br></br>
-                              Apple Store
-                            </div>
-                          </a>
-                        </Grid>
+                       
                       </Grid>
 
                       <Grid
